@@ -1,0 +1,77 @@
+{
+  "silo": "raredx",
+  "name": "review",
+  "produces": "verdict on an extract unit (weighted member of its clustering)",
+  "tier": 2,
+  "verifier": "agreement.v1 (known-answer pairs)",
+  "creditable": true,
+  "points_base": 2,
+  "inputs": "the desk row: row.unit.json kinds.review",
+  "answer": {
+    "type": "object",
+    "required": [
+      "verdicts"
+    ],
+    "properties": {
+      "verdicts": {
+        "type": "array",
+        "minItems": 1,
+        "maxItems": 64,
+        "items": {
+          "type": "object",
+          "required": [
+            "slot",
+            "choice"
+          ],
+          "properties": {
+            "slot": {
+              "type": "string",
+              "pattern": "^claims\\[[A-Za-z][A-Za-z0-9]*[:_][A-Za-z0-9_.-]{1,40}\\|[A-Za-z][A-Za-z0-9]*[:_][A-Za-z0-9_.-]{1,40}\\]\\.(present|relation|effect|organism|study|n_subjects|potency)$",
+              "description": "one field of the unit, in the agreement engine slot form (cluster.mjs): claims[<subject>|<object>].<field>"
+            },
+            "choice": {
+              "type": "string",
+              "enum": [
+                "a",
+                "b",
+                "none"
+              ]
+            },
+            "spans": {
+              "type": "array",
+              "maxItems": 4,
+              "items": {
+                "type": "object",
+                "required": [
+                  "start",
+                  "end",
+                  "quote"
+                ],
+                "properties": {
+                  "start": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "description": "UTF-8 byte offset relative to the passage pinned by passage_sha256"
+                  },
+                  "end": {
+                    "type": "integer",
+                    "minimum": 1
+                  },
+                  "quote": {
+                    "type": "string",
+                    "maxLength": 400,
+                    "description": "the exact source bytes between start and end"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "k": "2 by default; its own accuracy comes from known-answer pairs",
+  "relations": [
+    "reviews"
+  ]
+}

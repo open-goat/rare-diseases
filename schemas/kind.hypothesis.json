@@ -1,0 +1,133 @@
+{
+  "name": "hypothesis",
+  "silo": "raredx",
+  "schema": {
+    "type": "object",
+    "required": [
+      "drug",
+      "disease",
+      "chain",
+      "score",
+      "rule"
+    ],
+    "properties": {
+      "drug": {
+        "type": "string",
+        "pattern": "^[A-Za-z][A-Za-z0-9]*[:_][A-Za-z0-9_.-]{1,40}$",
+        "x-link": [
+          "CHEMBL",
+          "DRUGCENTRAL",
+          "UNII",
+          "RXCUI"
+        ]
+      },
+      "disease": {
+        "type": "string",
+        "pattern": "^[A-Za-z][A-Za-z0-9]*[:_][A-Za-z0-9_.-]{1,40}$",
+        "x-link": [
+          "MONDO",
+          "ORPHA"
+        ]
+      },
+      "score": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 1
+      },
+      "rule": {
+        "type": "string",
+        "pattern": "^rank\\.v[0-9]{1,4}$"
+      },
+      "chain": {
+        "type": "array",
+        "minItems": 1,
+        "maxItems": 4,
+        "items": {
+          "type": "object",
+          "required": [
+            "from",
+            "rel",
+            "to",
+            "evidence"
+          ],
+          "properties": {
+            "from": {
+              "type": "string",
+              "pattern": "^[A-Za-z][A-Za-z0-9]*[:_][A-Za-z0-9_.-]{1,40}$",
+              "x-link": [
+                "CHEMBL",
+                "DRUGCENTRAL",
+                "UNII",
+                "RXCUI",
+                "HGNC",
+                "UNIPROT",
+                "ENSEMBL",
+                "REACTOME",
+                "GO"
+              ]
+            },
+            "rel": {
+              "type": "string",
+              "enum": [
+                "inhibits",
+                "activates",
+                "binds",
+                "modulates",
+                "treats",
+                "associated_with",
+                "causes"
+              ]
+            },
+            "to": {
+              "type": "string",
+              "pattern": "^[A-Za-z][A-Za-z0-9]*[:_][A-Za-z0-9_.-]{1,40}$",
+              "x-link": [
+                "HGNC",
+                "UNIPROT",
+                "ENSEMBL",
+                "REACTOME",
+                "GO",
+                "MONDO",
+                "ORPHA",
+                "HP"
+              ]
+            },
+            "evidence": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 8,
+              "items": {
+                "type": "string",
+                "pattern": "^E-[0-9a-f]{8,16}$"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "statuses": {
+    "open": "start",
+    "scored": "verified",
+    "rejected": "final",
+    "superseded": "final"
+  },
+  "verifier": {
+    "tier": 1,
+    "name": "hypothesize.v1",
+    "params": {
+      "rule": "rank.v1",
+      "needs": "every edge rests on agreed evidence; the score is computed, never typed"
+    }
+  },
+  "unit_kinds": [
+    "hypothesize"
+  ],
+  "public": true,
+  "creditable": true,
+  "relations": [
+    "depends_on",
+    "supports",
+    "about"
+  ]
+}

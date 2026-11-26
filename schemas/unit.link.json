@@ -1,0 +1,40 @@
+{
+  "silo": "raredx",
+  "name": "link",
+  "produces": "disease|drug|target|pathway|phenotype",
+  "tier": 1,
+  "verifier": "link.v1",
+  "creditable": true,
+  "points_base": 1,
+  "inputs": "the desk row: row.unit.json kinds.link",
+  "answer": {
+    "type": "object",
+    "required": [
+      "id"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[A-Za-z][A-Za-z0-9]*[:_][A-Za-z0-9_.-]{1,40}$",
+        "x-link": [
+          "MONDO",
+          "ORPHA",
+          "HP",
+          "CHEMBL",
+          "DRUGCENTRAL",
+          "UNII",
+          "RXCUI",
+          "HGNC",
+          "UNIPROT",
+          "ENSEMBL",
+          "REACTOME",
+          "GO"
+        ]
+      }
+    }
+  },
+  "k": "1 (tier 1: the verifier settles it)",
+  "relations": [
+    "normalizes_to"
+  ]
+}

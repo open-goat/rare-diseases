@@ -1,0 +1,182 @@
+{
+  "name": "evidence",
+  "silo": "raredx",
+  "schema": {
+    "type": "object",
+    "required": [
+      "paper",
+      "claim"
+    ],
+    "properties": {
+      "paper": {
+        "type": "string",
+        "pattern": "^source:[A-Za-z0-9_-]{4,64}$"
+      },
+      "source_sha256": {
+        "type": "string",
+        "pattern": "^[0-9a-f]{64}$"
+      },
+      "claim": {
+        "type": "object",
+        "required": [
+          "subject",
+          "relation",
+          "object",
+          "effect",
+          "organism",
+          "study",
+          "spans"
+        ],
+        "properties": {
+          "subject": {
+            "type": "string",
+            "pattern": "^[A-Za-z][A-Za-z0-9]*[:_][A-Za-z0-9_.-]{1,40}$",
+            "x-link": [
+              "CHEMBL",
+              "DRUGCENTRAL",
+              "UNII",
+              "RXCUI",
+              "HGNC",
+              "UNIPROT",
+              "ENSEMBL"
+            ]
+          },
+          "relation": {
+            "type": "string",
+            "enum": [
+              "inhibits",
+              "activates",
+              "binds",
+              "modulates",
+              "treats",
+              "associated_with",
+              "causes"
+            ]
+          },
+          "object": {
+            "type": "string",
+            "pattern": "^[A-Za-z][A-Za-z0-9]*[:_][A-Za-z0-9_.-]{1,40}$",
+            "x-link": [
+              "HGNC",
+              "UNIPROT",
+              "ENSEMBL",
+              "REACTOME",
+              "GO",
+              "MONDO",
+              "ORPHA",
+              "HP"
+            ]
+          },
+          "effect": {
+            "type": "string",
+            "enum": [
+              "positive",
+              "negative",
+              "null",
+              "unclear"
+            ],
+            "description": "positive: the passage supports the relation; negative: it reports the opposite; null: no significant effect; unclear"
+          },
+          "organism": {
+            "type": "string",
+            "enum": [
+              "human",
+              "mouse",
+              "rat",
+              "zebrafish",
+              "fly",
+              "worm",
+              "yeast",
+              "cell_line",
+              "in_silico",
+              "other"
+            ]
+          },
+          "study": {
+            "type": "string",
+            "enum": [
+              "rct",
+              "cohort",
+              "case_control",
+              "case_series",
+              "case_report",
+              "animal",
+              "in_vitro",
+              "in_silico",
+              "review",
+              "other"
+            ]
+          },
+          "n_subjects": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 10000000
+          },
+          "potency": {
+            "type": "object",
+            "x-unit": "concentration",
+            "x-tol": 0.05,
+            "description": "an IC50 / EC50 / Kd as reported; never a dose"
+          },
+          "note": {
+            "type": "string",
+            "maxLength": 400,
+            "x-free": true,
+            "description": "one short finding in plain words; held only inside the agreement engine, never shown raw or streamed"
+          },
+          "spans": {
+            "type": "array",
+            "minItems": 1,
+            "maxItems": 4,
+            "items": {
+              "type": "object",
+              "required": [
+                "start",
+                "end",
+                "quote"
+              ],
+              "properties": {
+                "start": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "description": "UTF-8 byte offset into the normalized source pinned by its sha256"
+                },
+                "end": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "quote": {
+                  "type": "string",
+                  "maxLength": 400,
+                  "description": "the exact source bytes between start and end"
+                }
+              }
+            },
+            "x-spans": true
+          }
+        }
+      }
+    }
+  },
+  "statuses": {
+    "open": "start",
+    "agreed": "verified",
+    "disputed": "final",
+    "retired": "final"
+  },
+  "verifier": {
+    "tier": 2,
+    "name": "agreement.v1"
+  },
+  "unit_kinds": [
+    "extract"
+  ],
+  "public": true,
+  "creditable": true,
+  "relations": [
+    "extracts",
+    "supports",
+    "refutes",
+    "cites"
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "silo": "raredx",
+  "name": "hypothesize",
+  "produces": "hypothesis",
+  "tier": 1,
+  "verifier": "hypothesize.v1",
+  "creditable": true,
+  "points_base": 5,
+  "inputs": "the desk row: row.unit.json kinds.hypothesize",
+  "answer": {
+    "type": "object",
+    "required": [
+      "drug",
+      "chain"
+    ],
+    "properties": {
+      "drug": {
+        "type": "string",
+        "pattern": "^[A-Za-z][A-Za-z0-9]*[:_][A-Za-z0-9_.-]{1,40}$",
+        "x-link": [
+          "CHEMBL",
+          "DRUGCENTRAL",
+          "UNII",
+          "RXCUI"
+        ]
+      },
+      "chain": {
+        "type": "array",
+        "minItems": 1,
+        "maxItems": 4,
+        "items": {
+          "type": "object",
+          "required": [
+            "from",
+            "rel",
+            "to",
+            "evidence"
+          ],
+          "properties": {
+            "from": {
+              "type": "string",
+              "pattern": "^[A-Za-z][A-Za-z0-9]*[:_][A-Za-z0-9_.-]{1,40}$",
+              "x-link": [
+                "CHEMBL",
+                "DRUGCENTRAL",
+                "UNII",
+                "RXCUI",
+                "HGNC",
+                "UNIPROT",
+                "ENSEMBL",
+                "REACTOME",
+                "GO"
+              ]
+            },
+            "rel": {
+              "type": "string",
+              "enum": [
+                "inhibits",
+                "activates",
+                "binds",
+                "modulates",
+                "treats",
+                "associated_with",
+                "causes"
+              ]
+            },
+            "to": {
+              "type": "string",
+              "pattern": "^[A-Za-z][A-Za-z0-9]*[:_][A-Za-z0-9_.-]{1,40}$",
+              "x-link": [
+                "HGNC",
+                "UNIPROT",
+                "ENSEMBL",
+                "REACTOME",
+                "GO",
+                "MONDO",
+                "ORPHA",
+                "HP"
+              ]
+            },
+            "evidence": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 8,
+              "items": {
+                "type": "string",
+                "pattern": "^E-[0-9a-f]{8,16}$"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "k": "1 (tier 1)",
+  "relations": [
+    "depends_on",
+    "supports",
+    "about"
+  ]
+}

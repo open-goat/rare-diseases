@@ -1,0 +1,48 @@
+Data license
+
+The data in this repository is licensed under the Creative Commons Attribution-ShareAlike 4.0
+International License (CC BY-SA 4.0): https://creativecommons.org/licenses/by-sa/4.0/
+
+This covers:
+  data/            the pinned id tables (pins.json and release.*.jsonl)
+  schemas/         the unit kinds, answer schemas and the desk's unit row
+  VALIDATION.md    how results are validated
+
+The code in tools/ is licensed separately, under the Apache License 2.0 (see LICENSE).
+
+Operator: Brilliant (brilliant.design). Contact: hello@brilliant.design.
+
+When you reuse this data, credit "Rare diseases map, pequalnp.com, operated by Brilliant", link
+the license, say whether you changed it, and share what you build from it under CC BY-SA 4.0.
+Answers contributed through the desk are contributed under CC BY-SA 4.0, like the public map they
+build.
+
+
+ATTRIBUTION: THE ID TABLES
+
+Each table in data/ is a small slice of a public source, pinned by the sha256 in data/pins.json.
+They are used here to check LINK answers. The upstream sources and their licenses:
+
+  release.MONDO.jsonl
+      Mondo Disease Ontology ids (Monarch Initiative), https://mondo.monarchinitiative.org/
+      A first slice was retrieved through the EMBL-EBI Ontology Lookup Service (OLS), with Mondo's
+      labels and synonyms; Mondo is licensed CC BY 4.0, https://creativecommons.org/licenses/by/4.0/
+      Most rows were added from Wikidata (see below): Mondo ids as Wikidata records them, with
+      Wikidata's labels.
+
+  release.ORPHA.jsonl
+      Orphanet ids (ORPHAcodes), https://www.orpha.net/, as Wikidata records them, with Wikidata's
+      labels (see below).
+
+  release.CHEMBL.jsonl, release.RXCUI.jsonl, release.UNII.jsonl
+      Wikidata, https://www.wikidata.org/ (the Wikidata Query Service).
+      The ids are those of ChEMBL, RxNorm and the FDA Unique Ingredient Identifier, as Wikidata
+      records them; the labels and synonyms are Wikidata's.
+      License: CC0 1.0 for structured data, https://www.wikidata.org/wiki/Wikidata:Licensing
+
+  release.UNIPROT.jsonl
+      UniProt (the UniProt Consortium), https://www.uniprot.org/
+      License: CC BY 4.0, https://www.uniprot.org/help/license
+
+The tables are adapted: each row keeps only an id, its label, whether it is obsolete, and its
+synonyms. No endorsement by any upstream source is implied.
