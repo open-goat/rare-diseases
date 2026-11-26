@@ -83,7 +83,7 @@ UNITS = {"mass": ["mg", "g", "kg", "ug", "mcg"], "volume": ["mL", "L", "uL"], "t
 IDS = {"CHEMBL": r"CHEMBL[0-9]{1,9}", "DRUGCENTRAL": r"[0-9]{1,6}", "UNII": r"[A-Z0-9]{10}", "RXCUI": r"[0-9]{1,8}", "HGNC": r"[0-9]{1,6}",
        "UNIPROT": r"(?:[OPQ][0-9][A-Z0-9]{3}[0-9]|[A-NR-Z][0-9](?:[A-Z][A-Z0-9]{2}[0-9]){1,2})", "ENSEMBL": r"ENS[GTP][0-9]{11}", "REACTOME": r"R-HSA-[0-9]{1,8}",
        "GO": r"[0-9]{7}", "MONDO": r"[0-9]{7}", "ORPHA": r"[0-9]{1,7}", "HP": r"[0-9]{7}"}
-EXPECT = {"disease": ["MONDO", "ORPHA"], "drug": ["CHEMBL", "UNII", "RXCUI"], "target": ["UNIPROT"], "pathway": ["REACTOME", "GO"], "phenotype": ["HP"]}
+EXPECT = {"disease": ["MONDO", "ORPHA"], "drug": ["CHEMBL", "UNII", "RXCUI"], "target": ["UNIPROT"], "pathway": [], "phenotype": []}
 ANSWER_BYTES, DEPTH = 32768, 8
 BAD = ("Cc", "Cf", "Zl", "Zp", "Co")
 def clean(x, n=4000):
@@ -151,7 +151,7 @@ def check(kind, v, b, g=None):
     # What the unit itself decides (the desk's rxAnswer after the schema): a LINK id's prefix fits what the mention is; a
     # REVIEW verdict names a claim result a or b makes; a chain cites this unit's evidence (or agreed evidence the desk knows).
     if kind == "link" and v["id"].split(":")[0] not in EXPECT.get(g.get("expect"), []):
-        return "a %s takes an id of %s" % (g.get("expect"), ", ".join(EXPECT.get(g.get("expect"), [])))
+        return ("a %s takes an id of %s" % (g.get("expect"), ", ".join(EXPECT[g.get("expect")]))) if EXPECT.get(g.get("expect")) else ("a %s takes no answer today: no %s ontology is pinned" % (g.get("expect"), g.get("expect")))
     if kind == "review":
         pairs = {"%s|%s" % (c["subject"], c["object"]) for x in ("a", "b") for c in (g.get("results") or {}).get(x, {}).get("claims", [])}
         off = [x["slot"] for x in v["verdicts"] if re.match(r"claims\[(.*)\]\.", x["slot"]).group(1) not in pairs]
@@ -189,7 +189,7 @@ def strict(raw):
 HOW = {
   "link": ["the id of the thing the MENTION names, in the ontology its kind uses: one JSON object",
            '{"id": "<PREFIX>:<id>"}   PREFIX for a disease MONDO or ORPHA; a drug CHEMBL, UNII or RXCUI; a gene or protein UNIPROT',
-           "                          (only the ontologies the desk checks today)",
+           "                          (only the ontologies the desk checks today; a pathway or phenotype takes no answer yet)",
            "Name only what the mention itself names, read in its passage. Not sure which id? release it: other"],
   "extract": ["every claim the PASSAGE ITSELF makes, each with the exact words that support it (at most 12; none: {\"claims\": []})",
               '{"claims": [{"subject": "<id>", "relation": "inhibits|activates|binds|modulates|treats|associated_with|causes",',

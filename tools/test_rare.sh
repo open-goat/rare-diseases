@@ -96,7 +96,7 @@ printf '{"id": "fabry"}' > "$t/a.json"; run answer "$U1" "$t/a.json"; [ "$rc" = 
 printf '{"id": "FOO:1"}' > "$t/a.json"; run answer "$U1" "$t/a.json"; [ "$rc" = 1 ] && grep -q 'takes an id PREFIX:local of' "$t/err" || fail "an id outside the list was not refused"
 printf '{"id": "MONDO:10526"}' > "$t/a.json"; run answer "$U1" "$t/a.json"; [ "$rc" = 1 ] && grep -q 'strict form' "$t/err" || fail "an id not in its strict form was not refused"
 printf '{"id": "HGNC:6342"}' > "$t/a.json"; run answer "$U1" "$t/a.json"; [ "$rc" = 1 ] && grep -q 'a disease takes an id of MONDO, ORPHA' "$t/err" || fail "a gene id for a disease mention was not refused"
-grep -qF 'EXPECT = {"disease": ["MONDO", "ORPHA"], "drug": ["CHEMBL", "UNII", "RXCUI"], "target": ["UNIPROT"],' "$script" && ! grep -q 'HGNC, UNIPROT or ENSEMBL' "$script" || fail "the LINK ontology lists are not the pinned ones (the desk's RX_EXPECT)"
+grep -qF 'EXPECT = {"disease": ["MONDO", "ORPHA"], "drug": ["CHEMBL", "UNII", "RXCUI"], "target": ["UNIPROT"], "pathway": [], "phenotype": []}' "$script" && ! grep -q 'HGNC, UNIPROT or ENSEMBL' "$script" && grep -q 'takes no answer today: no %s ontology is pinned' "$script" || fail "the LINK ontology lists are not exactly the pinned ones (the desk's RX_EXPECT)"
 printf '{"id": "MONDO:0010526", "why": "x"}' > "$t/a.json"; run answer "$U1" "$t/a.json"; [ "$rc" = 1 ] && grep -q 'is not a field' "$t/err" || fail "an extra field was not refused"
 printf '{"id": NaN}' > "$t/a.json"; run answer "$U1" "$t/a.json"; [ "$rc" = 1 ] && grep -q 'not strict JSON' "$t/err" || fail "NaN was not refused"
 [ ! -s "$t/desk/log" ] || fail "a refused answer reached the desk: $(cat "$t/desk/log")"
