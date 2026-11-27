@@ -6,15 +6,20 @@
 {"id":"RXCUI:115238","label":"becaplermin","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:1156","label":"Asparaginase","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:1202","label":"atenolol","obsolete":false,"synonyms":["Uniloc","Serten","1-p-Carbamoylmethylphenoxy-3-isopropylamino-2-propanol","2-(p-(2-Hydroxy-3-(isopropylamino)propoxy)phenyl)acetamide","4-(2-Hydroxy-3-((1-methylethyl)amino)propoxy)benzeneacetamide","Aircrit","Altol","Anselol","Antipressan","Apo-Atenolol","Atcardil","Atecard","Atehexal","Atenblock","Atendol","Atenet","Atenil","Atenol 1A pharma","Atenol acis","Atenol AL","Atenol Atid","Atenol Cophar","Atenol ct","Atenol Fecofar","Atenol Gador","Atenol Genericon","Atenol GNR","Atenol Heumann","Atenol MSD","Atenol NM Pharma","Atenol Nordic","Atenol PB","Atenol Quesada","Atenol Stada","Atenol Tika","Atenol Trom","Atenol von ct","Atenol-Mepha","Atenol-ratiopharm","Atenol-Wolff","Atenolin","Atenolol (JAN/USP)","Atenolol [USAN:BAN:INN:JAN]","Atenololum","Atenololum [INN-Latin]","Atenomel","Atereal","Aterol","Betablok","Betacard"]}
+{"id":"RXCUI:1294532","label":"levocabastine hydrochloride","obsolete":false,"synonyms":[]}
+{"id":"RXCUI:1298831","label":"tiotropium bromide monohydrate","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:1298944","label":"pertuzumab","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:141704","label":"everolimus","obsolete":false,"synonyms":["40-O-(2-hydroxyethyl)-rapamycin","42-O-(2-hydroxyethyl)rapamycin","RAD001","SDZ-RAD"]}
+{"id":"RXCUI:1430252","label":"(E)-1-(phenylazo)-2-naphthylamine","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:14851","label":"vigabatrin","obsolete":false,"synonyms":["Vigabatrin","GVG","4-Amino-5-hexenoic acid","CPP-109","Gamma vinyl GABA","gamma-vinyl GABA","gamma-Vinyl GABA","gamma-vinyl-gamma-aminobutyric acid","gamma-Vinyl-gamma-aminobutyric acid","MDL-71754","Sabril®","Vigabatrina","Vigabatrine","Vigabatrinum","Vinyl gamma-aminobutyric acid"]}
 {"id":"RXCUI:1488293","label":"catridecacog","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:1489914","label":"elosulfase alfa","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:1491625","label":"metreleptin","obsolete":false,"synonyms":[]}
+{"id":"RXCUI:153971","label":"atropine sulfate hydrate","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:1545992","label":"doxycycline","obsolete":false,"synonyms":["doxycycline anhydrous","(4S,4aR,5S,5aR,6R,12aS)-4-(dimethylamino)-3,5,10,12,12a-pentahydroxy-6-methyl-1,11-dioxo-1,4,4a,5,5a,6,11,12a-octahydrotetracene-2-carboxamide","5-hydroxy-alpha-6-deoxytetracycline","5-hydroxy-α-6-deoxytetracycline","6-alpha-deoxy-5-oxytetracycline","6alpha-deoxy-5-oxytetracycline","6α-deoxy-5-oxytetracycline","anhydrous doxycycline"]}
 {"id":"RXCUI:1546004","label":"timolol","obsolete":false,"synonyms":["timolol anhydrous","(-)-S-timolol","(S)-1-(tert-butylamino)-3-[(4-morpholin-4-yl-1,2,5-thiadiazol-3-yl)oxy]propan-2-ol","NYO142"]}
 {"id":"RXCUI:1546168","label":"peginterferon beta-1a","obsolete":false,"synonyms":[]}
+{"id":"RXCUI:1546381","label":"amaranth acid","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:1551291","label":"dulaglutide","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:1599831","label":"conestat alfa","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:1606274","label":"dinutuximab","obsolete":false,"synonyms":[]}
@@ -27,9 +32,11 @@
 {"id":"RXCUI:1737557","label":"turoctocog alfa","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:1745099","label":"ixekizumab","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:1796118","label":"fluciclovine-F18","obsolete":false,"synonyms":[]}
+{"id":"RXCUI:1874282","label":"yellow OB","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:1876366","label":"ocrelizumab","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:18927","label":"benztropine mesylate","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:1919503","label":"durvalumab","obsolete":false,"synonyms":[]}
+{"id":"RXCUI:1989794","label":"emicizumab","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:203173","label":"chlordiazepoxide hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:2045371","label":"cannabidiol","obsolete":false,"synonyms":["(1R,6R)-2-[3-methyl-6-(1-methylethenyl)-2-cyclohexen-1-yl]-5-pentyl-1,3-benzenediol"]}
 {"id":"RXCUI:2053436","label":"tildrakizumab","obsolete":false,"synonyms":[]}
@@ -37,6 +44,9 @@
 {"id":"RXCUI:2055641","label":"lanadelumab","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:21241","label":"clobazam","obsolete":false,"synonyms":["Clobazam","Frisium","1-phenyl-5-methyl-8-chloro-1,2,4,5-tetrahydro-2,4-dioxo-3H-1,5-benzodiazepine","7-Chloro-1-methyl-5-phenyl-1,5-dihydro-benzo[b][1,4]diazepine-2,4-dione","Clobazamum","H-4723","HR-376","LM-2717","Onfi","Urbanol"]}
 {"id":"RXCUI:2204915","label":"Brolucizumab","obsolete":false,"synonyms":[]}
+{"id":"RXCUI:221054","label":"alatrofloxacin mesylate","obsolete":false,"synonyms":[]}
+{"id":"RXCUI:221177","label":"trovafloxacin mesylate","obsolete":false,"synonyms":[]}
+{"id":"RXCUI:235997","label":"tropisetron hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:236381","label":"poractant alfa","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:236647","label":"doxycycline hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:2557217","label":"aducanumab","obsolete":false,"synonyms":[]}
@@ -48,6 +58,7 @@
 {"id":"RXCUI:337623","label":"dornase alfa","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:338036","label":"pegfilgrastim","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:338817","label":"agalsidase beta","obsolete":false,"synonyms":[]}
+{"id":"RXCUI:35100","label":"pyridine-2-thiol N-oxide","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:35302","label":"sirolimus","obsolete":false,"synonyms":["(-)-rapamycin","AY-22989","rapamycin","WY-090217"]}
 {"id":"RXCUI:36118","label":"salmon calcitonin","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:3640","label":"doxycycline","obsolete":false,"synonyms":["doxycycline anhydrous","(4S,4aR,5S,5aR,6R,12aS)-4-(dimethylamino)-3,5,10,12,12a-pentahydroxy-6-methyl-1,11-dioxo-1,4,4a,5,5a,6,11,12a-octahydrotetracene-2-carboxamide","5-hydroxy-alpha-6-deoxytetracycline","5-hydroxy-α-6-deoxytetracycline","6-alpha-deoxy-5-oxytetracycline","6alpha-deoxy-5-oxytetracycline","6α-deoxy-5-oxytetracycline","anhydrous doxycycline"]}
@@ -56,6 +67,7 @@
 {"id":"RXCUI:392509","label":"laronidase","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:4257","label":"antihemophilic factor","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:4388","label":"fibrinolysin","obsolete":false,"synonyms":[]}
+{"id":"RXCUI:4780","label":"oxytetracycline hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:4885","label":"glutamine","obsolete":false,"synonyms":["Glutamine","Levoglutamide","L-(+)-glutamine","Q","(2S)-2,5-diamino-5-oxopentanoic acid","(2S)-2-amino-4-carbamoylbutanoic acid","(2S)-2,5-Diamino-5-oxopentanoic acid","(S)-2,5-diamino-5-oxopentanoic acid","Gln","Glutamic acid 5-amide","Glutamic acid amide","L-2-aminoglutaramic acid","L-Gln","L-Glutamic acid gamma-amide","L-glutamic acid γ-amide","L-Glutamin","L-Glutaminsaeure-5-amid","L-Glutaminsäure-5-amid","Nutrestore"]}
 {"id":"RXCUI:4952","label":"thyrotropin alfa","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:5224","label":"heparin","obsolete":false,"synonyms":[]}
@@ -80,3 +92,4 @@
 {"id":"RXCUI:8638","label":"prednisolone","obsolete":false,"synonyms":["Prednisolone","(11beta)-11,17,21-trihydroxypregna-1,4-diene-3,20-dione","(11beta)-11,17,21-Trihydroxypregna-1,4-diene-3,20-dione","1,4-pregnadiene-11beta,17alpha,21-triol-3,20-dione","1,4-Pregnadiene-11beta,17alpha,21-triol-3,20-dione","1,4-pregnadiene-3,20-dione-11beta,17alpha,21-triol","1,4-Pregnadiene-3,20-dione-11beta,17alpha,21-triol","3,20-dioxo-11beta,17alpha,21-trihydroxy-1,4-pregnadiene","3,20-dioxo-11beta,17alpha,21-Trihydroxy-1,4-pregnadiene","delta-dehydrocortisol","delta-dehydrohydrocortisone","delta-hydrocortisone","DELTA.1-Cortisol","delta(1)-Dehydrocortisol","Delta(1)-dehydrocortisol","delta(1)-Dehydrohydrocortisone","Delta(1)-dehydrohydrocortisone","delta(1)-Hydrocortisone","Delta(1)-hydrocortisone","hydroretrocortine","Hydroretrocortine","IMS904","metacortandralone","Metacortandralone","Orapred®","Pediapred®","PRDL","Prednisolona","Prednisolonum"]}
 {"id":"RXCUI:8787","label":"propranolol","obsolete":false,"synonyms":["[2-hydroxy-3-(naphthalen-1-yloxy)propyl](propan-2-yl)amine","1-((1-Methylethyl)amino)-3-(1-naphthalenyloxy)-2-propanol","1-(isopropylamino)-3-(1-naphthyloxy)propan-2-ol","b-Propranolol","Bedranol","beta-Propranolol","Dociton","Euprovasin","Hemangeol","Inderal","Propanalol","Propanix","Propanolol","Propranololum","β-Propranolol","propranolol hydrochloride"]}
 {"id":"RXCUI:8825","label":"protamine sulfate","obsolete":false,"synonyms":[]}
+{"id":"RXCUI:9603","label":"scopolamine hydrobromide trihydrate","obsolete":false,"synonyms":[]}
