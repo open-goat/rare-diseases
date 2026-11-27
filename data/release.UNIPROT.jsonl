@@ -1,4 +1,5 @@
 {"id":"UNIPROT:A0A024RBG1","label":"Diphosphoinositol polyphosphate phosphohydrolase NUDT4B","obsolete":false,"synonyms":["NUDT4B","Nucleoside diphosphate-linked moiety X motif 4B","Nudix hydrolase 4B"]}
+{"id":"UNIPROT:A0A087WTH1","label":"Transmembrane protein 265","obsolete":false,"synonyms":["TMEM265"]}
 {"id":"UNIPROT:A0A087WUV0","label":"Zinc finger protein 892","obsolete":false,"synonyms":["ZNF892"]}
 {"id":"UNIPROT:A0A087WVF3","label":"TBC1 domain family member 3D","obsolete":false,"synonyms":["TBC1D3D"]}
 {"id":"UNIPROT:A0A087WXS9","label":"TBC1 domain family member 3I","obsolete":false,"synonyms":["TBC1D3I"]}
@@ -13,10 +14,12 @@
 {"id":"UNIPROT:A0A0J9YXV3","label":"Glycine-rich extracellular protein 1","obsolete":false,"synonyms":["GREP1","LINC00514","Long intergenic non-protein coding RNA 514"]}
 {"id":"UNIPROT:A0A0K2S4Q6","label":"Protein CD300H","obsolete":false,"synonyms":["CD300H","CD300 antigen-like family member H"]}
 {"id":"UNIPROT:A0A0U1RQI7","label":"Kruppel-like factor 18","obsolete":false,"synonyms":["KLF18"]}
+{"id":"UNIPROT:A0A0U1RQS6","label":"Transmembrane protein 275","obsolete":false,"synonyms":["TMEM275"]}
 {"id":"UNIPROT:A0A0U1RR11","label":"Centromere protein V-like protein 1","obsolete":false,"synonyms":["CENPVL1","CENPVP1","Centromere protein V pseudogene 1"]}
 {"id":"UNIPROT:A0A0U1RRA0","label":"Transmembrane protein ZNF593OS","obsolete":false,"synonyms":["ZNF593OS","ZNF593 opposite strand protein"]}
 {"id":"UNIPROT:A0A0U1RRI6","label":"Centromere protein V-like protein 3","obsolete":false,"synonyms":["CENPVL3","CENPVP3","Centromere protein V pseudogene 3"]}
 {"id":"UNIPROT:A0A1B0GTH9","label":"Zinc finger protein 475","obsolete":false,"synonyms":["ZNF475"]}
+{"id":"UNIPROT:A0A1B0GTI8","label":"Transmembrane protein 272","obsolete":false,"synonyms":["TMEM272"]}
 {"id":"UNIPROT:A0A1B0GTW7","label":"Ciliated left-right organizer metallopeptidase","obsolete":false,"synonyms":["CIROP","LMLN2","Leishmanolysin-like peptidase 2"]}
 {"id":"UNIPROT:A0A1B0GU29","label":"Small integral membrane protein 28","obsolete":false,"synonyms":["SMIM28"]}
 {"id":"UNIPROT:A0A1B0GUA5","label":"Small integral membrane protein 32","obsolete":false,"synonyms":["SMIM32"]}
@@ -26,6 +29,7 @@
 {"id":"UNIPROT:A0A1B0GVT2","label":"Small integral membrane protein 36","obsolete":false,"synonyms":["SMIM36"]}
 {"id":"UNIPROT:A0A1B0GVV1","label":"Small integral membrane protein 35","obsolete":false,"synonyms":["SMIM35","TMPRSS4-AS1","TMPRSS4 antisense RNA 1"]}
 {"id":"UNIPROT:A0A1B0GVY4","label":"Small integral membrane protein 31","obsolete":false,"synonyms":["SMIM31"]}
+{"id":"UNIPROT:A0A1B0GVZ9","label":"Transmembrane protein 269","obsolete":false,"synonyms":["TMEM269"]}
 {"id":"UNIPROT:A0A1B0GW54","label":"Small integral membrane protein 39","obsolete":false,"synonyms":["SMIM39"]}
 {"id":"UNIPROT:A0A1B0GW64","label":"Small integral membrane protein 33","obsolete":false,"synonyms":["SMIM33"]}
 {"id":"UNIPROT:A0A1W2PP81","label":"TATA-box-binding protein-associated factor 11-like protein 5","obsolete":false,"synonyms":["TAF11L5"]}
@@ -44,6 +48,7 @@
 {"id":"UNIPROT:A0A286YF01","label":"Small cysteine and glycine repeat-containing protein 7","obsolete":false,"synonyms":["SCYGR7","KRTAP28-7","Keratin-associated protein 28-7"]}
 {"id":"UNIPROT:A0A286YF18","label":"Small integral membrane protein 44","obsolete":false,"synonyms":["SMIM44"]}
 {"id":"UNIPROT:A0A286YF46","label":"Small cysteine and glycine repeat-containing protein 5","obsolete":false,"synonyms":["SCYGR5","KRTAP28-5","Keratin-associated protein 28-5"]}
+{"id":"UNIPROT:A0A286YF58","label":"Transmembrane protein 271","obsolete":false,"synonyms":["TMEM271"]}
 {"id":"UNIPROT:A0A286YF60","label":"Small cysteine and glycine repeat-containing protein 3","obsolete":false,"synonyms":["SCYGR3","KRTAP28-3","Keratin-associated protein 28-3"]}
 {"id":"UNIPROT:A0A286YF77","label":"Small cysteine and glycine repeat-containing protein 6","obsolete":false,"synonyms":["SCYGR6","KRTAP28-6","Keratin-associated protein 28-6"]}
 {"id":"UNIPROT:A0A286YFB4","label":"Small cysteine and glycine repeat-containing protein 2","obsolete":false,"synonyms":["SCYGR2","KRTAP28-2","Keratin-associated protein 28-2"]}
@@ -63,6 +68,7 @@
 {"id":"UNIPROT:A0A3G1DJQ2","label":"Small humanin-like peptide 3","obsolete":false,"synonyms":["MT-RNR2"]}
 {"id":"UNIPROT:A0A411D538","label":"Secretory calcium-binding phosphoprotein proline- and glutamine-rich 1","obsolete":false,"synonyms":["SCPPPQ1"]}
 {"id":"UNIPROT:A0A455ZAR2","label":"Transcriptional regulator PINT87aa","obsolete":false,"synonyms":["LINC-PINT"]}
+{"id":"UNIPROT:A0A494BZU4","label":"Transmembrane protein 217B","obsolete":false,"synonyms":["TMEM217B"]}
 {"id":"UNIPROT:A0A494C1I1","label":"Small integral membrane protein 48","obsolete":false,"synonyms":["SMIM48"]}
 {"id":"UNIPROT:A0A494C1R9","label":"Testis-specific Y-encoded protein 9","obsolete":false,"synonyms":["TSPY9","TSPY9P"]}
 {"id":"UNIPROT:A0A590UK83","label":"Small integral membrane protein 45","obsolete":false,"synonyms":["SMIM45","LINC00634"]}
@@ -80,10 +86,13 @@
 {"id":"UNIPROT:A0MZ66","label":"Shootin-1","obsolete":false,"synonyms":["SHTN1","KIAA1598","Shootin1"]}
 {"id":"UNIPROT:A0PG75","label":"Phospholipid scramblase family member 5","obsolete":false,"synonyms":["PLSCR5"]}
 {"id":"UNIPROT:A0PJK1","label":"Sodium/mannose cotransporter SLC5A10","obsolete":false,"synonyms":["SLC5A10","SGLT5","Sodium/glucose cotransporter 5","Solute carrier family 5 member 10"]}
+{"id":"UNIPROT:A0PJW6","label":"Transmembrane protein 223","obsolete":false,"synonyms":["TMEM223"]}
 {"id":"UNIPROT:A0PJX4","label":"Protein shisa-3 homolog","obsolete":false,"synonyms":["SHISA3"]}
 {"id":"UNIPROT:A0PJY2","label":"Fez family zinc finger protein 1","obsolete":false,"synonyms":["FEZF1","FEZ","ZNF312B","Zinc finger protein 312B"]}
 {"id":"UNIPROT:A0PJZ0","label":"Putative ankyrin repeat domain-containing protein 20A5","obsolete":false,"synonyms":["ANKRD20A5P","ANKRD20A5","Ankyrin repeat domain-containing protein 20A5 pseudogene"]}
+{"id":"UNIPROT:A0PK00","label":"Transmembrane protein 120B","obsolete":false,"synonyms":["TMEM120B"]}
 {"id":"UNIPROT:A0PK11","label":"Clarin-2","obsolete":false,"synonyms":["CLRN2"]}
+{"id":"UNIPROT:A0ZSE6","label":"Putative protein CDC50CP","obsolete":false,"synonyms":["CDC50CP","TMEM30C","TMEM30CP","Cell cycle control protein 50C","Transmembrane protein 30C"]}
 {"id":"UNIPROT:A1A4F0","label":"Putative uncharacterized protein SLC66A1LP","obsolete":false,"synonyms":["SLC66A1LP","C3orf55","PQLC2L","SLC66A1L","PQ-loop repeat-containing protein 2-like","Solute carrier family 66 member 1-like"]}
 {"id":"UNIPROT:A1A4S6","label":"Rho GTPase-activating protein 10","obsolete":false,"synonyms":["ARHGAP10","GRAF2","GTPase regulator associated with focal adhesion kinase 2","Graf-related protein 2","Rho-type GTPase-activating protein 10"]}
 {"id":"UNIPROT:A1A519","label":"Protein FAM170A","obsolete":false,"synonyms":["FAM170A","ZNFD","Zinc finger domain-containing protein","Zinc finger protein ZNFD"]}
@@ -114,11 +123,14 @@
 {"id":"UNIPROT:A2IDD5","label":"Coiled-coil domain-containing protein 78","obsolete":false,"synonyms":["CCDC78","C16orf25","hsCCDC78"]}
 {"id":"UNIPROT:A2PYH4","label":"Probable ATP-dependent DNA helicase HFM1","obsolete":false,"synonyms":["HFM1","SEC3D1","DNA 3'-5' helicase HFM1","SEC63 domain-containing protein 1"]}
 {"id":"UNIPROT:A2RRD8","label":"Zinc finger protein 320","obsolete":false,"synonyms":["ZNF320"]}
+{"id":"UNIPROT:A2RRL7","label":"Transmembrane protein 213","obsolete":false,"synonyms":["TMEM213"]}
 {"id":"UNIPROT:A2RTX5","label":"Threonine--tRNA ligase 2, cytoplasmic","obsolete":false,"synonyms":["TARS3","TARSL2","Threonyl-tRNA synthetase","Threonyl-tRNA synthetase protein 3"]}
 {"id":"UNIPROT:A2RU14","label":"Transmembrane protein 218","obsolete":false,"synonyms":["TMEM218"]}
 {"id":"UNIPROT:A2RU48","label":"Single-pass membrane and coiled-coil domain-containing protein 3","obsolete":false,"synonyms":["SMCO3","C12orf69"]}
 {"id":"UNIPROT:A2RUB6","label":"Coiled-coil domain-containing protein 66","obsolete":false,"synonyms":["CCDC66"]}
 {"id":"UNIPROT:A2RUC4","label":"tRNA wybutosine-synthesizing protein 5","obsolete":false,"synonyms":["TYW5","C2orf60","tRNA(Phe) (7-(3-amino-3-carboxypropyl)wyosine(37)-C(2))-hydroxylase"]}
+{"id":"UNIPROT:A2RUQ5","label":"Uncharacterized protein TMEM132E-DT","obsolete":false,"synonyms":["TMEM132E-DT","C17orf102","TMEM132E divergent transcript"]}
+{"id":"UNIPROT:A2VDJ0","label":"Transmembrane protein 131-like","obsolete":false,"synonyms":["TMEM131L","KIAA0922"]}
 {"id":"UNIPROT:A3KFT3","label":"Olfactory receptor 2M5","obsolete":false,"synonyms":["OR2M5","OR2M5P"]}
 {"id":"UNIPROT:A3KMH1","label":"von Willebrand factor A domain-containing protein 8","obsolete":false,"synonyms":["VWA8","KIAA0564","PEX7-binding protein 2"]}
 {"id":"UNIPROT:A4D0T7","label":"Small integral membrane protein 30","obsolete":false,"synonyms":["SMIM30","MAVI1","Microprotein in antiviral immunity 1"]}
@@ -150,6 +162,7 @@
 {"id":"UNIPROT:A5YM72","label":"Carnosine synthase 1","obsolete":false,"synonyms":["CARNS1","ATPGD1","KIAA1394","ATP-grasp domain-containing protein 1"]}
 {"id":"UNIPROT:A6BM72","label":"Multiple epidermal growth factor-like domains protein 11","obsolete":false,"synonyms":["MEGF11","KIAA1781"]}
 {"id":"UNIPROT:A6H8Y1","label":"Transcription factor TFIIIB component B'' homolog","obsolete":false,"synonyms":["BDP1","KIAA1241","KIAA1689","TFNR","Transcription factor IIIB 150","Transcription factor-like nuclear regulator"]}
+{"id":"UNIPROT:A6NC51","label":"Modulator of macroautophagy TMEM150B","obsolete":false,"synonyms":["TMEM150B","TMEM224","Protein DRAM-3","Transmembrane protein 150B","Transmembrane protein 224"]}
 {"id":"UNIPROT:A6NC57","label":"Ankyrin repeat domain-containing protein 62","obsolete":false,"synonyms":["ANKRD62"]}
 {"id":"UNIPROT:A6NC62","label":"RBAK downstream neighbor protein","obsolete":false,"synonyms":["RBAKDN"]}
 {"id":"UNIPROT:A6NC78","label":"Putative golgin subfamily A member 8I","obsolete":false,"synonyms":["GOLGA8IP","GOLGA8I","GOLGA9P","Golgin subfamily A member 8I pseudogene"]}
@@ -177,6 +190,7 @@
 {"id":"UNIPROT:A6NDY0","label":"Embryonic polyadenylate-binding protein 2","obsolete":false,"synonyms":["PABPN1L","EPABP2","PABPNL1","Embryonic poly(A)-binding protein type II","Poly(A)-binding protein nuclear-like 1"]}
 {"id":"UNIPROT:A6NEE1","label":"Pleckstrin homology domain-containing family D member 1","obsolete":false,"synonyms":["PLEKHD1"]}
 {"id":"UNIPROT:A6NEF3","label":"Golgin subfamily A member 6-like protein 4","obsolete":false,"synonyms":["GOLGA6L4"]}
+{"id":"UNIPROT:A6NEH6","label":"Transmembrane protein 247","obsolete":false,"synonyms":["TMEM247"]}
 {"id":"UNIPROT:A6NEH8","label":"Putative uncharacterized protein encoded by ZNF503-AS2","obsolete":false,"synonyms":["ZNF503-AS2","C10orf41","NCRNA00245","ZNF503 antisense RNA 2"]}
 {"id":"UNIPROT:A6NEL2","label":"Ankyrin repeat domain-containing protein SOWAHB","obsolete":false,"synonyms":["SOWAHB","ANKRD56","Ankyrin repeat domain-containing protein 56","Protein sosondowah homolog B"]}
 {"id":"UNIPROT:A6NEM1","label":"Golgin subfamily A member 6-like protein 9","obsolete":false,"synonyms":["GOLGA6L9","GOLGA6L20"]}
@@ -190,6 +204,7 @@
 {"id":"UNIPROT:A6NF83","label":"Nuclear protein 2","obsolete":false,"synonyms":["NUPR2","NUPR1L","Nuclear transcriptional regulator 1-like protein","Nuclear transcriptional regulator protein 2"]}
 {"id":"UNIPROT:A6NF89","label":"Olfactory receptor 6C6","obsolete":false,"synonyms":["OR6C6"]}
 {"id":"UNIPROT:A6NFA1","label":"Metalloprotease TIKI2","obsolete":false,"synonyms":["TRABD2B","HKAT","TIKI2","Heart, kidney and adipose-enriched transmembrane protein homolog","TRAB domain-containing protein 2B"]}
+{"id":"UNIPROT:A6NFC5","label":"Transmembrane protein 235","obsolete":false,"synonyms":["TMEM235","Claudin-27"]}
 {"id":"UNIPROT:A6NFC9","label":"Putative olfactory receptor 2W5","obsolete":false,"synonyms":["OR2W5","OR2W5P"]}
 {"id":"UNIPROT:A6NFE2","label":"Single-pass membrane and coiled-coil domain-containing protein 2","obsolete":false,"synonyms":["SMCO2","C12orf70"]}
 {"id":"UNIPROT:A6NFI3","label":"Zinc finger protein 316","obsolete":false,"synonyms":["ZNF316"]}
@@ -199,6 +214,9 @@
 {"id":"UNIPROT:A6NFQ2","label":"TRPM8 channel-associated factor 2","obsolete":false,"synonyms":["TCAF2","FAM115C","FAM139A","TRP channel-associated factor 2"]}
 {"id":"UNIPROT:A6NFY4","label":"Nuclear envelope integral membrane protein 2","obsolete":false,"synonyms":["NEMP2","TMEM194B"]}
 {"id":"UNIPROT:A6NFY7","label":"Succinate dehydrogenase assembly factor 1, mitochondrial","obsolete":false,"synonyms":["SDHAF1","LYRM8","LYR motif-containing protein 8"]}
+{"id":"UNIPROT:A6NGA9","label":"Transmembrane protein 202","obsolete":false,"synonyms":["TMEM202"]}
+{"id":"UNIPROT:A6NGB0","label":"Transmembrane protein 191C","obsolete":false,"synonyms":["TMEM191C"]}
+{"id":"UNIPROT:A6NGB7","label":"Transmembrane protein 221","obsolete":false,"synonyms":["TMEM221"]}
 {"id":"UNIPROT:A6NGB9","label":"WAS/WASL-interacting protein family member 3","obsolete":false,"synonyms":["WIPF3","CR16","Corticosteroids and regional expression protein 16 homolog"]}
 {"id":"UNIPROT:A6NGG8","label":"Photoreceptor cilium actin regulator","obsolete":false,"synonyms":["PCARE","C2orf71"]}
 {"id":"UNIPROT:A6NGH8","label":"Ankyrin repeat domain-containing protein 61","obsolete":false,"synonyms":["ANKRD61"]}
@@ -221,6 +239,8 @@
 {"id":"UNIPROT:A6NIM6","label":"Solute carrier family 15 member 5","obsolete":false,"synonyms":["SLC15A5"]}
 {"id":"UNIPROT:A6NIX2","label":"Wilms tumor protein 1-interacting protein","obsolete":false,"synonyms":["WTIP"]}
 {"id":"UNIPROT:A6NJG2","label":"Ankyrin repeat domain-containing protein SOWAHD","obsolete":false,"synonyms":["SOWAHD","ANKRD58","Ankyrin repeat domain-containing protein 58","Protein sosondowah homolog D"]}
+{"id":"UNIPROT:A6NJY1","label":"Putative SLC9B1-like protein SLC9B1P1","obsolete":false,"synonyms":["SLC9B1P1","Solute carrier family 9 subfamily B member 1 pseudogene 1"]}
+{"id":"UNIPROT:A6NJY4","label":"Transmembrane protein 238-like","obsolete":false,"synonyms":["TMEM238L","FORCP","FOXA1-regulated conserved small protein"]}
 {"id":"UNIPROT:A6NJZ3","label":"Olfactory receptor 6C65","obsolete":false,"synonyms":["OR6C65"]}
 {"id":"UNIPROT:A6NK53","label":"Zinc finger protein 233","obsolete":false,"synonyms":["ZNF233"]}
 {"id":"UNIPROT:A6NK75","label":"Zinc finger protein 98","obsolete":false,"synonyms":["ZNF98","ZNF739","Zinc finger protein 739","Zinc finger protein F7175"]}
@@ -231,6 +251,7 @@
 {"id":"UNIPROT:A6NKD2","label":"Testis-specific Y-encoded protein 2","obsolete":false,"synonyms":["TSPY2","TSPYQ1","Testis-specific Y-encoded protein Q1"]}
 {"id":"UNIPROT:A6NKF1","label":"SAC3 domain-containing protein 1","obsolete":false,"synonyms":["SAC3D1","SHD1","SAC3 homology domain-containing protein 1"]}
 {"id":"UNIPROT:A6NKF2","label":"AT-rich interactive domain-containing protein 3C","obsolete":false,"synonyms":["ARID3C"]}
+{"id":"UNIPROT:A6NKF7","label":"Transmembrane protein 278","obsolete":false,"synonyms":["TMEM278","TMEM88B","Transmembrane protein 88B"]}
 {"id":"UNIPROT:A6NKK0","label":"Olfactory receptor 5H1","obsolete":false,"synonyms":["OR5H1","HTPCRX14"]}
 {"id":"UNIPROT:A6NKL6","label":"Transmembrane protein 200C","obsolete":false,"synonyms":["TMEM200C","TTMA","Transmembrane protein TTMA","Two transmembrane domain-containing family member A"]}
 {"id":"UNIPROT:A6NKN8","label":"Purkinje cell protein 4-like protein 1","obsolete":false,"synonyms":["PCP4L1","IQM1"]}
@@ -242,11 +263,13 @@
 {"id":"UNIPROT:A6NLC8","label":"TATA-box binding protein associated factor 11 like protein 2","obsolete":false,"synonyms":["TAF11L2"]}
 {"id":"UNIPROT:A6NLE4","label":"Small integral membrane protein 23","obsolete":false,"synonyms":["SMIM23","C5orf50"]}
 {"id":"UNIPROT:A6NLP5","label":"Tetratricopeptide repeat protein 36","obsolete":false,"synonyms":["TTC36","HBP21","HSP70-binding protein 21"]}
+{"id":"UNIPROT:A6NLX4","label":"Transmembrane protein 210","obsolete":false,"synonyms":["TMEM210"]}
 {"id":"UNIPROT:A6NM03","label":"Olfactory receptor 2AG2","obsolete":false,"synonyms":["OR2AG2","OR2AG2P"]}
 {"id":"UNIPROT:A6NM28","label":"Zinc finger protein 92 homolog","obsolete":false,"synonyms":["ZFP92"]}
 {"id":"UNIPROT:A6NM76","label":"Olfactory receptor 6C76","obsolete":false,"synonyms":["OR6C76"]}
 {"id":"UNIPROT:A6NMB9","label":"Fidgetin-like protein 2","obsolete":false,"synonyms":["FIGNL2"]}
 {"id":"UNIPROT:A6NMD2","label":"Golgin subfamily A member 8J","obsolete":false,"synonyms":["GOLGA8J"]}
+{"id":"UNIPROT:A6NML5","label":"Transmembrane protein 212","obsolete":false,"synonyms":["TMEM212"]}
 {"id":"UNIPROT:A6NMS3","label":"Olfactory receptor 5K4","obsolete":false,"synonyms":["OR5K4"]}
 {"id":"UNIPROT:A6NMU1","label":"Olfactory receptor 52A4","obsolete":false,"synonyms":["OR52A4P","OR52A4"]}
 {"id":"UNIPROT:A6NMY6","label":"Putative annexin A2-like protein","obsolete":false,"synonyms":["ANXA2P2","ANX2L2","ANX2P2","LPC2B","Annexin A2 pseudogene 2","Lipocortin II pseudogene"]}
@@ -306,6 +329,7 @@
 {"id":"UNIPROT:A8MW99","label":"Meiosis-specific protein MEI4","obsolete":false,"synonyms":["MEI4"]}
 {"id":"UNIPROT:A8MWA4","label":"Putative zinc finger protein 705EP","obsolete":false,"synonyms":["ZNF705EP","ZNF705E","zinc finger protein 705E pseudogene"]}
 {"id":"UNIPROT:A8MWD9","label":"Putative small nuclear ribonucleoprotein G-like protein 15","obsolete":false,"synonyms":["SNRPGP15"]}
+{"id":"UNIPROT:A8MWL7","label":"Transmembrane protein 14DP","obsolete":false,"synonyms":["TMEM14DP","TMEM14D"]}
 {"id":"UNIPROT:A8MWV9","label":"Small integral membrane protein 34","obsolete":false,"synonyms":["SMIM34","SMIM34A"]}
 {"id":"UNIPROT:A8MX34","label":"Keratin-associated protein 29-1","obsolete":false,"synonyms":["KRTAP29-1","KAP29.2","Keratin-associated protein 29.2"]}
 {"id":"UNIPROT:A8MXD5","label":"Glutaredoxin domain-containing cysteine-rich protein 1","obsolete":false,"synonyms":["GRXCR1","DFNB25"]}
@@ -332,10 +356,13 @@
 {"id":"UNIPROT:B2RU33","label":"POTE ankyrin domain family member C","obsolete":false,"synonyms":["POTEC","A26B2","POTE18","ANKRD26-like family B member 2","Prostate, ovary, testis-expressed protein on chromosome 18"]}
 {"id":"UNIPROT:B2RUY7","label":"von Willebrand factor C domain-containing protein 2-like","obsolete":false,"synonyms":["VWC2L","Brorin-like"]}
 {"id":"UNIPROT:B2RUZ4","label":"Small integral membrane protein 1","obsolete":false,"synonyms":["SMIM1","Vel blood group antigen"]}
+{"id":"UNIPROT:B2RXF0","label":"Transmembrane protein 229A","obsolete":false,"synonyms":["TMEM229A"]}
 {"id":"UNIPROT:B2RXF5","label":"Zinc finger and BTB domain-containing protein 42","obsolete":false,"synonyms":["ZBTB42"]}
 {"id":"UNIPROT:B3GLJ2","label":"Prostate and testis expressed protein 3","obsolete":false,"synonyms":["PATE3","Acrosomal vesicle protein HEL-127","PATE-like protein DJ"]}
 {"id":"UNIPROT:B3KS81","label":"Serine/arginine repetitive matrix protein 5","obsolete":false,"synonyms":["SRRM5","ZNF576"]}
 {"id":"UNIPROT:B3KU38","label":"IQCJ-SCHIP1 readthrough transcript protein","obsolete":false,"synonyms":["IQCJ-SCHIP1"]}
+{"id":"UNIPROT:B3SHH9","label":"Transmembrane protein 114","obsolete":false,"synonyms":["TMEM114","Claudin-26"]}
+{"id":"UNIPROT:B4DJY2","label":"Transmembrane protein 233","obsolete":false,"synonyms":["TMEM233","IFITMD2","Dispanin subfamily B member 2","Interferon-induced transmembrane domain-containing protein D2"]}
 {"id":"UNIPROT:B4DS77","label":"Protein shisa-9","obsolete":false,"synonyms":["SHISA9"]}
 {"id":"UNIPROT:B4DU55","label":"Zinc finger protein 879","obsolete":false,"synonyms":["ZNF879"]}
 {"id":"UNIPROT:B4DX44","label":"Zinc finger protein 736","obsolete":false,"synonyms":["ZNF736"]}
@@ -357,9 +384,11 @@
 {"id":"UNIPROT:C4AMC7","label":"Putative WAS protein family homolog 3","obsolete":false,"synonyms":["WASH3P","FAM39DP","Protein FAM39DP"]}
 {"id":"UNIPROT:C9JBD0","label":"KRAB domain-containing protein 1","obsolete":false,"synonyms":["KRABD1","KRBOX1"]}
 {"id":"UNIPROT:C9JE40","label":"Protein PAT1 homolog 2","obsolete":false,"synonyms":["PATL2","PAT1-like protein 2","Protein PAT1 homolog a"]}
+{"id":"UNIPROT:C9JI98","label":"Transmembrane protein 238","obsolete":false,"synonyms":["TMEM238"]}
 {"id":"UNIPROT:C9JLR9","label":"Zinc finger translocation-associated protein","obsolete":false,"synonyms":["ZFTA","C11orf95"]}
 {"id":"UNIPROT:C9JLW8","label":"Mapk-regulated corepressor-interacting protein 1","obsolete":false,"synonyms":["MCRIP1","FAM195B","GRAN2","Granulin-2","Protein FAM195B"]}
 {"id":"UNIPROT:C9JN71","label":"Zinc finger protein 878","obsolete":false,"synonyms":["ZNF878"]}
+{"id":"UNIPROT:C9JQI7","label":"Transmembrane protein 232","obsolete":false,"synonyms":["TMEM232"]}
 {"id":"UNIPROT:C9JRZ8","label":"Aldo-keto reductase family 1 member B15","obsolete":false,"synonyms":["AKR1B15","Estradiol 17-beta-dehydrogenase AKR1B15","Farnesol dehydrogenase","Testosterone 17beta-dehydrogenase"]}
 {"id":"UNIPROT:C9JTQ0","label":"Ankyrin repeat domain-containing protein 63","obsolete":false,"synonyms":["ANKRD63"]}
 {"id":"UNIPROT:D0EPY3","label":"Small integral membrane protein 47","obsolete":false,"synonyms":["SMIM47"]}
@@ -562,6 +591,7 @@
 {"id":"UNIPROT:O14734","label":"Acyl-coenzyme A thioesterase 8","obsolete":false,"synonyms":["ACOT8","ACTEIII","PTE1","Choloyl-coenzyme A thioesterase","HIV-Nef-associated acyl-CoA thioesterase","Peroxisomal acyl-CoA thioesterase 2","Peroxisomal acyl-coenzyme A thioester hydrolase 1","Peroxisomal long-chain acyl-CoA thioesterase 1","Thioesterase II"]}
 {"id":"UNIPROT:O14735","label":"CDP-diacylglycerol--inositol 3-phosphatidyltransferase","obsolete":false,"synonyms":["CDIPT","PIS","PIS1","Phosphatidylinositol synthase"]}
 {"id":"UNIPROT:O14744","label":"Protein arginine N-methyltransferase 5","obsolete":false,"synonyms":["PRMT5","HRMT1L5","IBP72","JBP1","SKB1","72 kDa ICln-binding protein","Histone-arginine N-methyltransferase PRMT5","Jak-binding protein 1","Shk1 kinase-binding protein 1 homolog"]}
+{"id":"UNIPROT:O14745","label":"Na(+)/H(+) exchange regulatory cofactor NHE-RF1","obsolete":false,"synonyms":["NHERF1","NHERF","SLC9A3R1","Ezrin-radixin-moesin-binding phosphoprotein 50","Regulatory cofactor of Na(+)/H(+) exchanger","Sodium-hydrogen exchanger regulatory factor 1","Solute carrier family 9 isoform A3 regulatory factor 1"]}
 {"id":"UNIPROT:O14756","label":"17-beta-hydroxysteroid dehydrogenase type 6","obsolete":false,"synonyms":["HSD17B6","RODH","SDR9C6","3-alpha->beta-hydroxysteroid epimerase","Oxidative 3-alpha hydroxysteroid dehydrogenase","Short chain dehydrogenase/reductase family 9C member 6"]}
 {"id":"UNIPROT:O14757","label":"Serine/threonine-protein kinase Chk1","obsolete":false,"synonyms":["CHEK1","CHK1","CHK1 checkpoint homolog","Cell cycle checkpoint kinase","Checkpoint kinase-1"]}
 {"id":"UNIPROT:O14763","label":"Tumor necrosis factor receptor superfamily member 10B","obsolete":false,"synonyms":["TNFRSF10B","DR5","KILLER","TRAILR2","TRICK2","ZTNFR9","Death receptor 5","TNF-related apoptosis-inducing ligand receptor 2"]}
@@ -936,6 +966,7 @@
 {"id":"UNIPROT:O60312","label":"Phospholipid-transporting ATPase VA","obsolete":false,"synonyms":["ATP10A","ATP10C","ATPVA","ATPVC","KIAA0566","ATPase class V type 10A","Aminophospholipid translocase VA","P4-ATPase flippase complex alpha subunit ATP10A"]}
 {"id":"UNIPROT:O60315","label":"Zinc finger E-box-binding homeobox 2","obsolete":false,"synonyms":["ZEB2","KIAA0569","SIP1","ZFHX1B","ZFX1B","Smad-interacting protein 1","Zinc finger homeobox protein 1b"]}
 {"id":"UNIPROT:O60318","label":"Germinal-center associated nuclear protein","obsolete":false,"synonyms":["MCM3AP","GANP","KIAA0572","MAP80","80 kDa MCM3-associated protein","MCM3 acetylating protein","MCM3 acetyltransferase"]}
+{"id":"UNIPROT:O60320","label":"Protein ENTREP2","obsolete":false,"synonyms":["ENTREP2","FAM189A1","KIAA0574","TMEM228","Endosomal transmembrane epsin interactor 2","Transmembrane protein 228"]}
 {"id":"UNIPROT:O60330","label":"Protocadherin gamma-A12","obsolete":false,"synonyms":["PCDHGA12","CDH21","FIB3","KIAA0588","Cadherin-21","Fibroblast cadherin-3"]}
 {"id":"UNIPROT:O60331","label":"Phosphatidylinositol 4-phosphate 5-kinase type-1 gamma","obsolete":false,"synonyms":["PIP5K1C","KIAA0589","Type I phosphatidylinositol 4-phosphate 5-kinase gamma"]}
 {"id":"UNIPROT:O60336","label":"Mitogen-activated protein kinase-binding protein 1","obsolete":false,"synonyms":["MAPKBP1","JNKBP1","KIAA0596","JNK-binding protein 1"]}
@@ -1089,6 +1120,7 @@
 {"id":"UNIPROT:O75179","label":"Ankyrin repeat domain-containing protein 17","obsolete":false,"synonyms":["ANKRD17","GTAR","KIAA0697","Gene trap ankyrin repeat protein","Serologically defined breast cancer antigen NY-BR-16"]}
 {"id":"UNIPROT:O75185","label":"Calcium-transporting ATPase type 2C member 2","obsolete":false,"synonyms":["ATP2C2","KIAA0703","SPCA2","Ca(2+)/Mn(2+)-ATPase 2C2","Secretory pathway Ca(2+)-transporting ATPase type 2"]}
 {"id":"UNIPROT:O75190","label":"DnaJ homolog subfamily B member 6","obsolete":false,"synonyms":["DNAJB6","HSJ2","MRJ","MSJ1","HHDJ1","Heat shock protein J2","MSJ-1"]}
+{"id":"UNIPROT:O75204","label":"Transmembrane protein 127","obsolete":false,"synonyms":["TMEM127"]}
 {"id":"UNIPROT:O75208","label":"Ubiquinone biosynthesis protein COQ9, mitochondrial","obsolete":false,"synonyms":["COQ9","C16orf49"]}
 {"id":"UNIPROT:O75223","label":"Gamma-glutamylcyclotransferase","obsolete":false,"synonyms":["GGCT","C7orf24","CRF21","Cytochrome c-releasing factor 21"]}
 {"id":"UNIPROT:O75264","label":"Small integral membrane protein 24","obsolete":false,"synonyms":["SMIM24","C19orf77"]}
@@ -1242,6 +1274,7 @@
 {"id":"UNIPROT:O75937","label":"DnaJ homolog subfamily C member 8","obsolete":false,"synonyms":["DNAJC8","SPF31","Splicing protein spf31"]}
 {"id":"UNIPROT:O75940","label":"Survival of motor neuron-related-splicing factor 30","obsolete":false,"synonyms":["SMNDC1","SMNR","SPF30","30 kDa splicing factor SMNrp","SMN-related protein","Survival motor neuron domain-containing protein 1"]}
 {"id":"UNIPROT:O75947","label":"ATP synthase peripheral stalk subunit d, mitochondrial","obsolete":false,"synonyms":["ATP5PD","ATP5H","ATP synthase peripheral stalk subunit d"]}
+{"id":"UNIPROT:O75949","label":"NALCN channel auxiliary factor 2","obsolete":false,"synonyms":["NALF2","FAM155B","TED","TMEM28","Protein TED","Transmembrane protein 28","Transmembrane protein FAM155B"]}
 {"id":"UNIPROT:O75951","label":"Lysozyme-like protein 6","obsolete":false,"synonyms":["LYZL6","LYC1"]}
 {"id":"UNIPROT:O75952","label":"Calcium-binding tyrosine phosphorylation-regulated protein","obsolete":false,"synonyms":["CABYR","CBP86","FSP2","Calcium-binding protein 86","Cancer/testis antigen 88","Fibrousheathin II","Fibrousheathin-2","Testis-specific calcium-binding protein CBP86"]}
 {"id":"UNIPROT:O75954","label":"Tetraspanin-9","obsolete":false,"synonyms":["TSPAN9","NET5","Tetraspan NET-5"]}
@@ -1914,6 +1947,7 @@
 {"id":"UNIPROT:P0C6C1","label":"Ankyrin repeat domain-containing protein 34C","obsolete":false,"synonyms":["ANKRD34C"]}
 {"id":"UNIPROT:P0C7H8","label":"Keratin-associated protein 2-3","obsolete":false,"synonyms":["KRTAP2-3","KAP2.3","KRTAP2.3","High sulfur keratin-associated protein 2.4","Keratin-associated protein 2.3"]}
 {"id":"UNIPROT:P0C7N1","label":"Olfactory receptor 8U8","obsolete":false,"synonyms":["OR8U8"]}
+{"id":"UNIPROT:P0C7N4","label":"Transmembrane protein 191B","obsolete":false,"synonyms":["TMEM191B"]}
 {"id":"UNIPROT:P0C7N5","label":"Olfactory receptor 8U9","obsolete":false,"synonyms":["OR8U9"]}
 {"id":"UNIPROT:P0C7N8","label":"Olfactory receptor 9G9","obsolete":false,"synonyms":["OR9G9"]}
 {"id":"UNIPROT:P0C7P0","label":"CDGSH iron-sulfur domain-containing protein 3, mitochondrial","obsolete":false,"synonyms":["CISD3","MitoNEET-related protein 2","Mitochondrial inner NEET protein"]}
@@ -1923,6 +1957,7 @@
 {"id":"UNIPROT:P0C7T2","label":"Olfactory receptor 2T7","obsolete":false,"synonyms":["OR2T7","OR2T7P","OST723","olfactory receptor OR1-44"]}
 {"id":"UNIPROT:P0C7T3","label":"Olfactory receptor 56A5","obsolete":false,"synonyms":["OR56A5","OR56A5P"]}
 {"id":"UNIPROT:P0C7T5","label":"Ataxin-1-like","obsolete":false,"synonyms":["ATXN1L","BOAT","BOAT1","Brother of ataxin-1"]}
+{"id":"UNIPROT:P0C7T8","label":"Transmembrane protein 253","obsolete":false,"synonyms":["TMEM253","C14orf176","C14orf95"]}
 {"id":"UNIPROT:P0C7U0","label":"Protein ELFN1","obsolete":false,"synonyms":["ELFN1","PPP1R28","Extracellular leucine-rich repeat and fibronectin type-III domain-containing protein 1","Protein phosphatase 1 regulatory subunit 28"]}
 {"id":"UNIPROT:P0C7W6","label":"Coiled-coil domain-containing protein 172","obsolete":false,"synonyms":["CCDC172","C10orf96"]}
 {"id":"UNIPROT:P0C7X1","label":"TBC1 domain family member 3H","obsolete":false,"synonyms":["TBC1D3H"]}
@@ -2003,6 +2038,7 @@
 {"id":"UNIPROT:P0DN82","label":"Olfactory receptor 12D1","obsolete":false,"synonyms":["OR12D1","OR12D1P"]}
 {"id":"UNIPROT:P0DN84","label":"Sarcoplasmic/endoplasmic reticulum calcium ATPase regulator DWORF","obsolete":false,"synonyms":["STRIT1","DWORF","Dwarf open reading frame","Small transmembrane regulator of ion transport 1"]}
 {"id":"UNIPROT:P0DP25","label":"Calmodulin-3","obsolete":false,"synonyms":["CALM3","CALML2","CAM3","CAMC","CAMIII"]}
+{"id":"UNIPROT:P0DP42","label":"Transmembrane protein 225B","obsolete":false,"synonyms":["TMEM225B"]}
 {"id":"UNIPROT:P0DP58","label":"Ly-6/neurotoxin-like protein 1","obsolete":false,"synonyms":["LYNX1","Endogenous prototoxin LYNX1","Testicular tissue protein Li 112"]}
 {"id":"UNIPROT:P0DPA3","label":"Putative uncharacterized protein SNHG28","obsolete":false,"synonyms":["SNHG28","C1orf204","Small nucleolar RNA host gene 2","VSIG8 overlapping transcript protein"]}
 {"id":"UNIPROT:P0DPB3","label":"Schwannomin-interacting protein 1","obsolete":false,"synonyms":["SCHIP1"]}
@@ -2020,6 +2056,7 @@
 {"id":"UNIPROT:P0DSO3","label":"G antigen 4","obsolete":false,"synonyms":["GAGE4","Cancer/testis antigen 4.4"]}
 {"id":"UNIPROT:P0DTE0","label":"Putative taste receptor type 2 member 36","obsolete":false,"synonyms":["TAS2R36"]}
 {"id":"UNIPROT:P0DTF9","label":"PTTG1IP family member 2","obsolete":false,"synonyms":["PTTG1IP2"]}
+{"id":"UNIPROT:P0DTL5","label":"Transmembrane protein 276","obsolete":false,"synonyms":["TMEM276"]}
 {"id":"UNIPROT:P0DTL6","label":"Zinc finger TRAF-type-containing protein 1","obsolete":false,"synonyms":["ZFTRAF1","CYHR1","KIAA0496","Cysteine and histidine-rich protein 1"]}
 {"id":"UNIPROT:P0DTU3","label":"T cell receptor alpha chain MC.7.G5","obsolete":false,"synonyms":["TRA","MC.7.G5 TRA","TR alpha chain TRAV38-2DV8*01J31*01C*01"]}
 {"id":"UNIPROT:P0DTU4","label":"T cell receptor beta chain MC.7.G5","obsolete":false,"synonyms":["TRB","TR beta chain TRBV25-1*01J2S3*01C2*01"]}
@@ -2312,6 +2349,7 @@
 {"id":"UNIPROT:P17096","label":"High mobility group protein HMG-I/HMG-Y","obsolete":false,"synonyms":["HMGA1","HMGIY","High mobility group AT-hook protein 1","High mobility group protein R"]}
 {"id":"UNIPROT:P17097","label":"Zinc finger protein 7","obsolete":false,"synonyms":["ZNF7","KOX4","Zinc finger protein HF.16","Zinc finger protein KOX4"]}
 {"id":"UNIPROT:P17098","label":"Zinc finger protein 8","obsolete":false,"synonyms":["ZNF8","Zinc finger protein HF.18"]}
+{"id":"UNIPROT:P17152","label":"Transmembrane protein 11, mitochondrial","obsolete":false,"synonyms":["TMEM11","C17orf35","PM1","Protein PM1","Protein PMI"]}
 {"id":"UNIPROT:P17174","label":"Aspartate aminotransferase, cytoplasmic","obsolete":false,"synonyms":["GOT1","Cysteine aminotransferase, cytoplasmic","Cysteine transaminase, cytoplasmic","Glutamate oxaloacetate transaminase 1","Transaminase A"]}
 {"id":"UNIPROT:P17252","label":"Protein kinase C alpha type","obsolete":false,"synonyms":["PRKCA","PKCA","PRKACA"]}
 {"id":"UNIPROT:P17275","label":"Transcription factor JunB","obsolete":false,"synonyms":["JUNB","Transcription factor AP-1 subunit JunB"]}
@@ -2759,6 +2797,7 @@
 {"id":"UNIPROT:P32320","label":"Cytidine deaminase","obsolete":false,"synonyms":["CDA","CDD","Cytidine aminohydrolase"]}
 {"id":"UNIPROT:P32321","label":"Deoxycytidylate deaminase","obsolete":false,"synonyms":["DCTD","dCMP deaminase"]}
 {"id":"UNIPROT:P32322","label":"Pyrroline-5-carboxylate reductase 1, mitochondrial","obsolete":false,"synonyms":["PYCR1"]}
+{"id":"UNIPROT:P32418","label":"Sodium/calcium exchanger 1","obsolete":false,"synonyms":["SLC8A1","CNC","NCX1","Na(+)/Ca(2+)-exchange protein 1","Solute carrier family 8 member 1"]}
 {"id":"UNIPROT:P32754","label":"4-hydroxyphenylpyruvate dioxygenase","obsolete":false,"synonyms":["HPD","PPD","4-hydroxyphenylpyruvic acid oxidase","N(6)-adenosine-methyltransferase HPD"]}
 {"id":"UNIPROT:P32856","label":"Syntaxin-2","obsolete":false,"synonyms":["STX2","EPIM","STX2A","STX2B","STX2C","Epimorphin"]}
 {"id":"UNIPROT:P32942","label":"Intercellular adhesion molecule 3","obsolete":false,"synonyms":["ICAM3","CDw50","ICAM-R"]}
@@ -3113,6 +3152,7 @@
 {"id":"UNIPROT:P48544","label":"G protein-activated inward rectifier potassium channel 4","obsolete":false,"synonyms":["KCNJ5","GIRK4","Cardiac inward rectifier","Heart KATP channel","Inward rectifier K(+) channel Kir3.4","KATP-1","Potassium channel, inwardly rectifying subfamily J member 5"]}
 {"id":"UNIPROT:P48547","label":"Voltage-gated potassium channel KCNC1","obsolete":false,"synonyms":["KCNC1","NGK2","Potassium voltage-gated channel subfamily C member 1","Voltage-gated potassium channel subunit Kv3.1","Voltage-gated potassium channel subunit Kv4"]}
 {"id":"UNIPROT:P48549","label":"G protein-activated inward rectifier potassium channel 1","obsolete":false,"synonyms":["KCNJ3","GIRK1","Inward rectifier K(+) channel Kir3.1","Potassium channel, inwardly rectifying subfamily J member 3"]}
+{"id":"UNIPROT:P48553","label":"Trafficking protein particle complex subunit 10","obsolete":false,"synonyms":["TRAPPC10","EHOC1","TMEM1","Epilepsy holoprosencephaly candidate 1 protein","Protein GT334","Trafficking protein particle complex subunit TMEM1","Transport protein particle subunit TMEM1"]}
 {"id":"UNIPROT:P48594","label":"Serpin B4","obsolete":false,"synonyms":["SERPINB4","PI11","SCCA2","Leupin","Peptidase inhibitor 11","Squamous cell carcinoma antigen 2"]}
 {"id":"UNIPROT:P48595","label":"Serpin B10","obsolete":false,"synonyms":["SERPINB10","PI10","Bomapin","Peptidase inhibitor 10"]}
 {"id":"UNIPROT:P48643","label":"T-complex protein 1 subunit epsilon","obsolete":false,"synonyms":["CCT5","CCTE","KIAA0098","CCT-epsilon","Chaperonin containing T-complex polypeptide 1 subunit 5"]}
@@ -3525,6 +3565,7 @@
 {"id":"UNIPROT:P57086","label":"SCAN domain-containing protein 1","obsolete":false,"synonyms":["SCAND1","SDP1"]}
 {"id":"UNIPROT:P57087","label":"Junctional adhesion molecule B","obsolete":false,"synonyms":["JAM2","C21orf43","VEJAM","Junctional adhesion molecule 2","Vascular endothelial junction-associated molecule"]}
 {"id":"UNIPROT:P57088","label":"Transmembrane protein 33","obsolete":false,"synonyms":["TMEM33","DB83","Protein DB83","SHINC-3"]}
+{"id":"UNIPROT:P57103","label":"Sodium/calcium exchanger 3","obsolete":false,"synonyms":["SLC8A3","NCX3","Na(+)/Ca(2+)-exchange protein 3","Solute carrier family 8 member 3"]}
 {"id":"UNIPROT:P57105","label":"Synaptojanin-2-binding protein","obsolete":false,"synonyms":["SYNJ2BP","OMP25","Mitochondrial outer membrane protein 25"]}
 {"id":"UNIPROT:P57678","label":"Gem-associated protein 4","obsolete":false,"synonyms":["GEMIN4","Component of gems 4","p97"]}
 {"id":"UNIPROT:P57682","label":"Krueppel-like factor 3","obsolete":false,"synonyms":["KLF3","BKLF","Basic krueppel-like factor","CACCC-box-binding protein BKLF","TEF-2"]}
@@ -3873,6 +3914,7 @@
 {"id":"UNIPROT:Q01581","label":"Hydroxymethylglutaryl-CoA synthase, cytoplasmic","obsolete":false,"synonyms":["HMGCS1","HMGCS","3-hydroxy-3-methylglutaryl coenzyme A synthase"]}
 {"id":"UNIPROT:Q01628","label":"Interferon-induced transmembrane protein 3","obsolete":false,"synonyms":["IFITM3","Dispanin subfamily A member 2b","Interferon-inducible protein 1-8U"]}
 {"id":"UNIPROT:Q01638","label":"Interleukin-1 receptor-like 1","obsolete":false,"synonyms":["IL1RL1","DER4","ST2","T1","Protein ST2"]}
+{"id":"UNIPROT:Q01650","label":"Large neutral amino acids transporter small subunit 1","obsolete":false,"synonyms":["SLC7A5","CD98LC","LAT1","MPE16","4F2 light chain","CD98 light chain","Integral membrane protein E16","L-type amino acid transporter 1","Solute carrier family 7 member 5","y+ system cationic amino acid transporter"]}
 {"id":"UNIPROT:Q01668","label":"Voltage-dependent L-type calcium channel subunit alpha-1D","obsolete":false,"synonyms":["CACNA1D","CACH3","CACN4","CACNL1A2","CCHL1A2","Calcium channel, L type, alpha-1 polypeptide, isoform 2","Voltage-gated calcium channel subunit alpha Cav1.3"]}
 {"id":"UNIPROT:Q01718","label":"Adrenocorticotropic hormone receptor","obsolete":false,"synonyms":["MC2R","ACTHR","Adrenocorticotropin receptor","Melanocortin receptor 2"]}
 {"id":"UNIPROT:Q01740","label":"Flavin-containing monooxygenase 1","obsolete":false,"synonyms":["FMO1","Dimethylaniline monooxygenase [N-oxide-forming] 1","Dimethylaniline oxidase 1","Fetal hepatic flavin-containing monooxygenase 1","Trimethylamine monooxygenase"]}
@@ -4074,6 +4116,7 @@
 {"id":"UNIPROT:Q0VD86","label":"Protein INCA1","obsolete":false,"synonyms":["INCA1","Inhibitor of CDK interacting with cyclin A1"]}
 {"id":"UNIPROT:Q0VDF9","label":"Heat shock 70 kDa protein 14","obsolete":false,"synonyms":["HSPA14","HSP60","HSP70L1","HSP70-like protein 1","Heat shock protein HSP60","Heat shock protein family A member 14"]}
 {"id":"UNIPROT:Q0VDG4","label":"Secernin-3","obsolete":false,"synonyms":["SCRN3"]}
+{"id":"UNIPROT:Q0VDI3","label":"Transmembrane protein 267","obsolete":false,"synonyms":["TMEM267","C5orf28"]}
 {"id":"UNIPROT:Q0VF96","label":"Cingulin-like protein 1","obsolete":false,"synonyms":["CGNL1","JACOP","KIAA1749","Junction-associated coiled-coil protein","Paracingulin"]}
 {"id":"UNIPROT:Q0VG06","label":"Fanconi anemia core complex-associated protein 100","obsolete":false,"synonyms":["FAAP100","C17orf70","Fanconi anemia-associated protein of 100 kDa"]}
 {"id":"UNIPROT:Q0VG99","label":"Mesoderm posterior protein 2","obsolete":false,"synonyms":["MESP2","BHLHC6","SCDO2","Class C basic helix-loop-helix protein 6"]}
@@ -4437,6 +4480,7 @@
 {"id":"UNIPROT:Q14714","label":"Sarcospan","obsolete":false,"synonyms":["SSPN","KRAG","K-ras oncogene-associated protein","Kirsten-ras-associated protein"]}
 {"id":"UNIPROT:Q14721","label":"Potassium voltage-gated channel subfamily B member 1","obsolete":false,"synonyms":["KCNB1","Delayed rectifier potassium channel 1","Voltage-gated potassium channel subunit Kv2.1"]}
 {"id":"UNIPROT:Q14722","label":"Voltage-gated potassium channel subunit beta-1","obsolete":false,"synonyms":["KCNAB1","KCNA1B","K(+) channel subunit beta-1","Kv-beta-1"]}
+{"id":"UNIPROT:Q14728","label":"Solute carrier family 75 member 1","obsolete":false,"synonyms":["SLC75A1","MFSD10","TETRAN","Major facilitator superfamily domain-containing protein 10","Tetracycline transporter-like protein"]}
 {"id":"UNIPROT:Q14738","label":"Serine/threonine-protein phosphatase 2A 56 kDa regulatory subunit delta isoform","obsolete":false,"synonyms":["PPP2R5D","PP2A B subunit isoform B'-delta","PP2A B subunit isoform B56-delta","PP2A B subunit isoform PR61-delta","PP2A B subunit isoform R5-delta"]}
 {"id":"UNIPROT:Q14739","label":"Delta(14)-sterol reductase LBR","obsolete":false,"synonyms":["LBR","3-beta-hydroxysterol Delta (14)-reductase","C-14 sterol reductase","Integral nuclear envelope inner membrane protein","LMN2R","Lamin-B receptor","Sterol C14-reductase"]}
 {"id":"UNIPROT:Q14746","label":"Conserved oligomeric Golgi complex subunit 2","obsolete":false,"synonyms":["COG2","LDLC","Component of oligomeric Golgi complex 2","Low density lipoprotein receptor defect C-complementing protein"]}
@@ -4477,6 +4521,7 @@
 {"id":"UNIPROT:Q14995","label":"Nuclear receptor subfamily 1 group D member 2","obsolete":false,"synonyms":["NR1D2","Orphan nuclear hormone receptor BD73","Rev-erb alpha-related receptor","Rev-erb-beta","V-erbA-related protein 1-related"]}
 {"id":"UNIPROT:Q149N8","label":"E3 ubiquitin-protein ligase SHPRH","obsolete":false,"synonyms":["SHPRH","KIAA2023","RING-type E3 ubiquitin transferase SHPRH","SNF2, histone-linker, PHD and RING finger domain-containing helicase"]}
 {"id":"UNIPROT:Q14C86","label":"GTPase-activating protein and VPS9 domain-containing protein 1","obsolete":false,"synonyms":["GAPVD1","GAPEX5","KIAA1521","RAP6","GAPex-5","Rab5-activating protein 6"]}
+{"id":"UNIPROT:Q14C87","label":"Transmembrane protein 132D","obsolete":false,"synonyms":["TMEM132D","HBE120","KIAA1944","MOLT","Mature oligodendrocytes transmembrane protein"]}
 {"id":"UNIPROT:Q14CB8","label":"Rho GTPase-activating protein 19","obsolete":false,"synonyms":["ARHGAP19","Rho-type GTPase-activating protein 19"]}
 {"id":"UNIPROT:Q14CM0","label":"FERM and PDZ domain-containing protein 4","obsolete":false,"synonyms":["FRMPD4","KIAA0316","PDZD10","PDZK10","PDZ domain-containing protein 10","PSD-95-interacting regulator of spine morphogenesis"]}
 {"id":"UNIPROT:Q14CN2","label":"Calcium-activated chloride channel regulator 4","obsolete":false,"synonyms":["CLCA4","CaCC2","Calcium-activated chloride channel family member 4","Calcium-activated chloride channel protein 2","Chloride channel accessory 4"]}
@@ -4487,6 +4532,7 @@
 {"id":"UNIPROT:Q14CZ0","label":"HUWE1-associated protein modifying stress responses 1","obsolete":false,"synonyms":["HAPSTR1","C16orf72","TAPR1","Telomere attrition and p53 response 1 protein"]}
 {"id":"UNIPROT:Q14CZ7","label":"FAST kinase domain-containing protein 3, mitochondrial","obsolete":false,"synonyms":["FASTKD3"]}
 {"id":"UNIPROT:Q14D04","label":"Ventricular zone-expressed PH domain-containing protein homolog 1","obsolete":false,"synonyms":["VEPH1","KIAA1692","VEPH","Protein melted"]}
+{"id":"UNIPROT:Q14DG7","label":"Transmembrane protein 132B","obsolete":false,"synonyms":["TMEM132B","KIAA1786","KIAA1906"]}
 {"id":"UNIPROT:Q15003","label":"Condensin complex subunit 2","obsolete":false,"synonyms":["NCAPH","BRRN","BRRN1","CAPH","KIAA0074","Barren homolog protein 1","Chromosome-associated protein H","Non-SMC condensin I complex subunit H","XCAP-H homolog"]}
 {"id":"UNIPROT:Q15004","label":"PCNA-associated factor","obsolete":false,"synonyms":["PCLAF","KIAA0101","NS5ATP9","PAF","Hepatitis C virus NS5A-transactivated protein 9","Overexpressed in anaplastic thyroid carcinoma 1","PCNA-associated factor of 15 kDa","PCNA-clamp-associated factor"]}
 {"id":"UNIPROT:Q15005","label":"Signal peptidase complex subunit 2","obsolete":false,"synonyms":["SPCS2","KIAA0102","SPC25","Microsomal signal peptidase 25 kDa subunit"]}
@@ -4591,6 +4637,7 @@
 {"id":"UNIPROT:Q15573","label":"TATA box-binding protein-associated factor RNA polymerase I subunit A","obsolete":false,"synonyms":["TAF1A","RNA polymerase I-specific TBP-associated factor 48 kDa","TATA box-binding protein-associated factor 1A","Transcription factor SL1","Transcription initiation factor SL1/TIF-IB subunit A"]}
 {"id":"UNIPROT:Q15582","label":"Transforming growth factor-beta-induced protein ig-h3","obsolete":false,"synonyms":["TGFBI","BIGH3","Kerato-epithelin","RGD-containing collagen-associated protein"]}
 {"id":"UNIPROT:Q15596","label":"Nuclear receptor coactivator 2","obsolete":false,"synonyms":["NCOA2","BHLHE75","SRC2","TIF2","Class E basic helix-loop-helix protein 75","Transcriptional intermediary factor 2"]}
+{"id":"UNIPROT:Q15599","label":"Na(+)/H(+) exchange regulatory cofactor NHE-RF2","obsolete":false,"synonyms":["NHERF2","SLC9A3R2","NHE3 kinase A regulatory protein E3KARP","SRY-interacting protein 1","Sodium-hydrogen exchanger regulatory factor 2","Solute carrier family 9 isoform A3 regulatory factor 2","Tyrosine kinase activator protein 1"]}
 {"id":"UNIPROT:Q155Q3","label":"Dixin","obsolete":false,"synonyms":["DIXDC1","CCD1","KIAA1735","Coiled-coil protein DIX1","DIX domain-containing protein 1"]}
 {"id":"UNIPROT:Q15612","label":"Olfactory receptor 1Q1","obsolete":false,"synonyms":["OR1Q1","OR1Q2","OR1Q3","OST226","Olfactory receptor 1Q2","Olfactory receptor 1Q3","Olfactory receptor 9-A","Olfactory receptor OR9-25","Olfactory receptor TPCR106"]}
 {"id":"UNIPROT:Q15617","label":"Olfactory receptor 8G1","obsolete":false,"synonyms":["OR8G1","OR8G1P","Olfactory receptor OR11-281","Olfactory receptor TPCR25"]}
@@ -4751,6 +4798,7 @@
 {"id":"UNIPROT:Q16890","label":"Tumor protein D53","obsolete":false,"synonyms":["TPD52L1","Tumor protein D52-like 1"]}
 {"id":"UNIPROT:Q16891","label":"MICOS complex subunit MIC60","obsolete":false,"synonyms":["IMMT","HMP","MIC60","MINOS2","Cell proliferation-inducing gene 4/52 protein","Mitochondrial inner membrane protein","Mitofilin","p87/89"]}
 {"id":"UNIPROT:Q17R31","label":"Deoxyribonuclease TATDN3","obsolete":false,"synonyms":["TATDN3","DNA-(apurinic or apyrimidinic site) endonuclease TATDN3","TatD DNase domain containing 3"]}
+{"id":"UNIPROT:Q17R55","label":"Protein FAM187B","obsolete":false,"synonyms":["FAM187B","TMEM162","Transmembrane protein 162"]}
 {"id":"UNIPROT:Q17R60","label":"Interphotoreceptor matrix proteoglycan 1","obsolete":false,"synonyms":["IMPG1","IPM150","SPACR","Interphotoreceptor matrix proteoglycan of 150 kDa","Sialoprotein associated with cones and rods"]}
 {"id":"UNIPROT:Q17R89","label":"Rho GTPase-activating protein 44","obsolete":false,"synonyms":["ARHGAP44","KIAA0672","RICH2","NPC-A-10","Rho-type GTPase-activating protein RICH2","RhoGAP interacting with CIP4 homologs protein 2"]}
 {"id":"UNIPROT:Q17R98","label":"Zinc finger protein 827","obsolete":false,"synonyms":["ZNF827"]}
@@ -4761,6 +4809,7 @@
 {"id":"UNIPROT:Q17RN3","label":"Protein TSLIG3C","obsolete":false,"synonyms":["TSLIG3C","FAM98C","Protein FAM98C"]}
 {"id":"UNIPROT:Q17RW2","label":"Collagen alpha-1(XXIV) chain","obsolete":false,"synonyms":["COL24A1"]}
 {"id":"UNIPROT:Q17RY6","label":"Lymphocyte antigen 6K","obsolete":false,"synonyms":["LY6K","CO16"]}
+{"id":"UNIPROT:Q1AE95","label":"Putative transmembrane protein 183BP","obsolete":false,"synonyms":["TMEM183BP","C1orf37-dup","TMEM183B","Transmembrane protein 183B pseudogene"]}
 {"id":"UNIPROT:Q1ED39","label":"Lysine-rich nucleolar protein 1","obsolete":false,"synonyms":["KNOP1","C16orf88","FAM191A","TSG118","Protein FAM191A","Testis-specific gene 118 protein"]}
 {"id":"UNIPROT:Q1EHB4","label":"Sodium-coupled monocarboxylate transporter 2","obsolete":false,"synonyms":["SLC5A12","SMCT2","Electroneutral sodium monocarboxylate cotransporter","Low-affinity sodium-lactate cotransporter","Solute carrier family 5 member 12"]}
 {"id":"UNIPROT:Q1HG43","label":"Dual oxidase maturation factor 1","obsolete":false,"synonyms":["DUOXA1","NIP","NUMBIP","Dual oxidase activator 1","Numb-interacting protein"]}
@@ -4801,6 +4850,7 @@
 {"id":"UNIPROT:Q2PPJ7","label":"Ral GTPase-activating protein subunit alpha-2","obsolete":false,"synonyms":["RALGAPA2","C20orf74","KIAA1272","250 kDa substrate of Akt","p220"]}
 {"id":"UNIPROT:Q2PZI1","label":"Protein C-mannosyl-transferase DPY19L1","obsolete":false,"synonyms":["DPY19L1","GA0500","KIAA0877","Dpy-19-like protein 1","Protein dpy-19 homolog 1"]}
 {"id":"UNIPROT:Q2Q1W2","label":"E3 ubiquitin-protein ligase TRIM71","obsolete":false,"synonyms":["TRIM71","LIN41","Protein lin-41 homolog","RING-type E3 ubiquitin transferase TRIM71","Tripartite motif-containing protein 71"]}
+{"id":"UNIPROT:Q2T9K0","label":"Transmembrane protein 44","obsolete":false,"synonyms":["TMEM44"]}
 {"id":"UNIPROT:Q2TAA8","label":"Translin-associated factor X-interacting protein 1","obsolete":false,"synonyms":["TSNAXIP1","TXI1"]}
 {"id":"UNIPROT:Q2TAC2","label":"Coiled-coil domain-containing protein 57","obsolete":false,"synonyms":["CCDC57"]}
 {"id":"UNIPROT:Q2TAC6","label":"Kinesin-like protein KIF19","obsolete":false,"synonyms":["KIF19"]}
@@ -4819,6 +4869,7 @@
 {"id":"UNIPROT:Q2VY69","label":"Zinc finger protein 284","obsolete":false,"synonyms":["ZNF284","ZNF284L"]}
 {"id":"UNIPROT:Q2WEN9","label":"Cell adhesion molecule CEACAM16","obsolete":false,"synonyms":["CEACAM16","CEAL2","Carcinoembryonic antigen-like 2","Carcinoembryonic antigen-related cell adhesion molecule 16"]}
 {"id":"UNIPROT:Q2WGJ6","label":"Kelch-like protein 38","obsolete":false,"synonyms":["KLHL38","C8orfK36"]}
+{"id":"UNIPROT:Q2WGJ8","label":"Cation channel sperm-associated auxiliary subunit theta","obsolete":false,"synonyms":["CATSPERQ","C8orfK29","TMEM249","Cation channel sperm-associated auxiliary subunit TMEM249","Catsper channel auxiliary subunit theta","Transmembrane protein 249"]}
 {"id":"UNIPROT:Q2WGN9","label":"GRB2-associated-binding protein 4","obsolete":false,"synonyms":["GAB4","GRB2-associated binder 2-like","GRB2-associated binder 4","GRB2-associated-binding protein 2-like","Growth factor receptor bound protein 2-associated protein 4"]}
 {"id":"UNIPROT:Q2Y0W8","label":"Electroneutral sodium bicarbonate exchanger 1","obsolete":false,"synonyms":["SLC4A8","KIAA0739","NBC","NBC3","NDCBE1","Electroneutral Na(+)-driven Cl-HCO3 exchanger","Solute carrier family 4 member 8","k-NBC3"]}
 {"id":"UNIPROT:Q30154","label":"HLA class II histocompatibility antigen, DR beta 5 chain","obsolete":false,"synonyms":["HLA-DRB5","DR beta-5","DR2-beta-2","Dw2","MHC class II antigen DRB5"]}
@@ -4975,6 +5026,8 @@
 {"id":"UNIPROT:Q4VXU2","label":"Polyadenylate-binding protein 1-like","obsolete":false,"synonyms":["PABPC1L","C20orf119","EPAB","Embryonic poly(A)-binding protein","Poly(A) binding protein cytoplasmic 1 like"]}
 {"id":"UNIPROT:Q4W5P6","label":"Small integral membrane protein 43","obsolete":false,"synonyms":["SMIM43","TMEM155","Nodal enhanced mesendoderm micropeptide"]}
 {"id":"UNIPROT:Q4ZG55","label":"Protein GREB1","obsolete":false,"synonyms":["GREB1","KIAA0575","Gene regulated in breast cancer 1 protein"]}
+{"id":"UNIPROT:Q4ZIN3","label":"Membralin","obsolete":false,"synonyms":["TMEM259","C19orf6","Transmembrane protein 259"]}
+{"id":"UNIPROT:Q4ZJI4","label":"Sodium/hydrogen exchanger 9B1","obsolete":false,"synonyms":["SLC9B1","NHA1","NHEDC1","Na(+)/H(+) exchanger-like domain-containing protein 1","Sodium/hydrogen exchanger-like domain-containing protein 1","Solute carrier family 9, subfamily B member 1"]}
 {"id":"UNIPROT:Q502W6","label":"von Willebrand factor A domain-containing protein 3B","obsolete":false,"synonyms":["VWA3B"]}
 {"id":"UNIPROT:Q504Q3","label":"PAN2-PAN3 deadenylation complex catalytic subunit PAN2","obsolete":false,"synonyms":["PAN2","KIAA0710","USP52","Inactive ubiquitin carboxyl-terminal hydrolase 52","PAB1P-dependent poly(A)-specific ribonuclease","Poly(A)-nuclease deadenylation complex subunit 2"]}
 {"id":"UNIPROT:Q504T8","label":"Midnolin","obsolete":false,"synonyms":["MIDN","Midbrain nucleolar protein"]}
@@ -5016,6 +5069,7 @@
 {"id":"UNIPROT:Q53RT3","label":"Retroviral-like aspartic protease 1","obsolete":false,"synonyms":["ASPRV1","SASP","Skin-specific retroviral-like aspartic protease","TPA-inducible aspartic proteinase-like protein"]}
 {"id":"UNIPROT:Q53RY4","label":"Keratinocyte-associated protein 3","obsolete":false,"synonyms":["KRTCAP3","KCP3"]}
 {"id":"UNIPROT:Q53S33","label":"BolA-like protein 3","obsolete":false,"synonyms":["BOLA3"]}
+{"id":"UNIPROT:Q53S58","label":"Transmembrane protein 177","obsolete":false,"synonyms":["TMEM177"]}
 {"id":"UNIPROT:Q53S99","label":"Putative solute carrier family 19 member 4","obsolete":false,"synonyms":["SLC19A4P","C2orf83","Folate transporter-like protein C2orf83","Solute carrier family 19 member 4, pseudogene"]}
 {"id":"UNIPROT:Q53T94","label":"TATA box-binding protein-associated factor RNA polymerase I subunit B","obsolete":false,"synonyms":["TAF1B","RNA polymerase I-specific TBP-associated factor 63 kDa","TATA box-binding protein-associated factor 1B","Transcription initiation factor SL1/TIF-IB subunit B"]}
 {"id":"UNIPROT:Q53TN4","label":"Plasma membrane ascorbate-dependent reductase CYBRD1","obsolete":false,"synonyms":["CYBRD1","DCYTB","FRRS3","Cytochrome b reductase 1","Duodenal cytochrome b","Ferric-chelate reductase 3"]}
@@ -5069,6 +5123,7 @@
 {"id":"UNIPROT:Q5HYK3","label":"2-methoxy-6-polyprenyl-1,4-benzoquinol methylase, mitochondrial","obsolete":false,"synonyms":["COQ5","Ubiquinone biosynthesis methyltransferase COQ5"]}
 {"id":"UNIPROT:Q5HYK7","label":"SH3 domain-containing protein 19","obsolete":false,"synonyms":["SH3D19","ADAM-binding protein Eve-1","EEN-binding protein"]}
 {"id":"UNIPROT:Q5HYK9","label":"Zinc finger protein 667","obsolete":false,"synonyms":["ZNF667"]}
+{"id":"UNIPROT:Q5HYL7","label":"Transmembrane protein 196","obsolete":false,"synonyms":["TMEM196"]}
 {"id":"UNIPROT:Q5HYW2","label":"NHS-like protein 2","obsolete":false,"synonyms":["NHSL2"]}
 {"id":"UNIPROT:Q5I0X7","label":"Tetratricopeptide repeat protein 32","obsolete":false,"synonyms":["TTC32"]}
 {"id":"UNIPROT:Q5I7T1","label":"Dol-P-Glc:Glc(2)Man(9)GlcNAc(2)-PP-Dol alpha-1,2-glucosyltransferase B","obsolete":false,"synonyms":["ALG10B","KCR1","Alpha-1,2-glucosyltransferase ALG10-A","Alpha-2-glucosyltransferase ALG10-B","Asparagine-linked glycosylation protein 10 homolog B","Potassium channel regulator 1"]}
@@ -5085,6 +5140,7 @@
 {"id":"UNIPROT:Q5JRA6","label":"Transport and Golgi organization protein 1 homolog","obsolete":false,"synonyms":["MIA3","KIAA0268","TANGO","C219-reactive peptide","D320","Melanoma inhibitory activity protein 3"]}
 {"id":"UNIPROT:Q5JRK9","label":"Putative G antigen family E member 3","obsolete":false,"synonyms":["PAGE2B","GAGEE3","Prostate-associated gene 2B protein"]}
 {"id":"UNIPROT:Q5JRS4","label":"Olfactory receptor 10J3","obsolete":false,"synonyms":["OR10J3","OR10J3P"]}
+{"id":"UNIPROT:Q5JRV8","label":"Transmembrane protein 255A","obsolete":false,"synonyms":["TMEM255A","FAM70A","Protein FAM70A"]}
 {"id":"UNIPROT:Q5JRX3","label":"Presequence protease, mitochondrial","obsolete":false,"synonyms":["PITRM1","KIAA1104","MP1","PREP","Pitrilysin metalloproteinase 1"]}
 {"id":"UNIPROT:Q5JS13","label":"Ras-specific guanine nucleotide-releasing factor RalGPS1","obsolete":false,"synonyms":["RALGPS1","KIAA0351","RALGEF2","Ral GEF with PH domain and SH3-binding motif 1","Ral guanine nucleotide exchange factor 2","RalA exchange factor RalGPS1"]}
 {"id":"UNIPROT:Q5JS54","label":"Proteasome assembly chaperone 4","obsolete":false,"synonyms":["PSMG4","C6orf86","PAC4","Proteasome chaperone homolog 4"]}
@@ -5107,6 +5163,7 @@
 {"id":"UNIPROT:Q5JWF2","label":"Guanine nucleotide-binding protein G(s) subunit alpha isoforms XLas","obsolete":false,"synonyms":["GNAS","GNAS1","Adenylate cyclase-stimulating G alpha protein","Extra large alphas protein"]}
 {"id":"UNIPROT:Q5JX71","label":"Protein FAM209A","obsolete":false,"synonyms":["FAM209A","C20orf106"]}
 {"id":"UNIPROT:Q5JXA9","label":"Signal-regulatory protein beta-2","obsolete":false,"synonyms":["SIRPB2","PTPN1L","PTPNS1L3","Protein tyrosine phosphatase non-receptor type substrate 1-like 3","Protein tyrosine phosphatase non-receptor type substrate protein"]}
+{"id":"UNIPROT:Q5JXX7","label":"Transmembrane protein 31","obsolete":false,"synonyms":["TMEM31"]}
 {"id":"UNIPROT:Q5JY77","label":"G protein-coupled receptor-associated sorting protein 1","obsolete":false,"synonyms":["GPRASP1","GASP","KIAA0443"]}
 {"id":"UNIPROT:Q5K4L6","label":"Long-chain fatty acid transport protein 3","obsolete":false,"synonyms":["SLC27A3","ACSVL3","FATP3","Arachidonate--CoA ligase","Long-chain-fatty-acid--CoA ligase","Solute carrier family 27 member 3","Very long-chain acyl-CoA synthetase homolog 3"]}
 {"id":"UNIPROT:Q5KU26","label":"Collectin-12","obsolete":false,"synonyms":["COLEC12","CLP1","NSR2","SCARA4","SRCL","Collectin placenta protein 1","Nurse cell scavenger receptor 2","Scavenger receptor class A member 4","Scavenger receptor with C-type lectin"]}
@@ -5152,6 +5209,7 @@
 {"id":"UNIPROT:Q5SRN2","label":"Testis-expressed basic protein 1","obsolete":false,"synonyms":["TSBP1","C6orf10","Uncharacterized protein C6orf10"]}
 {"id":"UNIPROT:Q5ST30","label":"Valine--tRNA ligase, mitochondrial","obsolete":false,"synonyms":["VARS2","KIAA1885","VARS2L","VARSL","Valyl-tRNA synthetase","Valyl-tRNA synthetase-like"]}
 {"id":"UNIPROT:Q5STR5","label":"Small integral membrane protein 40","obsolete":false,"synonyms":["SMIM40"]}
+{"id":"UNIPROT:Q5SV17","label":"Transmembrane protein 240","obsolete":false,"synonyms":["TMEM240","C1orf70"]}
 {"id":"UNIPROT:Q5SVQ8","label":"Zinc finger and BTB domain-containing protein 41","obsolete":false,"synonyms":["ZBTB41","FRBZ1"]}
 {"id":"UNIPROT:Q5SVS4","label":"Kidney mitochondrial carrier protein 1","obsolete":false,"synonyms":["SLC25A30","KMCP1","UCP6","Solute carrier family 25 member 30","Uncoupling protein 6"]}
 {"id":"UNIPROT:Q5SW24","label":"Dapper homolog 2","obsolete":false,"synonyms":["DACT2","C6orf116","Dapper antagonist of catenin 2"]}
@@ -5178,6 +5236,7 @@
 {"id":"UNIPROT:Q5T1Q4","label":"Solute carrier family 35 member F1","obsolete":false,"synonyms":["SLC35F1","C6orf169"]}
 {"id":"UNIPROT:Q5T1R4","label":"Transcription factor HIVEP3","obsolete":false,"synonyms":["HIVEP3","KBP1","KIAA1555","KRC","ZAS3","Human immunodeficiency virus type I enhancer-binding protein 3","Kappa-B and V(D)J recombination signal sequences-binding protein","Kappa-binding protein 1","Zinc finger protein ZAS3"]}
 {"id":"UNIPROT:Q5T280","label":"28S rRNA (uridine-N(3))-methyltransferase","obsolete":false,"synonyms":["SPOUT1","C9orf114","Centromere protein 32","Kinetochore-associated protein","Methyltransferase C9orf114","Ribosomal RNA methyltransferase SPOUT1","SPOUT domain-containing methyltransferase 1"]}
+{"id":"UNIPROT:Q5T292","label":"Transmembrane protein 273","obsolete":false,"synonyms":["TMEM273","C10orf128"]}
 {"id":"UNIPROT:Q5T2D2","label":"Trem-like transcript 2 protein","obsolete":false,"synonyms":["TREML2","C6orf76","TLT2","Triggering receptor expressed on myeloid cells-like protein 2"]}
 {"id":"UNIPROT:Q5T2R2","label":"All trans-polyprenyl-diphosphate synthase PDSS1","obsolete":false,"synonyms":["PDSS1","DPS1","TPRT","All-trans-decaprenyl-diphosphate synthase subunit 1","Decaprenyl pyrophosphate synthase subunit 1","Decaprenyl-diphosphate synthase subunit 1","Solanesyl-diphosphate synthase subunit 1","Trans-prenyltransferase 1"]}
 {"id":"UNIPROT:Q5T2S8","label":"Outer dynein arm-docking complex subunit 2","obsolete":false,"synonyms":["ODAD2","ARMC4","Armadillo repeat-containing protein 4"]}
@@ -5190,6 +5249,7 @@
 {"id":"UNIPROT:Q5T4F4","label":"Protrudin","obsolete":false,"synonyms":["ZFYVE27","SPG33","Spastic paraplegia 33 protein","Zinc finger FYVE domain-containing protein 27"]}
 {"id":"UNIPROT:Q5T4F7","label":"Secreted frizzled-related protein 5","obsolete":false,"synonyms":["SFRP5","FRP1B","SARP3","Frizzled-related protein 1b","Secreted apoptosis-related protein 3"]}
 {"id":"UNIPROT:Q5T4S7","label":"E3 ubiquitin-protein ligase UBR4","obsolete":false,"synonyms":["UBR4","KIAA0462","KIAA1307","RBAF600","600 kDa retinoblastoma protein-associated factor","N-recognin-4","Retinoblastoma-associated factor of 600 kDa"]}
+{"id":"UNIPROT:Q5T4T1","label":"Transmembrane protein 170B","obsolete":false,"synonyms":["TMEM170B"]}
 {"id":"UNIPROT:Q5T4T6","label":"Synaptonemal complex protein 2-like","obsolete":false,"synonyms":["SYCP2L","C6orf177","NO145","145 kDa nucleolar protein homolog"]}
 {"id":"UNIPROT:Q5T4W7","label":"Artemin","obsolete":false,"synonyms":["ARTN","EVN","Enovin","Neublastin"]}
 {"id":"UNIPROT:Q5T5A8","label":"Late cornified envelope protein 3C","obsolete":false,"synonyms":["LCE3C","LEP15","SPRL3A","Late envelope protein 15","Small proline-rich-like epidermal differentiation complex protein 3A"]}
@@ -5232,6 +5292,7 @@
 {"id":"UNIPROT:Q5TA78","label":"Late cornified envelope protein 4A","obsolete":false,"synonyms":["LCE4A","LEP8","SPRL4A","Late envelope protein 8","Small proline-rich-like epidermal differentiation complex protein 4A"]}
 {"id":"UNIPROT:Q5TA82","label":"Late cornified envelope protein 2D","obsolete":false,"synonyms":["LCE2D","LEP12","SPRL1A","Late envelope protein 12","Small proline-rich-like epidermal differentiation complex protein 1A"]}
 {"id":"UNIPROT:Q5TAA0","label":"Tetratricopeptide repeat protein 22","obsolete":false,"synonyms":["TTC22"]}
+{"id":"UNIPROT:Q5TAH2","label":"Sodium/hydrogen exchanger 11","obsolete":false,"synonyms":["SLC9C2","SLC9A11","Na(+)/H(+) exchanger 11","Solute carrier family 9 member 11","Solute carrier family 9 member C2"]}
 {"id":"UNIPROT:Q5TAQ9","label":"DDB1- and CUL4-associated factor 8","obsolete":false,"synonyms":["DCAF8","H326","WDR42A","WD repeat-containing protein 42A"]}
 {"id":"UNIPROT:Q5TAT6","label":"Collagen alpha-1(XIII) chain","obsolete":false,"synonyms":["COL13A1","COLXIIIA1"]}
 {"id":"UNIPROT:Q5TB80","label":"Centrosomal protein of 162 kDa","obsolete":false,"synonyms":["CEP162","C6orf84","KIAA1009","QN1","Protein QN1 homolog"]}
@@ -5262,6 +5323,7 @@
 {"id":"UNIPROT:Q5TZ20","label":"Olfactory receptor 2G6","obsolete":false,"synonyms":["OR2G6"]}
 {"id":"UNIPROT:Q5TZA2","label":"Rootletin","obsolete":false,"synonyms":["CROCC","KIAA0445","Ciliary rootlet coiled-coil protein"]}
 {"id":"UNIPROT:Q5TZF3","label":"Ankyrin repeat domain-containing protein 45","obsolete":false,"synonyms":["ANKRD45"]}
+{"id":"UNIPROT:Q5U3C3","label":"Transmembrane protein 164","obsolete":false,"synonyms":["TMEM164","Arachidonoyl ether phospholipid synthase"]}
 {"id":"UNIPROT:Q5U5Q3","label":"RNA-binding E3 ubiquitin-protein ligase MEX3C","obsolete":false,"synonyms":["MEX3C","RKHD2","RNF194","RING finger and KH domain-containing protein 2","RING finger protein 194","RING-type E3 ubiquitin transferase MEX3C"]}
 {"id":"UNIPROT:Q5U5Z8","label":"Cytosolic carboxypeptidase 2","obsolete":false,"synonyms":["AGBL2","CCP2","ATP/GTP-binding protein-like 2","Protein deglutamylase CCP2"]}
 {"id":"UNIPROT:Q5U623","label":"Activating transcription factor 7-interacting protein 2","obsolete":false,"synonyms":["ATF7IP2","MCAF2","MBD1-containing chromatin-associated factor 2"]}
@@ -5294,6 +5356,7 @@
 {"id":"UNIPROT:Q5VV52","label":"Zinc finger protein 691","obsolete":false,"synonyms":["ZNF691"]}
 {"id":"UNIPROT:Q5VV63","label":"Attractin-like protein 1","obsolete":false,"synonyms":["ATRNL1","KIAA0534"]}
 {"id":"UNIPROT:Q5VV67","label":"Peroxisome proliferator-activated receptor gamma coactivator-related protein 1","obsolete":false,"synonyms":["PPRC1","KIAA0595","PGC-1-related coactivator"]}
+{"id":"UNIPROT:Q5VVB8","label":"Putative transmembrane protein 244","obsolete":false,"synonyms":["TMEM244","C6orf191"]}
 {"id":"UNIPROT:Q5VVC0","label":"Protein SPO16 homolog","obsolete":false,"synonyms":["SPO16","C1orf146","SCRE","Synaptonemal complex reinforcing element"]}
 {"id":"UNIPROT:Q5VVW2","label":"GTPase-activating Rap/Ran-GAP domain-like protein 3","obsolete":false,"synonyms":["GARNL3"]}
 {"id":"UNIPROT:Q5VW38","label":"Protein GPR107","obsolete":false,"synonyms":["GPR107","KIAA1624","LUSTR1","Lung seven transmembrane receptor 1"]}
@@ -5316,12 +5379,15 @@
 {"id":"UNIPROT:Q5VZ18","label":"SH2 domain-containing adapter protein E","obsolete":false,"synonyms":["SHE"]}
 {"id":"UNIPROT:Q5VZ66","label":"Janus kinase and microtubule-interacting protein 3","obsolete":false,"synonyms":["JAKMIP3","C10orf14","C10orf39","JAMIP3","NECC2","Neuroendocrine long coiled-coil protein 2"]}
 {"id":"UNIPROT:Q5VZE5","label":"N-alpha-acetyltransferase 35, NatC auxiliary subunit","obsolete":false,"synonyms":["NAA35","EGAP","MAK10","Embryonic growth-associated protein homolog","Protein MAK10 homolog"]}
+{"id":"UNIPROT:Q5VZI3","label":"Transmembrane protein 268","obsolete":false,"synonyms":["TMEM268","C9orf91"]}
 {"id":"UNIPROT:Q5VZK9","label":"F-actin-uncapping protein LRRC16A","obsolete":false,"synonyms":["CARMIL1","CARMIL","LRRC16","LRRC16A","CARMIL homolog","Capping protein regulator and myosin 1 linker protein 1","Capping protein, Arp2/3 and myosin-I linker homolog 1","Capping protein, Arp2/3 and myosin-I linker protein 1","Leucine-rich repeat-containing protein 16A"]}
 {"id":"UNIPROT:Q5VZL5","label":"Zinc finger MYM-type protein 4","obsolete":false,"synonyms":["ZMYM4","KIAA0425","ZNF262","Zinc finger protein 262"]}
 {"id":"UNIPROT:Q5VZR2","label":"NUT family member 2G","obsolete":false,"synonyms":["NUTM2G","FAM22G"]}
+{"id":"UNIPROT:Q5VZR4","label":"Putative solute carrier family 71 member 3","obsolete":false,"synonyms":["SLC71A3P","HIATL2","MFSD14C","MFSD14CP","Hippocampus abundant transcript-like protein 2","Major facilitator superfamily domain-containing protein 14C","Solute carrier family 71 member 3, pseudogene"]}
 {"id":"UNIPROT:Q5VZY2","label":"Phospholipid phosphatase 4","obsolete":false,"synonyms":["PLPP4","DPPL2","PPAPDC1","PPAPDC1A","Phosphatidic acid phosphatase type 2 domain-containing protein 1A"]}
 {"id":"UNIPROT:Q5W041","label":"Armadillo repeat-containing protein 3","obsolete":false,"synonyms":["ARMC3","Beta-catenin-like protein","Cancer/testis antigen 81","KU-CT-1"]}
 {"id":"UNIPROT:Q5W0B1","label":"ORC ubiquitin ligase 1","obsolete":false,"synonyms":["OBI1","C13orf7","RNF219","RING finger protein 219"]}
+{"id":"UNIPROT:Q5W0B7","label":"Transmembrane protein 236","obsolete":false,"synonyms":["TMEM236","FAM23A","FAM23B"]}
 {"id":"UNIPROT:Q5W111","label":"SPRY domain-containing protein 7","obsolete":false,"synonyms":["SPRYD7","C13orf1","CLLD6","Chronic lymphocytic leukemia deletion region gene 6 protein"]}
 {"id":"UNIPROT:Q5W5X9","label":"Tetratricopeptide repeat protein 23","obsolete":false,"synonyms":["TTC23","Cervical cancer proto-oncogene 8 protein"]}
 {"id":"UNIPROT:Q5XG87","label":"Terminal nucleotidyltransferase 4A","obsolete":false,"synonyms":["TENT4A","PAPD7","POLS","TRF4","DNA polymerase sigma","LAK-1","Non-canonical poly(A) RNA polymerase PAPD7","PAP-associated domain-containing protein 7","TRAMP-like complex polyadenylate polymerase","Terminal guanylyltransferase","Terminal uridylyltransferase 5","Topoisomerase-related function protein 4-1"]}
@@ -5352,6 +5418,7 @@
 {"id":"UNIPROT:Q66GS9","label":"Centrosomal protein of 135 kDa","obsolete":false,"synonyms":["CEP135","CEP4","KIAA0635","Centrosomal protein 4"]}
 {"id":"UNIPROT:Q66K14","label":"TBC1 domain family member 9B","obsolete":false,"synonyms":["TBC1D9B","KIAA0676"]}
 {"id":"UNIPROT:Q66K41","label":"Zinc finger protein 385C","obsolete":false,"synonyms":["ZNF385C"]}
+{"id":"UNIPROT:Q66K66","label":"Transmembrane protein 198","obsolete":false,"synonyms":["TMEM198"]}
 {"id":"UNIPROT:Q66K74","label":"Microtubule-associated protein 1S","obsolete":false,"synonyms":["MAP1S","BPY2IP1","C19orf5","MAP8","VCY2IP1","BPY2-interacting protein 1","Microtubule-associated protein 8","Variable charge Y chromosome 2-interacting protein 1"]}
 {"id":"UNIPROT:Q66K80","label":"Putative uncharacterized protein RUSC1-AS1","obsolete":false,"synonyms":["RUSC1-AS1","C1orf104","RUSC1 antisense RNA 1","RUSC1 antisense gene protein 1"]}
 {"id":"UNIPROT:Q674R7","label":"Autophagy-related protein 9B","obsolete":false,"synonyms":["ATG9B","APG9L2","NOS3AS","APG9-like 2","Nitric oxide synthase 3-overlapping antisense gene protein"]}
@@ -5426,6 +5493,7 @@
 {"id":"UNIPROT:Q6GMV2","label":"Protein-lysine N-trimethyltransferase SMYD5","obsolete":false,"synonyms":["SMYD5","RAI15","Protein NN8-4AG","Retinoic acid-induced protein 15","SET and MYND domain-containing protein 5","[histone H3]-lysine20 N-trimethyltransferase SMYD5","[histone H4]-lysine36 N-trimethyltransferase SMYD5"]}
 {"id":"UNIPROT:Q6GMV3","label":"Putative peptidyl-tRNA hydrolase PTRHD1","obsolete":false,"synonyms":["PTRHD1","C2orf79","Peptidyl-tRNA hydrolase domain-containing protein 1"]}
 {"id":"UNIPROT:Q6GPH4","label":"XIAP-associated factor 1","obsolete":false,"synonyms":["XAF1","BIRC4BP","XIAPAF1","BIRC4-binding protein"]}
+{"id":"UNIPROT:Q6GV28","label":"Transmembrane protein 225","obsolete":false,"synonyms":["TMEM225","PMP22CD"]}
 {"id":"UNIPROT:Q6GYQ0","label":"Ral GTPase-activating protein subunit alpha-1","obsolete":false,"synonyms":["RALGAPA1","GARNL1","KIAA0884","TULIP1","GAP-related-interacting partner to E12","GTPase-activating Rap/Ran-GAP domain-like 1","Tuberin-like protein 1","p240"]}
 {"id":"UNIPROT:Q6H3X3","label":"UL-16 binding protein 5","obsolete":false,"synonyms":["RAET1G","ULBP5","Retinoic acid early transcript 1G protein"]}
 {"id":"UNIPROT:Q6H8Q1","label":"Actin-binding LIM protein 2","obsolete":false,"synonyms":["ABLIM2","KIAA1808","Actin-binding LIM protein family member 2"]}
@@ -5440,9 +5508,11 @@
 {"id":"UNIPROT:Q6ICB0","label":"Desumoylating isopeptidase 1","obsolete":false,"synonyms":["DESI1","FAM152B","PPPDE2","PPPDE peptidase domain-containing protein 2","Palmitoyl protein thioesterase DESI1","Polyubiquitinated substrate transporter","S-depalmitoylase DESI1"]}
 {"id":"UNIPROT:Q6ICB4","label":"Sesquipedalian-2","obsolete":false,"synonyms":["PHETA2","FAM109B","27 kDa inositol polyphosphate phosphatase interacting protein B","PH domain-containing endocytic trafficking adaptor 2"]}
 {"id":"UNIPROT:Q6ICG8","label":"Postacrosomal sheath WW domain-binding protein","obsolete":false,"synonyms":["WBP2NL","PAWP","WW domain-binding protein 2-like"]}
+{"id":"UNIPROT:Q6ICI0","label":"LHFPL tetraspan subfamily member 7 protein","obsolete":false,"synonyms":["LHFPL7","TMEM211","Transmembrane protein 211"]}
 {"id":"UNIPROT:Q6ICL3","label":"Transport and Golgi organization protein 2 homolog","obsolete":false,"synonyms":["TANGO2","C22orf25"]}
 {"id":"UNIPROT:Q6ICL7","label":"Solute carrier family 35 member E4","obsolete":false,"synonyms":["SLC35E4"]}
 {"id":"UNIPROT:Q6IE81","label":"Protein Jade-1","obsolete":false,"synonyms":["JADE1","KIAA1807","PHF17","Jade family PHD finger protein 1","PHD finger protein 17"]}
+{"id":"UNIPROT:Q6IEE7","label":"Transmembrane protein 132E","obsolete":false,"synonyms":["TMEM132E"]}
 {"id":"UNIPROT:Q6IEG0","label":"U11/U12 small nuclear ribonucleoprotein 48 kDa protein","obsolete":false,"synonyms":["SNRNP48","C6orf151"]}
 {"id":"UNIPROT:Q6IEU7","label":"Olfactory receptor 5M10","obsolete":false,"synonyms":["OR5M10","Olfactory receptor OR11-207"]}
 {"id":"UNIPROT:Q6IEZ7","label":"Olfactory receptor 2T5","obsolete":false,"synonyms":["OR2T5","Olfactory receptor OR1-62"]}
@@ -5507,6 +5577,7 @@
 {"id":"UNIPROT:Q6NUN7","label":"Jhy protein homolog","obsolete":false,"synonyms":["JHY","C11orf63"]}
 {"id":"UNIPROT:Q6NUN9","label":"Zinc finger protein 746","obsolete":false,"synonyms":["ZNF746","PARIS","Parkin-interacting substrate"]}
 {"id":"UNIPROT:Q6NUP7","label":"Serine/threonine-protein phosphatase 4 regulatory subunit 4","obsolete":false,"synonyms":["PPP4R4","KIAA1622","PP4R4"]}
+{"id":"UNIPROT:Q6NUQ4","label":"Transmembrane protein 214","obsolete":false,"synonyms":["TMEM214"]}
 {"id":"UNIPROT:Q6NV74","label":"CRACD-like protein","obsolete":false,"synonyms":["CRACDL","C2orf55","KIAA1211L"]}
 {"id":"UNIPROT:Q6NVV0","label":"Putative makorin-5","obsolete":false,"synonyms":["MKRN9P","MKRN5","MKRN9","MKRNP6","RNF65","ZNF127L3","Makorin ring finger protein pseudogene 6","Makorin ring finger protein pseudogene 9","Putative RING finger protein 65"]}
 {"id":"UNIPROT:Q6NW34","label":"Ribonuclease MRP subunit P64","obsolete":false,"synonyms":["RMP64","C3orf17","NEPRO","Nucleolus and neural progenitor protein"]}
@@ -5626,6 +5697,7 @@
 {"id":"UNIPROT:Q6Q6R5","label":"Cysteine-rich protein 3","obsolete":false,"synonyms":["CRIP3","CRP3","Chromosome 6 LIM domain only protein"]}
 {"id":"UNIPROT:Q6Q759","label":"Sperm-associated antigen 17","obsolete":false,"synonyms":["SPAG17","Projection protein PF6 homolog"]}
 {"id":"UNIPROT:Q6Q788","label":"Apolipoprotein A-V","obsolete":false,"synonyms":["APOA5","RAP3","Apolipoprotein A5","Regeneration-associated protein 3"]}
+{"id":"UNIPROT:Q6QAJ8","label":"Transmembrane protein 220","obsolete":false,"synonyms":["TMEM220"]}
 {"id":"UNIPROT:Q6QEF8","label":"Coronin-6","obsolete":false,"synonyms":["CORO6","Coronin-like protein E"]}
 {"id":"UNIPROT:Q6QHF9","label":"Peroxisomal N(1)-acetyl-spermine/spermidine oxidase","obsolete":false,"synonyms":["PAOX","PAO","Polyamine oxidase"]}
 {"id":"UNIPROT:Q6QNK2","label":"Adhesion G protein-coupled receptor D1","obsolete":false,"synonyms":["ADGRD1","GPR133","PGR25","G protein-coupled receptor 133","G protein-coupled receptor PGR25"]}
@@ -5661,6 +5733,7 @@
 {"id":"UNIPROT:Q6UB35","label":"Monofunctional C1-tetrahydrofolate synthase, mitochondrial","obsolete":false,"synonyms":["MTHFD1L","FTHFSDC1","Formyltetrahydrofolate synthetase"]}
 {"id":"UNIPROT:Q6UB98","label":"Ankyrin repeat domain-containing protein 12","obsolete":false,"synonyms":["ANKRD12","ANCO2","KIAA0874","Ankyrin repeat-containing cofactor 2","GAC-1 protein"]}
 {"id":"UNIPROT:Q6UB99","label":"Ankyrin repeat domain-containing protein 11","obsolete":false,"synonyms":["ANKRD11","ANCO1","Ankyrin repeat-containing cofactor 1"]}
+{"id":"UNIPROT:Q6UE05","label":"Transmembrane protein 270","obsolete":false,"synonyms":["TMEM270","WBSCR28","Williams-Beuren syndrome chromosomal region 28 protein"]}
 {"id":"UNIPROT:Q6ULP2","label":"Aftiphilin","obsolete":false,"synonyms":["AFTPH","AFTH"]}
 {"id":"UNIPROT:Q6UQ28","label":"Placenta-expressed transcript 1 protein","obsolete":false,"synonyms":["PLET1","C11orf34"]}
 {"id":"UNIPROT:Q6UUV7","label":"CREB-regulated transcription coactivator 3","obsolete":false,"synonyms":["CRTC3","TORC3","Transducer of regulated cAMP response element-binding protein 3"]}
@@ -5688,11 +5761,13 @@
 {"id":"UNIPROT:Q6UWP7","label":"Lysocardiolipin acyltransferase 1","obsolete":false,"synonyms":["LCLAT1","AGPAT8","ALCAT1","LYCAT","1-acylglycerol-3-phosphate O-acyltransferase 8","Acyl-CoA:lysocardiolipin acyltransferase 1"]}
 {"id":"UNIPROT:Q6UWV7","label":"Protein shisa-like-2A","obsolete":false,"synonyms":["SHISAL2A","FAM159A"]}
 {"id":"UNIPROT:Q6UWW8","label":"Carboxylesterase 3","obsolete":false,"synonyms":["CES3","Liver carboxylesterase 31 homolog"]}
+{"id":"UNIPROT:Q6UWW9","label":"Transmembrane protein 207","obsolete":false,"synonyms":["TMEM207"]}
 {"id":"UNIPROT:Q6UWY0","label":"Arylsulfatase K","obsolete":false,"synonyms":["ARSK","TSULF","Glucuronate-2-sulfatase","Telethon sulfatase"]}
 {"id":"UNIPROT:Q6UWZ7","label":"BRCA1-A complex subunit Abraxas 1","obsolete":false,"synonyms":["ABRAXAS1","ABRA1","CCDC98","FAM175A","Coiled-coil domain-containing protein 98","Protein FAM175A"]}
 {"id":"UNIPROT:Q6UX15","label":"Layilin","obsolete":false,"synonyms":["LAYN"]}
 {"id":"UNIPROT:Q6UX27","label":"V-set and transmembrane domain-containing protein 1","obsolete":false,"synonyms":["VSTM1","Signal inhibitory receptor on leukocytes-1"]}
 {"id":"UNIPROT:Q6UX34","label":"Protein SNORC","obsolete":false,"synonyms":["SNORC","C2orf82","Secondary ossification center-associated regulator of chondrocyte maturation protein"]}
+{"id":"UNIPROT:Q6UX40","label":"Transmembrane protein 107","obsolete":false,"synonyms":["TMEM107"]}
 {"id":"UNIPROT:Q6UX46","label":"ALK and LTK ligand 2","obsolete":false,"synonyms":["ALKAL2","FAM150B","Augmentor alpha"]}
 {"id":"UNIPROT:Q6UX53","label":"Thiol S-methyltransferase TMT1B","obsolete":false,"synonyms":["TMT1B","METTL7B","Methyltransferase-like protein 7B","Thiol S-methyltransferase METTL7B"]}
 {"id":"UNIPROT:Q6UX71","label":"Plexin domain-containing protein 2","obsolete":false,"synonyms":["PLXDC2","TEM7R","Tumor endothelial marker 7-related protein"]}
@@ -5710,6 +5785,7 @@
 {"id":"UNIPROT:Q6UXI9","label":"Nephronectin","obsolete":false,"synonyms":["NPNT","EGFL6L","POEM","Preosteoblast EGF-like repeat protein with MAM domain","Protein EGFL6-like"]}
 {"id":"UNIPROT:Q6UXN8","label":"C-type lectin domain family 9 member A","obsolete":false,"synonyms":["CLEC9A"]}
 {"id":"UNIPROT:Q6UXN9","label":"WD repeat-containing protein 82","obsolete":false,"synonyms":["WDR82","SWD2","TMEM113","WDR82A"]}
+{"id":"UNIPROT:Q6UXP3","label":"Transmembrane protein 14EP","obsolete":false,"synonyms":["TMEM14EP","TMEM14E"]}
 {"id":"UNIPROT:Q6UXS9","label":"Inactive caspase-12","obsolete":false,"synonyms":["CASP12"]}
 {"id":"UNIPROT:Q6UXT6","label":"Olfactory receptor OR9H1","obsolete":false,"synonyms":["OR9H1","OR9H1P","Olfactory receptor family 9 subfamily H member 1"]}
 {"id":"UNIPROT:Q6UXT8","label":"ALK and LTK ligand 1","obsolete":false,"synonyms":["ALKAL1","FAM150A","Augmentor beta"]}
@@ -5752,6 +5828,7 @@
 {"id":"UNIPROT:Q6YFQ2","label":"Cytochrome c oxidase subunit 6B2","obsolete":false,"synonyms":["COX6B2","Cancer/testis antigen 59","Cytochrome c oxidase subunit VIb isoform 2","Cytochrome c oxidase subunit VIb, testis-specific isoform"]}
 {"id":"UNIPROT:Q6YHK3","label":"CD109 antigen","obsolete":false,"synonyms":["CD109","CPAMD7","150 kDa TGF-beta-1-binding protein","C3 and PZP-like alpha-2-macroglobulin domain-containing protein 7","Platelet-specific Gov antigen","p180","r150"]}
 {"id":"UNIPROT:Q6YN16","label":"Hydroxysteroid dehydrogenase-like protein 2","obsolete":false,"synonyms":["HSDL2","C9orf99","SDR13C1","Short chain dehydrogenase/reductase family 13C member 1"]}
+{"id":"UNIPROT:Q6ZMB5","label":"Transmembrane protein 184A","obsolete":false,"synonyms":["TMEM184A"]}
 {"id":"UNIPROT:Q6ZMG9","label":"Ceramide synthase 6","obsolete":false,"synonyms":["CERS6","LASS6","LAG1 longevity assurance homolog 6","Sphingoid base N-palmitoyltransferase CERS6","Sphingosine N-acyltransferase CERS6"]}
 {"id":"UNIPROT:Q6ZMH5","label":"Zinc transporter ZIP5","obsolete":false,"synonyms":["SLC39A5","ZIP5","Solute carrier family 39 member 5","Zrt- and Irt-like protein 5"]}
 {"id":"UNIPROT:Q6ZMI0","label":"Protein phosphatase 1 regulatory subunit 21","obsolete":false,"synonyms":["PPP1R21","CCDC128","FERRY2","KLRAQ1","Coiled-coil domain-containing protein 128","Ferry endosomal RAB5 effector complex subunit 2","KLRAQ motif-containing protein 1"]}
@@ -5809,6 +5886,7 @@
 {"id":"UNIPROT:Q6ZRF7","label":"Putative zinc finger protein 818","obsolete":false,"synonyms":["ZNF818P","ZNF818"]}
 {"id":"UNIPROT:Q6ZRF8","label":"RING finger protein 207","obsolete":false,"synonyms":["RNF207","C1orf188"]}
 {"id":"UNIPROT:Q6ZRQ5","label":"Protein MMS22-like","obsolete":false,"synonyms":["MMS22L","C6orf167","Methyl methanesulfonate-sensitivity protein 22-like"]}
+{"id":"UNIPROT:Q6ZRR5","label":"TLC domain-containing protein 5","obsolete":false,"synonyms":["TLCD5","TMEM136","Transmembrane protein 136"]}
 {"id":"UNIPROT:Q6ZRS2","label":"Chromatin remodeling protein SRCAP","obsolete":false,"synonyms":["SRCAP","KIAA0309","Domino homolog 2","Snf2-related CBP activator"]}
 {"id":"UNIPROT:Q6ZRV2","label":"Scaffolding CK1 anchoring protein H","obsolete":false,"synonyms":["SACK1H","FAM83H","Protein FAM83H"]}
 {"id":"UNIPROT:Q6ZRY4","label":"RNA-binding protein with multiple splicing 2","obsolete":false,"synonyms":["RBPMS2","RNA binding protein, mRNA processing factor 2"]}
@@ -5844,10 +5922,12 @@
 {"id":"UNIPROT:Q6ZUA9","label":"Maestro heat-like repeat family member 5","obsolete":false,"synonyms":["MROH5"]}
 {"id":"UNIPROT:Q6ZUI0","label":"Tumor protein p63-regulated gene 1 protein","obsolete":false,"synonyms":["TPRG1","FAM79B","Protein FAM79B"]}
 {"id":"UNIPROT:Q6ZUJ8","label":"Phosphoinositide 3-kinase adapter protein 1","obsolete":false,"synonyms":["PIK3AP1","BCAP","B-cell adapter for phosphoinositide 3-kinase","B-cell phosphoinositide 3-kinase adapter protein 1"]}
+{"id":"UNIPROT:Q6ZUK4","label":"Transmembrane protein 26","obsolete":false,"synonyms":["TMEM26"]}
 {"id":"UNIPROT:Q6ZUM4","label":"Rho GTPase-activating protein 27","obsolete":false,"synonyms":["ARHGAP27","CAMGAP1","SH3D20","CIN85-associated multi-domain-containing Rho GTPase-activating protein 1","Rho-type GTPase-activating protein 27","SH3 domain-containing protein 20"]}
 {"id":"UNIPROT:Q6ZV73","label":"FYVE, RhoGEF and PH domain-containing protein 6","obsolete":false,"synonyms":["FGD6","KIAA1362","ZFYVE24","Zinc finger FYVE domain-containing protein 24"]}
 {"id":"UNIPROT:Q6ZV89","label":"SH2 domain-containing protein 5","obsolete":false,"synonyms":["SH2D5"]}
 {"id":"UNIPROT:Q6ZVE7","label":"Vesicle transport protein GOT1A","obsolete":false,"synonyms":["GOLT1A","GOT1B","Golgi transport 1 homolog A","hGOT1b"]}
+{"id":"UNIPROT:Q6ZVK1","label":"Transmembrane protein 179","obsolete":false,"synonyms":["TMEM179","C14orf90","TMEM179A","Transmembrane protein 179A"]}
 {"id":"UNIPROT:Q6ZVK8","label":"8-oxo-dGDP phosphatase NUDT18","obsolete":false,"synonyms":["NUDT18","MTH3","2-hydroxy-dADP phosphatase","7,8-dihydro-8-oxoguanine phosphatase","MutT homolog 3","Nucleoside diphosphate-linked moiety X motif 18"]}
 {"id":"UNIPROT:Q6ZVT0","label":"Inactive polyglycylase TTLL10","obsolete":false,"synonyms":["TTLL10","Tubulin--tyrosine ligase-like protein 10"]}
 {"id":"UNIPROT:Q6ZVX7","label":"F-box only protein 50","obsolete":false,"synonyms":["NCCRP1","FBXO50","NCC receptor protein 1 homolog","Non-specific cytotoxic cell receptor protein 1 homolog"]}
@@ -6038,6 +6118,7 @@
 {"id":"UNIPROT:Q7Z5P9","label":"Mucin-19","obsolete":false,"synonyms":["MUC19"]}
 {"id":"UNIPROT:Q7Z5Q5","label":"DNA polymerase nu","obsolete":false,"synonyms":["POLN"]}
 {"id":"UNIPROT:Q7Z5R6","label":"Amyloid beta A4 precursor protein-binding family B member 1-interacting protein","obsolete":false,"synonyms":["APBB1IP","PREL1","RARP1","RIAM","APBB1-interacting protein 1","Proline-rich EVH1 ligand 1","Proline-rich protein 73","Rap1-GTP-interacting adapter molecule","Retinoic acid-responsive proline-rich protein 1"]}
+{"id":"UNIPROT:Q7Z5S9","label":"Transmembrane protein 144","obsolete":false,"synonyms":["TMEM144"]}
 {"id":"UNIPROT:Q7Z5Y7","label":"BTB/POZ domain-containing protein KCTD20","obsolete":false,"synonyms":["KCTD20","C6orf69","Potassium channel tetramerization domain containing 20"]}
 {"id":"UNIPROT:Q7Z602","label":"Probable G protein-coupled receptor 141","obsolete":false,"synonyms":["GPR141","PGR13","G protein-coupled receptor PGR13"]}
 {"id":"UNIPROT:Q7Z614","label":"Sorting nexin-20","obsolete":false,"synonyms":["SNX20","SLIC1","Selectin ligand-interactor cytoplasmic 1"]}
@@ -6085,6 +6166,7 @@
 {"id":"UNIPROT:Q7Z7L9","label":"Zinc finger and SCAN domain-containing protein 2","obsolete":false,"synonyms":["ZSCAN2","ZFP29","ZNF854","Zinc finger protein 29 homolog","Zinc finger protein 854"]}
 {"id":"UNIPROT:Q7Z7M0","label":"Multiple epidermal growth factor-like domains protein 8","obsolete":false,"synonyms":["MEGF8","C19orf49","EGFL4","KIAA0817","Epidermal growth factor-like protein 4"]}
 {"id":"UNIPROT:Q7Z7M9","label":"Polypeptide N-acetylgalactosaminyltransferase 5","obsolete":false,"synonyms":["GALNT5","Polypeptide GalNAc transferase 5","Protein-UDP acetylgalactosaminyltransferase 5","UDP-GalNAc:polypeptide N-acetylgalactosaminyltransferase 5"]}
+{"id":"UNIPROT:Q7Z7N9","label":"Transmembrane protein 179B","obsolete":false,"synonyms":["TMEM179B"]}
 {"id":"UNIPROT:Q86SE5","label":"RNA-binding Raly-like protein","obsolete":false,"synonyms":["RALYL","HNRPCL3","Heterogeneous nuclear ribonucleoprotein C-like 3"]}
 {"id":"UNIPROT:Q86SE9","label":"Polycomb group RING finger protein 5","obsolete":false,"synonyms":["PCGF5","RNF159","RING finger protein 159"]}
 {"id":"UNIPROT:Q86SF2","label":"N-acetylgalactosaminyltransferase 7","obsolete":false,"synonyms":["GALNT7","Polypeptide GalNAc transferase 7","Protein-UDP acetylgalactosaminyltransferase 7","UDP-GalNAc:polypeptide N-acetylgalactosaminyltransferase 7"]}
@@ -6131,6 +6213,7 @@
 {"id":"UNIPROT:Q86U44","label":"N(6)-adenosine-methyltransferase catalytic subunit METTL3","obsolete":false,"synonyms":["METTL3","MTA70","Methyltransferase-like protein 3","N(6)-adenosine-methyltransferase 70 kDa subunit"]}
 {"id":"UNIPROT:Q86U70","label":"LIM domain-binding protein 1","obsolete":false,"synonyms":["LDB1","CLIM2","Carboxyl-terminal LIM domain-binding protein 2","LIM domain-binding factor CLIM2","Nuclear LIM interactor"]}
 {"id":"UNIPROT:Q86U86","label":"Protein polybromo-1","obsolete":false,"synonyms":["PBRM1","BAF180","PB1","BRG1-associated factor 180","Polybromo-1D"]}
+{"id":"UNIPROT:Q86UB9","label":"Transmembrane protein 135","obsolete":false,"synonyms":["TMEM135","Peroxisomal membrane protein 52"]}
 {"id":"UNIPROT:Q86UC2","label":"Radial spoke head protein 3 homolog","obsolete":false,"synonyms":["RSPH3","RSHL2","RSP3","A-kinase anchor protein RSPH3","Radial spoke head-like protein 2"]}
 {"id":"UNIPROT:Q86UD3","label":"E3 ubiquitin-protein ligase MARCHF3","obsolete":false,"synonyms":["MARCHF3","MARCH3","RNF173","Membrane-associated RING finger protein 3","Membrane-associated RING-CH protein III","RING finger protein 173","RING-type E3 ubiquitin transferase MARCHF3"]}
 {"id":"UNIPROT:Q86UD4","label":"Zinc finger protein 329","obsolete":false,"synonyms":["ZNF329"]}
@@ -6187,6 +6270,7 @@
 {"id":"UNIPROT:Q86VX2","label":"COMM domain-containing protein 7","obsolete":false,"synonyms":["COMMD7","C20orf92"]}
 {"id":"UNIPROT:Q86VX9","label":"Vacuolar fusion protein MON1 homolog A","obsolete":false,"synonyms":["MON1A","SAND1"]}
 {"id":"UNIPROT:Q86VY4","label":"Testis-specific Y-encoded-like protein 5","obsolete":false,"synonyms":["TSPYL5","KIAA1750"]}
+{"id":"UNIPROT:Q86VY9","label":"Transmembrane protein 200A","obsolete":false,"synonyms":["TMEM200A","KIAA1913"]}
 {"id":"UNIPROT:Q86VZ5","label":"Phosphatidylcholine:ceramide cholinephosphotransferase 1","obsolete":false,"synonyms":["SGMS1","MOB","SMS1","TMEM23","Ceramide phosphoethanolamine synthase","Medulla oblongata-derived protein","Phosphatidylcholine Phospholipase C","Phosphatidylethanolamine Phospholipase C","Sphingomyelin synthase 1","Transmembrane protein 23"]}
 {"id":"UNIPROT:Q86VZ6","label":"Juxtaposed with another zinc finger protein 1","obsolete":false,"synonyms":["JAZF1","TIP27","ZNF802","TAK1-interacting protein 27","Zinc finger protein 802"]}
 {"id":"UNIPROT:Q86W10","label":"Cytochrome P450 4Z1","obsolete":false,"synonyms":["CYP4Z1","CYPIVZ1","Laurate 7-monooxygenase"]}
@@ -6221,6 +6305,7 @@
 {"id":"UNIPROT:Q86WW8","label":"Cytochrome c oxidase assembly factor 5","obsolete":false,"synonyms":["COA5","C2orf64","PET191"]}
 {"id":"UNIPROT:Q86WX3","label":"Active regulator of SIRT1","obsolete":false,"synonyms":["RPS19BP1","AROS","40S ribosomal protein S19-binding protein 1"]}
 {"id":"UNIPROT:Q86WZ6","label":"Zinc finger protein 227","obsolete":false,"synonyms":["ZNF227"]}
+{"id":"UNIPROT:Q86X19","label":"Transmembrane protein 17","obsolete":false,"synonyms":["TMEM17"]}
 {"id":"UNIPROT:Q86X24","label":"HORMA domain-containing protein 1","obsolete":false,"synonyms":["HORMAD1","NOHMA","Cancer/testis antigen 46","Newborn ovary HORMA protein"]}
 {"id":"UNIPROT:Q86X45","label":"Dynein axonemal assembly factor 11","obsolete":false,"synonyms":["DNAAF11","LRRC6","LRTP","TSLRP","Leucine-rich repeat-containing protein 6","Leucine-rich testis-specific protein","Protein tilB homolog","Testis-specific leucine-rich repeat protein"]}
 {"id":"UNIPROT:Q86X52","label":"Chondroitin sulfate synthase 1","obsolete":false,"synonyms":["CHSY1","CHSY","CSS1","KIAA0990","Chondroitin glucuronyltransferase 1","Chondroitin synthase 1","Glucuronosyl-N-acetylgalactosaminyl-proteoglycan 4-beta-N-acetylgalactosaminyltransferase 1","N-acetylgalactosaminyl-proteoglycan 3-beta-glucuronosyltransferase 1","N-acetylgalactosaminyltransferase 1"]}
@@ -6246,6 +6331,7 @@
 {"id":"UNIPROT:Q86XS5","label":"Angiopoietin-related protein 5","obsolete":false,"synonyms":["ANGPTL5","Angiopoietin-like protein 5"]}
 {"id":"UNIPROT:Q86XS8","label":"E3 ubiquitin-protein ligase RNF130","obsolete":false,"synonyms":["RNF130","Goliath homolog","RING finger protein 130","RING-type E3 ubiquitin transferase RNF130"]}
 {"id":"UNIPROT:Q86XT2","label":"Vacuolar protein sorting-associated protein 37D","obsolete":false,"synonyms":["VPS37D","WBSCR24","ESCRT-I complex subunit VPS37D","Williams-Beuren syndrome chromosomal region 24 protein"]}
+{"id":"UNIPROT:Q86XT9","label":"Insulin-like growth factor-binding protein 3 receptor","obsolete":false,"synonyms":["TMEM219","Transmembrane protein 219"]}
 {"id":"UNIPROT:Q86XU0","label":"Zinc finger protein 677","obsolete":false,"synonyms":["ZNF677"]}
 {"id":"UNIPROT:Q86XZ4","label":"Spermatogenesis-associated serine-rich protein 2","obsolete":false,"synonyms":["SPATS2","SCR59","SPATA10","Serine-rich spermatocytes and round spermatid 59 kDa protein","p59scr"]}
 {"id":"UNIPROT:Q86Y07","label":"Serine/threonine-protein kinase VRK2","obsolete":false,"synonyms":["VRK2","Vaccinia-related kinase 2"]}
@@ -6329,6 +6415,7 @@
 {"id":"UNIPROT:Q8IV61","label":"Ras guanyl-releasing protein 3","obsolete":false,"synonyms":["RASGRP3","GRP3","KIAA0846","Calcium and DAG-regulated guanine nucleotide exchange factor III","Guanine nucleotide exchange factor for Rap1"]}
 {"id":"UNIPROT:Q8IV76","label":"Circadian clock protein PASD1","obsolete":false,"synonyms":["PASD1","Cancer/testis antigen 63","OX-TES-1","PAS domain-containing protein 1"]}
 {"id":"UNIPROT:Q8IVA1","label":"Purkinje cell protein 2 homolog","obsolete":false,"synonyms":["PCP2"]}
+{"id":"UNIPROT:Q8IVB4","label":"Sodium/hydrogen exchanger 9","obsolete":false,"synonyms":["SLC9A9","NHE9","Na(+)/H(+) exchanger 9","Solute carrier family 9 member 9"]}
 {"id":"UNIPROT:Q8IVC4","label":"Zinc finger protein 584","obsolete":false,"synonyms":["ZNF584"]}
 {"id":"UNIPROT:Q8IVD9","label":"NudC domain-containing protein 3","obsolete":false,"synonyms":["NUDCD3","KIAA1068"]}
 {"id":"UNIPROT:Q8IVE0","label":"Putative ciliary rootlet coiled-coil protein-like 2 protein","obsolete":false,"synonyms":["CROCCP3","CROCCL2","KIAA1922","Ciliary rootlet coiled-coil protein pseudogene 3"]}
@@ -6356,6 +6443,7 @@
 {"id":"UNIPROT:Q8IW36","label":"Zinc finger protein 695","obsolete":false,"synonyms":["ZNF695","Zinc finger protein SBZF3"]}
 {"id":"UNIPROT:Q8IW40","label":"Dynein axonemal assembly factor 19","obsolete":false,"synonyms":["DNAAF19","CCDC103","Coiled-coil domain-containing protein 103"]}
 {"id":"UNIPROT:Q8IW41","label":"MAP kinase-activated protein kinase 5","obsolete":false,"synonyms":["MAPKAPK5","PRAK","p38-regulated/activated protein kinase"]}
+{"id":"UNIPROT:Q8IW70","label":"Transmembrane protein 151B","obsolete":false,"synonyms":["TMEM151B","C6orf137","TMEM193","Transmembrane protein 193"]}
 {"id":"UNIPROT:Q8IW75","label":"Serpin A12","obsolete":false,"synonyms":["SERPINA12","OL-64","Visceral adipose tissue-derived serine protease inhibitor","Visceral adipose-specific serpin"]}
 {"id":"UNIPROT:Q8IWA0","label":"WD repeat-containing protein 75","obsolete":false,"synonyms":["WDR75","UTP17","U3 small nucleolar RNA-associated protein 17 homolog"]}
 {"id":"UNIPROT:Q8IWA4","label":"Mitofusin-1","obsolete":false,"synonyms":["MFN1","Fzo homolog","Transmembrane GTPase MFN1"]}
@@ -6412,6 +6500,7 @@
 {"id":"UNIPROT:Q8IXT5","label":"RNA-binding protein 12B","obsolete":false,"synonyms":["RBM12B","RNA-binding motif protein 12B"]}
 {"id":"UNIPROT:Q8IXU6","label":"Queuine/queuosine transporter SLC35F2","obsolete":false,"synonyms":["SLC35F2","Solute carrier family 35 member F2"]}
 {"id":"UNIPROT:Q8IXV7","label":"Kelch domain-containing protein 8B","obsolete":false,"synonyms":["KLHDC8B"]}
+{"id":"UNIPROT:Q8IXX5","label":"Transmembrane protein 183A","obsolete":false,"synonyms":["TMEM183A","C1orf37"]}
 {"id":"UNIPROT:Q8IXZ2","label":"Zinc finger CCCH domain-containing protein 3","obsolete":false,"synonyms":["ZC3H3","KIAA0150","SMICL","ZC3HDC3","Smad-interacting CPSF-like factor"]}
 {"id":"UNIPROT:Q8IY17","label":"Patatin-like phospholipase domain-containing protein 6","obsolete":false,"synonyms":["PNPLA6","NTE","Neuropathy target esterase"]}
 {"id":"UNIPROT:Q8IY18","label":"Structural maintenance of chromosomes protein 5","obsolete":false,"synonyms":["SMC5","KIAA0594","SMC5L1"]}
@@ -6496,6 +6585,7 @@
 {"id":"UNIPROT:Q8IZX4","label":"Transcription initiation factor TFIID subunit 1-like","obsolete":false,"synonyms":["TAF1L","TAF(II)210","TBP-associated factor 1-like","TBP-associated factor 210 kDa","Transcription initiation factor TFIID 210 kDa subunit"]}
 {"id":"UNIPROT:Q8IZY2","label":"Phospholipid-transporting ATPase ABCA7","obsolete":false,"synonyms":["ABCA7","ABCA-SSN","ATP-binding cassette sub-family A member 7","Autoantigen SS-N","Macrophage ABC transporter"]}
 {"id":"UNIPROT:Q8J025","label":"Protein APCDD1","obsolete":false,"synonyms":["APCDD1","DRAPC1","Adenomatosis polyposis coli down-regulated 1 protein"]}
+{"id":"UNIPROT:Q8MH63","label":"Putative L-type amino acid transporter 1-like protein MLAS","obsolete":false,"synonyms":["SLC7A5P1","MLAS","hLAT1 3-transmembrane protein MLAS"]}
 {"id":"UNIPROT:Q8N0S2","label":"Synaptonemal complex central element protein 1","obsolete":false,"synonyms":["SYCE1","C10orf94","Cancer/testis antigen 76"]}
 {"id":"UNIPROT:Q8N0S6","label":"Centromere protein L","obsolete":false,"synonyms":["CENPL","C1orf155","ICEN33","Interphase centromere complex protein 33"]}
 {"id":"UNIPROT:Q8N0T1","label":"Ribosomal biogenesis factor","obsolete":false,"synonyms":["RBIS","C8orf59"]}
@@ -6568,6 +6658,7 @@
 {"id":"UNIPROT:Q8N2K0","label":"Lysophosphatidylserine lipase ABHD12","obsolete":false,"synonyms":["ABHD12","C20orf22","2-arachidonoylglycerol hydrolase ABHD12","Abhydrolase domain-containing protein 12","Monoacylglycerol lipase ABHD12","Oxidized phosphatidylserine lipase ABHD12"]}
 {"id":"UNIPROT:Q8N2M4","label":"Lysoplasmalogenase TMEM86A","obsolete":false,"synonyms":["TMEM86A","Transmembrane protein 86A"]}
 {"id":"UNIPROT:Q8N2N9","label":"Ankyrin repeat domain-containing protein 36B","obsolete":false,"synonyms":["ANKRD36B","CLL-associated antigen KW-1"]}
+{"id":"UNIPROT:Q8N2U0","label":"Transmembrane protein 256","obsolete":false,"synonyms":["TMEM256","C17orf61"]}
 {"id":"UNIPROT:Q8N2U9","label":"Solute carrier family 66 member 2","obsolete":false,"synonyms":["SLC66A2","PQLC1","PQ-loop repeat-containing protein 1"]}
 {"id":"UNIPROT:Q8N2W9","label":"E3 SUMO-protein ligase PIAS4","obsolete":false,"synonyms":["PIAS4","PIASG","PIASy","Protein inhibitor of activated STAT protein 4","Protein inhibitor of activated STAT protein gamma"]}
 {"id":"UNIPROT:Q8N2Z9","label":"Centromere protein S","obsolete":false,"synonyms":["CENPS","APITD1","FAAP16","MHF1","Apoptosis-inducing TAF9-like domain-containing protein 1","FANCM-associated histone fold protein 1","FANCM-interacting histone fold protein 1","Fanconi anemia-associated polypeptide of 16 kDa"]}
@@ -6593,6 +6684,7 @@
 {"id":"UNIPROT:Q8N3P4","label":"Vacuolar protein sorting-associated protein 8 homolog","obsolete":false,"synonyms":["VPS8","KIAA0804"]}
 {"id":"UNIPROT:Q8N3R9","label":"Protein PALS1","obsolete":false,"synonyms":["PALS1","MPP5","MAGUK p55 subfamily member 5","Membrane protein, palmitoylated 5","Protein associated with Lin-7 1"]}
 {"id":"UNIPROT:Q8N3T1","label":"Polypeptide N-acetylgalactosaminyltransferase 15","obsolete":false,"synonyms":["GALNT15","GALNTL2","Polypeptide GalNAc transferase-like protein 2","Polypeptide N-acetylgalactosaminyltransferase-like protein 2","Protein-UDP acetylgalactosaminyltransferase-like protein 2","UDP-GalNAc:polypeptide N-acetylgalactosaminyltransferase-like protein 2"]}
+{"id":"UNIPROT:Q8N3T6","label":"Transmembrane protein 132C","obsolete":false,"synonyms":["TMEM132C"]}
 {"id":"UNIPROT:Q8N3U4","label":"Cohesin subunit SA-2","obsolete":false,"synonyms":["STAG2","SA2","SCC3 homolog 2","Stromal antigen 2"]}
 {"id":"UNIPROT:Q8N3V7","label":"Synaptopodin","obsolete":false,"synonyms":["SYNPO","KIAA1029"]}
 {"id":"UNIPROT:Q8N3X1","label":"Formin-binding protein 4","obsolete":false,"synonyms":["FNBP4","FBP30","KIAA1014","Formin-binding protein 30"]}
@@ -6661,6 +6753,8 @@
 {"id":"UNIPROT:Q8N5Y8","label":"Protein mono-ADP-ribosyltransferase PARP16","obsolete":false,"synonyms":["PARP16","ARTD15","C15orf30","ADP-ribosyltransferase diphtheria toxin-like 15","Poly [ADP-ribose] polymerase 16"]}
 {"id":"UNIPROT:Q8N5Z5","label":"BTB/POZ domain-containing protein KCTD17","obsolete":false,"synonyms":["KCTD17"]}
 {"id":"UNIPROT:Q8N612","label":"FHF complex subunit HOOK-interacting protein 1B","obsolete":false,"synonyms":["FHIP1B","C11orf56","FAM160A2","KIAA1759","FTS- and Hook-interacting protein"]}
+{"id":"UNIPROT:Q8N614","label":"Transmembrane protein 156","obsolete":false,"synonyms":["TMEM156"]}
+{"id":"UNIPROT:Q8N616","label":"Putative uncharacterized protein encoded by LINC00311","obsolete":false,"synonyms":["LINC00311","NCRNA00311","TMEM148"]}
 {"id":"UNIPROT:Q8N628","label":"Olfactory receptor 2C3","obsolete":false,"synonyms":["OR2C3","OR2C4","OR2C5P","Olfactory receptor 2C4","Olfactory receptor 2C5","Olfactory receptor OR1-30"]}
 {"id":"UNIPROT:Q8N661","label":"Lysoplasmalogenase TMEM86B","obsolete":false,"synonyms":["TMEM86B","Transmembrane protein 86B"]}
 {"id":"UNIPROT:Q8N668","label":"COMM domain-containing protein 1","obsolete":false,"synonyms":["COMMD1","C2orf5","MURR1","Protein Murr1"]}
@@ -6681,6 +6775,7 @@
 {"id":"UNIPROT:Q8N6I4","label":"Lysosomal enzyme trafficking factor","obsolete":false,"synonyms":["LYSET","C14orf109","TMEM251","GNPTAB cleavage and activity factor","Transmembrane protein 251"]}
 {"id":"UNIPROT:Q8N6L0","label":"Protein KASH5","obsolete":false,"synonyms":["KASH5","CCDC155","Coiled-coil domain-containing protein 155","KASH domain-containing protein 5"]}
 {"id":"UNIPROT:Q8N6L1","label":"Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit KCP2","obsolete":false,"synonyms":["KRTCAP2","KCP2","Keratinocyte-associated protein 2"]}
+{"id":"UNIPROT:Q8N6L7","label":"Transmembrane protein 252","obsolete":false,"synonyms":["TMEM252","C9orf71"]}
 {"id":"UNIPROT:Q8N6M9","label":"AN1-type zinc finger protein 2A","obsolete":false,"synonyms":["ZFAND2A"]}
 {"id":"UNIPROT:Q8N6N2","label":"Tetratricopeptide repeat protein 9B","obsolete":false,"synonyms":["TTC9B"]}
 {"id":"UNIPROT:Q8N6R1","label":"Stress-associated endoplasmic reticulum protein 2","obsolete":false,"synonyms":["SERP2","C13orf21","Ribosome-associated membrane protein RAMP4-2"]}
@@ -6697,6 +6792,7 @@
 {"id":"UNIPROT:Q8N7A1","label":"Kelch domain-containing protein 1","obsolete":false,"synonyms":["KLHDC1"]}
 {"id":"UNIPROT:Q8N7B6","label":"PACRG-like protein","obsolete":false,"synonyms":["PACRGL","C4orf28"]}
 {"id":"UNIPROT:Q8N7C3","label":"Probable E3 ubiquitin-protein ligase TRIML2","obsolete":false,"synonyms":["TRIML2","SPRYD6","RING-type E3 ubiquitin transferase TRIML2","SPRY domain-containing protein 6","Tripartite motif family-like protein 2"]}
+{"id":"UNIPROT:Q8N7C4","label":"Transmembrane protein 217","obsolete":false,"synonyms":["TMEM217","C6orf128"]}
 {"id":"UNIPROT:Q8N7E2","label":"E3 ubiquitin-protein ligase CBLL2","obsolete":false,"synonyms":["CBLL2","ZNF645","Cbl proto-oncogene-like protein 2","RING-type E3 ubiquitin transferase ZNF645","Zinc finger protein 645","c-Cbl-like protein 2"]}
 {"id":"UNIPROT:Q8N7G0","label":"POU domain, class 5, transcription factor 2","obsolete":false,"synonyms":["POU5F2","SPRM1","Sperm 1 POU domain transcription factor"]}
 {"id":"UNIPROT:Q8N7H5","label":"RNA polymerase II-associated factor 1 homolog","obsolete":false,"synonyms":["PAF1","PD2","Pancreatic differentiation protein 2"]}
@@ -6734,6 +6830,7 @@
 {"id":"UNIPROT:Q8N8Q8","label":"Cytochrome c oxidase assembly protein COX18, mitochondrial","obsolete":false,"synonyms":["COX18","OXA1L2","Cytochrome c oxidase assembly protein 18"]}
 {"id":"UNIPROT:Q8N8R3","label":"Mitochondrial basic amino acids transporter","obsolete":false,"synonyms":["SLC25A29","C14orf69","ORNT3","Carnitine/acylcarnitine translocase-like","Mitochondrial carnitine/acylcarnitine carrier protein CACL","Mitochondrial ornithine transporter 3","Solute carrier family 25 member 29"]}
 {"id":"UNIPROT:Q8N8V4","label":"Ankyrin repeat and SAM domain-containing protein 4B","obsolete":false,"synonyms":["ANKS4B","HARP","Harmonin-interacting ankyrin repeat-containing protein"]}
+{"id":"UNIPROT:Q8N8V8","label":"Transmembrane protein 105","obsolete":false,"synonyms":["TMEM105"]}
 {"id":"UNIPROT:Q8N8X9","label":"Protein mab-21-like 3","obsolete":false,"synonyms":["MAB21L3","C1orf161"]}
 {"id":"UNIPROT:Q8N8Y2","label":"V-type proton ATPase subunit d 2","obsolete":false,"synonyms":["ATP6V0D2","Vacuolar proton pump subunit d 2"]}
 {"id":"UNIPROT:Q8N8Y5","label":"Zinc finger protein 41 homolog","obsolete":false,"synonyms":["ZFP41"]}
@@ -6818,6 +6915,7 @@
 {"id":"UNIPROT:Q8NBS3","label":"Solute carrier family 4 member 11","obsolete":false,"synonyms":["SLC4A11","BTR1","Sodium borate cotransporter 1"]}
 {"id":"UNIPROT:Q8NBT0","label":"POC1 centriolar protein homolog A","obsolete":false,"synonyms":["POC1A","WDR51A","Pix2","Proteome of centriole protein 1A","WD repeat-containing protein 51A"]}
 {"id":"UNIPROT:Q8NBT2","label":"Kinetochore protein Spc24","obsolete":false,"synonyms":["SPC24","SPBC24"]}
+{"id":"UNIPROT:Q8NBT3","label":"Transmembrane protein 145","obsolete":false,"synonyms":["TMEM145"]}
 {"id":"UNIPROT:Q8NBU5","label":"Outer mitochondrial transmembrane helix translocase","obsolete":false,"synonyms":["ATAD1","ATPase family AAA domain-containing protein 1","Thorase"]}
 {"id":"UNIPROT:Q8NBV4","label":"Inactive phospholipid phosphatase 7","obsolete":false,"synonyms":["PLPP7","C9orf67","PPAPDC3","Phosphatidic acid phosphatase type 2 domain-containing protein 3"]}
 {"id":"UNIPROT:Q8NBV8","label":"Synaptotagmin-8","obsolete":false,"synonyms":["SYT8","Synaptotagmin VIII"]}
@@ -6848,6 +6946,7 @@
 {"id":"UNIPROT:Q8NCK3","label":"Zinc finger protein 485","obsolete":false,"synonyms":["ZNF485"]}
 {"id":"UNIPROT:Q8NCK7","label":"Monocarboxylate transporter 11","obsolete":false,"synonyms":["SLC16A11","MCT11","Solute carrier family 16 member 11"]}
 {"id":"UNIPROT:Q8NCL4","label":"Polypeptide N-acetylgalactosaminyltransferase 6","obsolete":false,"synonyms":["GALNT6","Polypeptide GalNAc transferase 6","Protein-UDP acetylgalactosaminyltransferase 6","UDP-GalNAc:polypeptide N-acetylgalactosaminyltransferase 6"]}
+{"id":"UNIPROT:Q8NCL8","label":"Transmembrane protein 116","obsolete":false,"synonyms":["TMEM116"]}
 {"id":"UNIPROT:Q8NCL9","label":"Protein APCDD1-like","obsolete":false,"synonyms":["APCDD1L","Adenomatosis polyposis coli down-regulated 1 protein-like"]}
 {"id":"UNIPROT:Q8NCM2","label":"Voltage-gated delayed rectifier potassium channel KCNH5","obsolete":false,"synonyms":["KCNH5","EAG2","Ether-a-go-go potassium channel 2","Potassium voltage-gated channel subfamily H member 5","Voltage-gated potassium channel subunit Kv10.2"]}
 {"id":"UNIPROT:Q8NCM8","label":"Cytoplasmic dynein 2 heavy chain 1","obsolete":false,"synonyms":["DYNC2H1","DHC1B","DHC2","DNCH2","DYH1B","KIAA1997","Cytoplasmic dynein 2 heavy chain","Dynein cytoplasmic heavy chain 2","Dynein heavy chain 11","Dynein heavy chain isotype 1B"]}
@@ -6857,6 +6956,8 @@
 {"id":"UNIPROT:Q8NCQ5","label":"F-box only protein 15","obsolete":false,"synonyms":["FBXO15","FBX15"]}
 {"id":"UNIPROT:Q8NCR0","label":"UDP-GalNAc:beta-1,3-N-acetylgalactosaminyltransferase 2","obsolete":false,"synonyms":["B3GALNT2","Beta-1,3-N-acetylgalactosaminyltransferase II"]}
 {"id":"UNIPROT:Q8NCR6","label":"Sperm microtubule inner protein 6","obsolete":false,"synonyms":["SPMIP6","C9orf24","CBE1","SMRP1","Ciliated bronchial epithelial protein 1","Spermatid-specific manchette-related protein 1","Testis development protein NYD-SP22"]}
+{"id":"UNIPROT:Q8NCR9","label":"Clarin-3","obsolete":false,"synonyms":["CLRN3","TMEM12","USH3AL1","Transmembrane protein 12","Usher syndrome type-3A-like protein 1"]}
+{"id":"UNIPROT:Q8NCS4","label":"Transmembrane protein 35B","obsolete":false,"synonyms":["TMEM35B","ZMYM6NB","ZMYM6 neighbor protein"]}
 {"id":"UNIPROT:Q8NCS7","label":"Choline transporter-like protein 5","obsolete":false,"synonyms":["SLC44A5","CTL5","Solute carrier family 44 member 5"]}
 {"id":"UNIPROT:Q8NCT1","label":"Arrestin domain-containing protein 4","obsolete":false,"synonyms":["ARRDC4"]}
 {"id":"UNIPROT:Q8NCU1","label":"Uncharacterized protein CCDC197","obsolete":false,"synonyms":["CCDC197","C14orf48","LINC00521","Coiled-coil domain-containing protein 197"]}
@@ -6872,6 +6973,7 @@
 {"id":"UNIPROT:Q8ND76","label":"Cyclin-Y","obsolete":false,"synonyms":["CCNY","C10orf9","CBCP1","CFP1","Cyclin box protein 1","Cyclin fold protein 1","cyclin-X"]}
 {"id":"UNIPROT:Q8ND82","label":"Zinc finger protein 280C","obsolete":false,"synonyms":["ZNF280C","SUHW3","ZNF633","Suppressor of hairy wing homolog 3","Zinc finger protein 633"]}
 {"id":"UNIPROT:Q8NDA8","label":"Maestro heat-like repeat-containing protein family member 1","obsolete":false,"synonyms":["MROH1","HEATR7A","KIAA1833","HEAT repeat-containing protein 7A"]}
+{"id":"UNIPROT:Q8NDB6","label":"Protein FAM156A/FAM156B","obsolete":false,"synonyms":["FAM156A | FAM156B","TMEM29","TMEM29B","Transmembrane protein 29/29B"]}
 {"id":"UNIPROT:Q8NDF8","label":"Terminal nucleotidyltransferase 4B","obsolete":false,"synonyms":["TENT4B","GLD4","PAPD5","TRF4-2","TUT3","Non-canonical poly(A) RNA polymerase PAPD5","PAP-associated domain-containing protein 5","Terminal guanylyltransferase","Terminal uridylyltransferase 3","Topoisomerase-related function protein 4-2"]}
 {"id":"UNIPROT:Q8NDL9","label":"Cytosolic carboxypeptidase-like protein 5","obsolete":false,"synonyms":["AGBL5","CCP5","ATP/GTP-binding protein-like 5","Protein deglutamylase CCP5"]}
 {"id":"UNIPROT:Q8NDM7","label":"Cilia- and flagella-associated protein 43","obsolete":false,"synonyms":["CFAP43","C10orf79","WDR96","WD repeat-containing protein 96"]}
@@ -6887,6 +6989,7 @@
 {"id":"UNIPROT:Q8NDX2","label":"Vesicular glutamate transporter 3","obsolete":false,"synonyms":["SLC17A8","VGLUT3","Solute carrier family 17 member 8"]}
 {"id":"UNIPROT:Q8NDX6","label":"Zinc finger protein 740","obsolete":false,"synonyms":["ZNF740","TB7","OriLyt TD-element-binding protein 7"]}
 {"id":"UNIPROT:Q8NDZ2","label":"SUMO-interacting motif-containing protein 1","obsolete":false,"synonyms":["SIMC1","C5orf25","PLEIAD","Platform element for inhibition of autolytic degradation"]}
+{"id":"UNIPROT:Q8NDZ6","label":"Transmembrane protein 161B","obsolete":false,"synonyms":["TMEM161B"]}
 {"id":"UNIPROT:Q8NE00","label":"Putative sodium-coupled neutral amino acid transporter 12","obsolete":false,"synonyms":["SLC38A12","TMEM104","Solute carrier family 38 member 12"]}
 {"id":"UNIPROT:Q8NE09","label":"Regulator of G protein signaling 22","obsolete":false,"synonyms":["RGS22"]}
 {"id":"UNIPROT:Q8NE31","label":"Protein FAM13C","obsolete":false,"synonyms":["FAM13C","FAM13C1"]}
@@ -7263,6 +7366,7 @@
 {"id":"UNIPROT:Q8TB69","label":"Zinc finger protein 519","obsolete":false,"synonyms":["ZNF519"]}
 {"id":"UNIPROT:Q8TBA6","label":"Golgin subfamily A member 5","obsolete":false,"synonyms":["GOLGA5","RETII","RFG5","Cell proliferation-inducing gene 31 protein","Golgin-84","Protein Ret-II","RET-fused gene 5 protein"]}
 {"id":"UNIPROT:Q8TBB5","label":"Kelch domain-containing protein 4","obsolete":false,"synonyms":["KLHDC4"]}
+{"id":"UNIPROT:Q8TBB6","label":"Solute carrier family 7 member 14","obsolete":false,"synonyms":["SLC7A14","KIAA1613","Gamma-aminobutyric acid transporter SLC7A14"]}
 {"id":"UNIPROT:Q8TBC3","label":"SH3KBP1-binding protein 1","obsolete":false,"synonyms":["SHKBP1","SB1","SETA-binding protein 1"]}
 {"id":"UNIPROT:Q8TBC5","label":"Zinc finger and SCAN domain-containing protein 18","obsolete":false,"synonyms":["ZSCAN18","ZNF447","Zinc finger protein 447"]}
 {"id":"UNIPROT:Q8TBE7","label":"Solute carrier family 35 member G2","obsolete":false,"synonyms":["SLC35G2","TMEM22","Transmembrane protein 22"]}
@@ -7271,9 +7375,12 @@
 {"id":"UNIPROT:Q8TBJ4","label":"Phospholipid phosphatase-related protein type 1","obsolete":false,"synonyms":["PLPPR1","LPPR1","PRG3","Inactive 2-lysophosphatidate phosphatase PLPPR1","Lipid phosphate phosphatase-related protein type 1","Plasticity-related gene 3 protein"]}
 {"id":"UNIPROT:Q8TBJ5","label":"Fez family zinc finger protein 2","obsolete":false,"synonyms":["FEZF2","FEZL","ZNF312","Forebrain embryonic zinc finger-like protein 2","Zinc finger protein 312","Zinc finger protein Fez-like"]}
 {"id":"UNIPROT:Q8TBK2","label":"N-lysine methyltransferase SETD6","obsolete":false,"synonyms":["SETD6","SET domain-containing protein 6"]}
+{"id":"UNIPROT:Q8TBM7","label":"Transmembrane protein 254","obsolete":false,"synonyms":["TMEM254","C10orf57"]}
 {"id":"UNIPROT:Q8TBN0","label":"Guanine nucleotide exchange factor for Rab-3A","obsolete":false,"synonyms":["RAB3IL1","Rab-3A-interacting-like protein 1","Rabin3-like 1"]}
 {"id":"UNIPROT:Q8TBP0","label":"TBC1 domain family member 16","obsolete":false,"synonyms":["TBC1D16"]}
+{"id":"UNIPROT:Q8TBP5","label":"Membrane protein FAM174A","obsolete":false,"synonyms":["FAM174A","NS5ATP6","TMEM157","Hepatitis C virus NS5A-transactivated protein 6","Transmembrane protein 157"]}
 {"id":"UNIPROT:Q8TBP6","label":"Mitochondrial glutathione transporter SLC25A40","obsolete":false,"synonyms":["SLC25A40","MCFP","Mitochondrial carrier family protein","Solute carrier family 25 member 40"]}
+{"id":"UNIPROT:Q8TBQ9","label":"Protein kish-A","obsolete":false,"synonyms":["TMEM167A","TMEM167","Transmembrane protein 167","Transmembrane protein 167A"]}
 {"id":"UNIPROT:Q8TBX8","label":"Phosphatidylinositol 5-phosphate 4-kinase type-2 gamma","obsolete":false,"synonyms":["PIP4K2C","PIP5K2C","Phosphatidylinositol 5-phosphate 4-kinase type II gamma"]}
 {"id":"UNIPROT:Q8TBY0","label":"Probable RNA-binding protein 46","obsolete":false,"synonyms":["RBM46","Cancer/testis antigen 68","RNA-binding motif protein 46"]}
 {"id":"UNIPROT:Q8TBY9","label":"Cilia- and flagella-associated protein 251","obsolete":false,"synonyms":["CFAP251","WDR66","WD repeat-containing protein 66"]}
@@ -7449,6 +7556,7 @@
 {"id":"UNIPROT:Q8WUF8","label":"Cotranscriptional regulator ARB2A","obsolete":false,"synonyms":["ARB2A","C5orf21","FAM172A","ARB2 cotranscriptional regulator A","Cotranscriptional regulator FAM172A","Protein FAM172A"]}
 {"id":"UNIPROT:Q8WUG5","label":"Solute carrier family 22 member 17","obsolete":false,"synonyms":["SLC22A17","BOCT","BOIT","24p3 receptor","Brain-type organic cation transporter","Lipocalin-2 receptor","Neutrophil gelatinase-associated lipocalin receptor"]}
 {"id":"UNIPROT:Q8WUH1","label":"Protein Churchill","obsolete":false,"synonyms":["CHURC1","C14orf52","CHCH"]}
+{"id":"UNIPROT:Q8WUH6","label":"Transmembrane protein 263","obsolete":false,"synonyms":["TMEM263","C12orf23"]}
 {"id":"UNIPROT:Q8WUI4","label":"Histone deacetylase 7","obsolete":false,"synonyms":["HDAC7","HDAC7A","Histone deacetylase 7A","Protein deacetylase HDAC7"]}
 {"id":"UNIPROT:Q8WUJ0","label":"Serine/threonine/tyrosine-interacting protein","obsolete":false,"synonyms":["STYX","Inactive tyrosine-protein phosphatase STYX","Phosphoserine/threonine/tyrosine interaction protein"]}
 {"id":"UNIPROT:Q8WUJ1","label":"Neuferricin","obsolete":false,"synonyms":["CYB5D2","Cytochrome b5 domain-containing protein 2"]}
@@ -7461,12 +7569,14 @@
 {"id":"UNIPROT:Q8WUT9","label":"Solute carrier family 25 member 43","obsolete":false,"synonyms":["SLC25A43"]}
 {"id":"UNIPROT:Q8WUU4","label":"Zinc finger protein 296","obsolete":false,"synonyms":["ZNF296","ZNF342","Zinc finger protein 342"]}
 {"id":"UNIPROT:Q8WUU5","label":"GATA zinc finger domain-containing protein 1","obsolete":false,"synonyms":["GATAD1","ODAG","Ocular development-associated gene protein"]}
+{"id":"UNIPROT:Q8WUU8","label":"Transmembrane protein 174","obsolete":false,"synonyms":["TMEM174"]}
 {"id":"UNIPROT:Q8WUX1","label":"Sodium-coupled neutral amino acid transporter 5","obsolete":false,"synonyms":["SLC38A5","JM24","SN2","SNAT5","Solute carrier family 38 member 5","System N transporter 2"]}
 {"id":"UNIPROT:Q8WUX2","label":"Glutathione-specific gamma-glutamylcyclotransferase 2","obsolete":false,"synonyms":["CHAC2","Cation transport regulator-like protein 2"]}
 {"id":"UNIPROT:Q8WUX9","label":"Charged multivesicular body protein 7","obsolete":false,"synonyms":["CHMP7","Chromatin-modifying protein 7"]}
 {"id":"UNIPROT:Q8WUY3","label":"Protein prune homolog 2","obsolete":false,"synonyms":["PRUNE2","BMCC1","BNIPXL","C9orf65","KIAA0367","BNIP2 motif-containing molecule at the C-terminal region 1"]}
 {"id":"UNIPROT:Q8WUY8","label":"Probable N-acetyltransferase 14","obsolete":false,"synonyms":["NAT14","KLP1","K562 cell-derived leucine-zipper-like protein 1"]}
 {"id":"UNIPROT:Q8WV07","label":"Protein LTO1 homolog","obsolete":false,"synonyms":["LTO1","ORAOV1","TAOS1","Oral cancer-overexpressed protein 1","Tumor-amplified and overexpressed sequence 1"]}
+{"id":"UNIPROT:Q8WV15","label":"Transmembrane protein 255B","obsolete":false,"synonyms":["TMEM255B","FAM70B","Protein FAM70B"]}
 {"id":"UNIPROT:Q8WV16","label":"DDB1- and CUL4-associated factor 4","obsolete":false,"synonyms":["DCAF4","WDR21","WDR21A","WD repeat-containing protein 21A"]}
 {"id":"UNIPROT:Q8WV37","label":"Zinc finger protein 480","obsolete":false,"synonyms":["ZNF480"]}
 {"id":"UNIPROT:Q8WV41","label":"Sorting nexin-33","obsolete":false,"synonyms":["SNX33","SH3PX3","SH3PXD3C","SNX30","SH3 and PX domain-containing protein 3"]}
@@ -7477,6 +7587,7 @@
 {"id":"UNIPROT:Q8WVB6","label":"Chromosome transmission fidelity protein 18 homolog","obsolete":false,"synonyms":["CHTF18","C16orf41","CTF18","CHL12"]}
 {"id":"UNIPROT:Q8WVD3","label":"E3 ubiquitin-protein ligase RNF138","obsolete":false,"synonyms":["RNF138","NARF","Nemo-like kinase-associated RING finger protein","RING finger protein 138","RING-type E3 ubiquitin transferase RNF138"]}
 {"id":"UNIPROT:Q8WVD5","label":"RING finger protein 141","obsolete":false,"synonyms":["RNF141","ZNF230","Zinc finger protein 230"]}
+{"id":"UNIPROT:Q8WVE6","label":"Transmembrane protein 171","obsolete":false,"synonyms":["TMEM171"]}
 {"id":"UNIPROT:Q8WVE7","label":"Transmembrane protein 170A","obsolete":false,"synonyms":["TMEM170A","TMEM170"]}
 {"id":"UNIPROT:Q8WVF5","label":"BTB/POZ domain-containing protein KCTD4","obsolete":false,"synonyms":["KCTD4"]}
 {"id":"UNIPROT:Q8WVI0","label":"Ubiquinol-cytochrome c reductase complex assembly factor 5","obsolete":false,"synonyms":["UQCC5","C3orf78","SMIM4","Small integral membrane protein 4"]}
@@ -7504,6 +7615,7 @@
 {"id":"UNIPROT:Q8WW34","label":"Transmembrane protein 239","obsolete":false,"synonyms":["TMEM239"]}
 {"id":"UNIPROT:Q8WW38","label":"Zinc finger protein ZFPM2","obsolete":false,"synonyms":["ZFPM2","FOG2","ZNF89B","Friend of GATA protein 2","Zinc finger protein 89B","Zinc finger protein multitype 2"]}
 {"id":"UNIPROT:Q8WW43","label":"Gamma-secretase subunit APH-1B","obsolete":false,"synonyms":["APH1B","PSFL","Aph-1beta","Presenilin-stabilization factor-like"]}
+{"id":"UNIPROT:Q8WWA1","label":"Transmembrane protein 40","obsolete":false,"synonyms":["TMEM40"]}
 {"id":"UNIPROT:Q8WWB5","label":"PIH1 domain-containing protein 2","obsolete":false,"synonyms":["PIH1D2"]}
 {"id":"UNIPROT:Q8WWB7","label":"Glycosylated lysosomal membrane protein","obsolete":false,"synonyms":["GLMP","C1orf85","Lysosomal protein NCU-G1"]}
 {"id":"UNIPROT:Q8WWC4","label":"m-AAA protease-interacting protein 1, mitochondrial","obsolete":false,"synonyms":["MAIP1","C2orf47","Matrix AAA peptidase-interacting protein 1"]}
@@ -7555,6 +7667,7 @@
 {"id":"UNIPROT:Q8WXI7","label":"Mucin-16","obsolete":false,"synonyms":["MUC16","CA125","Ovarian cancer-related tumor marker CA125","Ovarian carcinoma antigen CA125"]}
 {"id":"UNIPROT:Q8WXI8","label":"C-type lectin domain family 4 member D","obsolete":false,"synonyms":["CLEC4D","CLECSF8","MCL","C-type lectin superfamily member 8","C-type lectin-like receptor 6","Dendritic cell-associated C-type lectin 3"]}
 {"id":"UNIPROT:Q8WXI9","label":"Transcriptional repressor p66-beta","obsolete":false,"synonyms":["GATAD2B","KIAA1150","GATA zinc finger domain-containing protein 2B","p66/p68"]}
+{"id":"UNIPROT:Q8WXS4","label":"Voltage-dependent calcium channel gamma-like subunit","obsolete":false,"synonyms":["TMEM37","PR","Neuronal voltage-gated calcium channel gamma-like subunit","Transmembrane protein 37"]}
 {"id":"UNIPROT:Q8WXS5","label":"Voltage-dependent calcium channel gamma-8 subunit","obsolete":false,"synonyms":["CACNG8","CACNG6","Neuronal voltage-gated calcium channel gamma-8 subunit","Transmembrane AMPAR regulatory protein gamma-8"]}
 {"id":"UNIPROT:Q8WXS8","label":"A disintegrin and metalloproteinase with thrombospondin motifs 14","obsolete":false,"synonyms":["ADAMTS14"]}
 {"id":"UNIPROT:Q8WXW3","label":"Progesterone-induced-blocking factor 1","obsolete":false,"synonyms":["PIBF1","C13orf24","PIBF","Centrosomal protein of 90 kDa"]}
@@ -7581,6 +7694,7 @@
 {"id":"UNIPROT:Q8WZ59","label":"Transmembrane protein 190","obsolete":false,"synonyms":["TMEM190","MDAC1"]}
 {"id":"UNIPROT:Q8WZ60","label":"Kelch-like protein 6","obsolete":false,"synonyms":["KLHL6"]}
 {"id":"UNIPROT:Q8WZ64","label":"Arf-GAP with Rho-GAP domain, ANK repeat and PH domain-containing protein 2","obsolete":false,"synonyms":["ARAP2","CENTD1","KIAA0580","Centaurin-delta-1","Protein PARX"]}
+{"id":"UNIPROT:Q8WZ71","label":"Transmembrane protein 158","obsolete":false,"synonyms":["TMEM158","HBBP","RIS1","40 kDa BINP-binding protein","Ras-induced senescence protein 1"]}
 {"id":"UNIPROT:Q8WZ73","label":"E3 ubiquitin-protein ligase rififylin","obsolete":false,"synonyms":["RFFL","RNF189","RNF34L","Caspase regulator CARP2","Caspases-8 and -10-associated RING finger protein 2","FYVE-RING finger protein Sakura","RING finger and FYVE-like domain-containing protein 1","RING finger protein 189","RING finger protein 34-like","RING-type E3 ubiquitin transferase rififylin"]}
 {"id":"UNIPROT:Q8WZ74","label":"Cortactin-binding protein 2","obsolete":false,"synonyms":["CTTNBP2","C7orf8","CORTBP2","KIAA1758"]}
 {"id":"UNIPROT:Q8WZ75","label":"Roundabout homolog 4","obsolete":false,"synonyms":["ROBO4","Magic roundabout"]}
@@ -7621,6 +7735,7 @@
 {"id":"UNIPROT:Q92570","label":"Nuclear receptor subfamily 4 group A member 3","obsolete":false,"synonyms":["NR4A3","CHN","CSMF","MINOR","NOR1","TEC","Mitogen-induced nuclear orphan receptor","Neuron-derived orphan receptor 1","Nuclear hormone receptor NOR-1","Translocated in extraskeletal chondrosarcoma"]}
 {"id":"UNIPROT:Q92572","label":"AP-3 complex subunit sigma-1","obsolete":false,"synonyms":["AP3S1","CLAPS3","AP-3 complex subunit sigma-3A","Adaptor-related protein complex 3 subunit sigma-1","Clathrin-associated/assembly/adaptor protein, small 3","Sigma-3A-adaptin","Sigma-adaptin 3a"]}
 {"id":"UNIPROT:Q92574","label":"Hamartin","obsolete":false,"synonyms":["TSC1","KIAA0243","TSC","Tuberous sclerosis 1 protein"]}
+{"id":"UNIPROT:Q92581","label":"Sodium/hydrogen exchanger 6","obsolete":false,"synonyms":["SLC9A6","KIAA0267","NHE6","Na(+)/H(+) exchanger 6","Solute carrier family 9 member 6"]}
 {"id":"UNIPROT:Q92583","label":"C-C motif chemokine 17","obsolete":false,"synonyms":["CCL17","SCYA17","TARC","CC chemokine TARC","Small-inducible cytokine A17","Thymus and activation-regulated chemokine"]}
 {"id":"UNIPROT:Q92585","label":"Mastermind-like protein 1","obsolete":false,"synonyms":["MAML1","KIAA0200"]}
 {"id":"UNIPROT:Q92599","label":"Septin-8","obsolete":false,"synonyms":["SEPTIN8","KIAA0202","SEPT8"]}
@@ -7770,6 +7885,7 @@
 {"id":"UNIPROT:Q96A05","label":"V-type proton ATPase subunit E 2","obsolete":false,"synonyms":["ATP6V1E2","ATP6E1","ATP6EL2","ATP6V1EL2","Vacuolar proton pump subunit E 2"]}
 {"id":"UNIPROT:Q96A08","label":"Histone H2B type 1-A","obsolete":false,"synonyms":["H2BC1","HIST1H2BA","TSH2B","Histone H2B, testis","Testis-specific histone H2B"]}
 {"id":"UNIPROT:Q96A11","label":"Galactose-3-O-sulfotransferase 3","obsolete":false,"synonyms":["GAL3ST3","Beta-galactose-3-O-sulfotransferase 3","Gal-beta-1, 3-GalNAc 3'-sulfotransferase 3"]}
+{"id":"UNIPROT:Q96A25","label":"Transmembrane protein 106A","obsolete":false,"synonyms":["TMEM106A"]}
 {"id":"UNIPROT:Q96A26","label":"Protein FAM162A","obsolete":false,"synonyms":["FAM162A","C3orf28","E2IG5","E2-induced gene 5 protein","Growth and transformation-dependent protein"]}
 {"id":"UNIPROT:Q96A29","label":"GDP-fucose transporter 1","obsolete":false,"synonyms":["SLC35C1","FUCT1","Solute carrier family 35 member C1"]}
 {"id":"UNIPROT:Q96A33","label":"PAT complex subunit CCDC47","obsolete":false,"synonyms":["CCDC47","Calumin","Coiled-coil domain-containing protein 47"]}
@@ -7799,6 +7915,7 @@
 {"id":"UNIPROT:Q96AM1","label":"Mas-related G protein-coupled receptor member F","obsolete":false,"synonyms":["MRGPRF","GPR140","GPR168","MRGF","G protein-coupled receptor 140","G protein-coupled receptor 168"]}
 {"id":"UNIPROT:Q96AN5","label":"Transmembrane protein 143","obsolete":false,"synonyms":["TMEM143"]}
 {"id":"UNIPROT:Q96AP0","label":"Adrenocortical dysplasia protein homolog","obsolete":false,"synonyms":["ACD","PIP1","PTOP","TINT1","TPP1","POT1 and TIN2-interacting protein"]}
+{"id":"UNIPROT:Q96AQ2","label":"Transmembrane protein 125","obsolete":false,"synonyms":["TMEM125"]}
 {"id":"UNIPROT:Q96AQ7","label":"Lipid transferase CIDEC","obsolete":false,"synonyms":["CIDEC","FSP27","Cell death activator CIDE-3","Cell death-inducing DFFA-like effector protein C","Fat-specific protein FSP27 homolog"]}
 {"id":"UNIPROT:Q96AQ8","label":"Mitochondrial calcium uniporter regulator 1","obsolete":false,"synonyms":["MCUR1","C6orf79","CCDC90A","Coiled-coil domain-containing protein 90A, mitochondrial"]}
 {"id":"UNIPROT:Q96AV8","label":"Transcription factor E2F7","obsolete":false,"synonyms":["E2F7"]}
@@ -7814,6 +7931,7 @@
 {"id":"UNIPROT:Q96B36","label":"Proline-rich AKT1 substrate 1","obsolete":false,"synonyms":["AKT1S1","PRAS40","40 kDa proline-rich AKT substrate"]}
 {"id":"UNIPROT:Q96B42","label":"Transmembrane protein 18","obsolete":false,"synonyms":["TMEM18"]}
 {"id":"UNIPROT:Q96B54","label":"Zinc finger protein 428","obsolete":false,"synonyms":["ZNF428","C19orf37","Enzyme-like protein PIT13"]}
+{"id":"UNIPROT:Q96B77","label":"Transmembrane protein 186","obsolete":false,"synonyms":["TMEM186","C16orf51"]}
 {"id":"UNIPROT:Q96B86","label":"Repulsive guidance molecule A","obsolete":false,"synonyms":["RGMA","RGM","RGM domain family member A"]}
 {"id":"UNIPROT:Q96B96","label":"Lipid droplet assembly factor 1","obsolete":false,"synonyms":["LDAF1","TMEM159","Promethin","Transmembrane protein 159"]}
 {"id":"UNIPROT:Q96B97","label":"SH3 domain-containing kinase-binding protein 1","obsolete":false,"synonyms":["SH3KBP1","CIN85","CD2-binding protein 3","Cbl-interacting protein of 85 kDa","Human Src family kinase-binding protein 1"]}
@@ -7869,6 +7987,7 @@
 {"id":"UNIPROT:Q96CT7","label":"Coiled-coil domain-containing protein 124","obsolete":false,"synonyms":["CCDC124"]}
 {"id":"UNIPROT:Q96CV9","label":"Optineurin","obsolete":false,"synonyms":["OPTN","FIP2","GLC1E","HIP7","HYPL","NRP","E3-14.7K-interacting protein","Huntingtin yeast partner L","Huntingtin-interacting protein 7","Huntingtin-interacting protein L","NEMO-related protein","Optic neuropathy-inducing protein","Transcription factor IIIA-interacting protein"]}
 {"id":"UNIPROT:Q96CW1","label":"AP-2 complex subunit mu","obsolete":false,"synonyms":["AP2M1","CLAPM1","KIAA0109","AP-2 mu chain","Adaptin-mu2","Adaptor protein complex AP-2 subunit mu","Adaptor-related protein complex 2 subunit mu","Clathrin assembly protein complex 2 mu medium chain","Clathrin coat assembly protein AP50","Clathrin coat-associated protein AP50","HA2 50 kDa subunit","Plasma membrane adaptor AP-2 50 kDa protein"]}
+{"id":"UNIPROT:Q96CW6","label":"Probable RNA polymerase II nuclear localization protein SLC7A6OS","obsolete":false,"synonyms":["SLC7A6OS","ADAMS proteinase-related protein","Solute carrier family 7 member 6 opposite strand transcript"]}
 {"id":"UNIPROT:Q96CW9","label":"Netrin-G2","obsolete":false,"synonyms":["NTNG2","KIAA1857","LMNT2","Laminet-2"]}
 {"id":"UNIPROT:Q96CX2","label":"BTB/POZ domain-containing protein KCTD12","obsolete":false,"synonyms":["KCTD12","C13orf2","KIAA1778","PFET1","Pfetin","Predominantly fetal expressed T1 domain"]}
 {"id":"UNIPROT:Q96CX3","label":"Zinc finger protein 501","obsolete":false,"synonyms":["ZNF501","ZNF52","Zinc finger protein 52"]}
@@ -7932,6 +8051,7 @@
 {"id":"UNIPROT:Q96EV2","label":"RNA-binding protein 33","obsolete":false,"synonyms":["RBM33","PRR8","Proline-rich protein 8","RNA-binding motif protein 33"]}
 {"id":"UNIPROT:Q96EW2","label":"HSPB1-associated protein 1","obsolete":false,"synonyms":["HSPBAP1","PASS1","27 kDa heat shock protein-associated protein 1","Protein associated with small stress protein 1"]}
 {"id":"UNIPROT:Q96EX1","label":"Small integral membrane protein 12","obsolete":false,"synonyms":["SMIM12","C1orf212"]}
+{"id":"UNIPROT:Q96EX2","label":"E3 ubiquitin-protein ligase RNFT2","obsolete":false,"synonyms":["RNFT2","TMEM118","RING finger and transmembrane domain-containing protein 2","Transmembrane protein 118"]}
 {"id":"UNIPROT:Q96EX3","label":"Cytoplasmic dynein 2 intermediate chain 2","obsolete":false,"synonyms":["DYNC2I2","WDR34","Dynein 2 intermediate chain 2","WD repeat-containing protein 34"]}
 {"id":"UNIPROT:Q96EY4","label":"Translation machinery-associated protein 16","obsolete":false,"synonyms":["TMA16","C4orf43"]}
 {"id":"UNIPROT:Q96EY7","label":"Small ribosomal subunit protein mS39","obsolete":false,"synonyms":["PTCD3","MRPS39","28S ribosomal protein S39, mitochondrial","Pentatricopeptide repeat domain-containing protein 3, mitochondrial","Transformation-related gene 15 protein"]}
@@ -7965,12 +8085,14 @@
 {"id":"UNIPROT:Q96GA3","label":"Protein LTV1 homolog","obsolete":false,"synonyms":["LTV1","C6orf93"]}
 {"id":"UNIPROT:Q96GC5","label":"Large ribosomal subunit protein mL48","obsolete":false,"synonyms":["MRPL48","39S ribosomal protein L48, mitochondrial"]}
 {"id":"UNIPROT:Q96GC6","label":"Neurotrophin receptor-interacting factor homolog","obsolete":false,"synonyms":["ZNF274","ZKSCAN19","Zinc finger protein 274","Zinc finger protein HFB101","Zinc finger protein with KRAB and SCAN domains 19","Zinc finger protein zfp2"]}
+{"id":"UNIPROT:Q96GC9","label":"Vacuole membrane protein 1","obsolete":false,"synonyms":["VMP1","TDC1","TMEM49","Transmembrane protein 49"]}
 {"id":"UNIPROT:Q96GD0","label":"Chronophin","obsolete":false,"synonyms":["PDXP","CIN","PLP","PLPP","Pyridoxal phosphate phosphatase"]}
 {"id":"UNIPROT:Q96GD3","label":"Polycomb protein SCMH1","obsolete":false,"synonyms":["SCMH1","Sex comb on midleg homolog 1"]}
 {"id":"UNIPROT:Q96GD4","label":"Aurora kinase B","obsolete":false,"synonyms":["AURKB","AIK2","AIM1","AIRK2","ARK2","STK1","STK12","STK5","Aurora 1","Aurora- and IPL1-like midbody-associated protein 1","Aurora/IPL1-related kinase 2","STK-1","Serine/threonine-protein kinase 12","Serine/threonine-protein kinase 5","Serine/threonine-protein kinase aurora-B"]}
 {"id":"UNIPROT:Q96GE4","label":"Centrosomal protein of 95 kDa","obsolete":false,"synonyms":["CEP95","CCDC45","CEP45","Coiled-coil domain-containing protein 45"]}
 {"id":"UNIPROT:Q96GE5","label":"Zinc finger protein 799","obsolete":false,"synonyms":["ZNF799","ZNF842","Zinc finger protein 842"]}
 {"id":"UNIPROT:Q96GE6","label":"Calmodulin-like protein 4","obsolete":false,"synonyms":["CALML4","Serologically defined breast cancer antigen NY-BR-20"]}
+{"id":"UNIPROT:Q96GE9","label":"Distal membrane-arm assembly complex protein 1","obsolete":false,"synonyms":["DMAC1","C9orf123","TMEM261","Transmembrane protein 261"]}
 {"id":"UNIPROT:Q96GF1","label":"E3 ubiquitin-protein ligase RNF185","obsolete":false,"synonyms":["RNF185","RING finger protein 185"]}
 {"id":"UNIPROT:Q96GG9","label":"DCN1-like protein 1","obsolete":false,"synonyms":["DCUN1D1","DCN1","DCUN1L1","RP42","SCCRO","DCUN1 domain-containing protein 1","Defective in cullin neddylation protein 1-like protein 1","Squamous cell carcinoma-related oncogene"]}
 {"id":"UNIPROT:Q96GM1","label":"Phospholipid phosphatase-related protein type 2","obsolete":false,"synonyms":["PLPPR2","LPPR2","PRG4","Inactive phospholipid phosphatase PLPPR2","Lipid phosphate phosphatase-related protein type 2","Plasticity-related gene 4 protein"]}
@@ -7998,6 +8120,7 @@
 {"id":"UNIPROT:Q96HB5","label":"Coiled-coil domain-containing protein 120","obsolete":false,"synonyms":["CCDC120"]}
 {"id":"UNIPROT:Q96HD1","label":"Protein disulfide isomerase CRELD1","obsolete":false,"synonyms":["CRELD1","CIRRIN","Cysteine-rich with EGF-like domain protein 1"]}
 {"id":"UNIPROT:Q96HG1","label":"Small integral membrane protein 10","obsolete":false,"synonyms":["SMIM10","CXorf69"]}
+{"id":"UNIPROT:Q96HH4","label":"Transmembrane protein 169","obsolete":false,"synonyms":["TMEM169"]}
 {"id":"UNIPROT:Q96HH6","label":"Transmembrane protein 19","obsolete":false,"synonyms":["TMEM19"]}
 {"id":"UNIPROT:Q96HH9","label":"GRAM domain-containing protein 2B","obsolete":false,"synonyms":["GRAMD2B","GRAMD3","NS3TP2","HCV NS3-transactivated protein 2"]}
 {"id":"UNIPROT:Q96HI0","label":"Sentrin-specific protease 5","obsolete":false,"synonyms":["SENP5","Sentrin/SUMO-specific protease SENP5"]}
@@ -8008,6 +8131,7 @@
 {"id":"UNIPROT:Q96HQ0","label":"Zinc finger protein 419","obsolete":false,"synonyms":["ZNF419","ZNF419A"]}
 {"id":"UNIPROT:Q96HT8","label":"MORF4 family-associated protein 1-like 1","obsolete":false,"synonyms":["MRFAP1L1"]}
 {"id":"UNIPROT:Q96HU1","label":"Small G protein signaling modulator 3","obsolete":false,"synonyms":["SGSM3","MAP","RABGAPLP","RUTBC3","Merlin-associated protein","RUN and TBC1 domain-containing protein 3","Rab-GTPase-activating protein-like protein","RabGAP-5"]}
+{"id":"UNIPROT:Q96HV5","label":"Transmembrane protein 41A","obsolete":false,"synonyms":["TMEM41A"]}
 {"id":"UNIPROT:Q96HZ4","label":"Transcription cofactor HES-6","obsolete":false,"synonyms":["HES6","BHLHB41","C-HAIRY1","Class B basic helix-loop-helix protein 41","Hairy and enhancer of split 6"]}
 {"id":"UNIPROT:Q96I13","label":"Protein ABHD8","obsolete":false,"synonyms":["ABHD8","Alpha/beta hydrolase domain-containing protein 8"]}
 {"id":"UNIPROT:Q96I15","label":"Selenocysteine lyase","obsolete":false,"synonyms":["SCLY","SCL"]}
@@ -8016,10 +8140,12 @@
 {"id":"UNIPROT:Q96I27","label":"Zinc finger protein 625","obsolete":false,"synonyms":["ZNF625"]}
 {"id":"UNIPROT:Q96I34","label":"Protein phosphatase 1 regulatory subunit 16A","obsolete":false,"synonyms":["PPP1R16A","MYPT3","Myosin phosphatase-targeting subunit 3"]}
 {"id":"UNIPROT:Q96I36","label":"Cytochrome c oxidase assembly protein COX14","obsolete":false,"synonyms":["COX14","C12orf62"]}
+{"id":"UNIPROT:Q96I45","label":"Transmembrane protein 141","obsolete":false,"synonyms":["TMEM141"]}
 {"id":"UNIPROT:Q96I51","label":"RCC1-like G exchanging factor-like protein","obsolete":false,"synonyms":["RCC1L","WBSCR16","Williams-Beuren syndrome chromosomal region 16 protein"]}
 {"id":"UNIPROT:Q96IF1","label":"LIM domain-containing protein ajuba","obsolete":false,"synonyms":["AJUBA","JUB"]}
 {"id":"UNIPROT:Q96IG2","label":"F-box/LRR-repeat protein 20","obsolete":false,"synonyms":["FBXL20","FBL2","F-box and leucine-rich repeat protein 20","F-box/LRR-repeat protein 2-like"]}
 {"id":"UNIPROT:Q96IJ6","label":"Mannose-1-phosphate guanylyltransferase regulatory subunit alpha","obsolete":false,"synonyms":["GMPPA","GDP-mannose pyrophosphorylase A","GTP-mannose-1-phosphate guanylyltransferase alpha"]}
+{"id":"UNIPROT:Q96IK0","label":"Transmembrane protein 101","obsolete":false,"synonyms":["TMEM101","Putative NF-kappa-B-activating protein 130"]}
 {"id":"UNIPROT:Q96IK5","label":"Germ cell-less protein-like 1","obsolete":false,"synonyms":["GMCL1","BTBD13","GCL","SPATA29","Spermatogenesis-associated protein 29"]}
 {"id":"UNIPROT:Q96IL0","label":"Cytochrome c oxidase assembly factor 8","obsolete":false,"synonyms":["COA8","APOP1","APOPT1","C14orf153","Apoptogenic protein 1, mitochondrial"]}
 {"id":"UNIPROT:Q96IQ9","label":"Zinc finger protein 414","obsolete":false,"synonyms":["ZNF414"]}
@@ -8151,6 +8277,7 @@
 {"id":"UNIPROT:Q96M98","label":"Parkin coregulated gene protein","obsolete":false,"synonyms":["PACRG","GLUP","Molecular chaperone/chaperonin-binding protein","PARK2 coregulated gene protein"]}
 {"id":"UNIPROT:Q96MC2","label":"Dynein regulatory complex protein 1","obsolete":false,"synonyms":["DRC1","C2orf39","CCDC164","Coiled-coil domain-containing protein 164"]}
 {"id":"UNIPROT:Q96MC4","label":"CEP295 N-terminal-like protein","obsolete":false,"synonyms":["CEP295NL","KIAA1731NL","KIAA1731 N-terminal like protein"]}
+{"id":"UNIPROT:Q96MC6","label":"Solute carrier family 71 member 1","obsolete":false,"synonyms":["SLC71A1","HIAT1","MFSD14A","Hippocampus abundant transcript 1 protein","Major facilitator superfamily domain-containing 14A","Putative tetracycline transporter-like protein"]}
 {"id":"UNIPROT:Q96ME1","label":"F-box/LRR-repeat protein 18","obsolete":false,"synonyms":["FBXL18","FBL18","F-box and leucine-rich repeat protein 18"]}
 {"id":"UNIPROT:Q96ME7","label":"Zinc finger protein 512","obsolete":false,"synonyms":["ZNF512","KIAA1805"]}
 {"id":"UNIPROT:Q96MF2","label":"SH3 and cysteine-rich domain-containing protein 3","obsolete":false,"synonyms":["STAC3"]}
@@ -8228,6 +8355,7 @@
 {"id":"UNIPROT:Q96PD5","label":"N-acetylmuramoyl-L-alanine amidase","obsolete":false,"synonyms":["PGLYRP2","PGLYRPL","PGRPL","Peptidoglycan recognition protein 2","Peptidoglycan recognition protein long"]}
 {"id":"UNIPROT:Q96PE1","label":"Adhesion G protein-coupled receptor A2","obsolete":false,"synonyms":["ADGRA2","GPR124","KIAA1531","TEM5","G protein-coupled receptor 124","Tumor endothelial marker 5"]}
 {"id":"UNIPROT:Q96PE2","label":"Rho guanine nucleotide exchange factor 17","obsolete":false,"synonyms":["ARHGEF17","KIAA0337","TEM4","164 kDa Rho-specific guanine-nucleotide exchange factor","Tumor endothelial marker 4"]}
+{"id":"UNIPROT:Q96PE5","label":"Opalin","obsolete":false,"synonyms":["OPALIN","HTMP10","TMEM10","Oligodendrocytic myelin paranodal and inner loop protein","Transmembrane protein 10"]}
 {"id":"UNIPROT:Q96PE6","label":"Zinc finger imprinted 3","obsolete":false,"synonyms":["ZIM3","ZNF657","Zinc finger protein 657"]}
 {"id":"UNIPROT:Q96PF2","label":"Testis-specific serine/threonine-protein kinase 2","obsolete":false,"synonyms":["TSSK2","DGSG","SPOGA2","STK22B","DiGeorge syndrome protein G","Serine/threonine-protein kinase 22B"]}
 {"id":"UNIPROT:Q96PK6","label":"RNA-binding protein 14","obsolete":false,"synonyms":["RBM14","SIP","Paraspeckle protein 2","RNA-binding motif protein 14","RRM-containing coactivator activator/modulator","Synaptotagmin-interacting protein"]}
@@ -8256,6 +8384,7 @@
 {"id":"UNIPROT:Q96Q06","label":"Perilipin-4","obsolete":false,"synonyms":["PLIN4","KIAA1881","Adipocyte protein S3-12"]}
 {"id":"UNIPROT:Q96Q11","label":"CCA tRNA nucleotidyltransferase 1, mitochondrial","obsolete":false,"synonyms":["TRNT1","Mitochondrial tRNA nucleotidyl transferase, CCA-adding","mt CCA-adding enzyme","mt tRNA CCA-diphosphorylase","mt tRNA CCA-pyrophosphorylase","mt tRNA adenylyltransferase"]}
 {"id":"UNIPROT:Q96Q15","label":"Serine/threonine-protein kinase SMG1","obsolete":false,"synonyms":["SMG1","ATX","KIAA0421","LIP","Lambda/iota protein kinase C-interacting protein","Nonsense mediated mRNA decay-associated PI3K-related kinase SMG1"]}
+{"id":"UNIPROT:Q96Q45","label":"Transmembrane protein 237","obsolete":false,"synonyms":["TMEM237","ALS2CR4","Amyotrophic lateral sclerosis 2 chromosomal region candidate gene 4 protein"]}
 {"id":"UNIPROT:Q96Q83","label":"Alpha-ketoglutarate-dependent dioxygenase alkB homolog 3","obsolete":false,"synonyms":["ALKBH3","ABH3","DEPC1","Alkylated DNA repair protein alkB homolog 3","DEPC-1","Prostate cancer antigen 1"]}
 {"id":"UNIPROT:Q96Q89","label":"Kinesin-like protein KIF20B","obsolete":false,"synonyms":["KIF20B","KRMP1","MPHOSPH1","Cancer/testis antigen 90","Kinesin family member 20B","Kinesin-related motor interacting with PIN1","M-phase phosphoprotein 1"]}
 {"id":"UNIPROT:Q96Q91","label":"Anion exchange protein 4","obsolete":false,"synonyms":["SLC4A9","AE4","SBC5","Sodium bicarbonate cotransporter 5","Solute carrier family 4 member 9"]}
@@ -8349,6 +8478,7 @@
 {"id":"UNIPROT:Q96SI1","label":"BTB/POZ domain-containing protein KCTD15","obsolete":false,"synonyms":["KCTD15","Potassium channel tetramerization domain-containing protein 15"]}
 {"id":"UNIPROT:Q96SI9","label":"Spermatid perinuclear RNA-binding protein","obsolete":false,"synonyms":["STRBP","SPNR"]}
 {"id":"UNIPROT:Q96SJ8","label":"Tetraspanin-18","obsolete":false,"synonyms":["TSPAN18"]}
+{"id":"UNIPROT:Q96SK2","label":"Transmembrane protein 209","obsolete":false,"synonyms":["TMEM209"]}
 {"id":"UNIPROT:Q96SK3","label":"Zinc finger protein 607","obsolete":false,"synonyms":["ZNF607"]}
 {"id":"UNIPROT:Q96SL1","label":"Solute carrier family 49 member 4","obsolete":false,"synonyms":["SLC49A4","DIRC2","Disrupted in renal cancer protein 2","Disrupted in renal carcinoma protein 2"]}
 {"id":"UNIPROT:Q96SL4","label":"Protein peroxidase GPX7","obsolete":false,"synonyms":["GPX7","GPX6","CL683"]}
@@ -8563,6 +8693,7 @@
 {"id":"UNIPROT:Q9BRP4","label":"Proteasomal ATPase-associated factor 1","obsolete":false,"synonyms":["PAAF1","WDR71","Protein G-16","WD repeat-containing protein 71"]}
 {"id":"UNIPROT:Q9BRP8","label":"Partner of Y14 and mago","obsolete":false,"synonyms":["PYM1","PYM","WIBG","PYM homolog 1 exon junction complex-associated factor","Protein wibg homolog"]}
 {"id":"UNIPROT:Q9BRQ3","label":"Uridine diphosphate glucose pyrophosphatase NUDT22","obsolete":false,"synonyms":["NUDT22","Nucleoside diphosphate-linked moiety X motif 22"]}
+{"id":"UNIPROT:Q9BRQ5","label":"Protein orai-3","obsolete":false,"synonyms":["ORAI3","TMEM142C","Transmembrane protein 142C"]}
 {"id":"UNIPROT:Q9BRQ6","label":"MICOS complex subunit MIC25","obsolete":false,"synonyms":["CHCHD6","CHCM1","MIC25","Coiled-coil-helix cristae morphology protein 1","Coiled-coil-helix-coiled-coil-helix domain-containing protein 6"]}
 {"id":"UNIPROT:Q9BRR0","label":"Zinc finger protein with KRAB and SCAN domains 3","obsolete":false,"synonyms":["ZKSCAN3","ZFP47","ZNF306","ZNF309","ZSCAN13","Zinc finger and SCAN domain-containing protein 13","Zinc finger protein 306","Zinc finger protein 309","Zinc finger protein 47 homolog"]}
 {"id":"UNIPROT:Q9BRR3","label":"GPI-N-acetylgalactosamine transferase PGAP4","obsolete":false,"synonyms":["PGAP4","C9orf125","TMEM246","Post-GPI attachment to proteins GalNAc transferase 4","Post-GPI attachment to proteins factor 4","Transmembrane protein 246"]}
@@ -8596,6 +8727,7 @@
 {"id":"UNIPROT:Q9BSK1","label":"Zinc finger protein 577","obsolete":false,"synonyms":["ZNF577"]}
 {"id":"UNIPROT:Q9BSK2","label":"Solute carrier family 25 member 33","obsolete":false,"synonyms":["SLC25A33","Bone marrow stromal cell mitochondrial carrier protein","Protein PNC1"]}
 {"id":"UNIPROT:Q9BSM1","label":"Polycomb group RING finger protein 1","obsolete":false,"synonyms":["PCGF1","NSPC1","RNF68","Nervous system Polycomb-1","RING finger protein 68"]}
+{"id":"UNIPROT:Q9BSN7","label":"Transmembrane protein 204","obsolete":false,"synonyms":["TMEM204","C16orf30","CLP24","Claudin-like protein 24"]}
 {"id":"UNIPROT:Q9BSQ5","label":"Cerebral cavernous malformations 2 protein","obsolete":false,"synonyms":["CCM2","C7orf22","Malcavernin"]}
 {"id":"UNIPROT:Q9BSV6","label":"tRNA-splicing endonuclease subunit Sen34","obsolete":false,"synonyms":["TSEN34","LENG5","SEN34","Leukocyte receptor cluster member 5","tRNA-intron endonuclease Sen34"]}
 {"id":"UNIPROT:Q9BSW2","label":"EF-hand calcium-binding domain-containing protein 4B","obsolete":false,"synonyms":["CRACR2A","EFCAB4B","RAB46","Calcium release-activated calcium channel regulator 2A","Calcium release-activated channel regulator 2A","Ras-related protein Rab-46"]}
@@ -8624,14 +8756,17 @@
 {"id":"UNIPROT:Q9BTP7","label":"Fanconi anemia core complex-associated protein 24","obsolete":false,"synonyms":["FAAP24","C19orf40","Fanconi anemia-associated protein of 24 kDa"]}
 {"id":"UNIPROT:Q9BTT0","label":"Acidic leucine-rich nuclear phosphoprotein 32 family member E","obsolete":false,"synonyms":["ANP32E","LANP-like protein"]}
 {"id":"UNIPROT:Q9BTU6","label":"Phosphatidylinositol 4-kinase type 2-alpha","obsolete":false,"synonyms":["PI4K2A","Phosphatidylinositol 4-kinase type II-alpha"]}
+{"id":"UNIPROT:Q9BTV4","label":"Transmembrane protein 43","obsolete":false,"synonyms":["TMEM43","Protein LUMA"]}
 {"id":"UNIPROT:Q9BTV5","label":"Fibronectin type III and SPRY domain-containing protein 1","obsolete":false,"synonyms":["FSD1","GLFND","MIR1","MID1-related protein 1","Microtubule-associated protein GLFND"]}
 {"id":"UNIPROT:Q9BTW9","label":"Tubulin-specific chaperone D","obsolete":false,"synonyms":["TBCD","KIAA0988","SSD1","TFCD","Beta-tubulin cofactor D","SSD-1","Tubulin-folding cofactor D"]}
 {"id":"UNIPROT:Q9BTX1","label":"Nucleoporin NDC1","obsolete":false,"synonyms":["NDC1","TMEM48","Transmembrane protein 48"]}
 {"id":"UNIPROT:Q9BTX3","label":"Transmembrane protein 208","obsolete":false,"synonyms":["TMEM208"]}
 {"id":"UNIPROT:Q9BTX7","label":"Alpha-tocopherol transfer protein-like","obsolete":false,"synonyms":["TTPAL","C20orf121"]}
 {"id":"UNIPROT:Q9BU19","label":"Zinc finger protein 692","obsolete":false,"synonyms":["ZNF692","AREBP","ZFP692","AICAR responsive element binding protein"]}
+{"id":"UNIPROT:Q9BU23","label":"Lipase maturation factor 2","obsolete":false,"synonyms":["LMF2","TMEM112B","TMEM153","Transmembrane protein 112B","Transmembrane protein 153"]}
 {"id":"UNIPROT:Q9BU40","label":"Chordin-like protein 1","obsolete":false,"synonyms":["CHRDL1","NRLN1","Neuralin-1","Neurogenesin-1","Ventroptin"]}
 {"id":"UNIPROT:Q9BU64","label":"Centromere protein O","obsolete":false,"synonyms":["CENPO","ICEN36","MCM21R","Interphase centromere complex protein 36"]}
+{"id":"UNIPROT:Q9BU79","label":"Transmembrane protein 243","obsolete":false,"synonyms":["TMEM243","C7orf23","MDR1- and mitochondrial taxol resistance-associated protein"]}
 {"id":"UNIPROT:Q9BUA3","label":"Spindlin interactor and repressor of chromatin-binding protein","obsolete":false,"synonyms":["SPINDOC","C11orf84","SPIN1-docking protein"]}
 {"id":"UNIPROT:Q9BUA6","label":"Myosin regulatory light chain 10","obsolete":false,"synonyms":["MYL10","MYLC2PL","PLRLC","Myosin light chain 2, lymphocyte-specific","Precursor lymphocyte-specific regulatory light chain"]}
 {"id":"UNIPROT:Q9BUB4","label":"tRNA-specific adenosine deaminase 1","obsolete":false,"synonyms":["ADAT1","tRNA-specific adenosine-37 deaminase"]}
@@ -8915,6 +9050,7 @@
 {"id":"UNIPROT:Q9C0J9","label":"Class E basic helix-loop-helix protein 41","obsolete":false,"synonyms":["BHLHE41","BHLHB3","DEC2","SHARP1","Class B basic helix-loop-helix protein 3","Differentially expressed in chondrocytes protein 2","Enhancer-of-split and hairy-related protein 1"]}
 {"id":"UNIPROT:Q9C0K1","label":"Metal cation symporter ZIP8","obsolete":false,"synonyms":["SLC39A8","BIGM103","ZIP8","BCG-induced integral membrane protein in monocyte clone 103 protein","LIV-1 subfamily of ZIP zinc transporter 6","Solute carrier family 39 member 8","Zrt- and Irt-like protein 8"]}
 {"id":"UNIPROT:Q9C0K7","label":"STE20-related kinase adapter protein beta","obsolete":false,"synonyms":["STRADB","ALS2CR2","ILPIP","Amyotrophic lateral sclerosis 2 chromosomal region candidate gene 2 protein","CALS-21","ILP-interacting protein","Pseudokinase ALS2CR2"]}
+{"id":"UNIPROT:Q9GIP4","label":"Putative L-type amino acid transporter 1-like protein IMAA","obsolete":false,"synonyms":["SLC7A5P2","IMAA","MMAA","hLAT1 3-transmembrane protein IMAA","hLAT1 3-transmembrane protein MMAA"]}
 {"id":"UNIPROT:Q9GZK3","label":"Olfactory receptor 2B2","obsolete":false,"synonyms":["OR2B2","OR2B9","Hs6M1-10","Olfactory receptor 2B9","Olfactory receptor 6-1"]}
 {"id":"UNIPROT:Q9GZK4","label":"Olfactory receptor 2H1","obsolete":false,"synonyms":["OR2H1","OR2H6","OR2H8","Hs6M1-16","OLFR42A-9004.14/9026.2","Olfactory receptor 2H6","Olfactory receptor 2H8","Olfactory receptor 6-2","Olfactory receptor OR6-32"]}
 {"id":"UNIPROT:Q9GZK6","label":"Olfactory receptor 2J1","obsolete":false,"synonyms":["OR2J1","OR2J1P","Hs6M1-4","Olfactory receptor 6-5"]}
@@ -8938,6 +9074,7 @@
 {"id":"UNIPROT:Q9GZS9","label":"Carbohydrate sulfotransferase 5","obsolete":false,"synonyms":["CHST5","Galactose/N-acetylglucosamine/N-acetylglucosamine 6-O-sulfotransferase 4-alpha","Intestinal N-acetylglucosamine-6-O-sulfotransferase","N-acetylglucosamine 6-O-sulfotransferase 3"]}
 {"id":"UNIPROT:Q9GZT4","label":"Serine racemase","obsolete":false,"synonyms":["SRR","D-serine ammonia-lyase","D-serine dehydratase","L-serine ammonia-lyase","L-serine dehydratase"]}
 {"id":"UNIPROT:Q9GZT8","label":"NIF3-like protein 1","obsolete":false,"synonyms":["NIF3L1","ALS2CR1","Amyotrophic lateral sclerosis 2 chromosomal region candidate gene 1 protein"]}
+{"id":"UNIPROT:Q9GZU3","label":"Transmembrane protein 39B","obsolete":false,"synonyms":["TMEM39B"]}
 {"id":"UNIPROT:Q9GZU5","label":"Nyctalopin","obsolete":false,"synonyms":["NYX","CLRP"]}
 {"id":"UNIPROT:Q9GZU7","label":"Carboxy-terminal domain RNA polymerase II polypeptide A small phosphatase 1","obsolete":false,"synonyms":["CTDSP1","NIF3","NLIIF","SCP1","Nuclear LIM interactor-interacting factor 3","Small C-terminal domain phosphatase 1"]}
 {"id":"UNIPROT:Q9GZU8","label":"PSME3-interacting protein","obsolete":false,"synonyms":["PSME3IP1","C16orf94","FAM192A","NIP30","PIP30","NEFA-interacting nuclear protein NIP30","PA28G-interacting protein"]}
@@ -8969,12 +9106,14 @@
 {"id":"UNIPROT:Q9H082","label":"Ras-related protein Rab-33B","obsolete":false,"synonyms":["RAB33B"]}
 {"id":"UNIPROT:Q9H089","label":"Large subunit GTPase 1 homolog","obsolete":false,"synonyms":["LSG1"]}
 {"id":"UNIPROT:Q9H093","label":"NUAK family SNF1-like kinase 2","obsolete":false,"synonyms":["NUAK2","OMPHK2","SNARK","Omphalocele kinase 2","SNF1/AMP kinase-related kinase"]}
+{"id":"UNIPROT:Q9H0A3","label":"Transmembrane protein 191A","obsolete":false,"synonyms":["TMEM191A"]}
 {"id":"UNIPROT:Q9H0A6","label":"RING finger protein 32","obsolete":false,"synonyms":["RNF32"]}
 {"id":"UNIPROT:Q9H0A8","label":"COMM domain-containing protein 4","obsolete":false,"synonyms":["COMMD4"]}
 {"id":"UNIPROT:Q9H0A9","label":"Speriolin-like protein","obsolete":false,"synonyms":["SPATC1L","C21orf56","Spermatogenesis and centriole-associated protein 1-like protein"]}
 {"id":"UNIPROT:Q9H0B6","label":"Kinesin light chain 2","obsolete":false,"synonyms":["KLC2"]}
 {"id":"UNIPROT:Q9H0B8","label":"Cysteine-rich secretory protein LCCL domain-containing 2","obsolete":false,"synonyms":["CRISPLD2","CRISP11","LCRISP2","Cysteine-rich secretory protein 11","LCCL domain-containing cysteine-rich secretory protein 2"]}
 {"id":"UNIPROT:Q9H0C2","label":"ADP/ATP translocase 4","obsolete":false,"synonyms":["SLC25A31","AAC4","ANT4","SFEC","ADP,ATP carrier protein 4","Adenine nucleotide translocator 4","Solute carrier family 25 member 31","Sperm flagellar energy carrier protein"]}
+{"id":"UNIPROT:Q9H0C3","label":"Transmembrane protein 117","obsolete":false,"synonyms":["TMEM117"]}
 {"id":"UNIPROT:Q9H0D2","label":"Zinc finger protein 541","obsolete":false,"synonyms":["ZNF541"]}
 {"id":"UNIPROT:Q9H0E9","label":"Bromodomain-containing protein 8","obsolete":false,"synonyms":["BRD8","SMAP","SMAP2","Skeletal muscle abundant protein","Skeletal muscle abundant protein 2","Thyroid hormone receptor coactivating protein of 120 kDa","p120"]}
 {"id":"UNIPROT:Q9H0F5","label":"E3 ubiquitin-protein ligase RNF38","obsolete":false,"synonyms":["RNF38","RING finger protein 38","RING-type E3 ubiquitin transferase RNF38"]}
@@ -8999,6 +9138,7 @@
 {"id":"UNIPROT:Q9H0U4","label":"Ras-related protein Rab-1B","obsolete":false,"synonyms":["RAB1B"]}
 {"id":"UNIPROT:Q9H0U6","label":"Large ribosomal subunit protein uL18m","obsolete":false,"synonyms":["MRPL18","39S ribosomal protein L18, mitochondrial"]}
 {"id":"UNIPROT:Q9H0U9","label":"Testis-specific Y-encoded-like protein 1","obsolete":false,"synonyms":["TSPYL1","TSPYL"]}
+{"id":"UNIPROT:Q9H0V1","label":"Transmembrane protein 168","obsolete":false,"synonyms":["TMEM168"]}
 {"id":"UNIPROT:Q9H0V9","label":"VIP36-like protein","obsolete":false,"synonyms":["LMAN2L","VIPL","Lectin mannose-binding 2-like"]}
 {"id":"UNIPROT:Q9H0W5","label":"Coiled-coil domain-containing protein 8","obsolete":false,"synonyms":["CCDC8"]}
 {"id":"UNIPROT:Q9H0W8","label":"Nonsense-mediated mRNA decay factor SMG9","obsolete":false,"synonyms":["SMG9","C19orf61"]}
@@ -9106,6 +9246,7 @@
 {"id":"UNIPROT:Q9H313","label":"Protein tweety homolog 1","obsolete":false,"synonyms":["TTYH1","Volume-regulated anion channel subunit TTYH1"]}
 {"id":"UNIPROT:Q9H320","label":"Variable charge X-linked protein 1","obsolete":false,"synonyms":["VCX","VCX1","VCX10R","VCXB1","Variable charge protein on X with ten repeats","Variably charged protein X-B1"]}
 {"id":"UNIPROT:Q9H324","label":"A disintegrin and metalloproteinase with thrombospondin motifs 10","obsolete":false,"synonyms":["ADAMTS10"]}
+{"id":"UNIPROT:Q9H330","label":"Transmembrane protein 245","obsolete":false,"synonyms":["TMEM245","C9orf5","Protein CG-2"]}
 {"id":"UNIPROT:Q9H334","label":"Forkhead box protein P1","obsolete":false,"synonyms":["FOXP1","Mac-1-regulated forkhead"]}
 {"id":"UNIPROT:Q9H336","label":"Cysteine-rich secretory protein LCCL domain-containing 1","obsolete":false,"synonyms":["CRISPLD1","CRISP10","LCRISP1","CocoaCrisp","Cysteine-rich secretory protein 10","LCCL domain-containing cysteine-rich secretory protein 1","Trypsin inhibitor Hl"]}
 {"id":"UNIPROT:Q9H339","label":"Olfactory receptor 51B5","obsolete":false,"synonyms":["OR51B5","Odorant receptor HOR5'beta5","Olfactory receptor OR11-37"]}
@@ -9202,12 +9343,14 @@
 {"id":"UNIPROT:Q9H609","label":"Zinc finger protein 576","obsolete":false,"synonyms":["ZNF576"]}
 {"id":"UNIPROT:Q9H611","label":"ATP-dependent DNA helicase PIF1","obsolete":false,"synonyms":["PIF1","C15orf20","DNA 5'-3' helicase PIF1","DNA repair and recombination helicase PIF1","PIF1/RRM3 DNA helicase-like protein"]}
 {"id":"UNIPROT:Q9H633","label":"Ribonuclease P protein subunit p21","obsolete":false,"synonyms":["RPP21","C6orf135","CAT60","Ribonuclease P/MRP 21 kDa subunit","Ribonucleoprotein V"]}
+{"id":"UNIPROT:Q9H665","label":"IGF-like family receptor 1","obsolete":false,"synonyms":["IGFLR1","TMEM149","U2AF1L4","Transmembrane protein 149","U2 small nuclear RNA auxiliary factor 1-like 4"]}
 {"id":"UNIPROT:Q9H668","label":"CST complex subunit STN1","obsolete":false,"synonyms":["STN1","OBFC1","Oligonucleotide/oligosaccharide-binding fold-containing protein 1","Suppressor of cdc thirteen homolog"]}
 {"id":"UNIPROT:Q9H6A9","label":"Pecanex-like protein 3","obsolete":false,"synonyms":["PCNX3","PCNXL3","Pecanex homolog protein 3"]}
 {"id":"UNIPROT:Q9H6B1","label":"Zinc finger protein 385D","obsolete":false,"synonyms":["ZNF385D","ZNF659","Zinc finger protein 659"]}
 {"id":"UNIPROT:Q9H6B4","label":"CXADR-like membrane protein","obsolete":false,"synonyms":["CLMP","ACAM","ASAM","Adipocyte adhesion molecule","Coxsackie- and adenovirus receptor-like membrane protein"]}
 {"id":"UNIPROT:Q9H6B9","label":"Epoxide hydrolase 3","obsolete":false,"synonyms":["EPHX3","ABHD9","Abhydrolase domain-containing protein 9"]}
 {"id":"UNIPROT:Q9H6E5","label":"Speckle targeted PIP5K1A-regulated poly(A) polymerase","obsolete":false,"synonyms":["TUT1","RBM21","RNA-binding motif protein 21","U6 snRNA-specific terminal uridylyltransferase 1"]}
+{"id":"UNIPROT:Q9H6F2","label":"Trimeric intracellular cation channel type A","obsolete":false,"synonyms":["TMEM38A","TRICA","Transmembrane protein 38A"]}
 {"id":"UNIPROT:Q9H6F5","label":"Coiled-coil domain-containing protein 86","obsolete":false,"synonyms":["CCDC86","CYCLON","Cytokine-induced protein with coiled-coil domain"]}
 {"id":"UNIPROT:Q9H6L2","label":"Transmembrane protein 231","obsolete":false,"synonyms":["TMEM231"]}
 {"id":"UNIPROT:Q9H6L4","label":"Armadillo repeat-containing protein 7","obsolete":false,"synonyms":["ARMC7"]}
@@ -9221,6 +9364,7 @@
 {"id":"UNIPROT:Q9H6S1","label":"5-azacytidine-induced protein 2","obsolete":false,"synonyms":["AZI2","NAP1","TBKBP2","NF-kappa-B-activating kinase-associated protein 1","TILP"]}
 {"id":"UNIPROT:Q9H6T0","label":"Epithelial splicing regulatory protein 2","obsolete":false,"synonyms":["ESRP2","RBM35B","RNA-binding motif protein 35B","RNA-binding protein 35B"]}
 {"id":"UNIPROT:Q9H6X2","label":"Anthrax toxin receptor 1","obsolete":false,"synonyms":["ANTXR1","ATR","TEM8","Tumor endothelial marker 8"]}
+{"id":"UNIPROT:Q9H6X4","label":"Transmembrane protein 134","obsolete":false,"synonyms":["TMEM134"]}
 {"id":"UNIPROT:Q9H6Y7","label":"E3 ubiquitin-protein ligase RNF167","obsolete":false,"synonyms":["RNF167","RING105","RING finger protein 167"]}
 {"id":"UNIPROT:Q9H6Z4","label":"Ran-binding protein 3","obsolete":false,"synonyms":["RANBP3"]}
 {"id":"UNIPROT:Q9H706","label":"GRB2-associated and regulator of MAPK protein 1","obsolete":false,"synonyms":["GAREM1","C18orf11","FAM59A","GAREM","GRB2-associated and regulator of MAPK1"]}
@@ -9234,6 +9378,7 @@
 {"id":"UNIPROT:Q9H7C4","label":"Syncoilin","obsolete":false,"synonyms":["SYNC","SYNC1","Syncoilin intermediate filament 1","Syncoilin-1"]}
 {"id":"UNIPROT:Q9H7C9","label":"Mth938 domain-containing protein","obsolete":false,"synonyms":["AAMDC","C11orf67","Adipogenesis associated Mth938 domain-containing protein"]}
 {"id":"UNIPROT:Q9H7F0","label":"Polyamine-transporting ATPase 13A3","obsolete":false,"synonyms":["ATP13A3","AFURS1","ATPase family homolog up-regulated in senescence cells 1","Putrescine transporting ATPase"]}
+{"id":"UNIPROT:Q9H7F4","label":"Transmembrane protein 185B","obsolete":false,"synonyms":["TMEM185B","FAM11B","Protein FAM11B"]}
 {"id":"UNIPROT:Q9H7M9","label":"V-type immunoglobulin domain-containing suppressor of T-cell activation","obsolete":false,"synonyms":["VSIR","C10orf54","SISP1","VISTA","Platelet receptor Gi24","Stress-induced secreted protein-1","V-set domain-containing immunoregulatory receptor","V-set immunoregulatory receptor"]}
 {"id":"UNIPROT:Q9H7N4","label":"Splicing factor, arginine/serine-rich 19","obsolete":false,"synonyms":["SCAF1","SFRS19","SRA1","SR-related C-terminal domain-associated factor 1","SR-related-CTD-associated factor","Serine arginine-rich pre-mRNA splicing factor SR-A1"]}
 {"id":"UNIPROT:Q9H7P6","label":"Multivesicular body subunit 12B","obsolete":false,"synonyms":["MVB12B","C9orf28","FAM125B","ESCRT-I complex subunit MVB12B","Protein FAM125B"]}
@@ -9255,6 +9400,7 @@
 {"id":"UNIPROT:Q9H8H3","label":"Thiol S-methyltransferase TMT1A","obsolete":false,"synonyms":["TMT1A","METTL7A","Methyltransferase-like protein 7A","N6-adenosine-methyltransferase TMT1A","Protein AAM-B","Thiol methyltransferase 1A"]}
 {"id":"UNIPROT:Q9H8K7","label":"ATPase PAAT","obsolete":false,"synonyms":["PAAT","C10orf88","Protein associated with ABC transporters"]}
 {"id":"UNIPROT:Q9H8M7","label":"Ubiquitin carboxyl-terminal hydrolase MINDY-3","obsolete":false,"synonyms":["MINDY3","C10orf97","CARP","DERP5","FAM188A","Dermal papilla-derived protein 5","Deubiquitinating enzyme MINDY-3","Protein CARP"]}
+{"id":"UNIPROT:Q9H8M9","label":"Protein eva-1 homolog A","obsolete":false,"synonyms":["EVA1A","FAM176A","TMEM166","Protein FAM176A","Transmembrane protein 166"]}
 {"id":"UNIPROT:Q9H8N7","label":"Zinc finger protein 395","obsolete":false,"synonyms":["ZNF395","HDBP2","PBF","HD-regulating factor 2","Huntington disease gene regulatory region-binding protein 2","Papillomavirus regulatory factor 1","Papillomavirus-binding factor"]}
 {"id":"UNIPROT:Q9H8P0","label":"Polyprenal reductase","obsolete":false,"synonyms":["SRD5A3","SRD5A2L","3-oxo-5-alpha-steroid 4-dehydrogenase 3","Steroid 5-alpha-reductase 2-like","Steroid 5-alpha-reductase 3"]}
 {"id":"UNIPROT:Q9H8U3","label":"AN1-type zinc finger protein 3","obsolete":false,"synonyms":["ZFAND3","TEX27","Testis-expressed protein 27"]}
@@ -9450,6 +9596,7 @@
 {"id":"UNIPROT:Q9NPF8","label":"Arf-GAP with dual PH domain-containing protein 2","obsolete":false,"synonyms":["ADAP2","CENTA2","Centaurin-alpha-2"]}
 {"id":"UNIPROT:Q9NPG4","label":"Protocadherin-12","obsolete":false,"synonyms":["PCDH12","Vascular cadherin-2","Vascular endothelial cadherin-2"]}
 {"id":"UNIPROT:Q9NPG8","label":"Palmitoyltransferase ZDHHC4","obsolete":false,"synonyms":["ZDHHC4","ZNF374","Zinc finger DHHC domain-containing protein 4","Zinc finger protein 374"]}
+{"id":"UNIPROT:Q9NPI0","label":"Transmembrane protein 138","obsolete":false,"synonyms":["TMEM138"]}
 {"id":"UNIPROT:Q9NPI1","label":"Bromodomain-containing protein 7","obsolete":false,"synonyms":["BRD7","BP75","CELTIX1","75 kDa bromodomain protein","Protein CELTIX-1"]}
 {"id":"UNIPROT:Q9NPI6","label":"mRNA-decapping enzyme 1A","obsolete":false,"synonyms":["DCP1A","SMIF","Smad4-interacting transcriptional co-activator","Transcription factor SMIF"]}
 {"id":"UNIPROT:Q9NPI7","label":"Lysine-rich coiled-coil protein 1","obsolete":false,"synonyms":["KRCC1","CHBP2","Cryptogenic hepatitis-binding protein 2","HLY"]}
@@ -9624,6 +9771,7 @@
 {"id":"UNIPROT:Q9NUL5","label":"Shiftless antiviral inhibitor of ribosomal frameshifting protein","obsolete":false,"synonyms":["SHFL","C19orf66","FLJ11286","IRAV","RYDEN","SFL","Interferon-regulated antiviral protein","Repressor of yield of DENV protein"]}
 {"id":"UNIPROT:Q9NUL7","label":"Probable ATP-dependent RNA helicase DDX28","obsolete":false,"synonyms":["DDX28","MDDX28","Mitochondrial DEAD box protein 28"]}
 {"id":"UNIPROT:Q9NUM3","label":"Zinc transporter ZIP9","obsolete":false,"synonyms":["SLC39A9","ZIP9","Solute carrier family 39 member 9","Zrt- and Irt-like protein 9"]}
+{"id":"UNIPROT:Q9NUM4","label":"Transmembrane protein 106B","obsolete":false,"synonyms":["TMEM106B"]}
 {"id":"UNIPROT:Q9NUN5","label":"Lysosomal cobalamin transport escort protein LMBD1","obsolete":false,"synonyms":["LMBRD1","C6orf209","NESI","HDAg-L-interacting protein NESI","LMBR1 domain-containing protein 1","Nuclear export signal-interacting protein"]}
 {"id":"UNIPROT:Q9NUN7","label":"Alkaline ceramidase 3","obsolete":false,"synonyms":["ACER3","APHC","PHCA","Alkaline dihydroceramidase SB89","Alkaline phytoceramidase"]}
 {"id":"UNIPROT:Q9NUP7","label":"tRNA:m(4)X modification enzyme TRM13 homolog","obsolete":false,"synonyms":["TRMT13","CCDC76","Coiled-coil domain-containing protein 76"]}
@@ -9637,6 +9785,7 @@
 {"id":"UNIPROT:Q9NUY8","label":"TBC1 domain family member 23","obsolete":false,"synonyms":["TBC1D23","NS4ATP1","HCV non-structural protein 4A-transactivated protein 1"]}
 {"id":"UNIPROT:Q9NV06","label":"DDB1- and CUL4-associated factor 13","obsolete":false,"synonyms":["DCAF13","WDSOF1","WD repeat and SOF domain-containing protein 1"]}
 {"id":"UNIPROT:Q9NV12","label":"Transmembrane protein 140","obsolete":false,"synonyms":["TMEM140"]}
+{"id":"UNIPROT:Q9NV29","label":"Transmembrane protein 100","obsolete":false,"synonyms":["TMEM100"]}
 {"id":"UNIPROT:Q9NV31","label":"U3 small nucleolar ribonucleoprotein protein IMP3","obsolete":false,"synonyms":["IMP3","C15orf12","MRPS4","BRMS2"]}
 {"id":"UNIPROT:Q9NV35","label":"Nucleotide triphosphate diphosphatase NUDT15","obsolete":false,"synonyms":["NUDT15","MTH2","MutT homolog 2","Nucleoside diphosphate-linked moiety X motif 15","Nucleoside diphosphate-linked to another moiety X hydrolase 15"]}
 {"id":"UNIPROT:Q9NV56","label":"MRG/MORF4L-binding protein","obsolete":false,"synonyms":["MRGBP","C20orf20","MRG-binding protein","Up-regulated in colon cancer 4"]}
@@ -9645,7 +9794,9 @@
 {"id":"UNIPROT:Q9NV70","label":"Exocyst complex component 1","obsolete":false,"synonyms":["EXOC1","SEC3","SEC3L1","Exocyst complex component Sec3"]}
 {"id":"UNIPROT:Q9NV72","label":"Zinc finger protein 701","obsolete":false,"synonyms":["ZNF701"]}
 {"id":"UNIPROT:Q9NV79","label":"Protein-L-isoaspartate O-methyltransferase domain-containing protein 2","obsolete":false,"synonyms":["PCMTD2","C20orf36"]}
+{"id":"UNIPROT:Q9NV96","label":"Cell cycle control protein 50A","obsolete":false,"synonyms":["CDC50A","C6orf67","TMEM30A","P4-ATPase flippase complex beta subunit TMEM30A","Transmembrane protein 30A"]}
 {"id":"UNIPROT:Q9NVA2","label":"Septin-11","obsolete":false,"synonyms":["SEPTIN11","SEPT11"]}
+{"id":"UNIPROT:Q9NVA4","label":"Transmembrane protein 184C","obsolete":false,"synonyms":["TMEM184C","TMEM34","Transmembrane protein 34"]}
 {"id":"UNIPROT:Q9NVC3","label":"Sodium-coupled neutral amino acid transporter 7","obsolete":false,"synonyms":["SLC38A7","SNAT7","Solute carrier family 38 member 7"]}
 {"id":"UNIPROT:Q9NVC6","label":"Mediator of RNA polymerase II transcription subunit 17","obsolete":false,"synonyms":["MED17","ARC77","CRSP6","DRIP77","DRIP80","TRAP80","Activator-recruited cofactor 77 kDa component","Cofactor required for Sp1 transcriptional activation subunit 6","Mediator complex subunit 17","Thyroid hormone receptor-associated protein complex 80 kDa component","Transcriptional coactivator CRSP77","Vitamin D3 receptor-interacting protein complex 80 kDa component"]}
 {"id":"UNIPROT:Q9NVD3","label":"SET domain-containing protein 4","obsolete":false,"synonyms":["SETD4","C21orf18","C21orf27"]}
@@ -9668,6 +9819,7 @@
 {"id":"UNIPROT:Q9NVT9","label":"Armadillo repeat-containing protein 1","obsolete":false,"synonyms":["ARMC1","ARCP"]}
 {"id":"UNIPROT:Q9NVU0","label":"DNA-directed RNA polymerase III subunit RPC5","obsolete":false,"synonyms":["POLR3E","KIAA1452","DNA-directed RNA polymerase III 80 kDa polypeptide"]}
 {"id":"UNIPROT:Q9NVU7","label":"Protein SDA1 homolog","obsolete":false,"synonyms":["SDAD1","NUC130","Nucleolar protein 130","SDA1 domain-containing protein 1"]}
+{"id":"UNIPROT:Q9NVV0","label":"Trimeric intracellular cation channel type B","obsolete":false,"synonyms":["TMEM38B","C9orf87","TRICB","Transmembrane protein 38B"]}
 {"id":"UNIPROT:Q9NVV4","label":"Poly(A) RNA polymerase, mitochondrial","obsolete":false,"synonyms":["MTPAP","PAPD1","PAP-associated domain-containing protein 1","Polynucleotide adenylyltransferase","Terminal uridylyltransferase 1","mtPAP"]}
 {"id":"UNIPROT:Q9NVX0","label":"HAUS augmin-like complex subunit 2","obsolete":false,"synonyms":["HAUS2","C15orf25","CEP27","Centrosomal protein of 27 kDa"]}
 {"id":"UNIPROT:Q9NVZ3","label":"Adaptin ear-binding coat-associated protein 2","obsolete":false,"synonyms":["NECAP2","NECAP endocytosis-associated protein 2"]}
@@ -9682,6 +9834,8 @@
 {"id":"UNIPROT:Q9NW81","label":"Distal membrane-arm assembly complex protein 2","obsolete":false,"synonyms":["DMAC2","ATP5SL","ATP synthase subunit s-like protein"]}
 {"id":"UNIPROT:Q9NWB1","label":"RNA binding protein fox-1 homolog 1","obsolete":false,"synonyms":["RBFOX1","A2BP","A2BP1","FOX1","HRNBP1","Ataxin-2-binding protein 1","Fox-1 homolog A","Hexaribonucleotide-binding protein 1"]}
 {"id":"UNIPROT:Q9NWB6","label":"Arginine and glutamate-rich protein 1","obsolete":false,"synonyms":["ARGLU1"]}
+{"id":"UNIPROT:Q9NWC5","label":"Transmembrane protein 45A","obsolete":false,"synonyms":["TMEM45A","DERP7","DNAPTP4","DNA polymerase-transactivated protein 4","Dermal papilla-derived protein 7"]}
+{"id":"UNIPROT:Q9NWD8","label":"Transmembrane protein 248","obsolete":false,"synonyms":["TMEM248","C7orf42"]}
 {"id":"UNIPROT:Q9NWD9","label":"Protein BEX4","obsolete":false,"synonyms":["BEX4","BEXL1","NADE3","BEX1-like protein 1","Brain-expressed X-linked protein 4","Nerve growth factor receptor-associated protein 3"]}
 {"id":"UNIPROT:Q9NWF4","label":"Solute carrier family 52, riboflavin transporter, member 1","obsolete":false,"synonyms":["SLC52A1","GPR172B","PAR2","RFT1","Porcine endogenous retrovirus A receptor 2","Protein GPR172B","Riboflavin transporter 1"]}
 {"id":"UNIPROT:Q9NWF9","label":"E3 ubiquitin-protein ligase RNF216","obsolete":false,"synonyms":["RNF216","TRIAD3","UBCE7IP1","ZIN","RING finger protein 216","RING-type E3 ubiquitin transferase RNF216","Triad domain-containing protein 3","Ubiquitin-conjugating enzyme 7-interacting protein 1","Zinc finger protein inhibiting NF-kappa-B"]}
@@ -9706,6 +9860,7 @@
 {"id":"UNIPROT:Q9NWW5","label":"Ceroid-lipofuscinosis neuronal protein 6","obsolete":false,"synonyms":["CLN6"]}
 {"id":"UNIPROT:Q9NWW9","label":"Phospholipase A and acyltransferase 2","obsolete":false,"synonyms":["PLAAT2","HRASLS2","HRAS-like suppressor 2"]}
 {"id":"UNIPROT:Q9NWZ5","label":"Uridine-cytidine kinase-like 1","obsolete":false,"synonyms":["UCKL1","URKL1"]}
+{"id":"UNIPROT:Q9NX00","label":"Transmembrane protein 160","obsolete":false,"synonyms":["TMEM160"]}
 {"id":"UNIPROT:Q9NX01","label":"Thioredoxin-like protein 4B","obsolete":false,"synonyms":["TXNL4B","DIM2","DLP","Dim1-like protein"]}
 {"id":"UNIPROT:Q9NX02","label":"NACHT, LRR and PYD domains-containing protein 2","obsolete":false,"synonyms":["NLRP2","NALP2","NBS1","PAN1","PYPAF2","Nucleotide-binding site protein 1","PYRIN domain and NACHT domain-containing protein 1","PYRIN-containing APAF1-like protein 2"]}
 {"id":"UNIPROT:Q9NX07","label":"tRNA selenocysteine 1-associated protein 1","obsolete":false,"synonyms":["TRNAU1AP","SECP43","TRSPAP1","SECp43","tRNA selenocysteine-associated protein 1"]}
@@ -9715,8 +9870,10 @@
 {"id":"UNIPROT:Q9NX38","label":"Protein Abitram","obsolete":false,"synonyms":["ABITRAM","C9orf6","FAM206A","Actin-binding transcription modulator","Protein Simiate"]}
 {"id":"UNIPROT:Q9NX46","label":"ADP-ribosylhydrolase ARH3","obsolete":false,"synonyms":["ADPRS","ADPRHL2","ARH3","ADP-ribose glycohydrolase ARH3","ADP-ribosylhydrolase 3","O-acetyl-ADP-ribose deacetylase ARH3","Poly(ADP-ribose) glycohydrolase ARH3","[Protein ADP-ribosylarginine] hydrolase-like protein 2","[Protein ADP-ribosylserine] hydrolase"]}
 {"id":"UNIPROT:Q9NX47","label":"E3 ubiquitin-protein ligase MARCHF5","obsolete":false,"synonyms":["MARCHF5","MARCH5","RNF153","Membrane-associated RING finger protein 5","Membrane-associated RING-CH protein V","Mitochondrial ubiquitin ligase","RING finger protein 153","RING-type E3 ubiquitin transferase MARCHF5"]}
+{"id":"UNIPROT:Q9NX61","label":"Transmembrane protein 161A","obsolete":false,"synonyms":["TMEM161A","Adaptive response to oxidative stress protein 29"]}
 {"id":"UNIPROT:Q9NX63","label":"MICOS complex subunit MIC19","obsolete":false,"synonyms":["CHCHD3","MIC19","MINOS3","Coiled-coil-helix-coiled-coil-helix domain-containing protein 3"]}
 {"id":"UNIPROT:Q9NX65","label":"Zinc finger and SCAN domain-containing protein 32","obsolete":false,"synonyms":["ZSCAN32","ZNF434","Human cervical cancer suppressor gene 5 protein","Zinc finger protein 434"]}
+{"id":"UNIPROT:Q9NX78","label":"Protein O-mannosyl-transferase TMEM260","obsolete":false,"synonyms":["TMEM260","C14orf101","Transmembrane protein 260"]}
 {"id":"UNIPROT:Q9NX94","label":"WW domain binding protein 1-like","obsolete":false,"synonyms":["WBP1L","C10orf26","OPA1L","Outcome predictor in acute leukemia 1"]}
 {"id":"UNIPROT:Q9NX95","label":"Syntabulin","obsolete":false,"synonyms":["SYBU","GOLSYN","KIAA1472","Golgi-localized syntaphilin-related protein","Syntaxin-1-binding protein"]}
 {"id":"UNIPROT:Q9NXD2","label":"Myotubularin-related protein 10","obsolete":false,"synonyms":["MTMR10","Inactive phosphatidylinositol 3-phosphatase 10"]}
@@ -9859,6 +10016,7 @@
 {"id":"UNIPROT:Q9P0L9","label":"Polycystin-2-like protein 1","obsolete":false,"synonyms":["PKD2L1","PKD2L","PKDL","TRPP3","Polycystic kidney disease 2-like 1 protein","Polycystin-2 homolog","Polycystin-L","Polycystin-L1"]}
 {"id":"UNIPROT:Q9P0M6","label":"Core histone macro-H2A.2","obsolete":false,"synonyms":["MACROH2A2","H2AFY2"]}
 {"id":"UNIPROT:Q9P0M9","label":"Large ribosomal subunit protein bL27m","obsolete":false,"synonyms":["MRPL27","39S ribosomal protein L27, mitochondrial"]}
+{"id":"UNIPROT:Q9P0N5","label":"Transmembrane protein 216","obsolete":false,"synonyms":["TMEM216"]}
 {"id":"UNIPROT:Q9P0N8","label":"E3 ubiquitin-protein ligase MARCHF2","obsolete":false,"synonyms":["MARCHF2","MARCH2","RNF172","Membrane-associated RING finger protein 2","Membrane-associated RING-CH protein II","RING finger protein 172","RING-type E3 ubiquitin transferase MARCHF2"]}
 {"id":"UNIPROT:Q9P0N9","label":"TBC1 domain family member 7","obsolete":false,"synonyms":["TBC1D7","TBC7","Cell migration-inducing protein 23"]}
 {"id":"UNIPROT:Q9P0P0","label":"E3 ubiquitin-protein ligase RNF181","obsolete":false,"synonyms":["RNF181","RING finger protein 181"]}
@@ -9909,6 +10067,7 @@
 {"id":"UNIPROT:Q9P299","label":"Coatomer subunit zeta-2","obsolete":false,"synonyms":["COPZ2","Zeta-2-coat protein"]}
 {"id":"UNIPROT:Q9P2A4","label":"ABI gene family member 3","obsolete":false,"synonyms":["ABI3","NESH","New molecule including SH3"]}
 {"id":"UNIPROT:Q9P2B2","label":"Prostaglandin F2 receptor negative regulator","obsolete":false,"synonyms":["PTGFRN","CD9P1","EWIF","FPRP","KIAA1436","CD9 partner 1","Glu-Trp-Ile EWI motif-containing protein F","Prostaglandin F2-alpha receptor regulatory protein","Prostaglandin F2-alpha receptor-associated protein"]}
+{"id":"UNIPROT:Q9P2C4","label":"Transmembrane protein 181","obsolete":false,"synonyms":["TMEM181","GPR178","KIAA1423"]}
 {"id":"UNIPROT:Q9P2D1","label":"ATP-dependent chromatin remodeler CHD7","obsolete":false,"synonyms":["CHD7","KIAA1416","Chromo domain-containing protein 7"]}
 {"id":"UNIPROT:Q9P2E3","label":"NFX1-type zinc finger-containing protein 1","obsolete":false,"synonyms":["ZNFX1","KIAA1404","ATP- dependent RNA translocase ZNFX1","E3 ubiquitin-protein and -ssRNA ligase ZNFX1"]}
 {"id":"UNIPROT:Q9P2E5","label":"Chondroitin polymerizing factor 2, non-catalytic subunit","obsolete":false,"synonyms":["CHPF2","CHSY3","CSGLCAT","KIAA1402","CSGlcA-T","Chondroitin synthase 3, non-catalytic subunit"]}
@@ -10068,6 +10227,7 @@
 {"id":"UNIPROT:Q9UHF7","label":"Zinc finger transcription factor Trps1","obsolete":false,"synonyms":["TRPS1","Tricho-rhino-phalangeal syndrome type I protein","Zinc finger protein GC79"]}
 {"id":"UNIPROT:Q9UHG2","label":"ProSAAS","obsolete":false,"synonyms":["PCSK1N","Proprotein convertase subtilisin/kexin type 1 inhibitor","pro-SAAS"]}
 {"id":"UNIPROT:Q9UHG3","label":"Prenylcysteine oxidase 1","obsolete":false,"synonyms":["PCYOX1","KIAA0908","PCL1","Prenylcysteine lyase"]}
+{"id":"UNIPROT:Q9UHI5","label":"Large neutral amino acids transporter small subunit 2","obsolete":false,"synonyms":["SLC7A8","LAT2","L-type amino acid transporter 2","Solute carrier family 7 member 8"]}
 {"id":"UNIPROT:Q9UHI7","label":"Solute carrier family 23 member 1","obsolete":false,"synonyms":["SLC23A1","SVCT1","YSPL3","Na(+)/L-ascorbic acid transporter 1","Sodium-dependent vitamin C transporter 1","Yolk sac permease-like molecule 3"]}
 {"id":"UNIPROT:Q9UHI8","label":"A disintegrin and metalloproteinase with thrombospondin motifs 1","obsolete":false,"synonyms":["ADAMTS1","KIAA1346","METH1","METH-1"]}
 {"id":"UNIPROT:Q9UHJ6","label":"Sedoheptulokinase","obsolete":false,"synonyms":["SHPK","CARKL","Carbohydrate kinase-like protein"]}
@@ -10373,6 +10533,7 @@
 {"id":"UNIPROT:Q9UPQ8","label":"Dolichol kinase","obsolete":false,"synonyms":["DOLK","KIAA1094","TMEM15","Transmembrane protein 15"]}
 {"id":"UNIPROT:Q9UPR0","label":"Inactive phospholipase C-like protein 2","obsolete":false,"synonyms":["PLCL2","KIAA1092","PLCE2","Phospholipase C-epsilon-2"]}
 {"id":"UNIPROT:Q9UPR3","label":"Nonsense-mediated mRNA decay factor SMG5","obsolete":false,"synonyms":["SMG5","EST1B","KIAA1089","EST1-like protein B","LPTS-RP1","LPTS-interacting protein","SMG-5 homolog"]}
+{"id":"UNIPROT:Q9UPR5","label":"Sodium/calcium exchanger 2","obsolete":false,"synonyms":["SLC8A2","KIAA1087","NCX2","Na(+)/Ca(2+)-exchange protein 2","Solute carrier family 8 member 2"]}
 {"id":"UNIPROT:Q9UPR6","label":"Zinc finger RNA-binding protein 2","obsolete":false,"synonyms":["ZFR2","KIAA1086"]}
 {"id":"UNIPROT:Q9UPS6","label":"Histone-lysine N-methyltransferase SETD1B","obsolete":false,"synonyms":["SETD1B","KIAA1076","KMT2G","SET1B","Lysine N-methyltransferase 2G","SET domain-containing protein 1B"]}
 {"id":"UNIPROT:Q9UPS8","label":"Ankyrin repeat domain-containing protein 26","obsolete":false,"synonyms":["ANKRD26","KIAA1074"]}
@@ -10454,6 +10615,7 @@
 {"id":"UNIPROT:Q9Y296","label":"Trafficking protein particle complex subunit 4","obsolete":false,"synonyms":["TRAPPC4","SBDN","Hematopoietic stem/progenitor cell protein 172","Synbindin","TRS23 homolog"]}
 {"id":"UNIPROT:Q9Y297","label":"F-box/WD repeat-containing protein 1A","obsolete":false,"synonyms":["BTRC","BTRCP","FBW1A","FBXW1A","E3RSIkappaB","Epididymis tissue protein Li 2a","F-box and WD repeats protein beta-TrCP","pIkappaBalpha-E3 receptor subunit"]}
 {"id":"UNIPROT:Q9Y2A4","label":"Zinc finger protein 443","obsolete":false,"synonyms":["ZNF443","Krueppel-type zinc finger protein ZK1"]}
+{"id":"UNIPROT:Q9Y2A9","label":"N-acetyllactosaminide beta-1,3-N-acetylglucosaminyltransferase 3","obsolete":false,"synonyms":["B3GNT3","B3GALT8","TMEM3","Beta-1,3-galactosyl-O-glycosyl-glycoprotein beta-1,3-N-acetylglucosaminyltransferase","Beta-1,3-galactosyltransferase 8","Beta-3-Gx-T8","Core 1 extending beta-1,3-N-acetylglucosaminyltransferase","Core1-beta3GlcNAcT","Transmembrane protein 3","UDP-Gal:beta-GlcNAc beta-1,3-galactosyltransferase 8","UDP-GlcNAc:betaGal beta-1,3-N-acetylglucosaminyltransferase 3","UDP-galactose:beta-N-acetylglucosamine beta-1,3-galactosyltransferase 8"]}
 {"id":"UNIPROT:Q9Y2B0","label":"Protein canopy homolog 2","obsolete":false,"synonyms":["CNPY2","MSAP","TMEM4","ZSIG9","MIR-interacting saposin-like protein","Putative secreted protein Zsig9","Transmembrane protein 4"]}
 {"id":"UNIPROT:Q9Y2B2","label":"N-acetylglucosaminyl-phosphatidylinositol de-N-acetylase","obsolete":false,"synonyms":["PIGL","Phosphatidylinositol-glycan biosynthesis class L protein"]}
 {"id":"UNIPROT:Q9Y2B4","label":"TP53-target gene 5 protein","obsolete":false,"synonyms":["TP53TG5","C20orf10","TP53-inducible gene 5 protein"]}
@@ -10469,6 +10631,7 @@
 {"id":"UNIPROT:Q9Y2D9","label":"Zinc finger protein 652","obsolete":false,"synonyms":["ZNF652","KIAA0924"]}
 {"id":"UNIPROT:Q9Y2E5","label":"Epididymis-specific alpha-mannosidase","obsolete":false,"synonyms":["MAN2B2","KIAA0935","Alpha-1,6-mannosidase","Core-specific lysosomal alpha-1,6-Mannosidase","Mannosidase alpha class 2B member 2"]}
 {"id":"UNIPROT:Q9Y2E6","label":"E3 ubiquitin-protein ligase DTX4","obsolete":false,"synonyms":["DTX4","KIAA0937","RNF155","Protein deltex-4","RING finger protein 155","RING-type E3 ubiquitin transferase DTX4"]}
+{"id":"UNIPROT:Q9Y2E8","label":"Sodium/hydrogen exchanger 8","obsolete":false,"synonyms":["SLC9A8","KIAA0939","NHE8","Na(+)/H(+) exchanger 8","Solute carrier family 9 member 8"]}
 {"id":"UNIPROT:Q9Y2G1","label":"Myelin regulatory factor","obsolete":false,"synonyms":["MYRF","C11orf9","KIAA0954","MRF","Myelin gene regulatory factor"]}
 {"id":"UNIPROT:Q9Y2G2","label":"Caspase recruitment domain-containing protein 8","obsolete":false,"synonyms":["CARD8","DACAR","KIAA0955","NDPP1","CARD-inhibitor of NF-kappa-B-activating ligand","Tumor up-regulated CARD-containing antagonist of CASP9"]}
 {"id":"UNIPROT:Q9Y2G3","label":"Phospholipid-transporting ATPase IF","obsolete":false,"synonyms":["ATP11B","ATPIF","ATPIR","KIAA0956","ATPase IR","ATPase class VI type 11B","P4-ATPase flippase complex alpha subunit ATP11B"]}
@@ -10576,6 +10739,7 @@
 {"id":"UNIPROT:Q9Y3S2","label":"Nucleolar atypical zinc finger","obsolete":false,"synonyms":["NOAZFP","NOA36","ZNF330","Nucleolar autoantigen 36","Nucleolar cysteine-rich protein","Zinc finger protein 330"]}
 {"id":"UNIPROT:Q9Y3Y2","label":"Chromatin target of PRMT1 protein","obsolete":false,"synonyms":["CHTOP","C1orf77","FOP","Friend of PRMT1 protein","Small arginine- and glycine-rich protein"]}
 {"id":"UNIPROT:Q9Y421","label":"Protein FAM32A","obsolete":false,"synonyms":["FAM32A","OTAG12","Ovarian tumor-associated gene 12"]}
+{"id":"UNIPROT:Q9Y426","label":"C2 domain-containing protein 2","obsolete":false,"synonyms":["C2CD2","C21orf25","C21orf258","TMEM24L","Transmembrane protein 24-like"]}
 {"id":"UNIPROT:Q9Y458","label":"T-box transcription factor TBX22","obsolete":false,"synonyms":["TBX22","TBOX22"]}
 {"id":"UNIPROT:Q9Y462","label":"Zinc finger protein 711","obsolete":false,"synonyms":["ZNF711","CMPX1","ZNF6","Zinc finger protein 6"]}
 {"id":"UNIPROT:Q9Y467","label":"Sal-like protein 2","obsolete":false,"synonyms":["SALL2","KIAA0360","SAL2","ZNF795","Zinc finger protein 795","Zinc finger protein SALL2","Zinc finger protein Spalt-2"]}
@@ -10621,6 +10785,7 @@
 {"id":"UNIPROT:Q9Y4Z2","label":"Neurogenin-3","obsolete":false,"synonyms":["NEUROG3","ATOH5","BHLHA7","NGN3","Class A basic helix-loop-helix protein 7","Protein atonal homolog 5"]}
 {"id":"UNIPROT:Q9Y508","label":"E3 ubiquitin-protein ligase RNF114","obsolete":false,"synonyms":["RNF114","ZNF228","ZNF313","RING finger protein 114","RING-type E3 ubiquitin transferase RNF114","Zinc finger protein 228","Zinc finger protein 313"]}
 {"id":"UNIPROT:Q9Y512","label":"Sorting and assembly machinery component 50 homolog","obsolete":false,"synonyms":["SAMM50","SAM50","Transformation-related gene 3 protein"]}
+{"id":"UNIPROT:Q9Y519","label":"Transmembrane protein 184B","obsolete":false,"synonyms":["TMEM184B","C22orf5","Putative MAPK-activating protein FM08"]}
 {"id":"UNIPROT:Q9Y520","label":"Translational regulator PRRC2C","obsolete":false,"synonyms":["PRRC2C","BAT2D1","BAT2L2","KIAA1096","XTP2","BAT2 domain-containing protein 1","HBV X-transactivated gene 2 protein","HBV XAg-transactivated protein 2","HLA-B-associated transcript 2-like 2","Proline-rich and coiled-coil-containing protein 2C"]}
 {"id":"UNIPROT:Q9Y530","label":"ADP-ribose glycohydrolase OARD1","obsolete":false,"synonyms":["OARD1","C6orf130","TARG1","O-acetyl-ADP-ribose deacetylase 1","Terminal ADP-ribose protein glycohydrolase 1","[Protein ADP-ribosylglutamate] hydrolase OARD1"]}
 {"id":"UNIPROT:Q9Y534","label":"Cold shock domain-containing protein C2","obsolete":false,"synonyms":["CSDC2","PIPPIN","RNA-binding protein PIPPin"]}
