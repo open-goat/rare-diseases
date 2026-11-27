@@ -4648,37 +4648,226 @@
 {"id":"MONDO:0017453","label":"fetal parvovirus syndrome","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017455","label":"hyperphalangy","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017456","label":"central polydactyly of fingers","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017457","label":"preaxial polydactyly of toes","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017458","label":"postaxial polydactyly of toes","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017459","label":"central polydactyly of toes","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017460","label":"syndactyly","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017461","label":"familial isolated clinodactyly of fingers","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017462","label":"congenital pseudoarthrosis of the tibia","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017463","label":"congenital pseudoarthrosis of the femur","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017464","label":"congenital pseudoarthrosis of the fibula","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017465","label":"congenital pseudoarthrosis of the radius","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017466","label":"congenital pseudoarthrosis of the ulna","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017467","label":"tibio-fibular synostosis","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017468","label":"congenital shoulder dislocation","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017469","label":"Congenital radial head dislocation","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017470","label":"congenital dislocation of the knee","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017471","label":"congenital patella dislocation","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017472","label":"patella aplasia/hypoplasia, unilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017473","label":"patella aplasia/hypoplasia, bilateral","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017474","label":"macrodactylia of fingers","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017475","label":"macrodactylia of toes","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017476","label":"upper limb hypertrophy","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017477","label":"lower limb hypertrophy","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017478","label":"amelia of upper limb, unilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017479","label":"amelia of upper limb, bilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017480","label":"amelia of lower limb, unilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017481","label":"amelia of lower limb, bilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017482","label":"humeral agenesis/hypoplasia, unilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017483","label":"humeral agenesis/hypoplasia, bilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017484","label":"femoral agenesis/hypoplasia, unilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017485","label":"femoral agenesis/hypoplasia, bilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017486","label":"radial hemimelia, unilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017487","label":"radial hemimelia, bilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017488","label":"ulnar hemimelia, bilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017489","label":"ulnar hemimelia, unilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017490","label":"tibial hemimelia, unilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017491","label":"tibial hemimelia, bilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017494","label":"congenital absence of upper arm and forearm with hand present, unilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017495","label":"congenital absence of upper arm and forearm with hand present, bilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017496","label":"congenital absence of thigh and lower leg with foot present, unilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017497","label":"congenital absence of thigh and lower leg with foot present, bilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017498","label":"congenital absence of both forearm and hand, unilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017499","label":"congenital absence of both forearm and hand, bilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017500","label":"congenital absence of both lower leg and foot, unilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017501","label":"congenital absence of both lower leg and foot, bilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017502","label":"acheiria, unilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017503","label":"acheiria, bilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017504","label":"Apodia, unilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017505","label":"apodia, bilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017506","label":"congenital absence/hypoplasia of thumb, unilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017507","label":"congenital absence/hypoplasia of thumb, bilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017508","label":"congenital absence/hypoplasia of fingers excluding thumb, bilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017509","label":"adactyly of foot, unilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017510","label":"adactyly of foot, bilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017511","label":"split hand, unilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017512","label":"split hand, bilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017513","label":"split foot, unilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017514","label":"split foot, bilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017515","label":"brachydactyly of fingers, unilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017516","label":"brachydactyly of fingers, bilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017517","label":"brachydactyly of toes, unilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017518","label":"brachydactyly of toes, bilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017519","label":"Symbrachydactyly of hand and foot, unilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017520","label":"Symbrachydactyly of hand and foot, bilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017521","label":"hyperphalangy, unilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017522","label":"hyperphalangy, bilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017524","label":"polydactyly of a biphalangeal thumb, bilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017525","label":"polydactyly of a triphalangeal thumb, unilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017526","label":"polydactyly of a triphalangeal thumb, bilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017527","label":"polydactyly of an index finger, unilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017528","label":"polydactyly of an index finger, bilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017529","label":"polysyndactyly, unilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017530","label":"polysyndactyly, bilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017531","label":"postaxial polydactyly type A, unilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017532","label":"postaxial polydactyly type A, bilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017533","label":"postaxial polydactyly type B, unilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017534","label":"postaxial polydactyly type B, bilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017535","label":"central polydactyly of fingers, unilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017536","label":"central polydactyly of fingers, bilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017537","label":"preaxial polydactyly of toes, unilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017538","label":"preaxial polydactyly of toes, bilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017539","label":"postaxial polydactyly of toes, unilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017540","label":"postaxial polydactyly of toes, bilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017541","label":"central polydactyly of toes, unilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017542","label":"central polydactyly of toes, bilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017543","label":"Zygodactyly type 2","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017544","label":"Zygodactyly type 3","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017545","label":"Zygodactyly type 4","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017546","label":"congenital vertical talus, unilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017547","label":"congenital vertical talus, bilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017548","label":"Humero-radio-ulnar synostosis, unilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017549","label":"Humero-radio-ulnar synostosis, bilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017550","label":"Humero-radial synostosis, unilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017551","label":"Humero-radial synostosis, bilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017552","label":"Humero-ulnar synostosis, unilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017553","label":"Humero-ulnar synostosis, bilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017554","label":"radio-ulnar synostosis, unilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017555","label":"radio-ulnar synostosis, bilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017556","label":"Madelung deformity, unilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017557","label":"Madelung deformity, bilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017558","label":"congenital elbow dislocation, unilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017559","label":"congenital elbow dislocation, bilateral","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017560","label":"genu recurvatum","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017561","label":"congenital genu flexum","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017562","label":"congenital patella dislocation, unilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017563","label":"congenital patella dislocation, bilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017564","label":"Macrodactyly of fingers, unilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017565","label":"Macrodactyly of fingers, bilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017566","label":"Macrodactyly of toes, unilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017567","label":"Macrodactyly of toes, bilateral","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017568","label":"Prata-Liberal-Goncalves syndrome","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017572","label":"tick-borne encephalitis","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017573","label":"46,XX disorder of sex development-anorectal anomalies syndrome","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017576","label":"46,XX disorders of sex development","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017578","label":"disorder of thiamine metabolism and transport","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017580","label":"11p15.4 microduplication syndrome","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017582","label":"pituitary carcinoma","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017583","label":"mirror polydactyly-vertebral segmentation-limbs defects syndrome","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017584","label":"Sagliker syndrome","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017585","label":"painful orbital and systemic neurofibromas-marfanoid habitus syndrome","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017586","label":"onychocytic matricoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017588","label":"neoplasm of the nailbed","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017589","label":"follicular cholangitis and pancreatitis","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017590","label":"ampulla of Vater carcinoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017591","label":"Combined pulmonary fibrosis and emphysema","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017592","label":"staphylococcal toxemia","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017594","label":"indolent B-cell non-Hodgkin lymphoma","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017595","label":"aggressive B-cell non-Hodgkin lymphoma","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017596","label":"diffuse large B-cell lymphoma of the central nervous system","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017597","label":"T-cell/histiocyte rich large B cell lymphoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017598","label":"CD30+ cutaneous T-cell lymphoma","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017599","label":"splenic diffuse red pulp small B-cell lymphoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017600","label":"HCL-V","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017601","label":"diffuse large B-cell lymphoma with chronic inflammation","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017602","label":"ALK-positive anaplastic large cell lymphoma","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017603","label":"ALK-negative anaplastic large cell lymphoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017607","label":"caudal regression syndrome","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017608","label":"epidermolysis bullosa dystrophica","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017611","label":"pituitary cancer","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017612","label":"junctional epidermolysis bullosa","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017613","label":"intellectual disability-hypotonia-skin hyperpigmentation syndrome","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017614","label":"X-linked intellectual disability-hypogonadism-ichthyosis-obesity-short stature syndrome","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017616","label":"X-linked intellectual disability, Schutz type","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017617","label":"adult-onset immunodeficiency syndrome","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017618","label":"congenital sucrase-isomaltase deficiency with starch intolerance","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017619","label":"congenital sucrase-isomaltase deficiency with minimal starch tolerance","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017620","label":"congenital sucrase-isomaltase deficiency without starch intolerance","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017621","label":"congenital sucrase-isomaltase deficiency with starch and lactose intolerance","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017622","label":"congenital sucrase-isomaltase deficiency without sucrose intolerance","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017623","label":"multiple hamartoma syndrome","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017624","label":"familial primary hypomagnesemia with hypercalciuria and nephrocalcinosis","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017625","label":"familial primary hypomagnesemia with hypocalcuria","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017626","label":"familial primary hypomagnesemia with normocalcuria","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017630","label":"X-linked complicated spastic paraplegia type 1","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017633","label":"poisoning by drugs","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017634","label":"non-infectious anterior uveitis","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017635","label":"rare parkinsonian syndrome due to neurodegenerative disease","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017636","label":"hemiparkinsonism-hemiatrophy syndrome","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017637","label":"rare parkinsonian syndrome due to intoxication","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017638","label":"manganism","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017639","label":"carbon monoxide-induced parkinsonism","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017640","label":"cyanide-induced parkinsonism","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017641","label":"miscellaneous movement disorder due to neurodegenerative disease","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017642","label":"intellectual disability-microcephaly-phalangeal-facial abnormalities syndrome","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017643","label":"frontotemporal neurodegeneration with movement disorder","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017644","label":"tremor","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017645","label":"choreic movement","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017646","label":"neurodegenerative disease with chorea","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017647","label":"postinfectious autoimmune disease with chorea","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017649","label":"hemidystonia-hemiatrophy syndrome","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017650","label":"myoclonus","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017651","label":"primary myoclonus","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017652","label":"rare disease with myoclonus as a major feature","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017653","label":"epilepsy and/or ataxia with myoclonus as major feature","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017654","label":"non progressive epilepsy and/or ataxia with myoclonus as a major feature","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017655","label":"progressive epilepsy and/or ataxia with myoclonus as a major feature","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017656","label":"motor stereotypies","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017657","label":"rare paroxysmal movement disorder","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017658","label":"hyperekplexia","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017659","label":"sporadic hyperekplexia","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017660","label":"rare genetic parkinsonian disorder","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017661","label":"rare parkinsonian syndrome due to genetic neurodegenerative disease","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017662","label":"miscellaneous movement disorder due to genetic neurodegenerative disease","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017663","label":"rare genetic tremor disorder","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017664","label":"rare genetic myoclonus","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017665","label":"rare genetic disease with myoclonus as a major feature","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017668","label":"intellectual disability-short stature-hypertelorism syndrome","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017669","label":"disease with diffuse palmoplantar keratoderma as a major feature","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017670","label":"autosomal dominant diffuse mutilating palmoplantar keratoderma","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017671","label":"autosomal recessive disease with diffuse palmoplantar keratoderma as a major feature","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017672","label":"focal palmoplantar keratoderma","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017673","label":"isolated focal palmoplantar keratoderma","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017674","label":"disease with focal palmoplantar keratoderma as a major feature","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017676","label":"marginal papular palmoplantar keratoderma","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017677","label":"focal acral hyperkeratosis","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017678","label":"disease with punctate palmoplantar keratoderma as a major feature","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017679","label":"autosomal dominant disease associated with punctate palmoplantar keratoderma as a major feature","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017680","label":"autosomal recessive disease associated with punctate palmoplantar keratoderma as a major feature","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017681","label":"Erythrokeratoderma variabilis progressiva","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017682","label":"intellectual disability-polydactyly-uncombable hair syndrome","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017684","label":"disorder of beta and omega amino acid metabolism","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017686","label":"inborn aminoacylase deficiency","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017687","label":"disorder of neutral amino acid transport","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017688","label":"disorder of glycolysis","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017689","label":"disorder of fructose metabolism","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017690","label":"disorder of galactose metabolism","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017691","label":"erythrocyte galactose epimerase deficiency","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017692","label":"generalized galactose epimerase deficiency","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017693","label":"Glycogen storage disease type 0","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017694","label":"glycogen storage disease due to acid maltase deficiency, infantile onset","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017703","label":"disorder of glyoxylate metabolism","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017704","label":"familial partial epilepsy","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017705","label":"congenital pulmonary venous return anomaly","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017706","label":"disorder of carbohydrate absorption and transport","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017709","label":"disorder of lipid absorption and transport","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017710","label":"congenital systemic veins anomaly","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017713","label":"disorder of fatty acid oxidation and ketogenesis","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017714","label":"acyl-CoA dehydrogenase deficiency","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017715","label":"3-hydroxyacyl-coenzyme A dehydrogenase deficiency","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017716","label":"disorder of carnitine cycle and carnitine transport","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017717","label":"metabolic disease due to other fatty acid oxidation disorder","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017718","label":"mitochondrial disorder due to a defect in assembly or maturation of the respiratory chain complexes","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017719","label":"gangliosidosis","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017720","label":"GM2 gangliosidosis","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017721","label":"Sandhoff disease, infantile form","obsolete":false,"synonyms":[]}
@@ -4688,30 +4877,95 @@
 {"id":"MONDO:0017725","label":"Tay-Sachs disease, b variant, juvenile form","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017726","label":"Tay-Sachs disease, b variant, adult form","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017728","label":"Tay-Sachs disease, B1 variant","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017729","label":"metachromatic leukodystrophy, late infantile form","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017730","label":"metachromatic leukodystrophy, adult form","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017731","label":"glycoproteinosis","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017732","label":"alpha-mannosidosis, infantile form","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017733","label":"alpha-mannosidosis, adult form","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017734","label":"sialidosis","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017736","label":"disorder of sialic acid metabolism","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017738","label":"lysosomal glycogen storage disease","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017739","label":"disorder of lysosomal-related organelles","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017740","label":"disorder of protein N-glycosylation","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017741","label":"disorder of protein O-glycosylation","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017742","label":"disorder of O-xylosylglycan synthesis","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017743","label":"disorder of O-N-acetylgalactosaminylglycan synthesis","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017744","label":"disorder of O-xylosyl/N-acetylgalactosaminylglycan synthesis","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017745","label":"disorder of O-mannosylglycan synthesis","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017747","label":"disorder of fucoglycosan synthesis","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017748","label":"inborn disorder of glycosphingolipid and glycosylphosphatidylinositol anchor glycosylation","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017749","label":"disorder of multiple glycosylation","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017750","label":"defect in conserved oligomeric Golgi complex","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017752","label":"defect in v-ATPase","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017753","label":"disorder of peroxisomal alpha-, beta- and omega-oxidation","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017754","label":"inborn disorder of porphyrin and haem metabolism","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017755","label":"inborn disorder of bilirubin metabolism","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017756","label":"disorder of pterin metabolism","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017757","label":"disorder of metabolite absorption and transport","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017758","label":"disorder of vitamin and non-protein cofactor absorption and transport","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017759","label":"disorder of catecholamine synthesis","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017760","label":"disorder of other vitamins and cofactors metabolism and transport","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017761","label":"mineral metabolism disease","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017762","label":"copper metabolism disease","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017764","label":"disorder of zinc metabolism","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017765","label":"disorder of magnesium metabolism","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017766","label":"manganese metabolism disease","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017768","label":"reflex epilepsy","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017769","label":"acquired immunodeficiency","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017771","label":"Müllerian agenesis","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017772","label":"oral erosive lichen","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017774","label":"hypobetalipoproteinemia","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017776","label":"nocardiosis","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017779","label":"Schindler disease","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017780","label":"20p13 microdeletion syndrome","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017782","label":"Lamb-Shaffer syndrome","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017783","label":"congenital pancreatic cyst","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017784","label":"Epstein-Barr virus-associated gastric carcinoma","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017785","label":"PENS syndrome","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017786","label":"2q23.1 microduplication syndrome","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017787","label":"Leiner's disease","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017788","label":"Contractures-webbed neck-micrognathia-hypoplastic nipples syndrome","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017789","label":"idiopathic linear interstitial keratitis","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017790","label":"gastric adenocarcinoma and proximal polyposis of the stomach","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017791","label":"high bone mass osteogenesis imperfecta","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017792","label":"7p22.1 microduplication syndrome","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017793","label":"marfanoid habitus-inguinal hernia-advanced bone age syndrome","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017794","label":"Xq12-q13.3 duplication syndrome","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017795","label":"ameloblastoma","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017798","label":"Spigelian hernia-cryptorchidism syndrome","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017799","label":"Meigs syndrome","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017800","label":"Pseudo-Meigs syndrome","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017801","label":"atypical Meigs syndrome","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017802","label":"ovarian fibrothecoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017803","label":"primary progressive apraxia of speech","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017804","label":"autosomal recessive leukoencephalopathy-ischemic stroke-retinitis pigmentosa syndrome","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017805","label":"intellectual disability-hypotonia-brachycephaly-pyloric stenosis-cryptorchidism syndrome","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017807","label":"growing teratoma syndrome","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017808","label":"duplication of the pituitary gland","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017809","label":"parkinsonism due to ATP13A2 deficiency","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017810","label":"variant ABeta2M amyloidosis","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017811","label":"severe neonatal hypotonia-seizures-encephalopathy syndrome due to 5q31.3 microdeletion","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017812","label":"segmental progressive overgrowth syndrome with fibroadipose hyperplasia","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017813","label":"Van Maldergem syndrome","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017814","label":"bone lymphoma","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017815","label":"acquired porencephaly","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017817","label":"primary localized amyloidosis","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017818","label":"lethal arteriopathy syndrome due to fibulin-4 deficiency","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017820","label":"disease with Cushing syndrome as a major feature","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017822","label":"mixed functioning pituitary adenoma","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017823","label":"Somatomammotropinoma","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017825","label":"silent pituitary adenoma","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017826","label":"null pituitary adenoma","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017828","label":"primary renal tubular acidosis","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017829","label":"autosomal dominant proximal renal tubular acidosis","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017830","label":"severe Canavan disease","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017831","label":"mild Canavan disease","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017832","label":"Mycobacterium xenopi infection","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017833","label":"primary hypereosinophilic syndrome","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017834","label":"secondary hypereosinophilic syndrome","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017835","label":"Lymphocyte-variant hypereosinophilia","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017836","label":"erythrokeratoderma \"en cocardes\"","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017837","label":"multiple sclerosis-ichthyosis-factor VIII deficiency syndrome","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017839","label":"salt-wasting 21-hydroxylase deficiency","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017840","label":"classic congenital adrenal hyperplasia due to 21-hydroxylase deficiency, simple virilizing form","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017841","label":"autoimmune skin disease","obsolete":false,"synonyms":[]}
@@ -4719,12 +4973,24 @@
 {"id":"MONDO:0017845","label":"spastic ataxia","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017846","label":"autosomal dominant spastic ataxia","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017847","label":"autosomal recessive spastic ataxia","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017848","label":"partial deletion of the short arm of chromosome 12","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017849","label":"Siegler-Brewer-Carey syndrome","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017852","label":"infantile spasms-broad thumbs syndrome","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017855","label":"T-B- severe combined immunodeficiency","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017857","label":"spina bifida-hypospadias syndrome","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017858","label":"acute erythroid leukemia","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017859","label":"colchicine toxicity","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017860","label":"methanol poisoning","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017861","label":"Ethylene glycol poisoning","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017862","label":"paraquat exposure","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017863","label":"digoxin toxicity","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017864","label":"congenital pulmonary veins atresia or stenosis","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017866","label":"subpulmonary stenosis","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017867","label":"distal 17p13.1 microdeletion syndrome","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017868","label":"diencephalic-mesencephalic junction dysplasia","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017869","label":"chondroectodermal dysplasia with night blindness","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017870","label":"supravalvular pulmonary stenosis","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017871","label":"bilateral massive adrenal hemorrhage","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017872","label":"lujo hemorrhagic fever","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017874","label":"Argentine hemorrhagic fever","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017875","label":"Bolivian hemorrhagic fever","obsolete":false,"synonyms":[]}
@@ -4736,54 +5002,147 @@
 {"id":"MONDO:0017882","label":"Omsk hemorrhagic fever","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017884","label":"papillary renal cell carcinomas","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017885","label":"chromophobe renal cell carcinoma","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017887","label":"renal cell carcinoma associated with neuroblastoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017890","label":"Tubulocystic renal cell carcinoma","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017892","label":"autosomal recessive myogenic arthrogryposis multiplex congenita","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017896","label":"familial nonmedullary thyroid carcinoma","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017897","label":"autosomal recessive mendelian susceptibility to mycobacterial diseases due to a complete deficiency","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017898","label":"autosomal recessive mendelian susceptibility to mycobacterial diseases due to a partial deficiency","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017899","label":"autosomal dominant mendelian susceptibility to mycobacterial diseases due to a partial deficiency","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017903","label":"autosomal dominant mendelian susceptibility to mycobacterial diseases due to partial IFNgammaR2 deficiency","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017904","label":"Lyngstadaas syndrome","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017906","label":"amyloidosis cutis dyschromia","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017907","label":"primary lymphoma of the conjunctiva","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017911","label":"cleft lip/palate-ectodermal dysplasia syndrome","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017912","label":"X-linked pure spastic paraplegia","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017913","label":"pure or complex hereditary spastic paraplegia","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017914","label":"pure or complex autosomal dominant spastic paraplegia","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017915","label":"pure or complex autosomal recessive spastic paraplegia","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017916","label":"pure or complex X-linked spastic paraplegia","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017917","label":"maternally-inherited spastic paraplegia","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017918","label":"white matter hypoplasia-corpus callosum agenesis-intellectual disability syndrome","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017920","label":"deafness-genital anomalies-metacarpal and metatarsal synostosis syndrome","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017921","label":"hearing loss-familial salivary gland insensitivity to aldosterone syndrome","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017924","label":"central nervous system calcification-deafness-tubular acidosis-anemia syndrome","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017925","label":"T-cell immunodeficiency with epidermodysplasia verruciformis","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017926","label":"multiple paragangliomas associated with polycythemia","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017927","label":"severe lateral tibial bowing with short stature","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017928","label":"9p13 microdeletion syndrome","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017929","label":"congenital achiasma","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017930","label":"mixed sclerosing bone dystrophy with extra-skeletal manifestations","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017931","label":"hereditary inclusion body myopathy type 4","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017932","label":"muscular hypertrophy-hepatomegaly-polyhydramnios syndrome","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017933","label":"hypertrophic cardiomyopathy and renal tubular disease due to mitochondrial DNA mutation","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017934","label":"aphonia-deafness-retinal dystrophy-bifid halluces-intellectual disability syndrome","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017935","label":"hyperinsulinism due to HNF1A deficiency","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017936","label":"benign Samaritan congenital myopathy","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017937","label":"autosomal dominant intermediate Charcot-Marie-tooth disease with neuropathic pain","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017940","label":"autosomal dominant Charcot-Marie-tooth disease type 2 due to KIF5A mutation","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017941","label":"chikungunya","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017942","label":"Hendra virus infection","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017944","label":"invasive non-typhoidal salmonellosis","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017950","label":"microcephalic primordial dwarfism","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017951","label":"Tricho–rhino–phalangeal syndrome","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017952","label":"non-familial rare disease with dilated cardiomyopathy","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017953","label":"hereditary periodic fever syndrome","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017954","label":"pyogenic autoinflammatory syndrome","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017955","label":"granulomatous autoinflammatory syndrome","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017956","label":"mixed autoinflammatory and autoimmune syndrome","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017957","label":"unclassified autoinflammatory syndrome","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017958","label":"Mouth and genital ulcers with inflamed cartilage syndrome","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017959","label":"JMP syndrome","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017960","label":"CANDLE syndrome","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017961","label":"46,XX disorder of gonadal development","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017962","label":"46,XX disorder of sex development induced by fetoplacental androgens excess","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017963","label":"46,XX disorder of sex development induced by endogenous maternal-derived androgen","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017964","label":"46,XX disorder of sex development induced by exogenous maternal-derived androgen","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017965","label":"syndrome with 46,XX disorder of sex development","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017966","label":"46,XY disorder of gonadal development","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017968","label":"46,XY ovotesticular disorder of sex development","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017969","label":"46,XY disorder of sex development of endocrine origin","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017970","label":"46,XY disorder of sex development due to impaired androgen production","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017971","label":"46,XY disorder of sex development due to a cholesterol synthesis defect","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017972","label":"classic congenital lipoid adrenal hyperplasia due to STAR deficiency","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017973","label":"non-classic congenital lipoid adrenal hyperplasia due to STAR deficiency","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017974","label":"46,XY disorder of sex development induced by maternal-exposure to endocrine disruptors","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017975","label":"sex chromosome disorder of sex development","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017976","label":"disorder of sex development of gynecological interest","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017977","label":"46,XY disorder of sex development of gynecological interest","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017978","label":"syndrome with disorder of sex development of gynecological interest","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017980","label":"syngnathia multiple anomalies","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017981","label":"syngnathia-cleft palate syndrome","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017983","label":"Humero-radio-ulnar synostosis","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017985","label":"radioulnar synostosis","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017986","label":"disorder of plasmalogens biosynthesis","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017988","label":"multifocal atrial tachycardia","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017989","label":"junctional ectopic tachycardia","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017991","label":"Takayasu's arteritis","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017993","label":"cerebral sinovenous thrombosis","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017994","label":"severe early-onset obesity-insulin resistance syndrome due to SH2B1 deficiency","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017995","label":"spondylocostal dysostosis-hypospadias-intellectual disability syndrome","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017996","label":"blepharophimosis-intellectual disability syndrome due to UBE3B deficiency","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0017997","label":"telecanthus-hypertelorism-strabismus-pes cavus syndrome","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017998","label":"PLA2G6-associated neurodegeneration","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0017999","label":"fatty acid hydroxylase-associated neurodegeneration","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0018000","label":"hereditary thrombocytosis with transverse limb defect","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0018001","label":"Inverse Klippel-Trenaunay syndrome","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0018003","label":"limbic encephalitis with DPP6 antibodies","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0018004","label":"acute megakaryoblastic leukemia without down syndrome","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0018005","label":"spastic paraplegia-Paget disease of bone syndrome","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0018006","label":"adult-onset distal myopathy due to VCP mutation","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0018007","label":"mosaic genome-wide paternal uniparental disomy","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0018008","label":"idiopathic giant-cell myocarditis","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0018009","label":"non-hypoproteinemic hypertrophic gastropathy","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0018010","label":"juvenile idiopathic inflammatory myopathy","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0018011","label":"juvenile overlap myositis","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0018014","label":"transient neonatal multiple acyl-CoA dehydrogenase deficiency","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0018015","label":"intermittent hydrarthrosis","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0018016","label":"classic neuroendocrine tumor of appendix","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0018017","label":"Goblet cell carcinoid","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0018018","label":"wild-type transthyretin amyloid","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0018019","label":"lead poisoning","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0018020","label":"mercury poisoning","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0018021","label":"hypotrichosis-deafness syndrome","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0018022","label":"hemoglobin Lepore-beta-thalassemia syndrome","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0018023","label":"hemoglobin M disease","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0018025","label":"chronic actinic dermatitis","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0018026","label":"tetraploidy","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0018027","label":"Isodicentric 15","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0018028","label":"tetrasomy 5p","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0018029","label":"factor XIII deficiency","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0018032","label":"constitutional neutropenia with extra-hematopoietic manifestations","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0018033","label":"other immunodeficiency syndromes due to defects in innate immunity","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0018035","label":"syndrome with combined immunodeficiency","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0018036","label":"immunodeficiency due to absence of thymus","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0018037","label":"hyper-IgE syndrome","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0018038","label":"immunodeficiency with isotype or light chain deficiencies with normal number of B-cells","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0018040","label":"immunodeficiency with severe reduction in serum IgG and IgA with normal/elevated IgM and normal number of B-cells","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0018041","label":"other immunodeficiency syndrome with predominantly antibody defects","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0018042","label":"immunodeficiency syndrome with abnormal pigmentation","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0018043","label":"Thomas syndrome","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0018044","label":"idiopathic hypersomnia","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0018046","label":"thrombocytopenia-robin sequence syndrome","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0018048","label":"heparin-induced thrombocytopenia","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0018050","label":"Tibial aplasia-ectrodactyly syndrome","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0018051","label":"Jessner's lymphocytic infiltration of the skin","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0018052","label":"hypoplastic tibiae-postaxial polydactyly syndrome","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0018053","label":"trichothiodystrophy syndromes","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0018055","label":"pediatric hepatocellular carcinoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0018056","label":"Bullous lichen planus","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0018058","label":"Tracheal agenesis","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0018060","label":"Factor I Deficiency","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0018061","label":"Trichodermodysplasia-dental alterations syndrome","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0018062","label":"Ectodermal dysplasia with corkscrew hairs","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0018064","label":"trigonocephaly-broad thumbs syndrome","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0018068","label":"Patau syndrome","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0018069","label":"distal trisomy 17q","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0018070","label":"familial multiple fibrofolliculoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0018071","label":"Edwards syndrome","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0018072","label":"persistent truncus arteriosus","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0018075","label":"neural tube defect","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0018079","label":"thymus epithelial tumor","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0018080","label":"germ cell tumor","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0018082","label":"aorto-ventricular tunnel","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0018084","label":"arrhythmogenic right ventricular dysplasia 1","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0018086","label":"keratosis pilaris atrophicans faciei","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0018087","label":"viral hemorrhagic fever","obsolete":false,"synonyms":[]}
@@ -5357,6 +5716,7 @@
 {"id":"MONDO:0022949","label":"Apolipoprotein B deficiency","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0022982","label":"arachnodactyly-intellectual disability-dysmorphism syndrome","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0023016","label":"fibular dimelia-diplopodia syndrome","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0023017","label":"polydactyly of a biphalangeal thumb, unilateral","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0023048","label":"ectodermal dysplasia-sensorineural deafness syndrome","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0023065","label":"encephalopathy, recurrent, of childhood","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0023140","label":"ataxia-photosensitivity-short stature syndrome","obsolete":false,"synonyms":[]}
