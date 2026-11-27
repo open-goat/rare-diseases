@@ -1,0 +1,259 @@
+{"id":"HP:0000003","label":"Multicystic kidney dysplasia","obsolete":false,"synonyms":["Multicystic dysplastic kidney","Multicystic kidneys","Multicystic renal dysplasia"]}
+{"id":"HP:0000092","label":"Renal tubular atrophy","obsolete":false,"synonyms":["Renal tubular cell atrophy","Tubular atrophy"]}
+{"id":"HP:0000105","label":"Enlarged kidney","obsolete":false,"synonyms":["Large kidney","Nephromegaly","Renal enlargement","Large kidneys"]}
+{"id":"HP:0000107","label":"Renal cyst","obsolete":false,"synonyms":["Cystic kidney disease","Cystic kidneys","Kidney cyst","Renal cysts"]}
+{"id":"HP:0000108","label":"Renal corticomedullary cysts","obsolete":false,"synonyms":["Corticomedullary renal cysts","Renal corticomedullary cystic disease"]}
+{"id":"HP:0000113","label":"Polycystic kidney dysplasia","obsolete":false,"synonyms":["Polycystic kidney disease","Polycystic kidneys"]}
+{"id":"HP:0000800","label":"Cystic renal dysplasia","obsolete":false,"synonyms":["Bilateral cystic dysplasia","Renal cystic dysplasia","Renal dysplasia, cystic"]}
+{"id":"HP:0000803","label":"Renal cortical cysts","obsolete":false,"synonyms":["Cortical cysts"]}
+{"id":"HP:0001052","label":"Nevus flammeus","obsolete":false,"synonyms":["Nevus simplex","port-wine stain"]}
+{"id":"HP:0001250","label":"Seizure","obsolete":false,"synonyms":["Epileptic seizure","Epilepsy","Seizures"]}
+{"id":"HP:0001279","label":"Syncope","obsolete":false,"synonyms":["Fainting spell"]}
+{"id":"HP:0001327","label":"Photosensitive myoclonic seizure","obsolete":false,"synonyms":["Photically induced myoclonic seizure","Photomyoclonic seizure","Photomyoclonic seizures"]}
+{"id":"HP:0002069","label":"Bilateral tonic-clonic seizure","obsolete":false,"synonyms":["Bilateral convulsive seizures","Generalised tonic-clonic seizure (without specification of onset)","Generalized convulsion","Generalized tonic-clonic seizure (without specification of onset)","Grand mal","Seizures, tonic-clonic","Generalised convulsion","Grand mal seizures","Tonic-clonic convulsion","Tonic-clonic convulsions"]}
+{"id":"HP:0002121","label":"Generalized non-motor (absence) seizure","obsolete":false,"synonyms":["Absence seizure","Petit mal seizure","Petit mal","Absence seizures","Brief seizures with staring spells","Generalised non-motor (absence) seizure","Generalised non-motor seizure","Petit mal seizures"]}
+{"id":"HP:0002123","label":"Generalized myoclonic seizure","obsolete":false,"synonyms":["Generalised epileptic myoclonus","Generalised myoclonic seizure","Generalized epileptic myoclonus","Myoclonic epilepsy, progressive","Myoclonus seizures","Generalised myoclonic seizures","Generalized myoclonic seizures"]}
+{"id":"HP:0002133","label":"Status epilepticus","obsolete":false,"synonyms":["Prolonged seizure","Repeated seizure without recovery","Repeated seizures without recovery between them"]}
+{"id":"HP:0002197","label":"Generalized-onset seizure","obsolete":false,"synonyms":["Generalized onset seizure","Primary generalized seizure","Generalised onset seizure","Generalised seizures","Generalised-onset seizure","Generalized seizures","Generalized-onset seizures","Primary generalised seizure"]}
+{"id":"HP:0002266","label":"Focal clonic seizure","obsolete":false,"synonyms":["Segmental clonic seizure","Focal clonic seizures","Localised clonic seizure","Localized clonic seizure","Partial clonic seizure"]}
+{"id":"HP:0002282","label":"Gray matter heterotopia","obsolete":false,"synonyms":["Heterotopia","Neuronal heterotopia","Gray matter heterotopias","Grey matter heterotopia","Grey matter heterotopias","Heterotopias"]}
+{"id":"HP:0002349","label":"Focal aware seizure","obsolete":false,"synonyms":["Focal seizure with retained awareness","Focal seizure without impairment of awareness","Focal seizure without impairment of consciousness or awareness","Partial seizure with retained awareness","Partial seizure without impairment of awareness","Simple partial seizure","Focal aware seizures","Focal seizures without impairment of consciousness or awareness","Simple partial seizures"]}
+{"id":"HP:0002372","label":"Normal interictal EEG","obsolete":false,"synonyms":[]}
+{"id":"HP:0002373","label":"Febrile seizure (within the age range of 3 months to 6 years)","obsolete":false,"synonyms":["Febrile convulsion","Seizures, febrile, in early childhood","Seizures, generalized, associated with fever","Febrile seizures"]}
+{"id":"HP:0002384","label":"Focal impaired awareness seizure","obsolete":false,"synonyms":["Complex focal seizures","Complex partial seizure","Complex partial seizures","Dyscognitive seizures","Focal dyscognitive seizure","Focal seizure with impairment of awareness","Focal seizure with loss of awareness","Localised dyscognitive seizure","Localised seizure with impaired awareness","Localised seizure with loss of awareness","Localized dyscognitive seizure","Localized seizure with impaired awareness","Localized seizure with loss of awareness","Partial dyscognitive seizure","Partial seizure with impairment of awareness","Partial seizure with loss of awareness","Focal impaired awareness seizures","Focal seizures with impairment of consciousness or awareness"]}
+{"id":"HP:0002444","label":"Hypothalamic hamartoma","obsolete":false,"synonyms":[]}
+{"id":"HP:0003764","label":"Nevus","obsolete":false,"synonyms":["Naevi","Naevus","Nevi","Mole"]}
+{"id":"HP:0004390","label":"Hamartomatous polyposis","obsolete":false,"synonyms":["Gastrointestinal hamartoma","Hamartomatous polyps","Gastrointestinal hamartomatous polyps"]}
+{"id":"HP:0004784","label":"Juvenile gastrointestinal polyposis","obsolete":false,"synonyms":["Juvenile GI polyposis"]}
+{"id":"HP:0004795","label":"Hamartomatous stomach polyps","obsolete":false,"synonyms":[]}
+{"id":"HP:0005152","label":"Histiocytoid cardiomyopathy","obsolete":false,"synonyms":["Arachnocytosis of the myocardium","Foamy myocardial transformation","Focal lipid cardiomyopathy","Infantile cardiomyopathy with histiocytoid changes","Infantile xanthomatous cardiomyopathy","Isolated cardiac lipidosis","Myocardial or conduction system hamartoma","Oncocytic cardiomyopathy"]}
+{"id":"HP:0005562","label":"Multiple renal cysts","obsolete":false,"synonyms":["Multiple kidney cysts"]}
+{"id":"HP:0006772","label":"Renal angiomyolipoma","obsolete":false,"synonyms":["Angiomyolipoma","Kidney angiomyolipoma"]}
+{"id":"HP:0006813","label":"Focal hemiclonic seizure","obsolete":false,"synonyms":["Hemiclonic seizure","Unilateral clonic seizure","Hemiclonic seizures","Unilateral clonic seizures"]}
+{"id":"HP:0006834","label":"Developmental stagnation at onset of seizures","obsolete":false,"synonyms":[]}
+{"id":"HP:0007193","label":"Bilateral tonic-clonic seizure on awakening","obsolete":false,"synonyms":["Generalized tonic-clonic seizures on awakening","Generalised tonic-clonic seizures on awakening","Morning generalised tonic-clonic seizures","Morning generalized tonic-clonic seizures"]}
+{"id":"HP:0007207","label":"Photosensitive tonic-clonic seizure","obsolete":false,"synonyms":["Photically induced tonic-clonic seizure","Seizures, tonic-clonic, photosensitive","Photosensitive tonic-clonic seizures"]}
+{"id":"HP:0007270","label":"Atypical absence seizure","obsolete":false,"synonyms":["Atypical absence","Atypical absence seizures","Atypical petit mal seizures"]}
+{"id":"HP:0007332","label":"Focal hemifacial clonic seizure","obsolete":false,"synonyms":["Hemifacial seizures"]}
+{"id":"HP:0007334","label":"Bilateral tonic-clonic seizure with focal onset","obsolete":false,"synonyms":["Focal seizure with secondary generalization","Focal to bilateral tonic-clonic seizure","Generalised tonic-clonic seizure with focal onset","Generalised tonic-clonic seizure with partial onset","Generalized tonic-clonic seizure with focal onset","Generalized tonic-clonic seizure with partial onset","Partial seizure with secondary generalization","Partial seizures with secondary generalization","Secondarily generalized tonic-clonic seizure","Secondarily generalized tonic-clonic seizures","Secondary generalized tonic clonic seizures","Secondary generalized tonic-clonic seizures","Focal seizure with secondary generalisation","Generalised tonic-clonic seizures with focal onset","Generalized tonic-clonic seizures with focal onset","Partial seizure with secondary generalisation","Partial seizures with secondary generalisation","Secondarily generalised tonic-clonic seizure","Secondarily generalised tonic-clonic seizures","Secondary generalised tonic clonic seizures","Secondary generalised tonic-clonic seizures"]}
+{"id":"HP:0007359","label":"Focal-onset seizure","obsolete":false,"synonyms":["Focal onset seizure","Focal seizure","Partial seizure","Focal seizures","Focal-onset seizures","Partial seizures","Seizure affecting one half of brain"]}
+{"id":"HP:0008659","label":"Multiple small medullary renal cysts","obsolete":false,"synonyms":["Medullary cystic disease","Medullary sponge kidney disease"]}
+{"id":"HP:0008696","label":"Renal hamartoma","obsolete":false,"synonyms":[]}
+{"id":"HP:0009594","label":"Retinal hamartoma","obsolete":false,"synonyms":[]}
+{"id":"HP:0009716","label":"Subependymal nodules","obsolete":false,"synonyms":[]}
+{"id":"HP:0009717","label":"Cortical tubers","obsolete":false,"synonyms":[]}
+{"id":"HP:0009720","label":"Adenoma sebaceum","obsolete":false,"synonyms":["Facial angiofibromas","Sebaceous adenoma","Sebaceous adenomas"]}
+{"id":"HP:0009729","label":"Cardiac rhabdomyoma","obsolete":false,"synonyms":[]}
+{"id":"HP:0009730","label":"Rhabdomyoma","obsolete":false,"synonyms":[]}
+{"id":"HP:0009731","label":"Cerebral hamartoma","obsolete":false,"synonyms":["Cerebral hamartomata"]}
+{"id":"HP:0009737","label":"Lisch nodules","obsolete":false,"synonyms":["Iris hamartomas"]}
+{"id":"HP:0009920","label":"Nevus of Ota","obsolete":false,"synonyms":["Congenital melanosis bulbi","Nevus fuscoceruleus ophthalmomaxillaris","Nevus of Ito","Oculodermal melanocytosis","Mongolian spot","Naevus fuscoceruleus ophthalmomaxillaris"]}
+{"id":"HP:0010566","label":"Hamartoma","obsolete":false,"synonyms":[]}
+{"id":"HP:0010568","label":"Hamartoma of the eye","obsolete":false,"synonyms":[]}
+{"id":"HP:0010615","label":"Angiofibromas","obsolete":false,"synonyms":[]}
+{"id":"HP:0010818","label":"Generalized tonic seizure","obsolete":false,"synonyms":["Generalised hypertonic seizure","Generalized hypertonic seizure","Hypertonic seizures","Generalised tonic seizure","Generalised tonic seizures","Generalized tonic seizures"]}
+{"id":"HP:0010819","label":"Atonic seizure","obsolete":false,"synonyms":["Astatic seizure","Drop attacks","Hypotonic seizure","Astatic seizures","Atonic seizures","Drop seizures","Hypotonic seizures","Sudden loss of muscle tone"]}
+{"id":"HP:0010820","label":"Focal emotional seizure with crying","obsolete":false,"synonyms":["Dacrystic seizure","Dacrystic seizures"]}
+{"id":"HP:0010821","label":"Focal emotional seizure with laughing","obsolete":false,"synonyms":["Gelastic seizure","Gelastic seizures"]}
+{"id":"HP:0010847","label":"EEG with spike-wave complexes (<2.5 Hz)","obsolete":false,"synonyms":["Electroencephalogram demonstrated spike-slow wave discharges"]}
+{"id":"HP:0010850","label":"EEG with spike-wave complexes","obsolete":false,"synonyms":[]}
+{"id":"HP:0010852","label":"EEG with photoparoxysmal response","obsolete":false,"synonyms":["Photoparoxysmal response on EEG"]}
+{"id":"HP:0010959","label":"Congenital pulmonary airway malformation","obsolete":false,"synonyms":["Congenital cystic adenomatoid malformation of the lung","Congenital cystic adenomatoid malformation","Congenital cystic disease of the lung","Cystic adenomatoid lung disease","CCAM"]}
+{"id":"HP:0011068","label":"Odontoma","obsolete":false,"synonyms":["Odontomas"]}
+{"id":"HP:0011097","label":"Epileptic spasm","obsolete":false,"synonyms":["Salaam convulsion","Salaam seizure","West syndrome","Epileptic spasms","Salaam convulsions","Salaam seizures"]}
+{"id":"HP:0011145","label":"Symptomatic seizures","obsolete":false,"synonyms":[]}
+{"id":"HP:0011146","label":"Dialeptic seizure","obsolete":false,"synonyms":["Behavioral arrest seizure with impairment of awareness irrespective of onset","Unknown onset behavioral arrest seizure with impairment of awareness","Behavioural arrest seizure with impairment of awareness irrespective of onset","Unknown onset behavioural arrest seizure with impairment of awareness"]}
+{"id":"HP:0011147","label":"Typical absence seizure","obsolete":false,"synonyms":["Typical absence","Typical absence seizures"]}
+{"id":"HP:0011149","label":"Absence seizure with eyelid myoclonia","obsolete":false,"synonyms":["Absence seizures with eyelid myoclonia"]}
+{"id":"HP:0011150","label":"Myoclonic absence seizure","obsolete":false,"synonyms":["Myoclonic absence","Myoclonic absences"]}
+{"id":"HP:0011151","label":"Atypical absence status epilepticus","obsolete":false,"synonyms":["Obtundation status"]}
+{"id":"HP:0011152","label":"Early onset absence seizures","obsolete":false,"synonyms":["Early onset petit mal seizures"]}
+{"id":"HP:0011153","label":"Focal motor seizure","obsolete":false,"synonyms":["Localized motor seizure","Partial motor seizure","Segmental motor seizure","Focal motor seizures","Localised motor seizure","Localised motor seizures","Localized motor seizures","Partial motor seizures"]}
+{"id":"HP:0011154","label":"Focal autonomic seizure","obsolete":false,"synonyms":["Focal autonomic seizures"]}
+{"id":"HP:0011157","label":"Focal sensory seizure","obsolete":false,"synonyms":["Partial sensory seizure","Sensory aura","Focal sensory seizures"]}
+{"id":"HP:0011158","label":"Focal sensory seizure with auditory features","obsolete":false,"synonyms":["Auditory aura","Focal auditory seizure","Focal sensory auditory seizure","Partial auditory seizure"]}
+{"id":"HP:0011159","label":"Focal autonomic seizure with epigastric sensation/nausea/vomiting/other gastrointestinal phenomena","obsolete":false,"synonyms":["Epigastric aura","Localised seizure with epigastric sensation","Localized seizure with epigastric sensation","Partial seizure with epigastric sensation","Abdominal aura","Epigastric auras","Visceral aura"]}
+{"id":"HP:0011160","label":"Focal sensory seizure with gustatory features","obsolete":false,"synonyms":["Focal gustatory seizure","Focal sensory gustatory seizure","Gustatory aura","Partial gustatory seizure","Gustatory auras"]}
+{"id":"HP:0011161","label":"Focal sensory seizure with olfactory features","obsolete":false,"synonyms":["Focal olfactory seizure","Olfactory aura","Partial olfactory seizure","Olfactory auras"]}
+{"id":"HP:0011163","label":"Focal sensory seizure with somatosensory features","obsolete":false,"synonyms":["Focal somatosensory seizure","Partial somatosensory seizure","Somatosensory aura","Somatosensory auras"]}
+{"id":"HP:0011165","label":"Focal sensory seizure with visual features","obsolete":false,"synonyms":["Focal visual seizure","Partial visual seizure","Simple partial occipital seizures","Visual aura","Visual auras"]}
+{"id":"HP:0011166","label":"Focal myoclonic seizure","obsolete":false,"synonyms":["Localised myoclonic seizure","Localized myoclonic seizure","Partial myoclonic seizure","Segmental myoclonic seizure","Focal myoclonic seizures","Local myoclonic seizures","Partial myoclonic seizures","Segmental myoclonic seizures"]}
+{"id":"HP:0011167","label":"Focal tonic seizure","obsolete":false,"synonyms":["Localised tonic seizure","Localized tonic seizure","Partial tonic seizure","Segmental tonic seizure","Focal tonic seizures","Local tonic seizures","Partial tonic seizures"]}
+{"id":"HP:0011168","label":"Focal seizure with eyelid myoclonia","obsolete":false,"synonyms":[]}
+{"id":"HP:0011169","label":"Generalized clonic seizure","obsolete":false,"synonyms":["Generalised clonic seizure","Generalised onset clonic seizure","Generalised-onset clonic seizure","Generalized onset clonic seizure","Generalized-onset clonic seizure","Generalised clonic seizures","Generalized clonic seizures"]}
+{"id":"HP:0011170","label":"Generalized myoclonic-atonic seizure","obsolete":false,"synonyms":["Generalised myoclonic-atonic seizure","Myoclonic-astatic seizure","Myoclonic atonic seizures"]}
+{"id":"HP:0011171","label":"Simple febrile seizure","obsolete":false,"synonyms":["Simple febrile convulsion","Simple febrile seizures","Simple fever fit"]}
+{"id":"HP:0011172","label":"Complex febrile seizure","obsolete":false,"synonyms":["Complex febrile convulsion","Complex fever fit","Complex febrile seizures"]}
+{"id":"HP:0011173","label":"Focal behavior arrest seizure","obsolete":false,"synonyms":["Focal hypokinetic seizure","Hypokinetic seizure","Localised seizure with behavioral arrest","Localized seizure with behavioral arrest","Partial hypokinetic seizure","Partial seizure with behavior arrest","Focal behaviour arrest seizure","Hypokinetic seizures","Localised seizure with behavioural arrest","Partial seizure with behaviour arrest"]}
+{"id":"HP:0011174","label":"Focal hyperkinetic seizure","obsolete":false,"synonyms":["Localised hyperkinetic seizure","Localized hyperkinetic seizure","Partial hyperkinetic seizure","Segmental hyperkinetic seizure","Hyperkinetic seizures"]}
+{"id":"HP:0011175","label":"Focal motor seizure with version","obsolete":false,"synonyms":["Versive seizure","Versive seizures"]}
+{"id":"HP:0011182","label":"Interictal epileptiform activity","obsolete":false,"synonyms":["Epileptiform EEG discharges"]}
+{"id":"HP:0011198","label":"EEG with generalized epileptiform discharges","obsolete":false,"synonyms":["EEG with generalised epileptiform discharges"]}
+{"id":"HP:0011432","label":"Elevated maternal circulating alpha-fetoprotein concentration","obsolete":false,"synonyms":["Elevated maternal serum alpha-fetoprotein","High MSAFP MoM","High maternal circulating alpha-fetoprotein concentration","High maternal serum alpha-fetoprotein MoM","High maternal serum alpha-fetoprotein","Increased maternal serum alpha-fetoprotein level","MSAFP MoM>2.5"]}
+{"id":"HP:0011802","label":"Hamartoma of tongue","obsolete":false,"synonyms":["Lingual hamartoma"]}
+{"id":"HP:0012198","label":"Juvenile colonic polyposis","obsolete":false,"synonyms":[]}
+{"id":"HP:0012581","label":"Simple renal cyst","obsolete":false,"synonyms":["Solitary renal cyst","single cortical cyst","Simple kidney cyst"]}
+{"id":"HP:0012737","label":"Small intestinal polyp","obsolete":false,"synonyms":[]}
+{"id":"HP:0012755","label":"Enlarged brainstem","obsolete":false,"synonyms":[]}
+{"id":"HP:0012778","label":"Retinal astrocytic hamartoma","obsolete":false,"synonyms":[]}
+{"id":"HP:0012798","label":"Pulmonary lymphangiomyomatosis","obsolete":false,"synonyms":["Lymphangioleiomyomatosis","Pulmonary myomatosis"]}
+{"id":"HP:0012847","label":"Epilepsia partialis continua","obsolete":false,"synonyms":["Epilepsia partialis continua of Kojevnikov","Kojevnikov's epilepsia","Kozhevnikov's epilepsia"]}
+{"id":"HP:0020212","label":"Reading-induced seizure","obsolete":false,"synonyms":[]}
+{"id":"HP:0020213","label":"Somatosensory-induced seizure","obsolete":false,"synonyms":[]}
+{"id":"HP:0020217","label":"Focal aware motor seizure","obsolete":false,"synonyms":["Focal motor aware seizure"]}
+{"id":"HP:0020219","label":"Motor seizure","obsolete":false,"synonyms":[]}
+{"id":"HP:0020220","label":"Focal atonic seizure","obsolete":false,"synonyms":["Localised atonic seizure","Localised hypotonic seizure","Localized atonic seizure","Localized hypotonic seizure","Partial atonic seizure","Partial hypotonic seizure","Segmental atonic seizure","Segmental hypotonic seizure"]}
+{"id":"HP:0020221","label":"Clonic seizure","obsolete":false,"synonyms":[]}
+{"id":"HP:0025190","label":"Bilateral tonic-clonic seizure with generalized onset","obsolete":false,"synonyms":["Generalised tonic-clonic seizure without focal onset","Generalised tonic-clonic seizure without partial onset","Generalised tonic-clonic seizures without focal onset","Generalised-onset tonic-clonic seizure","Generalized tonic-clonic seizure without focal onset","Generalized tonic-clonic seizure without partial onset","Generalized tonic-clonic seizures without focal onset","Generalized-onset tonic-clonic seizure","Primarily generalized tonic-clonic seizures","Primary generalized tonic-clonic seizure","Primary generalized tonic-clonic seizures","Bilateral tonic-clonic seizure with generalised onset","Primarily generalised tonic-clonic seizures","Primary generalised tonic-clonic seizure","Primary generalised tonic-clonic seizures"]}
+{"id":"HP:0025225","label":"Triggered by sound","obsolete":false,"synonyms":["Sound triggered symptoms"]}
+{"id":"HP:0025357","label":"Erratic myoclonus","obsolete":false,"synonyms":["Fragmentary myoclonus"]}
+{"id":"HP:0025373","label":"Interictal EEG abnormality","obsolete":false,"synonyms":[]}
+{"id":"HP:0025471","label":"Congenital panfollicular nevus","obsolete":false,"synonyms":[]}
+{"id":"HP:0025519","label":"Multiple biliary hamartomas","obsolete":false,"synonyms":["Biliary hamartoma","Multiple bile duct hamartomas","Von Meyenburg complexes"]}
+{"id":"HP:0025613","label":"Focal emotional seizure","obsolete":false,"synonyms":["Affective seizure","Emotional seizure","Focal affective seizure","Partial emotional seizure"]}
+{"id":"HP:0025644","label":"Fixation-off epileptiform discharges","obsolete":false,"synonyms":["Fixation-off sensitivity"]}
+{"id":"HP:0025704","label":"Type 3 schizencephaly","obsolete":false,"synonyms":[]}
+{"id":"HP:0030024","label":"Pretragal ectopia","obsolete":false,"synonyms":["Pretragal Duplication","Extra cartilage in front of the ear"]}
+{"id":"HP:0030429","label":"Juvenile nasopharyngeal angiofibroma","obsolete":false,"synonyms":[]}
+{"id":"HP:0030436","label":"Fibrofolliculoma","obsolete":false,"synonyms":["Fibrofolliculomas"]}
+{"id":"HP:0030510","label":"Combined hamartoma of the retinal pigment epithelium and retina","obsolete":false,"synonyms":[]}
+{"id":"HP:0030670","label":"Hamartoma of the orbital region","obsolete":false,"synonyms":[]}
+{"id":"HP:0031111","label":"Cutaneous hamartoma","obsolete":false,"synonyms":["Skin hamartoma"]}
+{"id":"HP:0031475","label":"Status epilepticus without prominent motor symptoms","obsolete":false,"synonyms":["Nonconvulsive status epilepticus"]}
+{"id":"HP:0032046","label":"Focal cortical dysplasia","obsolete":false,"synonyms":[]}
+{"id":"HP:0032056","label":"Focal cortical dysplasia type IIIb","obsolete":false,"synonyms":[]}
+{"id":"HP:0032225","label":"Perifollicular fibroma","obsolete":false,"synonyms":[]}
+{"id":"HP:0032579","label":"Vascular hamartoma","obsolete":false,"synonyms":[]}
+{"id":"HP:0032656","label":"Febrile status epilepticus","obsolete":false,"synonyms":["Fever-induced status epilepticus"]}
+{"id":"HP:0032658","label":"Status epilepticus with prominent motor symptoms","obsolete":false,"synonyms":[]}
+{"id":"HP:0032659","label":"Non-convulsive status epilepticus with coma","obsolete":false,"synonyms":["Subtle status epilepticus"]}
+{"id":"HP:0032660","label":"Convulsive status epilepticus","obsolete":false,"synonyms":["Tonic-clonic status epilepticus"]}
+{"id":"HP:0032661","label":"Generalized convulsive status epilepticus","obsolete":false,"synonyms":["Generalised convulsive status epilepticus"]}
+{"id":"HP:0032662","label":"Focal-onset seizure evolving into bilateral convulsive status epilepticus","obsolete":false,"synonyms":["Focal onset seizure evolving into bilateral convulsive status epilepticus","Focal-onset seizure evolving into generalized convulsive status epilepticus","Partial onset seizure evolving into convulsive status epilepticus","Partial-onset seizure evolving into convulsive status epilepticus","Secondarily generalized convulsive status epilepticus","Secondarily generalized tonic-clonic status epilepticus","Focal-onset seizure evolving into generalised convulsive status epilepticus","Secondarily generalised convulsive status epilepticus","Secondarily generalised tonic-clonic status epilepticus"]}
+{"id":"HP:0032663","label":"Focal motor status epilepticus","obsolete":false,"synonyms":[]}
+{"id":"HP:0032664","label":"Adversive status epilepticus","obsolete":false,"synonyms":[]}
+{"id":"HP:0032665","label":"Repeated focal motor seizures","obsolete":false,"synonyms":["Jacksonian status epilepticus"]}
+{"id":"HP:0032666","label":"Hyperkinetic status epilepticus","obsolete":false,"synonyms":[]}
+{"id":"HP:0032667","label":"Myoclonic status epilepticus","obsolete":false,"synonyms":[]}
+{"id":"HP:0032668","label":"Myoclonic status epilepticus without coma","obsolete":false,"synonyms":[]}
+{"id":"HP:0032669","label":"Myoclonic status epilepticus with coma","obsolete":false,"synonyms":[]}
+{"id":"HP:0032670","label":"Tonic status epilepticus","obsolete":false,"synonyms":[]}
+{"id":"HP:0032671","label":"Non-convulsive status epilepticus without coma","obsolete":false,"synonyms":[]}
+{"id":"HP:0032672","label":"Autonomic status epilepticus","obsolete":false,"synonyms":[]}
+{"id":"HP:0032673","label":"Focal non-convulsive status epilepticus without coma","obsolete":false,"synonyms":[]}
+{"id":"HP:0032677","label":"Generalized-onset motor seizure","obsolete":false,"synonyms":["Generalised onset motor seizure","Generalised-onset motor seizure","Generalized onset motor seizure"]}
+{"id":"HP:0032679","label":"Focal non-motor seizure","obsolete":false,"synonyms":["Focal seizure without motor onset","Partial seizure without motor onset"]}
+{"id":"HP:0032680","label":"Focal cognitive seizure","obsolete":false,"synonyms":["Cognitive aura","Cognitive seizure","Partial cognitive seizure"]}
+{"id":"HP:0032682","label":"Focal aware non-motor seizure","obsolete":false,"synonyms":["Focal non-motor aware seizure"]}
+{"id":"HP:0032711","label":"Focal aware clonic seizure","obsolete":false,"synonyms":[]}
+{"id":"HP:0032712","label":"Focal impaired awareness motor seizure","obsolete":false,"synonyms":["Focal motor impaired awareness seizure"]}
+{"id":"HP:0032713","label":"Focal impaired awareness motor seizure with version","obsolete":false,"synonyms":["Focal motor impaired awareness seizure with version"]}
+{"id":"HP:0032714","label":"Focal impaired awareness bilateral motor seizure","obsolete":false,"synonyms":[]}
+{"id":"HP:0032715","label":"Focal bilateral motor seizure","obsolete":false,"synonyms":[]}
+{"id":"HP:0032716","label":"Focal impaired awareness non-motor seizure","obsolete":false,"synonyms":["Focal non-motor impaired awareness seizure"]}
+{"id":"HP:0032717","label":"Focal impaired awareness motor seizure with dystonia","obsolete":false,"synonyms":["Focal motor impaired awareness seizure with dystonia"]}
+{"id":"HP:0032718","label":"Focal motor seizure with dystonia","obsolete":false,"synonyms":[]}
+{"id":"HP:0032719","label":"Focal impaired awareness motor seizure with dysarthria/anarthria","obsolete":false,"synonyms":["Focal motor impaired awareness seizure with dysarthria/anarthria"]}
+{"id":"HP:0032720","label":"Focal motor seizure with dysarthria/anarthria","obsolete":false,"synonyms":[]}
+{"id":"HP:0032721","label":"Focal motor seizure with paresis/paralysis","obsolete":false,"synonyms":[]}
+{"id":"HP:0032723","label":"Focal aware motor seizure with dystonia","obsolete":false,"synonyms":["Focal motor aware seizure with dystonia"]}
+{"id":"HP:0032725","label":"Focal impaired awareness clonic seizure","obsolete":false,"synonyms":[]}
+{"id":"HP:0032726","label":"Focal impaired awareness hyperkinetic seizure","obsolete":false,"synonyms":[]}
+{"id":"HP:0032727","label":"Focal emotional seizure with agitation","obsolete":false,"synonyms":[]}
+{"id":"HP:0032732","label":"Focal aware motor seizure with paresis/paralysis","obsolete":false,"synonyms":["Focal motor aware seizure with paresis/paralysis"]}
+{"id":"HP:0032733","label":"Focal aware motor seizure with dysarthria/anarthria","obsolete":false,"synonyms":["Focal motor aware seizure with dysarthria/anarthria"]}
+{"id":"HP:0032739","label":"Focal emotional seizure with fear/anxiety/panic","obsolete":false,"synonyms":[]}
+{"id":"HP:0032740","label":"Focal aware autonomic seizure","obsolete":false,"synonyms":["Focal autonomic seizures without altered responsiveness","Localized autonomic seizures without altered responsiveness","Partial autonomic seizures without altered responsiveness","Localised autonomic seizures without altered responsiveness"]}
+{"id":"HP:0032755","label":"Focal impaired awareness autonomic seizure","obsolete":false,"synonyms":["Focal autonomic seizure with altered responsiveness","Localized autonomic seizure with altered responsiveness","Partial autonomic seizure with altered responsiveness","Localised autonomic seizure with altered responsiveness"]}
+{"id":"HP:0032759","label":"Focal sensory seizure with vestibular features","obsolete":false,"synonyms":["Focal vestibular seizure","Partial vestibular seizure","Vestibular aura"]}
+{"id":"HP:0032786","label":"Migrating focal seizure","obsolete":false,"synonyms":["Migrating partial seizure"]}
+{"id":"HP:0032789","label":"Focal aware behavior arrest seizure","obsolete":false,"synonyms":["Focal aware behaviour arrest seizure"]}
+{"id":"HP:0032790","label":"Focal impaired awareness behavior arrest seizure","obsolete":false,"synonyms":["Focal impaired awareness behaviour arrest seizure"]}
+{"id":"HP:0032792","label":"Tonic seizure","obsolete":false,"synonyms":[]}
+{"id":"HP:0032795","label":"Generalized myoclonic-tonic-clonic seizure","obsolete":false,"synonyms":["Generalised myoclonic-tonic-clonic seizure","Generalised-onset myoclonic-tonic-clonic seizure","Generalized-onset myoclonic-tonic-clonic seizure","generalized onset myoclonic-tonic-clonic seizure","generalised onset myoclonic-tonic-clonic seizure"]}
+{"id":"HP:0032807","label":"Neonatal seizure","obsolete":false,"synonyms":[]}
+{"id":"HP:0032810","label":"Focal sensory seizure with cephalic sensation","obsolete":false,"synonyms":["Cephalic aura","Focal seizure with cephalic sensation","Partial seizure with cephalic sensation"]}
+{"id":"HP:0032812","label":"Neonatal electro-clinical non-motor seizure","obsolete":false,"synonyms":[]}
+{"id":"HP:0032813","label":"Neonatal electro-clinical motor seizure","obsolete":false,"synonyms":[]}
+{"id":"HP:0032814","label":"Neonatal electro-clinical clonic seizure","obsolete":false,"synonyms":["Neonatal electroclinical clonic seizure"]}
+{"id":"HP:0032815","label":"Neonatal electro-clinical myoclonic seizure","obsolete":false,"synonyms":["Neonatal electroclinical myoclonic seizure"]}
+{"id":"HP:0032816","label":"Neonatal multifocal myoclonic seizure","obsolete":false,"synonyms":[]}
+{"id":"HP:0032817","label":"Neonatal focal myoclonic seizure","obsolete":false,"synonyms":[]}
+{"id":"HP:0032818","label":"Neonatal focal clonic seizure","obsolete":false,"synonyms":[]}
+{"id":"HP:0032819","label":"Neonatal bilateral clonic seizure","obsolete":false,"synonyms":[]}
+{"id":"HP:0032820","label":"Neonatal multifocal clonic seizure","obsolete":false,"synonyms":[]}
+{"id":"HP:0032821","label":"Neonatal electro-clinical tonic seizure","obsolete":false,"synonyms":[]}
+{"id":"HP:0032823","label":"Neonatal electro-clinical seizure with behavior arrest","obsolete":false,"synonyms":["Neonatal electroclinical seizure with behavioral arrest","Neonatal electro-clinical seizure with behaviour arrest","Neonatal electroclinical seizure with behavioural arrest"]}
+{"id":"HP:0032825","label":"Neonatal electro-clinical sequential seizure","obsolete":false,"synonyms":["Neonatal electroclinical sequential seizure"]}
+{"id":"HP:0032826","label":"Focal neonatal sequential seizure","obsolete":false,"synonyms":[]}
+{"id":"HP:0032827","label":"Multifocal neonatal sequential seizure","obsolete":false,"synonyms":[]}
+{"id":"HP:0032829","label":"Neonatal electro-clinical motor seizure with automatism","obsolete":false,"synonyms":["Neonatal electroclinical motor seizure with automatism"]}
+{"id":"HP:0032832","label":"Neonatal bilateral asymmetric myoclonic seizure","obsolete":false,"synonyms":[]}
+{"id":"HP:0032836","label":"Neonatal bilateral symmetric myoclonic seizure","obsolete":false,"synonyms":[]}
+{"id":"HP:0032837","label":"Bilateral asymmetric neonatal sequential seizure","obsolete":false,"synonyms":[]}
+{"id":"HP:0032839","label":"Bilateral symmetric neonatal sequential seizure","obsolete":false,"synonyms":[]}
+{"id":"HP:0032846","label":"Focal motor seizure with negative myoclonus","obsolete":false,"synonyms":[]}
+{"id":"HP:0032847","label":"Focal impaired awareness hemifacial clonic seizure","obsolete":false,"synonyms":[]}
+{"id":"HP:0032849","label":"Aphasic status epilepticus","obsolete":false,"synonyms":[]}
+{"id":"HP:0032854","label":"Focal aware hemifacial clonic seizure","obsolete":false,"synonyms":[]}
+{"id":"HP:0032855","label":"Photosensitive myoclonic-tonic-clonic seizure","obsolete":false,"synonyms":["Photically induced myoclonic-tonic-clonic seizure"]}
+{"id":"HP:0032856","label":"Focal aware bilateral motor seizure","obsolete":false,"synonyms":[]}
+{"id":"HP:0032857","label":"Focal aware motor seizure with negative myoclonus","obsolete":false,"synonyms":["Focal motor aware seizure with negative myoclonus"]}
+{"id":"HP:0032858","label":"Focal impaired awareness motor seizure with negative myoclonus","obsolete":false,"synonyms":["Focal motor impaired awareness seizure with negative myoclonus"]}
+{"id":"HP:0032859","label":"Focal impaired awareness motor seizure with paresis/paralysis","obsolete":false,"synonyms":["Focal motor impaired awareness seizure with paresis/paralysis"]}
+{"id":"HP:0032860","label":"Generalized non-convulsive status epilepticus without coma","obsolete":false,"synonyms":["Absence status epilepticus","Generalised non-convulsive status epilepticus without coma","Petit mal status epilepticus"]}
+{"id":"HP:0032861","label":"Focal non-convulsive status epilepticus with impairment of consciousness","obsolete":false,"synonyms":["Focal non-convulsive status epilepticus with impairment of awareness"]}
+{"id":"HP:0032862","label":"Status epilepticus with ictal paresis","obsolete":false,"synonyms":["Focal inhibitory status epilepticus"]}
+{"id":"HP:0032863","label":"Typical absence status epilepticus","obsolete":false,"synonyms":["Simple absence status epilepticus"]}
+{"id":"HP:0032864","label":"Focal aware sensory seizure with auditory features","obsolete":false,"synonyms":[]}
+{"id":"HP:0032865","label":"Myoclonic absence status epilepticus","obsolete":false,"synonyms":[]}
+{"id":"HP:0032866","label":"Oculoclonic status epilepticus","obsolete":false,"synonyms":[]}
+{"id":"HP:0032867","label":"Refractory status epilepticus","obsolete":false,"synonyms":[]}
+{"id":"HP:0032868","label":"Super-refractory status epilepticus","obsolete":false,"synonyms":[]}
+{"id":"HP:0032869","label":"Focal non-convulsive status epilepticus without impairment of consciousness","obsolete":false,"synonyms":["Aura continua","Focal non-convulsive status epilepticus with retained awareness","Focal non-convulsive status epilepticus without impairment of awareness"]}
+{"id":"HP:0032891","label":"Focal aware motor seizure with version","obsolete":false,"synonyms":["Focal motor aware seizure with version"]}
+{"id":"HP:0032892","label":"Infection-related seizure","obsolete":false,"synonyms":[]}
+{"id":"HP:0032894","label":"Seizure precipitated by febrile infection","obsolete":false,"synonyms":["Fever induced seizure"]}
+{"id":"HP:0032895","label":"Febrile seizure outside the age of 3 months to 6 years","obsolete":false,"synonyms":[]}
+{"id":"HP:0032898","label":"Focal automatism seizure","obsolete":false,"synonyms":[]}
+{"id":"HP:0032901","label":"Focal pedal automatism seizure","obsolete":false,"synonyms":[]}
+{"id":"HP:0032963","label":"Complex renal cyst","obsolete":false,"synonyms":[]}
+{"id":"HP:0033052","label":"Non-epileptic seizure","obsolete":false,"synonyms":["Functional seizure","Psychogenic non-epileptic seizure","Psychosomatic seizure"]}
+{"id":"HP:0033258","label":"Sudden unexpected death in epilepsy","obsolete":false,"synonyms":["SUDEP"]}
+{"id":"HP:0033259","label":"Non-motor seizure","obsolete":false,"synonyms":[]}
+{"id":"HP:0033348","label":"Epileptic aura","obsolete":false,"synonyms":[]}
+{"id":"HP:0033349","label":"Seizure cluster","obsolete":false,"synonyms":["Acute repetitive seizures","Crescendo seizures","Cyclical seizures","Recurrent seizures","Seizure flurries","Serial seizures"]}
+{"id":"HP:0033664","label":"Ganglioglioma","obsolete":false,"synonyms":[]}
+{"id":"HP:0033669","label":"Enlarged amygdala","obsolete":false,"synonyms":["Amygdalar enlargement"]}
+{"id":"HP:0033682","label":"Pleomorphic xanthoastrocytoma","obsolete":false,"synonyms":[]}
+{"id":"HP:0033693","label":"Phantosmia","obsolete":false,"synonyms":["Phantom odor","Phantom smell","Phantom odour"]}
+{"id":"HP:0033703","label":"Dysembryoplastic neuroepithelial tumor","obsolete":false,"synonyms":["DNET","DNT"]}
+{"id":"HP:0033715","label":"Hippocampal sclerosis","obsolete":false,"synonyms":["Mesial temporal sclerosis"]}
+{"id":"HP:0033722","label":"Autonomic epileptic aura","obsolete":false,"synonyms":["Autonomic aura","Vegetative aura","Autonomic auras"]}
+{"id":"HP:0034275","label":"Verrucous epidermal nevus","obsolete":false,"synonyms":[]}
+{"id":"HP:0034343","label":"Requires heterozygosity","obsolete":false,"synonyms":[]}
+{"id":"HP:0034514","label":"Liver hamartoma","obsolete":false,"synonyms":[]}
+{"id":"HP:0034710","label":"Pulmonary hamartoma","obsolete":false,"synonyms":[]}
+{"id":"HP:0034759","label":"Ameliorated by ethosuximide","obsolete":false,"synonyms":[]}
+{"id":"HP:0034793","label":"Small intestinal hamartoma","obsolete":false,"synonyms":[]}
+{"id":"HP:0034831","label":"Pancreatic hamartoma","obsolete":false,"synonyms":[]}
+{"id":"HP:0034832","label":"Liver angiomyolipoma","obsolete":false,"synonyms":["Hepatic angiomyolipoma"]}
+{"id":"HP:0034843","label":"Ureteral hamartoma","obsolete":false,"synonyms":[]}
+{"id":"HP:0034970","label":"Urinary bladder hamartoma","obsolete":false,"synonyms":[]}
+{"id":"HP:0040148","label":"Cortical myoclonus","obsolete":false,"synonyms":[]}
+{"id":"HP:0041050","label":"Renal tubular cyst","obsolete":false,"synonyms":["Renal tubule cyst"]}
+{"id":"HP:0100021","label":"Cerebral palsy","obsolete":false,"synonyms":["Cerebral paralysis","CP"]}
+{"id":"HP:0100601","label":"Eclampsia","obsolete":false,"synonyms":[]}
+{"id":"HP:0100622","label":"Maternal seizure","obsolete":false,"synonyms":["Maternal seizures"]}
+{"id":"HP:0100780","label":"Conjunctival hamartoma","obsolete":false,"synonyms":[]}
+{"id":"HP:0100882","label":"Fibrous hamartoma","obsolete":false,"synonyms":["Fibrous hamartoma of infancy"]}
+{"id":"HP:0100883","label":"Chorangioma","obsolete":false,"synonyms":["Placental hamartoma"]}
+{"id":"HP:0100898","label":"Connective tissue nevi","obsolete":false,"synonyms":[]}
+{"id":"HP:0500009","label":"Dysplastic gangliocytoma of the cerebellum","obsolete":false,"synonyms":["Lhermitte-Duclos disease","LDD"]}
+{"id":"HP:0500091","label":"Lymphangioma of the orbit","obsolete":false,"synonyms":[]}
+{"id":"HP:0500173","label":"Reflex asystolic syncope","obsolete":false,"synonyms":["Reflex anoxic seizure","Reflex anoxic seizures"]}
+{"id":"HP:4000106","label":"Spleen hamartoma","obsolete":false,"synonyms":[]}
+{"id":"HP:5210199","label":"Parasitic kidney abscess","obsolete":false,"synonyms":["Echinococcal renal cyst","Parasitic renal abscess","Renal hydatid cyst"]}
+{"id":"HP:6000073","label":"Renal lymphangiectasia","obsolete":false,"synonyms":["Hygroma renale","Peripelvic lymphangiectasia","Renal lymphangiomatosis"]}
+{"id":"HP:6000078","label":"Nasal hamartoma","obsolete":false,"synonyms":[]}
+{"id":"HP:6000368","label":"Sonographic renal salt and pepper pattern","obsolete":false,"synonyms":[]}
