@@ -65,7 +65,7 @@ routes() { cat > "$t/desk/routes.json"; }
 TV='assay-aaaaaaaaaaaa+bbbbbbbbbbbb'
 tables() { mkdir -p "$t/repo/data"; printf '%s\n' '{"id":"MONDO:0010526","label":"a synthetic disease","obsolete":false,"synonyms":[]}' '{"id":"MONDO:0000001","label":"another","obsolete":false,"synonyms":[]}' > "$t/repo/data/release.MONDO.jsonl"
   python3 -I -c 'import hashlib,json,sys; f=sys.argv[1]; print(json.dumps({"note": "synthetic", "releases": [{"ontology": "MONDO", "version": sys.argv[2], "file": "release.MONDO.jsonl", "sha256": hashlib.sha256(open(f, "rb").read()).hexdigest(), "rows": 2}]}))' "$t/repo/data/release.MONDO.jsonl" "$TV" > "$t/repo/data/pins.json"; }
-fresh() { rm -rf "$t/repo"; mkdir -p "$t/repo/tools"; git -C "$t/repo" init -q; cp "$script" "$t/repo/tools/rare.sh"; tables; : > "$t/desk/log"; }
+fresh() { rm -rf "$t/repo"; mkdir -p "$t/repo/tools"; git -C "$t/repo" init -q; cp "$script" "$t/repo/tools/rare.sh"; cp -R "$repo/schemas" "$t/repo/schemas"; tables; : > "$t/desk/log"; }
 # The desk's status file with its pins (data.pequalnp.com/data/desk/raredx/status.json): $1 the version, $2 a sha256 (or "same")
 with_pins() { python3 -I -c 'import hashlib,json,sys; r=json.load(sys.stdin); v,h,f=sys.argv[1:4]; h=hashlib.sha256(open(f, "rb").read()).hexdigest() if h=="same" else h
 r["GET /data/desk/raredx/status.json"]={"status": 200, "body": {"silo": "raredx", "pins": [{"ontology": "MONDO", "version": v, "sha256": h}]}}; print(json.dumps(r))' "$1" "$2" "$t/repo/data/release.MONDO.jsonl"; }
@@ -148,6 +148,16 @@ print(json.dumps({"GET /raredx/next": {"status": 200, "body": {"gap": {"id": u, 
  "POST /raredx/release": {"status": 200, "body": {"released": u, "reason": "out_of_time"}}}))' "$P2" "$S2" "$U2" "$(len "$P2")" "$FIXED" | routes
 run next --kind extract; [ "$rc" = 0 ] && grep -q '^KIND       extract' "$t/out" && ! grep -q 'MENTIONS' "$t/out" || fail "next of an extract unit (no mentions listed: no MENTIONS line)"
 grep -q '^GET /raredx/next?handle=tester&model=unknown&kind=extract$' "$t/desk/log" || fail "next --kind asked wrongly: $(cat "$t/desk/log")"
+# the field definitions, from schemas/unit.extract.json, one line each, then the rule for optional fields
+python3 -I - "$t/out" <<'PY' || fail "next of an extract unit does not print the field definitions"
+import sys
+L = open(sys.argv[1], encoding="utf-8").read().split("\n")
+want = ["FIELDS     organism: organism is the organism the reported finding is about; a background statement takes the organism of the paper's own subjects",
+        "           study: study is the design of the study that reports the claim; a background statement in a paper takes the paper's own design",
+        "           n_subjects: the number of subjects in the study that reports the claim, only when the passage states it; leave it out otherwise",
+        "           optional fields: an optional field that readers do not agree on is left out of the recorded claim; the claim is still recorded"]
+i = L.index(want[0]); assert L[i:i + 4] == want, L[i:i + 4]
+PY
 claim() { printf '{"claims": [{"subject": "CHEMBL:CHEMBL941", "relation": "inhibits", "object": "HGNC:6342", "effect": "positive", "organism": "mouse", "study": "in_vitro", "potency": {"value": 0.1, "unit": "uM"}, "spans": [{"start": 0, "end": %s, "quote": "%s"}]%s}]}' "$1" "$2" "${3:-}"; }
 : > "$t/desk/log"
 claim 22 "Imatinib inhibited KIX" > "$t/a.json"; run answer "$U2" "$t/a.json"; [ "$rc" = 1 ] && grep -q "quote is not the passage's bytes" "$t/err" || fail "a wrong quote was not refused"

@@ -293,6 +293,13 @@ def show(d, b):
         print("REVIEWING  the answers of unit", line(g.get("unit", ""), 40))
         for x in ("a", "b"): framed("result " + x.upper(), clean(json.dumps(g["results"][x], ensure_ascii=False), 8000), tok)
     print("ANSWER    ", HOW[g["kind"]][1]); [print("          ", h) for h in HOW[g["kind"]][2:]]
+    # THE FIELD DEFINITIONS of an EXTRACT answer, from this clone's schemas/unit.extract.json (the one home of the words).
+    if g["kind"] == "extract":
+        try: c = json.load(open(os.path.join(ROOT, "schemas", "unit.extract.json"), encoding="utf-8"))["answer"]["properties"]["claims"]["items"]
+        except Exception: c = {}
+        f = [(k, (c.get("properties") or {}).get(k, {}).get("description")) for k in ("organism", "study", "n_subjects")] + [(None, c.get("description"))]
+        f = [line(t if k is None else "%s: %s" % (k, t), 300) for k, t in f if isinstance(t, str)]
+        for i, t in enumerate(f): print("FIELDS    " if i == 0 else "          ", t)
     print("SEND       write the answer as one JSON file under .pnp/raredx/, then: tools/rare.sh answer %s <file>" % uid)
     print("LEASE     ", line(l["id"], 64), "until", line(l.get("expires_at", ""), 40), "| renew every 5 minutes: tools/rare.sh beat", uid)
     print("RULES      Only what the passage says. Quote its exact words. No doses and no advice. Nothing you send is free text.")

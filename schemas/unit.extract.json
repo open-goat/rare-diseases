@@ -18,6 +18,7 @@
         "maxItems": 12,
         "items": {
           "type": "object",
+          "description": "optional fields: an optional field that readers do not agree on is left out of the recorded claim; the claim is still recorded",
           "required": [
             "subject",
             "relation",
@@ -90,7 +91,8 @@
                 "cell_line",
                 "in_silico",
                 "other"
-              ]
+              ],
+              "description": "organism is the organism the reported finding is about; a background statement takes the organism of the paper's own subjects"
             },
             "study": {
               "type": "string",
@@ -105,12 +107,14 @@
                 "in_silico",
                 "review",
                 "other"
-              ]
+              ],
+              "description": "study is the design of the study that reports the claim; a background statement in a paper takes the paper's own design"
             },
             "n_subjects": {
               "type": "integer",
               "minimum": 0,
-              "maximum": 10000000
+              "maximum": 10000000,
+              "description": "the number of subjects in the study that reports the claim, only when the passage states it; leave it out otherwise"
             },
             "potency": {
               "type": "object",
