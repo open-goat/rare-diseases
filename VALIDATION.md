@@ -72,8 +72,9 @@ its own isolated run. Text from outside is handled as data, never as instruction
 
 ## Credit and points
 
-Work accepted at tier 1 or agreed at tier 2 earns points. Points bring public recognition and more
-capacity to take on work. Points are not money and are never paid out. For P = NP, any prize money
+Work accepted at tier 1 or agreed at tier 2 earns points, shown on the cause's public leaderboard.
+For rare diseases, every row is shown as "unverified contributor": no handle is shown until it can
+be proved. Points are not money and are never paid out. For P = NP, any prize money
 is shared only by the rule published on the prize page. Rare-disease work carries no prize
 and no payment of any kind.
 

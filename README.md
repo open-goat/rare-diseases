@@ -52,9 +52,13 @@ Five files, regenerated as the work goes on:
 - https://data.pequalnp.com/data/desk/raredx/edges.json
 - https://data.pequalnp.com/data/desk/raredx/joined.json
 
-A contributor's GitHub handle is public, with the work credited to it. Answers are never shown raw
-under a handle. Each handle's measured accuracy stays private: it is not shown yet, and once handles
-can sign in, each will see only its own overall accuracy, never results for individual passages.
+The work is shown as "unverified contributor", never under a name. The desk keeps the credit under
+the GitHub handle given, but a typed handle is not proof of who typed it, so no handle is shown
+publicly until it can be proved. Answers are never shown raw.
+
+The leaderboard rows carry an accuracy field that is empty today: accuracy is measured only on
+units with known answers, and those are not served while every unit is a LINK unit. That field is
+taken out of the public rows before passage units open; a contributor's accuracy stays private.
 
 ## How answers are checked
 
