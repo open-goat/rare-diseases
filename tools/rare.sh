@@ -85,6 +85,13 @@ IDS = {"CHEMBL": r"CHEMBL[0-9]{1,9}", "DRUGCENTRAL": r"[0-9]{1,6}", "UNII": r"[A
        "GO": r"[0-9]{7}", "MONDO": r"[0-9]{7}", "ORPHA": r"[0-9]{1,7}", "HP": r"[0-9]{7}"}
 EXPECT = {"disease": ["MONDO", "ORPHA"], "drug": ["CHEMBL", "UNII", "RXCUI"], "target": ["UNIPROT"], "pathway": [], "phenotype": []}
 ANSWER_BYTES, DEPTH = 32768, 8
+MENTIONS_MAX, MENTION_IDS = 512, 64  # the desk's RX_MENTIONS and RX_MENTION_IDS
+# The kind each id prefix names (the fleet's kindOfId): an id counts only under a mention of its own kind.
+KIND_OF = {"CHEMBL": "drug", "UNII": "drug", "RXCUI": "drug", "DRUGCENTRAL": "drug", "UNIPROT": "target", "HGNC": "target", "ENSEMBL": "target",
+           "MONDO": "disease", "ORPHA": "disease", "HP": "phenotype", "REACTOME": "pathway", "GO": "pathway"}
+def isid(v):
+    m = re.fullmatch(r"([A-Z]+):(.+)", v, re.S | re.A) if isinstance(v, str) else None
+    return bool(m) and m.group(1) in IDS and re.fullmatch(IDS[m.group(1)], m.group(2), re.A) is not None
 BAD = ("Cc", "Cf", "Zl", "Zp", "Co")
 def clean(x, n=4000):
     x = x if isinstance(x, str) else json.dumps(x, ensure_ascii=False)
@@ -152,6 +159,18 @@ def check(kind, v, b, g=None):
     # REVIEW verdict names a claim result a or b makes; a chain cites this unit's evidence (or agreed evidence the desk knows).
     if kind == "link" and v["id"].split(":")[0] not in EXPECT.get(g.get("expect"), []):
         return ("a %s takes an id of %s" % (g.get("expect"), ", ".join(EXPECT[g.get("expect")]))) if EXPECT.get(g.get("expect")) else ("a %s takes no answer today: no %s ontology is pinned" % (g.get("expect"), g.get("expect")))
+    # An EXTRACT unit that lists its passage's mentions (the desk's own rule at submit): every id a claim names (already one
+    # its field admits, by the schema above) is an id of a listed mention of the id's own kind, and that mention lies inside
+    # one of the claim's spans.
+    if kind == "extract" and "mentions" in g:
+        for i, c in enumerate(v["claims"]):
+            for f in ("subject", "object"):
+                on = [x for x in g["mentions"] if c[f] in x["ids"]]; k = KIND_OF.get(c[f].split(":")[0])
+                if not on: return "claims[%d].%s %s is not one of this passage's listed ids" % (i, f, c[f])  # the desk's words
+                at = [x for x in on if x["kind"] == k]
+                if not at: return "claims[%d].%s %s is listed only under a %s mention, and a %s takes no %s id" % (i, f, c[f], on[0]["kind"], on[0]["kind"], c[f].split(":")[0])  # the desk's words
+                if not any(s["start"] <= x["start"] and x["end"] <= s["end"] for x in at for s in c["spans"]):
+                    return "claims[%d].%s %s is listed, but not inside any span this claim cites" % (i, f, c[f])  # the desk's words
     if kind == "review":
         pairs = {"%s|%s" % (c["subject"], c["object"]) for x in ("a", "b") for c in (g.get("results") or {}).get(x, {}).get("claims", [])}
         off = [x["slot"] for x in v["verdicts"] if re.match(r"claims\[(.*)\]\.", x["slot"]).group(1) not in pairs]
@@ -223,6 +242,16 @@ def show(d, b):
         m = g["mention"]; print("MENTION    bytes %d..%d of the passage:" % (m["start"], m["end"]))
         framed("mention", clean(b[m["start"]:m["end"]].decode("utf-8", "replace"), 400), tok)
         print("EXPECT    ", g["expect"])
+    # THE MENTIONS of an EXTRACT unit: one numbered line each, its words read from the passage's own bytes (cleaned, on
+    # one line, capped and quoted), its byte span, its kind and its ids, the first marked preferred. The words are data.
+    if g["kind"] == "extract" and "mentions" in g:
+        ms = g["mentions"]
+        if not ms: print('MENTIONS   none listed for this passage: no claim can name an id here, so the answer is {"claims": []}')
+        else:
+            print("MENTIONS   %d listed (bytes of the passage; ids in preference order). A claim names only these ids, and each id's mention lies inside one of the claim's spans" % len(ms))
+            def words(x): w = line(b[x["start"]:x["end"]].decode("utf-8", "replace"), 400); return json.dumps(w if len(w) <= 80 else w[:77] + "...", ensure_ascii=False)
+            rows = ["%d. %s  bytes %d..%d  %s  %s" % (i + 1, words(x), x["start"], x["end"], x["kind"], ", ".join([x["ids"][0] + " (preferred)"] + x["ids"][1:])) for i, x in enumerate(ms)]
+            framed("mentions", "\n".join(rows), tok)
     if g["kind"] == "review":
         print("REVIEWING  the answers of unit", line(g.get("unit", ""), 40))
         for x in ("a", "b"): framed("result " + x.upper(), clean(json.dumps(g["results"][x], ensure_ascii=False), 8000), tok)
@@ -262,6 +291,11 @@ def shape_why(d):
         m = g.get("mention")
         if not isinstance(m, dict) or type(m.get("start")) is not int or type(m.get("end")) is not int or not 0 <= m["start"] < m["end"] <= len(b): return "the mention is not inside the passage"
         if g.get("expect") not in ("disease", "drug", "target", "pathway", "phenotype"): return "what the mention is"
+    if g["kind"] == "extract" and "mentions" in g:
+        ms = g["mentions"]
+        if not isinstance(ms, list) or len(ms) > MENTIONS_MAX or not all(isinstance(x, dict) and type(x.get("start")) is int and type(x.get("end")) is int
+               and 0 <= x["start"] < x["end"] <= len(b) and x.get("kind") in EXPECT and isinstance(x.get("ids"), list) and 1 <= len(x["ids"]) <= MENTION_IDS
+               and all(isid(i) for i in x["ids"]) for x in ms): return "the mentions"
     if g["kind"] == "review":
         r = g.get("results")
         if not isinstance(r, dict): return "the results under review"
@@ -277,6 +311,8 @@ if op == "next":
         print(clean(d.get("note") or d.get("error") or "no unit right now; ask again in a few minutes", 600))
         if isinstance(d.get("retry_after_s"), int): print("ask again in", d["retry_after_s"], "s")
         sys.exit(0)
+    # The mentions may come beside the unit rather than in it: they are kept with the unit either way.
+    if isinstance(d, dict) and isinstance(d.get("gap"), dict) and "mentions" in d and "mentions" not in d["gap"]: d["gap"]["mentions"] = d.pop("mentions")
     why = shape_why(d)
     if why:
         gid = d["gap"].get("id") if isinstance(d, dict) and isinstance(d.get("gap"), dict) else None

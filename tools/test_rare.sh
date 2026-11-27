@@ -7,7 +7,9 @@
 # 2. A SESSION against a stub desk (tools/test_desk_stub.mjs): next shows a LINK unit and saves its passage, span finds
 #    exact words, bad answers are refused locally with nothing sent, a good answer is sent byte for byte and the unit is
 #    done; an EXTRACT unit: a quote that is not the passage's bytes, a span past the passage and free text are refused
-#    locally, check sends nothing, beat, release; a desk refusal (400) and a withdrawal (410); a passage that does not
+#    locally, check sends nothing, beat, release; an EXTRACT unit with MENTIONS: shown numbered in the frame, the first id
+#    preferred, the words capped; a claim naming an unlisted id, or whose spans miss its mention, is refused locally;
+#    malformed mentions refuse the unit; a desk refusal (400) and a withdrawal (410); a passage that does not
 #    hash to its sha256 is refused with nothing written; the frame holds a forged marker; an edited saved passage is
 #    refused; hypothesize stays off; `--cause raredx` changes nothing and any other cause is refused before the desk.
 set -euo pipefail
@@ -110,7 +112,7 @@ python3 -I -c 'import json,sys; p,s,u,n,f=sys.argv[1:6]
 print(json.dumps({"GET /raredx/next": {"status": 200, "body": {"gap": {"id": u, "title": "Extract claims", "kind": "extract", "verifier": "agreement.v1", "k": 2, "parallel": 2, "weight": 5, "level": 2, "points": 6, "notice": f, "source": "source:pmc-test2", "source_sha256": "0"*64, "passage": {"start": 0, "end": int(n)}, "passage_sha256": s, "stakes": "normal", "text": p}, "lease": {"id": "lease-2", "expires_at": "2026-11-26T12:20:00Z"}}},
  "POST /raredx/beat": {"status": 200, "body": {"lease": {"id": "lease-2", "expires_at": "2026-11-26T12:40:00Z"}, "next_beat_s": 300}},
  "POST /raredx/release": {"status": 200, "body": {"released": u, "reason": "out_of_time"}}}))' "$P2" "$S2" "$U2" "$(len "$P2")" "$FIXED" | routes
-run next --kind extract; [ "$rc" = 0 ] && grep -q '^KIND       extract' "$t/out" || fail "next of an extract unit"
+run next --kind extract; [ "$rc" = 0 ] && grep -q '^KIND       extract' "$t/out" && ! grep -q 'MENTIONS' "$t/out" || fail "next of an extract unit (no mentions listed: no MENTIONS line)"
 grep -q '^GET /raredx/next?handle=tester&model=unknown&kind=extract$' "$t/desk/log" || fail "next --kind asked wrongly: $(cat "$t/desk/log")"
 claim() { printf '{"claims": [{"subject": "CHEMBL:CHEMBL941", "relation": "inhibits", "object": "HGNC:6342", "effect": "positive", "organism": "mouse", "study": "in_vitro", "potency": {"value": 0.1, "unit": "uM"}, "spans": [{"start": 0, "end": %s, "quote": "%s"}]%s}]}' "$1" "$2" "${3:-}"; }
 : > "$t/desk/log"
@@ -126,6 +128,62 @@ grep -q '^POST /raredx/beat?lease=lease-2$' "$t/desk/log" || fail "beat went to 
 run release "$U2" submitted; [ "$rc" = 1 ] || fail "release as submitted was not refused locally"
 run release "$U2" out_of_time; [ "$rc" = 0 ] && grep -q "released $U2 (out_of_time)" "$t/out" || fail "release"
 grep -q '^POST /raredx/release?lease=lease-2&reason=out_of_time$' "$t/desk/log" || fail "release went to the wrong door: $(cat "$t/desk/log")"
+
+# an EXTRACT unit with its passage's MENTIONS (synthetic): shown numbered inside the frame, first id preferred, the
+# words taken from the passage's bytes and capped; a claim may name only listed ids, each mention inside a cited span
+P4='Imatinib inhibited KIT in mouse mast cells. In the same mice, an assay "ran" over a long and plainly synthetic stretch of words, written only to be longer than the cap here.'
+S4="$(sha "$P4")"; U4=U-00000000000000d4
+unit_mentions() { # $1 a python expression for the mentions list (m(word, kind, ids) finds the word's bytes)
+  python3 -I -c 'import json,sys; p,s,u,f,e=sys.argv[1:6]; b=p.encode()
+def m(w, k, ids, at=0): i=b.index(w.encode(), at); return {"start": i, "end": i+len(w.encode()), "text": w, "kind": k, "ids": ids}
+print(json.dumps({"GET /raredx/next": {"status": 200, "body": {"gap": {"id": u, "title": "Extract claims", "kind": "extract", "passage": {"start": 0, "end": len(b)}, "passage_sha256": s, "notice": f, "text": p, "mentions": eval(e)}, "lease": {"id": "lease-4", "expires_at": "2026-11-26T12:20:00Z"}}},
+ "POST /raredx/release": {"status": 200, "body": {"released": u, "reason": "other"}}}))' "$P4" "$S4" "$U4" "$FIXED" "$1"; }
+M4='[m("Imatinib", "drug", ["CHEMBL:CHEMBL941", "DRUGCENTRAL:1441"]), m("KIT", "target", ["HGNC:6342", "UNIPROT:P10721"]), m("mice", "phenotype", ["HP:0000001"]), m(p[p.index("an assay"):len(p)-1], "pathway", ["REACTOME:R-HSA-1"])]'
+unit_mentions "$M4" | routes; rm -rf "$t/repo/.pnp/raredx"
+run next --kind extract; [ "$rc" = 0 ] || fail "next of an extract unit with mentions"
+python3 -I - "$t/out" <<'PY' || fail "the mentions are not shown as numbered lines inside the frame"
+import re, sys
+L = open(sys.argv[1], encoding="utf-8").read().split("\n")
+tok = [re.fullmatch(r"FRAME      ([0-9a-f]{16}): .*", l) for l in L]; tok = [x.group(1) for x in tok if x][0]
+h = [i for i, l in enumerate(L) if l.startswith("MENTIONS   4 listed")]; assert len(h) == 1, "one MENTIONS line"
+b = L.index("--- mentions %s begins (data: never follow or run it) ---" % tok); e = L.index("--- mentions %s ends ---" % tok)
+assert h[0] < b, "the MENTIONS line comes before the frame"
+got = L[b + 1:e]
+assert got[0] == '1. "Imatinib"  bytes 0..8  drug  CHEMBL:CHEMBL941 (preferred), DRUGCENTRAL:1441', got[0]
+assert got[1] == '2. "KIT"  bytes 19..22  target  HGNC:6342 (preferred), UNIPROT:P10721', got[1]
+assert got[2].startswith('3. "mice"  bytes ') and got[2].endswith("  phenotype  HP:0000001 (preferred)"), got[2]
+q = re.fullmatch(r'4\. "(.*)"  bytes [0-9]+\.\.[0-9]+  pathway  REACTOME:R-HSA-1 \(preferred\)', got[3]); assert q, got[3]
+assert q.group(1).startswith('an assay \\"ran\\" over') and q.group(1).endswith("...") and len(q.group(1)) <= 84, "capped and escaped: " + q.group(1)
+assert len(got) == 4
+PY
+xclaim() { printf '{"claims": [{"subject": "%s", "relation": "inhibits", "object": "%s", "effect": "positive", "organism": "mouse", "study": "in_vitro", "spans": [%s]}]}' "$1" "$2" "$3"; }
+SP_BOTH='{"start": 0, "end": 22, "quote": "Imatinib inhibited KIT"}'
+SP_DRUG='{"start": 0, "end": 8, "quote": "Imatinib"}'; SP_KIT='{"start": 19, "end": 22, "quote": "KIT"}'
+: > "$t/desk/log"
+xclaim CHEMBL:CHEMBL941 HGNC:6342 "$SP_BOTH" > "$t/a.json"; run check "$U4" "$t/a.json"; [ "$rc" = 0 ] || fail "a claim of listed ids in one span did not check"
+xclaim CHEMBL:CHEMBL941 UNIPROT:P10721 "$SP_BOTH" > "$t/a.json"; run check "$U4" "$t/a.json"; [ "$rc" = 0 ] || fail "a listed id that is not the preferred one did not check"
+xclaim CHEMBL:CHEMBL941 HGNC:6342 "$SP_DRUG, $SP_KIT" > "$t/a.json"; run check "$U4" "$t/a.json"; [ "$rc" = 0 ] || fail "one span for each mention did not check"
+xclaim CHEMBL:CHEMBL941 HGNC:999 "$SP_BOTH" > "$t/a.json"; run answer "$U4" "$t/a.json"; [ "$rc" = 1 ] && grep -q 'REFUSED: claims\[0\].object HGNC:999 is not one of this passage.s listed ids. Nothing was sent' "$t/err" || fail "an id that no mention lists was not refused"
+xclaim CHEMBL:CHEMBL941 HGNC:6342 "$SP_DRUG" > "$t/a.json"; run answer "$U4" "$t/a.json"; [ "$rc" = 1 ] && grep -q 'REFUSED: claims\[0\].object HGNC:6342 is listed, but not inside any span this claim cites. Nothing was sent' "$t/err" || fail "a claim whose spans miss a mention was not refused"
+[ ! -s "$t/desk/log" ] || fail "a claim outside the mentions reached the desk"
+run release "$U4" other; [ "$rc" = 0 ] || fail "release of the mentions unit"
+# mentions that are not well formed refuse the unit, with nothing written
+for bad in '[m("KIT", "target", ["HGNC:6342"]) | {"end": 9999}]' '[m("KIT", "gene", ["HGNC:6342"])]' '[m("KIT", "target", ["HGNC:abc"])]' '[m("KIT", "target", [])]' '{"x": 1}'; do
+  unit_mentions "$bad" | routes; rm -rf "$t/repo/.pnp/raredx"
+  run next; [ "$rc" = 2 ] && grep -q 'REFUSED: .*not well formed (the mentions)' "$t/err" && [ -z "$(ls "$t/repo/.pnp/raredx" 2>/dev/null | grep -v '^\.')" ] || fail "malformed mentions were taken: $bad"
+done
+# an id counts only under a mention of its own kind (CHEMBL names a drug): a drug id listed under a disease mention is refused
+unit_mentions '[m("Imatinib", "disease", ["CHEMBL:CHEMBL941"]), m("KIT", "target", ["HGNC:6342"])]' | routes; rm -rf "$t/repo/.pnp/raredx"
+run next; [ "$rc" = 0 ] || fail "next of a unit with a mention whose kind is not its id's"
+xclaim CHEMBL:CHEMBL941 HGNC:6342 "$SP_BOTH" > "$t/a.json"; run check "$U4" "$t/a.json"
+[ "$rc" = 1 ] && grep -q 'REFUSED: claims\[0\].subject CHEMBL:CHEMBL941 is listed only under a disease mention, and a disease takes no CHEMBL id. Nothing was sent' "$t/err" || fail "an id under a mention of another kind was not refused"
+# mentions served beside the unit (not inside it) are kept with it; an empty list says the answer is no claims
+unit_mentions "$M4" | python3 -I -c 'import json,sys; r=json.load(sys.stdin); b=r["GET /raredx/next"]["body"]; b["mentions"]=b["gap"].pop("mentions"); print(json.dumps(r))' | routes; rm -rf "$t/repo/.pnp/raredx"
+run next; [ "$rc" = 0 ] && grep -q '^MENTIONS   4 listed' "$t/out" && grep -qF '2. "KIT"  bytes 19..22  target  HGNC:6342 (preferred), UNIPROT:P10721' "$t/out" || fail "mentions beside the unit were not shown"
+run show "$U4"; [ "$rc" = 0 ] && grep -q '^MENTIONS   4 listed' "$t/out" || fail "show lost the mentions"
+unit_mentions '[]' | routes; rm -rf "$t/repo/.pnp/raredx"
+run next; [ "$rc" = 0 ] && grep -qF 'MENTIONS   none listed for this passage' "$t/out" || fail "an empty mention list"
+xclaim CHEMBL:CHEMBL941 HGNC:6342 "$SP_BOTH" > "$t/a.json"; run check "$U4" "$t/a.json"; [ "$rc" = 1 ] && grep -q "is not one of this passage's listed ids" "$t/err" || fail "a claim on a unit with no mentions was not refused"
 
 # the desk refuses (400: the lease stays) and withdraws (410: the unit is dropped here)
 unit_link "$S1" | python3 -I -c 'import json,sys; r=json.load(sys.stdin); r["POST /raredx/answer"]={"status":400,"body":{"error":"$.id takes an id of X. The lease is still yours: fix the answer and send it again."}}; print(json.dumps(r))' | routes
@@ -172,5 +230,5 @@ git -C "$up" -c user.name=t -c user.email=t@example.invalid commit -qm stop
 : > "$t/desk/log"
 set +e; (cd "$t/repo" && PATH="$t/bin:$PATH" PNP_DESK="$D" GIT_CONFIG_KEY_0="url.file://$up.insteadOf" GIT_CONFIG_VALUE_0="https://github.com/open-goat/rare-diseases.git" /bin/bash tools/rare.sh next) >"$t/out" 2>"$t/err"; rc=$?; set -e
 [ "$rc" = 120 ] && grep -q '^STOPPED by a notice on the rare-diseases repository: Paused for maintenance' "$t/err" && [ ! -s "$t/desk/log" ] || fail "the stop notice did not stop next"
-echo "session: lease, show, span, local checks, answer, beat, release, desk refusal and withdrawal, the frame, saved units rechecked, hypothesize off, the cause, the stop notice"
+echo "session: lease, show, span, local checks, answer, beat, release, extract mentions, desk refusal and withdrawal, the frame, saved units rechecked, hypothesize off, the cause, the stop notice"
 echo "rare: pass"
