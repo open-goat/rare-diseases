@@ -97,6 +97,7 @@
 {"id":"UNII:0TTP6YT2T3","label":"methyl heptine carbonate","obsolete":false,"synonyms":[]}
 {"id":"UNII:0U3170A41K","label":"ammonium valerate","obsolete":false,"synonyms":[]}
 {"id":"UNII:0UI63W814U","label":"DL-butyl lactate","obsolete":false,"synonyms":[]}
+{"id":"UNII:0UXD5V5G6V","label":"cyclopentolate hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:0VCI53PK4A","label":"flupirtine maleate","obsolete":false,"synonyms":[]}
 {"id":"UNII:0VE05JYS2P","label":"cyclobenzaprine hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:0VE4U49K15","label":"benoxinate hydrochloride","obsolete":false,"synonyms":[]}
@@ -725,6 +726,7 @@
 {"id":"UNII:6B9991FLU3","label":"pyrvinium (cation)","obsolete":false,"synonyms":[]}
 {"id":"UNII:6BR4G8VAHM","label":"hydroquinidine hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:6C282481IP","label":"ertugliflozin","obsolete":false,"synonyms":[]}
+{"id":"UNII:6D6X07D6BN","label":"cyclopentolate hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:6DC9Q167V3","label":"(RS)-propylene glycol","obsolete":false,"synonyms":[]}
 {"id":"UNII:6DY04L71DR","label":"quinine salicylate","obsolete":false,"synonyms":[]}
 {"id":"UNII:6E0A168OB8","label":"desoxycorticosterone acetate","obsolete":false,"synonyms":[]}
@@ -800,26 +802,38 @@
 {"id":"UNII:723JX6CXY5","label":"menadione","obsolete":false,"synonyms":[]}
 {"id":"UNII:724L30Y2QR","label":"ursodiol","obsolete":false,"synonyms":[]}
 {"id":"UNII:72PT5993DU","label":"etelcalcetide hydrochloride","obsolete":false,"synonyms":[]}
+{"id":"UNII:72T37AL5JV","label":"dodicin","obsolete":false,"synonyms":[]}
 {"id":"UNII:72VUP07IT5","label":"alpha-arbutin","obsolete":false,"synonyms":[]}
 {"id":"UNII:72X6E3J5AR","label":"carfilzomib","obsolete":false,"synonyms":[]}
 {"id":"UNII:7318FJ13YJ","label":"(Z)-thiothixene","obsolete":false,"synonyms":[]}
+{"id":"UNII:736I6971TE","label":"cyclopentolate hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:73B0K5S26A","label":"belimumab","obsolete":false,"synonyms":[]}
 {"id":"UNII:73JWT2K6T3","label":"DL-methionine","obsolete":false,"synonyms":[]}
+{"id":"UNII:73LG72M4LV","label":"bromperidol decanoate","obsolete":false,"synonyms":[]}
+{"id":"UNII:73UDH1DF0R","label":"m-cresyl acetate","obsolete":false,"synonyms":[]}
 {"id":"UNII:73WY698HZ7","label":"lesinurad","obsolete":false,"synonyms":[]}
+{"id":"UNII:74WHF607EU","label":"potassium oleate","obsolete":false,"synonyms":[]}
 {"id":"UNII:75046A1XTN","label":"alfuzosin hydrochloride","obsolete":false,"synonyms":[]}
+{"id":"UNII:752SY38R6C","label":"prednisolone 21-phosphate","obsolete":false,"synonyms":[]}
 {"id":"UNII:75473V2YZK","label":"bromopride","obsolete":false,"synonyms":[]}
 {"id":"UNII:7560BB0BO3","label":"2-benzyl-4-chlorophenol","obsolete":false,"synonyms":[]}
+{"id":"UNII:75JR975T11","label":"ioxaglate meglumine","obsolete":false,"synonyms":[]}
 {"id":"UNII:75L57R6X36","label":"conivaptan hydrochloride","obsolete":false,"synonyms":[]}
+{"id":"UNII:75UI7QUZ5J","label":"sodium 4-aminobenzoate","obsolete":false,"synonyms":[]}
+{"id":"UNII:7610629RVH","label":"prothipendyl hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:76755771U3","label":"(RS)-hydroxyzine dihydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:767IP0Y5NH","label":"D&C red no. 28","obsolete":false,"synonyms":[]}
 {"id":"UNII:76H78MJJ52","label":"trimeprazine","obsolete":false,"synonyms":[]}
 {"id":"UNII:76JC1633UF","label":"metronidazole hydrochloride","obsolete":false,"synonyms":[]}
+{"id":"UNII:76S8CUH5MR","label":"nomifensine maleate","obsolete":false,"synonyms":[]}
 {"id":"UNII:771H53976Q","label":"indinavir sulfate","obsolete":false,"synonyms":[]}
 {"id":"UNII:7732P08TIR","label":"netupitant","obsolete":false,"synonyms":[]}
+{"id":"UNII:77520S18SE","label":"midazolam maleate","obsolete":false,"synonyms":[]}
 {"id":"UNII:776B62CQ27","label":"decitabine","obsolete":false,"synonyms":[]}
 {"id":"UNII:778XL6VBS8","label":"levoleucovorin calcium","obsolete":false,"synonyms":[]}
 {"id":"UNII:77TI35393C","label":"loperamide hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:77W477J15H","label":"chlorothiazide","obsolete":false,"synonyms":[]}
+{"id":"UNII:77YW1RTU8V","label":"calcium undecylenate","obsolete":false,"synonyms":[]}
 {"id":"UNII:780ZZX4P14","label":"clostebol acetate","obsolete":false,"synonyms":[]}
 {"id":"UNII:784ELC1SCZ","label":"penoxsulam","obsolete":false,"synonyms":[]}
 {"id":"UNII:786Q84QZ3F","label":"bambuterol hydrochloride","obsolete":false,"synonyms":[]}
@@ -830,87 +844,127 @@
 {"id":"UNII:7AN603V4JV","label":"umeclidinium bromide","obsolete":false,"synonyms":[]}
 {"id":"UNII:7BK02SCL3W","label":"betamethasone sodium phosphate","obsolete":false,"synonyms":[]}
 {"id":"UNII:7BK5G69305","label":"ethylene glycol dimethacrylate","obsolete":false,"synonyms":[]}
+{"id":"UNII:7BU24CSS2G","label":"ethyl levulinate","obsolete":false,"synonyms":[]}
 {"id":"UNII:7C546U4DEN","label":"diflunisal","obsolete":false,"synonyms":[]}
 {"id":"UNII:7C782967RD","label":"ampicillin","obsolete":false,"synonyms":[]}
+{"id":"UNII:7C8J54PVFI","label":"maprotiline hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:7C98FKB43H","label":"sodium acrylate","obsolete":false,"synonyms":[]}
 {"id":"UNII:7CUC9DDI9F","label":"(+)-pseudoephedrine","obsolete":false,"synonyms":[]}
+{"id":"UNII:7CV7WJK4UI","label":"sodium stearyl fumarate","obsolete":false,"synonyms":[]}
 {"id":"UNII:7D0YB67S97","label":"abatacept","obsolete":false,"synonyms":[]}
 {"id":"UNII:7D7RX5A8MO","label":"venlafaxine hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:7E4PHP5N1D","label":"vecuronium bromide","obsolete":false,"synonyms":[]}
+{"id":"UNII:7E8Q32N75N","label":"piroxicam cinnamate","obsolete":false,"synonyms":[]}
 {"id":"UNII:7F465U79Q1","label":"bentoquatam","obsolete":false,"synonyms":[]}
 {"id":"UNII:7FRV7310N6","label":"(Z)-Tamoxifen citrate","obsolete":false,"synonyms":[]}
 {"id":"UNII:7FT4O2NC8G","label":"mefenorex","obsolete":false,"synonyms":[]}
+{"id":"UNII:7FXW6U30GY","label":"fosfomycin tromethamine","obsolete":false,"synonyms":[]}
+{"id":"UNII:7G447D0DH9","label":"sodium lauriminodipropionate","obsolete":false,"synonyms":[]}
 {"id":"UNII:7H254VC0NT","label":"pralidoxime iodide","obsolete":false,"synonyms":[]}
 {"id":"UNII:7I64C51O16","label":"ziconotide","obsolete":false,"synonyms":[]}
 {"id":"UNII:7J8897W37S","label":"tetrahydrocannabinol","obsolete":false,"synonyms":[]}
 {"id":"UNII:7K383OQI23","label":"zolpidem","obsolete":false,"synonyms":[]}
 {"id":"UNII:7K81IL792L","label":"pantethine","obsolete":false,"synonyms":[]}
+{"id":"UNII:7L3E358N9L","label":"dopamine hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:7L6DL16P1T","label":"α-tropolone","obsolete":false,"synonyms":[]}
 {"id":"UNII:7LKK855W8I","label":"letrozole","obsolete":false,"synonyms":[]}
 {"id":"UNII:7LP2MPO46S","label":"S-adenosylmethionine","obsolete":false,"synonyms":[]}
+{"id":"UNII:7LZ6R3AEM1","label":"barnidipine hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:7M458Q65S3","label":"amiloride hydrochloride","obsolete":false,"synonyms":[]}
+{"id":"UNII:7NJ031HAX5","label":"morantel","obsolete":false,"synonyms":[]}
 {"id":"UNII:7NL2E3F6K3","label":"emicizumab","obsolete":false,"synonyms":[]}
+{"id":"UNII:7NSF9GG1NU","label":"imidapril hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:7O4U4C718P","label":"decene","obsolete":false,"synonyms":[]}
 {"id":"UNII:7OW73204U1","label":"fumagillin","obsolete":false,"synonyms":[]}
+{"id":"UNII:7P1S77T8BF","label":"ethyl 10-undecenoate","obsolete":false,"synonyms":[]}
+{"id":"UNII:7PV0B6ED98","label":"mebrofenin","obsolete":false,"synonyms":[]}
+{"id":"UNII:7PX435DN5A","label":"methyldopate hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:7QM776WJ5N","label":"diosmin","obsolete":false,"synonyms":[]}
 {"id":"UNII:7QWA1RIO01","label":"DL-α-tocopherol","obsolete":false,"synonyms":[]}
+{"id":"UNII:7R247U84HY","label":"ceftolozane sulfate","obsolete":false,"synonyms":[]}
 {"id":"UNII:7S73606O1A","label":"methyl aminolevulinate hydrochloride","obsolete":false,"synonyms":[]}
+{"id":"UNII:7SCF54H12J","label":"pinaverium bromide","obsolete":false,"synonyms":[]}
 {"id":"UNII:7SFC6U2VI5","label":"salmon calcitonin","obsolete":false,"synonyms":[]}
 {"id":"UNII:7SQY4ZUD30","label":"dinutuximab","obsolete":false,"synonyms":[]}
+{"id":"UNII:7THJ3EG9SY","label":"choline hydroxide","obsolete":false,"synonyms":[]}
 {"id":"UNII:7U75I1278D","label":"cefoperazone","obsolete":false,"synonyms":[]}
 {"id":"UNII:7UQ7X4Y489","label":"tinzaparin","obsolete":false,"synonyms":[]}
 {"id":"UNII:7UYP6MC9GH","label":"cannabinol","obsolete":false,"synonyms":[]}
 {"id":"UNII:7V31YC746X","label":"chloroform","obsolete":false,"synonyms":[]}
 {"id":"UNII:7V6HE3DM5A","label":"ocriplasmin","obsolete":false,"synonyms":[]}
+{"id":"UNII:7VLR55452Z","label":"fosphenytoin sodium","obsolete":false,"synonyms":[]}
+{"id":"UNII:7W1863PEH5","label":"2,2,6,6-tetramethyl-4-oxo-1-piperidinyloxy radical","obsolete":false,"synonyms":[]}
 {"id":"UNII:7WY7YBI87E","label":"phenylbutyric acid","obsolete":false,"synonyms":[]}
+{"id":"UNII:7XQ5AKD9YD","label":"citicoline sodium","obsolete":false,"synonyms":[]}
+{"id":"UNII:7YIN7J07X4","label":"trehalose dihydrate","obsolete":false,"synonyms":[]}
+{"id":"UNII:7Z13P9Q95C","label":"sulfamethazine sodium","obsolete":false,"synonyms":[]}
 {"id":"UNII:7Z6522T8N9","label":"testosterone enanthate","obsolete":false,"synonyms":[]}
+{"id":"UNII:7ZNQ7FIO9K","label":"mecetronium bromide","obsolete":false,"synonyms":[]}
 {"id":"UNII:804K62F61Q","label":"1,2-naphthoquinone","obsolete":false,"synonyms":[]}
 {"id":"UNII:807PW4VQE3","label":"cefepime","obsolete":false,"synonyms":[]}
 {"id":"UNII:80BJ7WN25Z","label":"ipriflavone","obsolete":false,"synonyms":[]}
 {"id":"UNII:80M03YXJ7I","label":"valsartan","obsolete":false,"synonyms":[]}
 {"id":"UNII:80YS8O1MBS","label":"cisatracurium besylate","obsolete":false,"synonyms":[]}
+{"id":"UNII:813OG1OGVG","label":"tiliquinol","obsolete":false,"synonyms":[]}
 {"id":"UNII:81485Y3A9A","label":"gatifloxacin","obsolete":false,"synonyms":[]}
 {"id":"UNII:817L1N4CKP","label":"DL-malic acid","obsolete":false,"synonyms":[]}
 {"id":"UNII:81AXN7R2QT","label":"dihydroergotamine mesylate","obsolete":false,"synonyms":[]}
 {"id":"UNII:81F061RQS4","label":"carbazochrome","obsolete":false,"synonyms":[]}
 {"id":"UNII:81R511UV73","label":"pyricarbate","obsolete":false,"synonyms":[]}
+{"id":"UNII:8223RR9DWF","label":"prednisolone sodium succinate","obsolete":false,"synonyms":[]}
 {"id":"UNII:827D5B1B6S","label":"tributyl citrate","obsolete":false,"synonyms":[]}
 {"id":"UNII:82F2G7BL4E","label":"doxorubicin hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:82KUB0583F","label":"lomitapide","obsolete":false,"synonyms":[]}
 {"id":"UNII:82UOE7B38Z","label":"isobutyramide","obsolete":false,"synonyms":[]}
 {"id":"UNII:82WI2L7Q6E","label":"dolasetron","obsolete":false,"synonyms":[]}
 {"id":"UNII:82Y7NT6DFT","label":"minaprine dihydrochloride","obsolete":false,"synonyms":[]}
+{"id":"UNII:832NBX878V","label":"fenspiride hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:839I73S42A","label":"liraglutide","obsolete":false,"synonyms":[]}
 {"id":"UNII:83G67E21XI","label":"urokinase","obsolete":false,"synonyms":[]}
 {"id":"UNII:83MVU38M7Q","label":"rosuvastatin calcium","obsolete":false,"synonyms":[]}
+{"id":"UNII:842TUP3PQ8","label":"mibefradil dihydrochloride","obsolete":false,"synonyms":[]}
+{"id":"UNII:845NU6GJPS","label":"paromomycin sulfate","obsolete":false,"synonyms":[]}
 {"id":"UNII:8483H94W1E","label":"tetradonium bromide","obsolete":false,"synonyms":[]}
+{"id":"UNII:84CS1P306F","label":"sulfadiazine sodium","obsolete":false,"synonyms":[]}
 {"id":"UNII:84F6U3J2R6","label":"gadodiamide hydrate","obsolete":false,"synonyms":[]}
+{"id":"UNII:84H8Z9550J","label":"dihydroxyaluminum sodium carbonate","obsolete":false,"synonyms":[]}
 {"id":"UNII:84MI6OYN4Z","label":"omacetaxine","obsolete":false,"synonyms":[]}
+{"id":"UNII:84OPZ2Q0VB","label":"hexocyclium methylsulfate","obsolete":false,"synonyms":[]}
 {"id":"UNII:85052999IT","label":"mefenorex","obsolete":false,"synonyms":[]}
 {"id":"UNII:85474O1N9D","label":"cetalkonium chloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:8558G7RUTR","label":"pyruvic acid","obsolete":false,"synonyms":[]}
 {"id":"UNII:85H0HZU99M","label":"povidone-iodine","obsolete":false,"synonyms":[]}
+{"id":"UNII:861R00J986","label":"cyclizine lactate","obsolete":false,"synonyms":[]}
 {"id":"UNII:864P0921DW","label":"bromfenac","obsolete":false,"synonyms":[]}
 {"id":"UNII:864V2Q084H","label":"amlodipine besylate","obsolete":false,"synonyms":[]}
 {"id":"UNII:86P6PQK0MU","label":"doxazosin mesylate","obsolete":false,"synonyms":[]}
 {"id":"UNII:86Q357L16B","label":"zinc chloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:86S1ZD6L2C","label":"pyrrole","obsolete":false,"synonyms":[]}
+{"id":"UNII:872109HX6B","label":"chloramphenicol sodium succinate","obsolete":false,"synonyms":[]}
+{"id":"UNII:877K0XW47A","label":"betamethasone benzoate","obsolete":false,"synonyms":[]}
 {"id":"UNII:877K5MQ27W","label":"alprenolol","obsolete":false,"synonyms":[]}
 {"id":"UNII:87CZY0NY1A","label":"phenoxyisopropanol","obsolete":false,"synonyms":[]}
+{"id":"UNII:8860R9ORQR","label":"1,3-propanediol bis(4-aminobenzoate)","obsolete":false,"synonyms":[]}
 {"id":"UNII:88755TAZ87","label":"aminolevulinic acid","obsolete":false,"synonyms":[]}
 {"id":"UNII:887K2391VH","label":"dapagliflozin propanediol hydrate","obsolete":false,"synonyms":[]}
+{"id":"UNII:88AYB867L5","label":"pramoxine hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:88XHZ13131","label":"fumaric acid","obsolete":false,"synonyms":[]}
 {"id":"UNII:88ZQ329PU2","label":"zofenopril calcium","obsolete":false,"synonyms":[]}
+{"id":"UNII:8904DO502T","label":"tetrahydropiperine","obsolete":false,"synonyms":[]}
+{"id":"UNII:8986760I2S","label":"diacetyl benzoyl lathyrol","obsolete":false,"synonyms":[]}
 {"id":"UNII:899U5WF46A","label":"domperidone maleate","obsolete":false,"synonyms":[]}
 {"id":"UNII:8A1O1M485B","label":"imatinib mesylate","obsolete":false,"synonyms":[]}
 {"id":"UNII:8AQ60474G9","label":"guanethidine sulfate","obsolete":false,"synonyms":[]}
 {"id":"UNII:8B2807733D","label":"prednisolone acetate","obsolete":false,"synonyms":[]}
 {"id":"UNII:8C1M5O3ECT","label":"sudan red","obsolete":false,"synonyms":[]}
+{"id":"UNII:8C3EMH7D9X","label":"quinine dihydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:8CRQ2TH63M","label":"isopropyl palmitate","obsolete":false,"synonyms":[]}
 {"id":"UNII:8DUH1N11BX","label":"tryptophan","obsolete":false,"synonyms":[]}
 {"id":"UNII:8ECV571Y37","label":"bromfenac monosodium sesquihydrate","obsolete":false,"synonyms":[]}
 {"id":"UNII:8F78EY72YL","label":"hexyl salicylate","obsolete":false,"synonyms":[]}
+{"id":"UNII:8G388563M7","label":"telotristat ethyl","obsolete":false,"synonyms":[]}
 {"id":"UNII:8GN84GWX51","label":"testosterone phenylpropionate","obsolete":false,"synonyms":[]}
+{"id":"UNII:8H672SHT8E","label":"diamorphine hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:8HDO7941DO","label":"cefamandole nafate","obsolete":false,"synonyms":[]}
 {"id":"UNII:8I9428H868","label":"1-tridecanol","obsolete":false,"synonyms":[]}
 {"id":"UNII:8IPS6BI6KW","label":"methyl laurate","obsolete":false,"synonyms":[]}
@@ -922,39 +976,65 @@
 {"id":"UNII:8MR4W4O06J","label":"levobetaxolol hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:8N2L1NX8S3","label":"eprosartan mesylate","obsolete":false,"synonyms":[]}
 {"id":"UNII:8O0C852CPO","label":"natamycin","obsolete":false,"synonyms":[]}
+{"id":"UNII:8O120FDS6P","label":"isometheptene mucate","obsolete":false,"synonyms":[]}
+{"id":"UNII:8OC9U7TQZ0","label":"tribehenin","obsolete":false,"synonyms":[]}
 {"id":"UNII:8OPY05ZY7S","label":"diisobutyl adipate","obsolete":false,"synonyms":[]}
 {"id":"UNII:8P946UF12S","label":"DL-phenylalanine","obsolete":false,"synonyms":[]}
+{"id":"UNII:8Q2869CNVH","label":"hydroxychloroquine sulfate","obsolete":false,"synonyms":[]}
+{"id":"UNII:8Q6926T32J","label":"sultopride hydrochloride","obsolete":false,"synonyms":[]}
+{"id":"UNII:8QOP8Z9955","label":"terazosin hydrochloride","obsolete":false,"synonyms":[]}
+{"id":"UNII:8RW88Y506K","label":"tezacaftor","obsolete":false,"synonyms":[]}
 {"id":"UNII:8SKN0B0MIM","label":"benzoic acid","obsolete":false,"synonyms":[]}
 {"id":"UNII:8SQ0VA4YUR","label":"hydroxycitronellal","obsolete":false,"synonyms":[]}
+{"id":"UNII:8STT15Y392","label":"robenidine hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:8TIF7T48FP","label":"piperazine phosphate hydrate","obsolete":false,"synonyms":[]}
+{"id":"UNII:8U0H6XI6EO","label":"clobetasone butyrate","obsolete":false,"synonyms":[]}
+{"id":"UNII:8UE48MJH8M","label":"phenyltoloxamine citrate","obsolete":false,"synonyms":[]}
 {"id":"UNII:8V4JGC8YRF","label":"fenticonazole nitrate","obsolete":false,"synonyms":[]}
 {"id":"UNII:8VF00YWP89","label":"4-allyl-2,6-dimethoxyphenol","obsolete":false,"synonyms":[]}
 {"id":"UNII:8X50N88ZDP","label":"paramethasone acetate","obsolete":false,"synonyms":[]}
 {"id":"UNII:8Y3JK0JW3U","label":"flunixin meglumine","obsolete":false,"synonyms":[]}
 {"id":"UNII:8Y41DYV4VG","label":"benzylparaben","obsolete":false,"synonyms":[]}
 {"id":"UNII:8YE81R1X1J","label":"grazoprevir","obsolete":false,"synonyms":[]}
+{"id":"UNII:90893P8662","label":"fluocortolone caproate","obsolete":false,"synonyms":[]}
 {"id":"UNII:90ENL74SIG","label":"safinamide","obsolete":false,"synonyms":[]}
+{"id":"UNII:90FDR3O96Y","label":"methyl ricinoleate","obsolete":false,"synonyms":[]}
 {"id":"UNII:90ZQ7G407W","label":"dibasic heptahydratesodium arsenate","obsolete":false,"synonyms":[]}
 {"id":"UNII:9181P3OI6N","label":"DL-5-hydroxytryptophan","obsolete":false,"synonyms":[]}
+{"id":"UNII:91D9GV0Z28","label":"tribasic calcium phosphate","obsolete":false,"synonyms":[]}
 {"id":"UNII:91GW059KN7","label":"ethylene","obsolete":false,"synonyms":[]}
+{"id":"UNII:91XC93EU03","label":"phenformin hydrochloride","obsolete":false,"synonyms":[]}
+{"id":"UNII:927L42J563","label":"acyclovir sodium","obsolete":false,"synonyms":[]}
 {"id":"UNII:92A214MD7Y","label":"ketazolam","obsolete":false,"synonyms":[]}
+{"id":"UNII:92UOD3BMEK","label":"salinomycin sodium","obsolete":false,"synonyms":[]}
 {"id":"UNII:935E97BOY8","label":"folic acid","obsolete":false,"synonyms":[]}
 {"id":"UNII:936JST6JCN","label":"cetyl alcohol","obsolete":false,"synonyms":[]}
 {"id":"UNII:93T0T9GKNU","label":"enzalutamide","obsolete":false,"synonyms":[]}
+{"id":"UNII:93X55PE38X","label":"Sodium fluorescein","obsolete":false,"synonyms":[]}
+{"id":"UNII:9403LC9W1J","label":"triethanolamine laurate","obsolete":false,"synonyms":[]}
 {"id":"UNII:94255I6E2T","label":"dibasic dihydratesodium phosphate","obsolete":false,"synonyms":[]}
 {"id":"UNII:94AJJ30D9E","label":"oxantel","obsolete":false,"synonyms":[]}
+{"id":"UNII:94F3SX3LEM","label":"danofloxacin mesylate","obsolete":false,"synonyms":[]}
 {"id":"UNII:94NJ818U2W","label":"meclofenamate sodium hydrate","obsolete":false,"synonyms":[]}
 {"id":"UNII:94ZLA3W45F","label":"L-arginine","obsolete":false,"synonyms":[]}
 {"id":"UNII:953A26OA1Y","label":"dornase alfa","obsolete":false,"synonyms":[]}
+{"id":"UNII:953AP1LBV8","label":"isothipendyl hydrochloride","obsolete":false,"synonyms":[]}
+{"id":"UNII:956S425ZCY","label":"topotecan hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:957E53WV42","label":"riboflavin 5'-phosphate sodium","obsolete":false,"synonyms":[]}
+{"id":"UNII:95HIL684P5","label":"3-O-methyldopamine hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:95IT3W8JZE","label":"silver nitrate","obsolete":false,"synonyms":[]}
+{"id":"UNII:95K4LKB6QE","label":"detomidine hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:95PFX5932Y","label":"hetacillin potassium","obsolete":false,"synonyms":[]}
 {"id":"UNII:95R258T4P6","label":"ethyl valerate","obsolete":false,"synonyms":[]}
 {"id":"UNII:969NZA3X9T","label":"turoctocog alfa","obsolete":false,"synonyms":[]}
 {"id":"UNII:96J42P99ZA","label":"4,4-dimethyloxazolidine","obsolete":false,"synonyms":[]}
 {"id":"UNII:96K0FD4803","label":"1,2-dibromo-3-chloropropane","obsolete":false,"synonyms":[]}
+{"id":"UNII:96R6PU3D8J","label":"ponatinib hydrochloride","obsolete":false,"synonyms":[]}
+{"id":"UNII:973IBV8W7I","label":"tetrahydrobisdemethoxydiferuloylmethane","obsolete":false,"synonyms":[]}
+{"id":"UNII:976728SY6Z","label":"amiodarone hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:97T015M2UX","label":"1-hexadecene","obsolete":false,"synonyms":[]}
 {"id":"UNII:9815R1WR9B","label":"fenbufen","obsolete":false,"synonyms":[]}
+{"id":"UNII:981Y8SX18M","label":"bendamustine hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:98D603VP8V","label":"nelfinavir mesylate","obsolete":false,"synonyms":[]}
 {"id":"UNII:98PI200987","label":"lidocaine","obsolete":false,"synonyms":[]}
 {"id":"UNII:990S25980Y","label":"L-folinic acid","obsolete":false,"synonyms":[]}
@@ -962,21 +1042,33 @@
 {"id":"UNII:99AU28W1G9","label":"mannitol hexanitrate","obsolete":false,"synonyms":[]}
 {"id":"UNII:99DK7FVK1H","label":"nevirapine","obsolete":false,"synonyms":[]}
 {"id":"UNII:99E861415L","label":"coumaran","obsolete":false,"synonyms":[]}
+{"id":"UNII:99GS5XTB51","label":"oclacitinib","obsolete":false,"synonyms":[]}
 {"id":"UNII:99O99YVR4C","label":"pizotyline malate","obsolete":false,"synonyms":[]}
+{"id":"UNII:99TAQ2QWJI","label":"tiletamine hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:99Z2744345","label":"ditiocarb","obsolete":false,"synonyms":[]}
 {"id":"UNII:9A87HC7ROD","label":"ethylene brassylate","obsolete":false,"synonyms":[]}
+{"id":"UNII:9BRV734R3E","label":"iodohippurate sodium i-131","obsolete":false,"synonyms":[]}
 {"id":"UNII:9C05J6089W","label":"flavoxate hydrochloride","obsolete":false,"synonyms":[]}
+{"id":"UNII:9CVA716Q71","label":"melarsomine dihydrochloride","obsolete":false,"synonyms":[]}
+{"id":"UNII:9D2RTI9KYH","label":"dextromethorphan hydrobromide hydrate","obsolete":false,"synonyms":[]}
 {"id":"UNII:9DLQ4CIU6V","label":"L-proline","obsolete":false,"synonyms":[]}
 {"id":"UNII:9E75N4A5HM","label":"triflupromazine hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:9E7R5L6H31","label":"oxalic acid","obsolete":false,"synonyms":[]}
 {"id":"UNII:9EM05410Q9","label":"amoxicillin","obsolete":false,"synonyms":[]}
+{"id":"UNII:9F90KA5Q8U","label":"triclofos sodium","obsolete":false,"synonyms":[]}
 {"id":"UNII:9GJ0N7ZAP0","label":"methacycline hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:9HW64Q8G6G","label":"everolimus","obsolete":false,"synonyms":["40-O-(2-hydroxyethyl)-rapamycin","42-O-(2-hydroxyethyl)rapamycin","RAD001","SDZ-RAD"]}
 {"id":"UNII:9I50C3I3OK","label":"fluorometholone acetate","obsolete":false,"synonyms":[]}
+{"id":"UNII:9I7N9PR9J2","label":"captodiame hydrochloride","obsolete":false,"synonyms":[]}
+{"id":"UNII:9IDD210E75","label":"4,4'-dinitrocarbanilide","obsolete":false,"synonyms":[]}
 {"id":"UNII:9JFB58YK1E","label":"alverine citrate","obsolete":false,"synonyms":[]}
+{"id":"UNII:9JUJ56C686","label":"anazolene acid","obsolete":false,"synonyms":[]}
 {"id":"UNII:9K8XR81MO8","label":"milrinone lactate","obsolete":false,"synonyms":[]}
+{"id":"UNII:9L5X4M5L6I","label":"ibutilide fumarate","obsolete":false,"synonyms":[]}
+{"id":"UNII:9L75099X6R","label":"sodium fluoride f-18","obsolete":false,"synonyms":[]}
 {"id":"UNII:9L87N86R9A","label":"dipyrithione","obsolete":false,"synonyms":[]}
 {"id":"UNII:9N7R477WCK","label":"tramadol hydrochloride","obsolete":false,"synonyms":[]}
+{"id":"UNII:9NV2SR34P8","label":"betiatide","obsolete":false,"synonyms":[]}
 {"id":"UNII:9O25354EPJ","label":"enalapril maleate","obsolete":false,"synonyms":[]}
 {"id":"UNII:9O7312W37G","label":"gonadorelin","obsolete":false,"synonyms":[]}
 {"id":"UNII:9OQO0E343Z","label":"ammonia N-13","obsolete":false,"synonyms":[]}
@@ -988,6 +1080,7 @@
 {"id":"UNII:9RB4L4K895","label":"cycrimine hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:9RKX7S7WFY","label":"trimebutine","obsolete":false,"synonyms":[]}
 {"id":"UNII:9SUK9B7XVY","label":"mebhydrolin","obsolete":false,"synonyms":[]}
+{"id":"UNII:9T02S42WQO","label":"tylvalosin","obsolete":false,"synonyms":[]}
 {"id":"UNII:9T1410R4OR","label":"ethoxyquin","obsolete":false,"synonyms":[]}
 {"id":"UNII:9TB90IYC0E","label":"diethylene glycol monobutyl ether","obsolete":false,"synonyms":[]}
 {"id":"UNII:9TN87S3A3C","label":"naproxen sodium","obsolete":false,"synonyms":[]}
@@ -995,56 +1088,81 @@
 {"id":"UNII:9V824P8TAI","label":"avibactam sodium","obsolete":false,"synonyms":[]}
 {"id":"UNII:9VC7S3ZXXB","label":"lomefloxacin hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:9WP59609J6","label":"chlorpromazine hydrochloride","obsolete":false,"synonyms":[]}
+{"id":"UNII:9WTD50I918","label":"butabarbital sodium","obsolete":false,"synonyms":[]}
+{"id":"UNII:9XE000OU9B","label":"trimethoprim hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:9XP4LC555B","label":"isomethyl-α-ionone","obsolete":false,"synonyms":[]}
 {"id":"UNII:9XTM81VK2B","label":"sodium caprylate","obsolete":false,"synonyms":[]}
 {"id":"UNII:9Y8NXQ24VQ","label":"propranolol","obsolete":false,"synonyms":["[2-hydroxy-3-(naphthalen-1-yloxy)propyl](propan-2-yl)amine","1-((1-Methylethyl)amino)-3-(1-naphthalenyloxy)-2-propanol","1-(isopropylamino)-3-(1-naphthyloxy)propan-2-ol","b-Propranolol","Bedranol","beta-Propranolol","Dociton","Euprovasin","Hemangeol","Inderal","Propanalol","Propanix","Propanolol","Propranololum","β-Propranolol","propranolol hydrochloride"]}
+{"id":"UNII:9Z5UXZ64XA","label":"glycol oleate","obsolete":false,"synonyms":[]}
 {"id":"UNII:9ZBH5G9835","label":"ketazolam","obsolete":false,"synonyms":[]}
 {"id":"UNII:A0E0NMA80F","label":"fosfestrol","obsolete":false,"synonyms":[]}
 {"id":"UNII:A0Z3NAU9DP","label":"bicalutamide","obsolete":false,"synonyms":[]}
 {"id":"UNII:A10SJL62JY","label":"ocrelizumab","obsolete":false,"synonyms":[]}
 {"id":"UNII:A19338Q2YO","label":"tropisetron hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:A1L4914FMF","label":"ticlopidine hydrochloride","obsolete":false,"synonyms":[]}
+{"id":"UNII:A200DNE4C6","label":"butedronate tetrasodium","obsolete":false,"synonyms":[]}
 {"id":"UNII:A2669OWX9N","label":"selamectin","obsolete":false,"synonyms":[]}
 {"id":"UNII:A2I8C7HI9T","label":"methylparaben","obsolete":false,"synonyms":[]}
 {"id":"UNII:A2Z7G2RGAH","label":"pimagedine hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:A355C835XC","label":"metronidazole benzoate","obsolete":false,"synonyms":[]}
+{"id":"UNII:A36BXO4PPX","label":"pentazocine hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:A3LZF0L939","label":"tridecane","obsolete":false,"synonyms":[]}
 {"id":"UNII:A4028U842W","label":"fibrinolysin","obsolete":false,"synonyms":[]}
 {"id":"UNII:A49OS0F91S","label":"picric acid","obsolete":false,"synonyms":[]}
+{"id":"UNII:A4ER1Z8N9N","label":"grepafloxacin hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:A4RS6N53PN","label":"tramadol hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:A4VZ22K1WT","label":"coumarin","obsolete":false,"synonyms":[]}
+{"id":"UNII:A51HJM3XSU","label":"thymol iodide","obsolete":false,"synonyms":[]}
 {"id":"UNII:A6EOX47QK0","label":"isopropylparaben","obsolete":false,"synonyms":[]}
 {"id":"UNII:A73MM2Q32P","label":"triamcinolone diacetate","obsolete":false,"synonyms":[]}
 {"id":"UNII:A7V27PHC7A","label":"quinine","obsolete":false,"synonyms":[]}
+{"id":"UNII:A81MSI0FIC","label":"laurtrimonium chloride","obsolete":false,"synonyms":[]}
+{"id":"UNII:A8CO1VZK2Z","label":"alibendol","obsolete":false,"synonyms":[]}
 {"id":"UNII:A9O0818TWD","label":"acetic monoethanolamide","obsolete":false,"synonyms":[]}
+{"id":"UNII:A9R10K3F2F","label":"levomefolate calcium","obsolete":false,"synonyms":[]}
 {"id":"UNII:AB0BHP2FH0","label":"amorolfine","obsolete":false,"synonyms":[]}
 {"id":"UNII:AB2794W8KV","label":"phendimetrazine","obsolete":false,"synonyms":[]}
 {"id":"UNII:AB6MNQ6J6L","label":"succinic acid","obsolete":false,"synonyms":[]}
+{"id":"UNII:AC20PJ4101","label":"haloperidol decanoate","obsolete":false,"synonyms":[]}
 {"id":"UNII:AC80WD7GPF","label":"ammonium benzoate","obsolete":false,"synonyms":[]}
+{"id":"UNII:ACZ6L64B41","label":"azintamide","obsolete":false,"synonyms":[]}
 {"id":"UNII:AE28F7PNPL","label":"L-methionine","obsolete":false,"synonyms":[]}
 {"id":"UNII:AF73293C2R","label":"acetylcholine chloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:AI9376Y64P","label":"dexamethasone sodium phosphate","obsolete":false,"synonyms":[]}
+{"id":"UNII:AM467TB2I1","label":"ethyl cysteinate hydrochloride","obsolete":false,"synonyms":[]}
+{"id":"UNII:AM94R510MS","label":"azathioprine sodium","obsolete":false,"synonyms":[]}
+{"id":"UNII:AO61G82577","label":"trihexyphenidyl hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:AO9YF4MN30","label":"methicillin sodium monohydrate","obsolete":false,"synonyms":[]}
 {"id":"UNII:APG9819VLM","label":"darifenacin","obsolete":false,"synonyms":[]}
+{"id":"UNII:APX8D32IX1","label":"mepenzolate bromide","obsolete":false,"synonyms":[]}
+{"id":"UNII:AQ4K0AJT6G","label":"pridinol mesilate","obsolete":false,"synonyms":[]}
 {"id":"UNII:AUG1H506LY","label":"propylene","obsolete":false,"synonyms":[]}
 {"id":"UNII:AVX3D5A4LM","label":"thyrotropin alfa","obsolete":false,"synonyms":[]}
 {"id":"UNII:AXQ0JYM303","label":"oxybuprocaine","obsolete":false,"synonyms":[]}
 {"id":"UNII:B025Y34C54","label":"acebutolol hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:B10YD955QW","label":"dexchlorpheniramine maleate","obsolete":false,"synonyms":[]}
 {"id":"UNII:B46YS921BY","label":"S-ethylcysteine","obsolete":false,"synonyms":[]}
+{"id":"UNII:B49OBI656M","label":"opipramol dihydrochloride","obsolete":false,"synonyms":[]}
+{"id":"UNII:B53E3NMY5C","label":"tizanidine hydrochloride","obsolete":false,"synonyms":[]}
+{"id":"UNII:B54CW5KG52","label":"levomethadyl acetate hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:B5RKR9Y63Y","label":"febuprol","obsolete":false,"synonyms":[]}
 {"id":"UNII:B6DC89I63E","label":"dabrafenib mesylate","obsolete":false,"synonyms":[]}
 {"id":"UNII:B6X4SYR93B","label":"hexobendine","obsolete":false,"synonyms":[]}
 {"id":"UNII:B762XZ551X","label":"dioxybenzone","obsolete":false,"synonyms":[]}
 {"id":"UNII:B786J7A343","label":"aripiprazole lauroxil","obsolete":false,"synonyms":[]}
+{"id":"UNII:B8956S8609","label":"moxifloxacin hydrochloride monohydrate","obsolete":false,"synonyms":[]}
 {"id":"UNII:B9840IHU4T","label":"prasterone sodium sulfate","obsolete":false,"synonyms":[]}
+{"id":"UNII:BA5ALU2ZT9","label":"cefpirome sulfate","obsolete":false,"synonyms":[]}
 {"id":"UNII:BBX060AN9V","label":"hydrogen peroxide","obsolete":false,"synonyms":[]}
 {"id":"UNII:BDS32J3EZK","label":"fluvastatin sodium","obsolete":false,"synonyms":[]}
+{"id":"UNII:BG7HLX2919","label":"ribociclib succinate","obsolete":false,"synonyms":[]}
 {"id":"UNII:BGF9MN2HU1","label":"fenofibric acid","obsolete":false,"synonyms":[]}
 {"id":"UNII:BH210P244U","label":"medetomidine hydrochloride","obsolete":false,"synonyms":[]}
+{"id":"UNII:BH6M93CIA0","label":"tiludronate disodium","obsolete":false,"synonyms":[]}
 {"id":"UNII:BK1IU07GKF","label":"7-dehydrocholesterol","obsolete":false,"synonyms":[]}
 {"id":"UNII:BKE5Q1J60U","label":"imipramine hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:BKJ8M8G5HI","label":"imatinib","obsolete":false,"synonyms":[]}
+{"id":"UNII:BOP122S791","label":"sanguinarine nitrate","obsolete":false,"synonyms":[]}
 {"id":"UNII:BPA9UT29BS","label":"dexbrompheniramine maleate","obsolete":false,"synonyms":[]}
 {"id":"UNII:BR1SN1JS2W","label":"methylcobalamin","obsolete":false,"synonyms":[]}
 {"id":"UNII:BSB9VJ5TUT","label":"trametinib dimethyl sulfoxide","obsolete":false,"synonyms":[]}
@@ -1053,17 +1171,23 @@
 {"id":"UNII:BW9B0ZE037","label":"sildenafil citrate","obsolete":false,"synonyms":[]}
 {"id":"UNII:BXI92R2VUJ","label":"ruscogenin","obsolete":false,"synonyms":[]}
 {"id":"UNII:BZ114NVM5P","label":"mitoxantrone","obsolete":false,"synonyms":[]}
+{"id":"UNII:BZU1717ONV","label":"5-bromo-2-acetylsalicylic acid","obsolete":false,"synonyms":[]}
+{"id":"UNII:C11102TO53","label":"flunarizine hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:C1ENJ2TE6C","label":"oxycodone hydrochloride","obsolete":false,"synonyms":[]}
+{"id":"UNII:C1I41WJ61M","label":"laidlomycin propionate","obsolete":false,"synonyms":[]}
 {"id":"UNII:C1LJO185Q9","label":"5-HTP","obsolete":false,"synonyms":[]}
 {"id":"UNII:C22G6EYP8B","label":"cephalothin sodium","obsolete":false,"synonyms":[]}
+{"id":"UNII:C2F7JHI12L","label":"diethylhexyl maleate","obsolete":false,"synonyms":[]}
 {"id":"UNII:C2W72OJ5ZU","label":"tacalcitol","obsolete":false,"synonyms":[]}
 {"id":"UNII:C3C196L9FG","label":"monosodium L-glutamate","obsolete":false,"synonyms":[]}
 {"id":"UNII:C43C467DPE","label":"ceftizoxime","obsolete":false,"synonyms":[]}
 {"id":"UNII:C4DZ64560D","label":"troleandomycin","obsolete":false,"synonyms":[]}
 {"id":"UNII:C4XNY919FW","label":"migalastat","obsolete":false,"synonyms":[]}
+{"id":"UNII:C501Z28AFG","label":"clindamycin palmitate","obsolete":false,"synonyms":[]}
 {"id":"UNII:C53598599T","label":"moxifloxacin hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:C558LI0K8P","label":"thioguanosine","obsolete":false,"synonyms":[]}
 {"id":"UNII:C56709M5NH","label":"mazindol","obsolete":false,"synonyms":[]}
+{"id":"UNII:C5N25H3803","label":"esomeprazole strontium hydrate","obsolete":false,"synonyms":[]}
 {"id":"UNII:C6B1OE8P3W","label":"(+)-menthol","obsolete":false,"synonyms":[]}
 {"id":"UNII:C6QE1Q1TKR","label":"procyclidine","obsolete":false,"synonyms":[]}
 {"id":"UNII:C6T4514L4E","label":"levosimendan","obsolete":false,"synonyms":[]}
@@ -1072,75 +1196,112 @@
 {"id":"UNII:C8SM6IRW7G","label":"avibactam sodium","obsolete":false,"synonyms":[]}
 {"id":"UNII:CB2TL9PS0T","label":"propoxyphene hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:CBK7Y28SP3","label":"styramate","obsolete":false,"synonyms":[]}
+{"id":"UNII:CC995ZMV90","label":"ambroxol hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:CI0FAO63WC","label":"cefdinir","obsolete":false,"synonyms":[]}
+{"id":"UNII:CIK9F54ZHR","label":"docusate potassium","obsolete":false,"synonyms":[]}
 {"id":"UNII:CIP6LXN5XW","label":"thiosalicylic acid","obsolete":false,"synonyms":[]}
 {"id":"UNII:CK833KGX7E","label":"DL-amphetamine","obsolete":false,"synonyms":[]}
+{"id":"UNII:CM46XGM78M","label":"(+)-γ-amino-β-hydroxybutyric acid","obsolete":false,"synonyms":[]}
 {"id":"UNII:CMC30V039K","label":"ceftazidime sodium","obsolete":false,"synonyms":[]}
+{"id":"UNII:CO51Q2EI5Z","label":"alphaprodine hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:COF19H7WBK","label":"dicloxacillin","obsolete":false,"synonyms":[]}
 {"id":"UNII:COU3RRH769","label":"levocabastine","obsolete":false,"synonyms":[]}
 {"id":"UNII:CQ903KQA31","label":"dicyclomine hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:CQC932Z7YW","label":"procyclidine hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:CR02EYQ8GV","label":"darifenacin hydrobromide","obsolete":false,"synonyms":[]}
+{"id":"UNII:CR113982E5","label":"dipentamethylenethiuram disulfide","obsolete":false,"synonyms":[]}
 {"id":"UNII:CT1IX58L9S","label":"fluocinolone","obsolete":false,"synonyms":[]}
 {"id":"UNII:CTD060B1SS","label":"Tocoretinate","obsolete":false,"synonyms":[]}
 {"id":"UNII:CUB7JI0JV3","label":"cetylpyridinium","obsolete":false,"synonyms":[]}
 {"id":"UNII:CUT2W21N7U","label":"fluticasone","obsolete":false,"synonyms":[]}
 {"id":"UNII:CV0IB81ORO","label":"zeaxanthin","obsolete":false,"synonyms":[]}
+{"id":"UNII:CW25IKJ202","label":"streptomycin sulfate","obsolete":false,"synonyms":[]}
 {"id":"UNII:CZ227117JE","label":"octamethylcyclotetrasiloxane","obsolete":false,"synonyms":[]}
 {"id":"UNII:D149TYB5MK","label":"1,4-dichlorobenzene","obsolete":false,"synonyms":[]}
 {"id":"UNII:D26OSN9Q4R","label":"finafloxacin","obsolete":false,"synonyms":[]}
+{"id":"UNII:D28J6W18HY","label":"frovatriptan succinate hydrate","obsolete":false,"synonyms":[]}
 {"id":"UNII:D2P3M6SRN5","label":"norfenefrine","obsolete":false,"synonyms":[]}
 {"id":"UNII:D2VW67N38H","label":"apraclonidine hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:D343Z75HT8","label":"2-phenylphenol","obsolete":false,"synonyms":[]}
+{"id":"UNII:D345THM53T","label":"prednisolone sodium metazoate","obsolete":false,"synonyms":[]}
 {"id":"UNII:D3AEF6S35P","label":"glyceryl 1-oleate","obsolete":false,"synonyms":[]}
+{"id":"UNII:D4F329SL1O","label":"hexaminolevulinate hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:D5J0Q2CM4V","label":"aminopropyl dihydrogen phosphate","obsolete":false,"synonyms":[]}
 {"id":"UNII:D5SV08985Z","label":"1,1′-oxybis(2-propanol)","obsolete":false,"synonyms":[]}
 {"id":"UNII:D6VHC87LLS","label":"chlorquinaldol","obsolete":false,"synonyms":[]}
 {"id":"UNII:D733ET3F9O","label":"Asparaginase","obsolete":false,"synonyms":[]}
 {"id":"UNII:D7NLD2JX7U","label":"pirfenidone","obsolete":false,"synonyms":[]}
+{"id":"UNII:D7ZD41RZI9","label":"ropinirole hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:D83282DT06","label":"5-fluorocytosine","obsolete":false,"synonyms":[]}
+{"id":"UNII:D95EHT6Y2L","label":"benzoxonium","obsolete":false,"synonyms":[]}
 {"id":"UNII:D9OM4SK49P","label":"cetylpyridinium chloride monohydrate","obsolete":false,"synonyms":[]}
 {"id":"UNII:DA87705X9K","label":"erlotinib hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:DA8G610ZO5","label":"N-acetyl-L-tyrosine","obsolete":false,"synonyms":[]}
+{"id":"UNII:DC4GZD10H3","label":"propiverine hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:DE54EQW8T1","label":"dasabuvir","obsolete":false,"synonyms":[]}
 {"id":"UNII:DEL7T5QRPN","label":"methylchloroisothiazolinone","obsolete":false,"synonyms":[]}
 {"id":"UNII:DEW6X41BEK","label":"tildrakizumab","obsolete":false,"synonyms":[]}
+{"id":"UNII:DG355XWQ4T","label":"diphenidol hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:DIA2A74855","label":"isoproterenol hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:DKM38HXX5A","label":"trimebutine maleate","obsolete":false,"synonyms":[]}
+{"id":"UNII:DKQ4T82YE6","label":"sulbactam sodium","obsolete":false,"synonyms":[]}
 {"id":"UNII:DL2R53P963","label":"colistimethate","obsolete":false,"synonyms":[]}
 {"id":"UNII:DL9055K809","label":"levamisole hydrochloride","obsolete":false,"synonyms":[]}
+{"id":"UNII:DM113FTW7F","label":"sarolaner","obsolete":false,"synonyms":[]}
 {"id":"UNII:DPT0O3T46P","label":"pembrolizumab","obsolete":false,"synonyms":[]}
 {"id":"UNII:DPY8VCM98I","label":"methyl palmitate","obsolete":false,"synonyms":[]}
+{"id":"UNII:DPY9K1927C","label":"3,7-dimethyl-1-octanol","obsolete":false,"synonyms":[]}
+{"id":"UNII:DQ0Z3K8W92","label":"indoramin hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:DQH6T6D8OY","label":"tiagabine hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:DR40J4WA67","label":"eliglustat","obsolete":false,"synonyms":[]}
 {"id":"UNII:DR7ST46X58","label":"cabozantinib S-malate","obsolete":false,"synonyms":[]}
 {"id":"UNII:DS7CL18UAM","label":"dihydroergocristine mesylate","obsolete":false,"synonyms":[]}
+{"id":"UNII:DS9UJN1I0X","label":"dapiprazole hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:DT67WL708F","label":"delmopinol","obsolete":false,"synonyms":[]}
 {"id":"UNII:DU4821I15A","label":"1-octanesulfonic acid","obsolete":false,"synonyms":[]}
 {"id":"UNII:DU69T8ZZPA","label":"rifamycin","obsolete":false,"synonyms":[]}
 {"id":"UNII:DWV1EFW947","label":"azlocillin sodium","obsolete":false,"synonyms":[]}
+{"id":"UNII:DZJ4QTB7YY","label":"foscolic acid","obsolete":false,"synonyms":[]}
 {"id":"UNII:DZY9VU539P","label":"narasin","obsolete":false,"synonyms":[]}
 {"id":"UNII:E0399OZS9N","label":"adenosine cyclic phosphate","obsolete":false,"synonyms":[]}
+{"id":"UNII:E0KNA372SZ","label":"isopropamide iodide","obsolete":false,"synonyms":[]}
+{"id":"UNII:E2L2TK027P","label":"magnesium sulfate monohydrate","obsolete":false,"synonyms":[]}
 {"id":"UNII:E47C56IGOY","label":"acecarbromal","obsolete":false,"synonyms":[]}
 {"id":"UNII:E4GA8884NN","label":"phosphoric acid","obsolete":false,"synonyms":[]}
+{"id":"UNII:E64XL9U38K","label":"chlorhexidine hydrochloride","obsolete":false,"synonyms":[]}
+{"id":"UNII:E669Z6S1JG","label":"tolazoline hydrochloride","obsolete":false,"synonyms":[]}
+{"id":"UNII:E6CKI5C54O","label":"ABT-925","obsolete":false,"synonyms":[]}
 {"id":"UNII:E6S6E1F19M","label":"pralmorelin","obsolete":false,"synonyms":[]}
+{"id":"UNII:E70G3G5863","label":"bupropion hydrobromide","obsolete":false,"synonyms":[]}
 {"id":"UNII:E7WED276I5","label":"mercaptopurine hydrate","obsolete":false,"synonyms":[]}
+{"id":"UNII:E830VC49W5","label":"tolbutamide sodium","obsolete":false,"synonyms":[]}
+{"id":"UNII:E8458C1KAA","label":"triethanolamine lauryl sulfate","obsolete":false,"synonyms":[]}
+{"id":"UNII:EAG959U971","label":"DL-distearoylphosphatidylcholine","obsolete":false,"synonyms":[]}
+{"id":"UNII:EB87433V6F","label":"parecoxib sodium","obsolete":false,"synonyms":[]}
 {"id":"UNII:EC2CNF7XFP","label":"lidocaine hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:ECW0LZ41X8","label":"D&C Red 7","obsolete":false,"synonyms":[]}
+{"id":"UNII:EG3PA2K3K5","label":"ethylhexyl stearate","obsolete":false,"synonyms":[]}
 {"id":"UNII:EGU41QL329","label":"adrenalone","obsolete":false,"synonyms":[]}
 {"id":"UNII:EL5GJ3U77E","label":"barium chloride dihydrate","obsolete":false,"synonyms":[]}
 {"id":"UNII:EL9943AG5J","label":"tenofovir alafenamide","obsolete":false,"synonyms":[]}
 {"id":"UNII:EM4YZW677H","label":"prolintane","obsolete":false,"synonyms":[]}
 {"id":"UNII:EM8BM710ZC","label":"salicylamide","obsolete":false,"synonyms":[]}
 {"id":"UNII:ENR1LLB0FP","label":"desmopressin","obsolete":false,"synonyms":[]}
+{"id":"UNII:EOS72165S7","label":"fesoterodine fumarate","obsolete":false,"synonyms":[]}
 {"id":"UNII:EQK9Q303C5","label":"kanamycin A","obsolete":false,"synonyms":[]}
+{"id":"UNII:EQY32Z1AN4","label":"propylene glycol dibenzoate","obsolete":false,"synonyms":[]}
 {"id":"UNII:ER29L26N1X","label":"cobimetinib","obsolete":false,"synonyms":[]}
+{"id":"UNII:ESJ56Q60GC","label":"ritodrine hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:ET8IF4KS1T","label":"nedocromil sodium","obsolete":false,"synonyms":[]}
 {"id":"UNII:ETJ7Z6XBU4","label":"silicon dioxide","obsolete":false,"synonyms":[]}
+{"id":"UNII:EVE9WNU99R","label":"solvent red 4","obsolete":false,"synonyms":[]}
+{"id":"UNII:EX8IEP25JU","label":"zilpaterol hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"UNII:EYG5Y6355E","label":"trapidil","obsolete":false,"synonyms":[]}
+{"id":"UNII:EZN4D2O31B","label":"bemetizide","obsolete":false,"synonyms":[]}
 {"id":"UNII:F06J8EM9J4","label":"pralidoxime mesylate","obsolete":false,"synonyms":[]}
 {"id":"UNII:F089I0511L","label":"indapamide","obsolete":false,"synonyms":[]}
 {"id":"UNII:F0BE9UC5J7","label":"dicloran","obsolete":false,"synonyms":[]}
+{"id":"UNII:F1MP7242Z5","label":"carbenoxolone sodium","obsolete":false,"synonyms":[]}
 {"id":"UNII:F316LLW9WW","label":"Ipodate sodium","obsolete":false,"synonyms":[]}
 {"id":"UNII:F39049Y068","label":"apomorphine hydrochloride hemihydrate","obsolete":false,"synonyms":[]}
 {"id":"UNII:F3Q391WTX7","label":"azatadine maleate","obsolete":false,"synonyms":[]}
