@@ -478,6 +478,7 @@
 {"id":"UNIPROT:O14569","label":"Transmembrane reductase CYB561D2","obsolete":false,"synonyms":["CYB561D2","101F6","Cytochrome b561 domain-containing protein 2","Putative tumor suppressor protein 101F6"]}
 {"id":"UNIPROT:O14578","label":"Citron Rho-interacting kinase","obsolete":false,"synonyms":["CIT","CRIK","KIAA0949","STK21","Serine/threonine-protein kinase 21"]}
 {"id":"UNIPROT:O14579","label":"Coatomer subunit epsilon","obsolete":false,"synonyms":["COPE","Epsilon-coat protein"]}
+{"id":"UNIPROT:O14581","label":"Olfactory receptor 7A17","obsolete":false,"synonyms":["OR7A17"]}
 {"id":"UNIPROT:O14593","label":"DNA-binding protein RFXANK","obsolete":false,"synonyms":["RFXANK","ANKRA1","RFXB","Ankyrin repeat family A protein 1","Regulatory factor X subunit B","Regulatory factor X-associated ankyrin-containing protein"]}
 {"id":"UNIPROT:O14594","label":"Neurocan core protein","obsolete":false,"synonyms":["NCAN","CSPG3","NEUR","Chondroitin sulfate proteoglycan 3"]}
 {"id":"UNIPROT:O14595","label":"Carboxy-terminal domain RNA polymerase II polypeptide A small phosphatase 2","obsolete":false,"synonyms":["CTDSP2","NIF2","OS4","SCP2","Nuclear LIM interactor-interacting factor 2","Protein OS-4","Small C-terminal domain phosphatase 2","Small CTD phosphatase 2"]}
@@ -890,6 +891,7 @@
 {"id":"UNIPROT:O60393","label":"Homeobox protein NOBOX","obsolete":false,"synonyms":["NOBOX"]}
 {"id":"UNIPROT:O60403","label":"Olfactory receptor 10H2","obsolete":false,"synonyms":["OR10H2","Olfactory receptor OR19-23"]}
 {"id":"UNIPROT:O60404","label":"Olfactory receptor 10H3","obsolete":false,"synonyms":["OR10H3","Olfactory receptor OR19-24"]}
+{"id":"UNIPROT:O60412","label":"Olfactory receptor 7C2","obsolete":false,"synonyms":["OR7C2","OR7C3","Olfactory receptor 19-18","Olfactory receptor 7C3","Olfactory receptor OR19-22"]}
 {"id":"UNIPROT:O60423","label":"Phospholipid-transporting ATPase IK","obsolete":false,"synonyms":["ATP8B3","ATP1K","FOS37502_2","ATPase class I type 8B member 3"]}
 {"id":"UNIPROT:O60427","label":"Acyl-CoA (8-3)-desaturase","obsolete":false,"synonyms":["FADS1","FADSD5","Delta(5) fatty acid desaturase","Fatty acid desaturase 1"]}
 {"id":"UNIPROT:O60431","label":"Olfactory receptor 1I1","obsolete":false,"synonyms":["OR1I1","Olfactory receptor 19-20"]}
@@ -1207,6 +1209,8 @@
 {"id":"UNIPROT:O76093","label":"Fibroblast growth factor 18","obsolete":false,"synonyms":["FGF18","zFGF5"]}
 {"id":"UNIPROT:O76094","label":"Signal recognition particle subunit SRP72","obsolete":false,"synonyms":["SRP72","Signal recognition particle 72 kDa protein"]}
 {"id":"UNIPROT:O76095","label":"Protein JTB","obsolete":false,"synonyms":["JTB","Jumping translocation breakpoint protein","Prostate androgen-regulated protein"]}
+{"id":"UNIPROT:O76099","label":"Olfactory receptor 7C1","obsolete":false,"synonyms":["OR7C1","OR7C4","Olfactory receptor 7C4","Olfactory receptor OR19-16","Olfactory receptor TPCR86"]}
+{"id":"UNIPROT:O76100","label":"Olfactory receptor 7A10","obsolete":false,"synonyms":["OR7A10","OST027","Olfactory receptor OR19-18"]}
 {"id":"UNIPROT:O77932","label":"Decapping and exoribonuclease protein","obsolete":false,"synonyms":["DXO","DOM3L","DOM3Z","NG6","5'-3' exoribonuclease DXO","Dom-3 homolog Z","NAD-capped RNA hydrolase DXO"]}
 {"id":"UNIPROT:O94762","label":"ATP-dependent DNA helicase Q5","obsolete":false,"synonyms":["RECQL5","RECQ5","DNA 3'-5' helicase RecQ5","DNA helicase, RecQ-like type 5","RecQ protein-like 5"]}
 {"id":"UNIPROT:O94763","label":"Unconventional prefoldin RPB5 interactor 1","obsolete":false,"synonyms":["URI1","C19orf2","NNX3","PPP1R19","RMP","URI","Protein NNX3","Protein phosphatase 1 regulatory subunit 19","RNA polymerase II subunit 5-mediating protein"]}
@@ -1829,6 +1833,9 @@
 {"id":"UNIPROT:P0C672","label":"Tetraspanin-19","obsolete":false,"synonyms":["TSPAN19"]}
 {"id":"UNIPROT:P0C6C1","label":"Ankyrin repeat domain-containing protein 34C","obsolete":false,"synonyms":["ANKRD34C"]}
 {"id":"UNIPROT:P0C7H8","label":"Keratin-associated protein 2-3","obsolete":false,"synonyms":["KRTAP2-3","KAP2.3","KRTAP2.3","High sulfur keratin-associated protein 2.4","Keratin-associated protein 2.3"]}
+{"id":"UNIPROT:P0C7N1","label":"Olfactory receptor 8U8","obsolete":false,"synonyms":["OR8U8"]}
+{"id":"UNIPROT:P0C7N5","label":"Olfactory receptor 8U9","obsolete":false,"synonyms":["OR8U9"]}
+{"id":"UNIPROT:P0C7N8","label":"Olfactory receptor 9G9","obsolete":false,"synonyms":["OR9G9"]}
 {"id":"UNIPROT:P0C7P0","label":"CDGSH iron-sulfur domain-containing protein 3, mitochondrial","obsolete":false,"synonyms":["CISD3","MitoNEET-related protein 2","Mitochondrial inner NEET protein"]}
 {"id":"UNIPROT:P0C7P1","label":"RNA-binding motif protein, Y chromosome, family 1 member D","obsolete":false,"synonyms":["RBMY1D"]}
 {"id":"UNIPROT:P0C7T2","label":"Olfactory receptor 2T7","obsolete":false,"synonyms":["OR2T7","OR2T7P","OST723","olfactory receptor OR1-44"]}
@@ -1893,6 +1900,7 @@
 {"id":"UNIPROT:P0DMS8","label":"Adenosine receptor A3","obsolete":false,"synonyms":["ADORA3"]}
 {"id":"UNIPROT:P0DMS9","label":"Transmembrane domain-containing protein TMIGD3","obsolete":false,"synonyms":["TMIGD3"]}
 {"id":"UNIPROT:P0DMT0","label":"Myoregulin","obsolete":false,"synonyms":["MRLN","MLN"]}
+{"id":"UNIPROT:P0DMU2","label":"Olfactory receptor 8G3","obsolete":false,"synonyms":["OR8G3","OR8G3P","Olfactory receptor OR11-297"]}
 {"id":"UNIPROT:P0DMW2","label":"NLR family pyrin domain-containing protein 2B","obsolete":false,"synonyms":["NLRP2B","CLRX.1","NLRP2P","NOD24","POP4","Pyrin domain-containing protein 2-like protein POP4","Pyrin-only protein 4"]}
 {"id":"UNIPROT:P0DMW3","label":"Small integral membrane protein 10-like protein 1","obsolete":false,"synonyms":["SMIM10L1"]}
 {"id":"UNIPROT:P0DMW4","label":"Small integral membrane protein 10-like protein 2A","obsolete":false,"synonyms":["SMIM10L2A","LINC00086","NCRNA00086"]}
@@ -4393,7 +4401,10 @@
 {"id":"UNIPROT:Q15596","label":"Nuclear receptor coactivator 2","obsolete":false,"synonyms":["NCOA2","BHLHE75","SRC2","TIF2","Class E basic helix-loop-helix protein 75","Transcriptional intermediary factor 2"]}
 {"id":"UNIPROT:Q155Q3","label":"Dixin","obsolete":false,"synonyms":["DIXDC1","CCD1","KIAA1735","Coiled-coil protein DIX1","DIX domain-containing protein 1"]}
 {"id":"UNIPROT:Q15612","label":"Olfactory receptor 1Q1","obsolete":false,"synonyms":["OR1Q1","OR1Q2","OR1Q3","OST226","Olfactory receptor 1Q2","Olfactory receptor 1Q3","Olfactory receptor 9-A","Olfactory receptor OR9-25","Olfactory receptor TPCR106"]}
+{"id":"UNIPROT:Q15617","label":"Olfactory receptor 8G1","obsolete":false,"synonyms":["OR8G1","OR8G1P","Olfactory receptor OR11-281","Olfactory receptor TPCR25"]}
 {"id":"UNIPROT:Q15619","label":"Olfactory receptor 1C1","obsolete":false,"synonyms":["OR1C1","Olfactory receptor OR1-42","Olfactory receptor TPCR27"]}
+{"id":"UNIPROT:Q15620","label":"Olfactory receptor 8B8","obsolete":false,"synonyms":["OR8B8","Olfactory receptor TPCR85","Olfactory-like receptor JCG8"]}
+{"id":"UNIPROT:Q15622","label":"Olfactory receptor 7A5","obsolete":false,"synonyms":["OR7A5","Olfactory receptor OR19-17","Olfactory receptor TPCR92"]}
 {"id":"UNIPROT:Q15629","label":"Translocating chain-associated membrane protein 1","obsolete":false,"synonyms":["TRAM1","TRAM"]}
 {"id":"UNIPROT:Q15631","label":"Translin","obsolete":false,"synonyms":["TSN","Component 3 of promoter of RISC complex subunit Translin"]}
 {"id":"UNIPROT:Q15633","label":"RISC-loading complex subunit TARBP2","obsolete":false,"synonyms":["TARBP2","TRBP","TAR RNA-binding protein 2","Trans-activation-responsive RNA-binding protein"]}
@@ -5171,11 +5182,13 @@
 {"id":"UNIPROT:Q6IEU7","label":"Olfactory receptor 5M10","obsolete":false,"synonyms":["OR5M10","Olfactory receptor OR11-207"]}
 {"id":"UNIPROT:Q6IEZ7","label":"Olfactory receptor 2T5","obsolete":false,"synonyms":["OR2T5","Olfactory receptor OR1-62"]}
 {"id":"UNIPROT:Q6IF00","label":"Olfactory receptor 2T2","obsolete":false,"synonyms":["OR2T2","OR2T2P","Olfactory receptor OR1-43"]}
+{"id":"UNIPROT:Q6IF36","label":"Olfactory receptor 8G2","obsolete":false,"synonyms":["OR8G2P","OR8G2","OR8G4","Olfactory receptor 8G4","Olfactory receptor OR11-292","Olfactory receptor TPCR120"]}
 {"id":"UNIPROT:Q6IF42","label":"Olfactory receptor 2A2","obsolete":false,"synonyms":["OR2A2","OR2A17P","OR2A2P","Olfactory receptor 2A17","Olfactory receptor OR7-11"]}
 {"id":"UNIPROT:Q6IF63","label":"Olfactory receptor 52W1","obsolete":false,"synonyms":["OR52W1","OR52W1P","Olfactory receptor OR11-71"]}
 {"id":"UNIPROT:Q6IF99","label":"Olfactory receptor 10K2","obsolete":false,"synonyms":["OR10K2","Olfactory receptor OR1-4"]}
 {"id":"UNIPROT:Q6IFG1","label":"Olfactory receptor 52E8","obsolete":false,"synonyms":["OR52E8","Olfactory receptor OR11-54"]}
 {"id":"UNIPROT:Q6IFH4","label":"Olfactory receptor 6B2","obsolete":false,"synonyms":["OR6B2","OR6B2P","Olfactory receptor OR2-1"]}
+{"id":"UNIPROT:Q6IFN5","label":"Olfactory receptor 7E24","obsolete":false,"synonyms":["OR7E24","OR7E24P","Olfactory receptor OR19-14"]}
 {"id":"UNIPROT:Q6IN84","label":"rRNA methyltransferase 1, mitochondrial","obsolete":false,"synonyms":["MRM1","16S rRNA (guanosine(1145)-2'-O)-methyltransferase","16S rRNA [Gm1145] 2'-O-methyltransferase"]}
 {"id":"UNIPROT:Q6IN85","label":"Serine/threonine-protein phosphatase 4 regulatory subunit 3A","obsolete":false,"synonyms":["PPP4R3A","KIAA2010","PP4R3A","SMEK1","SMEK homolog 1"]}
 {"id":"UNIPROT:Q6IPT2","label":"Golgi-associated RAB2 interactor protein 5A","obsolete":false,"synonyms":["GARIN5A","FAM71E1"]}
@@ -5404,6 +5417,7 @@
 {"id":"UNIPROT:Q6UXN8","label":"C-type lectin domain family 9 member A","obsolete":false,"synonyms":["CLEC9A"]}
 {"id":"UNIPROT:Q6UXN9","label":"WD repeat-containing protein 82","obsolete":false,"synonyms":["WDR82","SWD2","TMEM113","WDR82A"]}
 {"id":"UNIPROT:Q6UXS9","label":"Inactive caspase-12","obsolete":false,"synonyms":["CASP12"]}
+{"id":"UNIPROT:Q6UXT6","label":"Olfactory receptor OR9H1","obsolete":false,"synonyms":["OR9H1","OR9H1P","Olfactory receptor family 9 subfamily H member 1"]}
 {"id":"UNIPROT:Q6UXT8","label":"ALK and LTK ligand 1","obsolete":false,"synonyms":["ALKAL1","FAM150A","Augmentor beta"]}
 {"id":"UNIPROT:Q6UXT9","label":"Protein ABHD15","obsolete":false,"synonyms":["ABHD15","Alpha/beta hydrolase domain-containing protein 15"]}
 {"id":"UNIPROT:Q6UXV1","label":"Izumo sperm-egg fusion protein 2","obsolete":false,"synonyms":["IZUMO2","C19orf41","SCRL"]}
@@ -6128,6 +6142,7 @@
 {"id":"UNIPROT:Q8N0X4","label":"Citramalyl-CoA lyase, mitochondrial","obsolete":false,"synonyms":["CLYBL","CLB","(3S)-malyl-CoA thioesterase","Beta-methylmalate synthase","Citrate lyase subunit beta-like protein","Malate synthase"]}
 {"id":"UNIPROT:Q8N0X7","label":"Spartin","obsolete":false,"synonyms":["SPART","KIAA0610","SPG20","TAHCCP1","Spastic paraplegia 20 protein","Trans-activated by hepatitis C virus core protein 1"]}
 {"id":"UNIPROT:Q8N0Y2","label":"Zinc finger protein 444","obsolete":false,"synonyms":["ZNF444","EZF2","ZSCAN17","Endothelial zinc finger protein 2","Zinc finger and SCAN domain-containing protein 17"]}
+{"id":"UNIPROT:Q8N0Y5","label":"Olfactory receptor 8I2","obsolete":false,"synonyms":["OR8I2","Olfactory receptor OR11-170"]}
 {"id":"UNIPROT:Q8N0Z2","label":"Actin-binding Rho-activating protein","obsolete":false,"synonyms":["ABRA","Striated muscle activator of Rho-dependent signaling"]}
 {"id":"UNIPROT:Q8N0Z3","label":"Spindle and centriole-associated protein 1","obsolete":false,"synonyms":["SPICE1","CCDC52","SPICE","Coiled-coil domain-containing protein 52","Spindle and centriole-associated protein"]}
 {"id":"UNIPROT:Q8N0Z6","label":"Tetratricopeptide repeat protein 5","obsolete":false,"synonyms":["TTC5","Stress-responsive activator of p300"]}
@@ -6146,9 +6161,11 @@
 {"id":"UNIPROT:Q8N139","label":"ATP-binding cassette sub-family A member 6","obsolete":false,"synonyms":["ABCA6"]}
 {"id":"UNIPROT:Q8N141","label":"Zinc finger protein 82 homolog","obsolete":false,"synonyms":["ZFP82","KIAA1948","ZNF545","Zinc finger protein 545"]}
 {"id":"UNIPROT:Q8N142","label":"Adenylosuccinate synthetase isozyme 1","obsolete":false,"synonyms":["ADSS1","ADSSL1","Adenylosuccinate synthetase, basic isozyme","Adenylosuccinate synthetase, muscle isozyme","Adenylosuccinate synthetase-like 1","IMP--aspartate ligase 1"]}
+{"id":"UNIPROT:Q8N146","label":"Olfactory receptor 8H3","obsolete":false,"synonyms":["OR8H3","Olfactory receptor OR11-172"]}
 {"id":"UNIPROT:Q8N148","label":"Olfactory receptor 6V1","obsolete":false,"synonyms":["OR6V1","Olfactory receptor OR7-3"]}
 {"id":"UNIPROT:Q8N158","label":"Glypican-2","obsolete":false,"synonyms":["GPC2"]}
 {"id":"UNIPROT:Q8N159","label":"N-acetylglutamate synthase, mitochondrial","obsolete":false,"synonyms":["NAGS","Amino-acid acetyltransferase"]}
+{"id":"UNIPROT:Q8N162","label":"Olfactory receptor 8H2","obsolete":false,"synonyms":["OR8H2","Olfactory receptor OR11-171"]}
 {"id":"UNIPROT:Q8N163","label":"Cell cycle and apoptosis regulator protein 2","obsolete":false,"synonyms":["CCAR2","DBC1","KIAA1967","Cell division cycle and apoptosis regulator protein 2","DBIRD complex subunit KIAA1967","Deleted in breast cancer gene 1 protein","NET35","p30 DBC"]}
 {"id":"UNIPROT:Q8N165","label":"Serine/threonine-protein kinase PDIK1L","obsolete":false,"synonyms":["PDIK1L","CLIK1L","PDLIM1-interacting kinase 1-like"]}
 {"id":"UNIPROT:Q8N187","label":"Calcium-responsive transcription factor","obsolete":false,"synonyms":["CARF","ALS2CR8","Amyotrophic lateral sclerosis 2 chromosomal region candidate gene 8 protein","Calcium-response factor","Testis development protein NYD-SP24"]}
@@ -6538,6 +6555,7 @@
 {"id":"UNIPROT:Q8NG75","label":"Olfactory receptor 5T1","obsolete":false,"synonyms":["OR5T1","OR5T1P","Olfactory receptor OR11-179"]}
 {"id":"UNIPROT:Q8NG76","label":"Olfactory receptor 2T33","obsolete":false,"synonyms":["OR2T33","Olfactory receptor OR1-56"]}
 {"id":"UNIPROT:Q8NG77","label":"Olfactory receptor 2T12","obsolete":false,"synonyms":["OR2T12","Olfactory receptor OR1-57"]}
+{"id":"UNIPROT:Q8NG78","label":"Olfactory receptor 8G5","obsolete":false,"synonyms":["OR8G5","OR8G5P","OR8G6","Olfactory receptor 8G6","Olfactory receptor OR11-298"]}
 {"id":"UNIPROT:Q8NG80","label":"Olfactory receptor 2L5","obsolete":false,"synonyms":["OR2L5","OR2L11","Olfactory receptor 2L11","Olfactory receptor OR1-53"]}
 {"id":"UNIPROT:Q8NG81","label":"Olfactory receptor 2M7","obsolete":false,"synonyms":["OR2M7","Olfactory receptor OR1-58"]}
 {"id":"UNIPROT:Q8NG83","label":"Olfactory receptor 2M3","obsolete":false,"synonyms":["OR2M3","OR2M3P","OR2M6","Olfactory receptor 2M6","Olfactory receptor OR1-54"]}
@@ -6545,8 +6563,13 @@
 {"id":"UNIPROT:Q8NG85","label":"Olfactory receptor 2L3","obsolete":false,"synonyms":["OR2L3"]}
 {"id":"UNIPROT:Q8NG92","label":"Olfactory receptor 13H1","obsolete":false,"synonyms":["OR13H1","Olfactory receptor ORX-1"]}
 {"id":"UNIPROT:Q8NG94","label":"Olfactory receptor 11H1","obsolete":false,"synonyms":["OR11H1","Olfactory receptor OR22-1"]}
+{"id":"UNIPROT:Q8NG95","label":"Olfactory receptor 7G3","obsolete":false,"synonyms":["OR7G3","OST085","Olfactory receptor OR19-9"]}
 {"id":"UNIPROT:Q8NG97","label":"Olfactory receptor 2Z1","obsolete":false,"synonyms":["OR2Z1","OR2Z2","Olfactory receptor 2Z2","Olfactory receptor OR19-4"]}
+{"id":"UNIPROT:Q8NG98","label":"Olfactory receptor 7D4","obsolete":false,"synonyms":["OR7D4","OR7D4P","OR19-B","Odorant receptor family subfamily D member 4RT","Olfactory receptor OR19-7"]}
+{"id":"UNIPROT:Q8NG99","label":"Olfactory receptor 7G2","obsolete":false,"synonyms":["OR7G2","OST260","Olfactory receptor 19-13","Olfactory receptor OR19-6"]}
+{"id":"UNIPROT:Q8NGA0","label":"Olfactory receptor 7G1","obsolete":false,"synonyms":["OR7G1","OR7G1P","Olfactory receptor 19-15","Olfactory receptor OR19-8"]}
 {"id":"UNIPROT:Q8NGA1","label":"Olfactory receptor 1M1","obsolete":false,"synonyms":["OR1M1","Olfactory receptor 19-6","Olfactory receptor OR19-5"]}
+{"id":"UNIPROT:Q8NGA2","label":"Putative olfactory receptor 7A2","obsolete":false,"synonyms":["OR7A2P","OR7A2","OR7A7","Putative olfactory receptor 7A7"]}
 {"id":"UNIPROT:Q8NGA5","label":"Olfactory receptor 10H4","obsolete":false,"synonyms":["OR10H4","Olfactory receptor OR19-28"]}
 {"id":"UNIPROT:Q8NGA6","label":"Olfactory receptor 10H5","obsolete":false,"synonyms":["OR10H5","Olfactory receptor OR19-25","Olfactory receptor OR19-26"]}
 {"id":"UNIPROT:Q8NGC0","label":"Olfactory receptor 5AU1","obsolete":false,"synonyms":["OR5AU1","Olfactory receptor OR14-38"]}
@@ -6562,14 +6585,23 @@
 {"id":"UNIPROT:Q8NGE2","label":"Olfactory receptor 2AP1","obsolete":false,"synonyms":["OR2AP1","OR2AP1P","Olfactory receptor OR12-9"]}
 {"id":"UNIPROT:Q8NGE3","label":"Olfactory receptor 10P1","obsolete":false,"synonyms":["OR10P1","OR10P1P","OR10P2P","OR10P3P","Olfactory receptor 10P2","Olfactory receptor 10P3","Olfactory receptor OR12-7"]}
 {"id":"UNIPROT:Q8NGE5","label":"Olfactory receptor 10A7","obsolete":false,"synonyms":["OR10A7","Olfactory receptor OR12-6"]}
+{"id":"UNIPROT:Q8NGE7","label":"Olfactory receptor 9K2","obsolete":false,"synonyms":["OR9K2","Olfactory receptor OR12-2"]}
+{"id":"UNIPROT:Q8NGE9","label":"Olfactory receptor 9Q2","obsolete":false,"synonyms":["OR9Q2","OR9Q2P"]}
 {"id":"UNIPROT:Q8NGF0","label":"Olfactory receptor 52B6","obsolete":false,"synonyms":["OR52B6","Olfactory receptor OR11-47"]}
 {"id":"UNIPROT:Q8NGF1","label":"Olfactory receptor 52R1","obsolete":false,"synonyms":["OR52R1","Olfactory receptor OR11-22"]}
 {"id":"UNIPROT:Q8NGF3","label":"Olfactory receptor 51D1","obsolete":false,"synonyms":["OR51D1","Olfactory receptor OR11-14"]}
 {"id":"UNIPROT:Q8NGF4","label":"Olfactory receptor 5AP2","obsolete":false,"synonyms":["OR5AP2"]}
 {"id":"UNIPROT:Q8NGF6","label":"Olfactory receptor 10W1","obsolete":false,"synonyms":["OR10W1","OR10W1P","Olfactory receptor OR11-236"]}
 {"id":"UNIPROT:Q8NGF7","label":"Olfactory receptor 5B17","obsolete":false,"synonyms":["OR5B17","OR5B20P","Olfactory receptor 5B20","Olfactory receptor OR11-237"]}
+{"id":"UNIPROT:Q8NGG0","label":"Olfactory receptor 8J3","obsolete":false,"synonyms":["OR8J3","Olfactory receptor OR11-173"]}
+{"id":"UNIPROT:Q8NGG1","label":"Olfactory receptor 8J2","obsolete":false,"synonyms":["OR8J2","OR8J2P"]}
 {"id":"UNIPROT:Q8NGG2","label":"Olfactory receptor 5T2","obsolete":false,"synonyms":["OR5T2","Olfactory receptor OR11-177"]}
 {"id":"UNIPROT:Q8NGG3","label":"Olfactory receptor 5T3","obsolete":false,"synonyms":["OR5T3","Olfactory receptor OR11-178"]}
+{"id":"UNIPROT:Q8NGG4","label":"Olfactory receptor 8H1","obsolete":false,"synonyms":["OR8H1","Olfactory receptor OR11-180"]}
+{"id":"UNIPROT:Q8NGG5","label":"Olfactory receptor 8K1","obsolete":false,"synonyms":["OR8K1","Olfactory receptor OR11-182"]}
+{"id":"UNIPROT:Q8NGG6","label":"Olfactory receptor 8B12","obsolete":false,"synonyms":["OR8B12","Olfactory receptor OR11-317"]}
+{"id":"UNIPROT:Q8NGG7","label":"Olfactory receptor 8A1","obsolete":false,"synonyms":["OR8A1","OST025","Olfactory receptor OR11-318"]}
+{"id":"UNIPROT:Q8NGG8","label":"Olfactory receptor 8B3","obsolete":false,"synonyms":["OR8B3","Olfactory receptor OR11-311"]}
 {"id":"UNIPROT:Q8NGH3","label":"Olfactory receptor 2D3","obsolete":false,"synonyms":["OR2D3","Olfactory receptor OR11-89"]}
 {"id":"UNIPROT:Q8NGH5","label":"Olfactory receptor 56A1","obsolete":false,"synonyms":["OR56A1","Olfactory receptor OR11-75"]}
 {"id":"UNIPROT:Q8NGH6","label":"Putative olfactory receptor 52L2","obsolete":false,"synonyms":["OR52L2P","OR52L2","Olfactory receptor OR11-74"]}
@@ -6606,6 +6638,7 @@
 {"id":"UNIPROT:Q8NGL3","label":"Olfactory receptor 5D14","obsolete":false,"synonyms":["OR5D14","Olfactory receptor OR11-141","Olfactory receptor OR11-150"]}
 {"id":"UNIPROT:Q8NGL4","label":"Olfactory receptor 5D13","obsolete":false,"synonyms":["OR5D13","Olfactory receptor OR11-142","Olfactory receptor OR11-148"]}
 {"id":"UNIPROT:Q8NGM8","label":"Olfactory receptor 6M1","obsolete":false,"synonyms":["OR6M1","Olfactory receptor OR11-271"]}
+{"id":"UNIPROT:Q8NGM9","label":"Olfactory receptor 8D4","obsolete":false,"synonyms":["OR8D4","Olfactory receptor OR11-275"]}
 {"id":"UNIPROT:Q8NGN1","label":"Olfactory receptor 6T1","obsolete":false,"synonyms":["OR6T1","Olfactory receptor OR11-277"]}
 {"id":"UNIPROT:Q8NGN2","label":"Olfactory receptor 10S1","obsolete":false,"synonyms":["OR10S1","Olfactory receptor OR11-279"]}
 {"id":"UNIPROT:Q8NGN3","label":"Olfactory receptor 10G4","obsolete":false,"synonyms":["OR10G4","Olfactory receptor OR11-278"]}
@@ -6613,14 +6646,18 @@
 {"id":"UNIPROT:Q8NGN5","label":"Olfactory receptor 10G8","obsolete":false,"synonyms":["OR10G8","Olfactory receptor OR11-282"]}
 {"id":"UNIPROT:Q8NGN6","label":"Olfactory receptor 10G7","obsolete":false,"synonyms":["OR10G7","Olfactory receptor OR11-283"]}
 {"id":"UNIPROT:Q8NGN7","label":"Putative olfactory receptor 10D4","obsolete":false,"synonyms":["OR10D4P","OR10D4"]}
+{"id":"UNIPROT:Q8NGP2","label":"Olfactory receptor 8J1","obsolete":false,"synonyms":["OR8J1","Olfactory receptor OR11-183"]}
 {"id":"UNIPROT:Q8NGP3","label":"Olfactory receptor 5M9","obsolete":false,"synonyms":["OR5M9","Olfactory receptor OR11-190"]}
 {"id":"UNIPROT:Q8NGP4","label":"Olfactory receptor 5M3","obsolete":false,"synonyms":["OR5M3","Olfactory receptor OR11-191"]}
 {"id":"UNIPROT:Q8NGP6","label":"Olfactory receptor 5M8","obsolete":false,"synonyms":["OR5M8","Olfactory receptor OR11-194"]}
 {"id":"UNIPROT:Q8NGP8","label":"Olfactory receptor 5M1","obsolete":false,"synonyms":["OR5M1","OST050","Olfactory receptor OR11-208"]}
 {"id":"UNIPROT:Q8NGP9","label":"Olfactory receptor 5AR1","obsolete":false,"synonyms":["OR5AR1","Olfactory receptor OR11-209"]}
+{"id":"UNIPROT:Q8NGQ1","label":"Olfactory receptor 9G4","obsolete":false,"synonyms":["OR9G4","Olfactory receptor OR11-216"]}
 {"id":"UNIPROT:Q8NGQ2","label":"Olfactory receptor 6Q1","obsolete":false,"synonyms":["OR6Q1","Olfactory receptor OR11-226"]}
 {"id":"UNIPROT:Q8NGQ3","label":"Olfactory receptor 1S2","obsolete":false,"synonyms":["OR1S2","Olfactory receptor OR11-231"]}
 {"id":"UNIPROT:Q8NGQ4","label":"Olfactory receptor 10Q1","obsolete":false,"synonyms":["OR10Q1","Olfactory receptor OR11-233"]}
+{"id":"UNIPROT:Q8NGQ5","label":"Olfactory receptor 9Q1","obsolete":false,"synonyms":["OR9Q1"]}
+{"id":"UNIPROT:Q8NGQ6","label":"Olfactory receptor 9I1","obsolete":false,"synonyms":["OR9I1","Olfactory receptor OR11-228"]}
 {"id":"UNIPROT:Q8NGR1","label":"Olfactory receptor 13A1","obsolete":false,"synonyms":["OR13A1","Olfactory receptor OR10-3"]}
 {"id":"UNIPROT:Q8NGR2","label":"Olfactory receptor 1L6","obsolete":false,"synonyms":["OR1L6","OR1L7","Olfactory receptor 1L7","Olfactory receptor OR9-30"]}
 {"id":"UNIPROT:Q8NGR3","label":"Olfactory receptor 1K1","obsolete":false,"synonyms":["OR1K1"]}
@@ -6642,8 +6679,11 @@
 {"id":"UNIPROT:Q8NGT0","label":"Olfactory receptor 13C9","obsolete":false,"synonyms":["OR13C9","Olfactory receptor OR9-13"]}
 {"id":"UNIPROT:Q8NGT1","label":"Olfactory receptor 2K2","obsolete":false,"synonyms":["OR2K2","OR2AR1P","HTPCRH06","Olfactory receptor OR9-17"]}
 {"id":"UNIPROT:Q8NGT2","label":"Olfactory receptor 13J1","obsolete":false,"synonyms":["OR13J1","Olfactory receptor OR9-2"]}
+{"id":"UNIPROT:Q8NGT5","label":"Olfactory receptor 9A2","obsolete":false,"synonyms":["OR9A2","Olfactory receptor OR7-2"]}
 {"id":"UNIPROT:Q8NGT7","label":"Olfactory receptor 2A12","obsolete":false,"synonyms":["OR2A12","OR2A12P","Olfactory receptor OR7-10"]}
 {"id":"UNIPROT:Q8NGT9","label":"Olfactory receptor 2A1/2A42","obsolete":false,"synonyms":["OR2A1 | OR2A42","Olfactory receptor OR7-16","Olfactory receptor OR7-19"]}
+{"id":"UNIPROT:Q8NGU1","label":"Olfactory receptor 9A1","obsolete":false,"synonyms":["OR9A1P","OR9A1","HSHTPRX06"]}
+{"id":"UNIPROT:Q8NGU2","label":"Olfactory receptor 9A4","obsolete":false,"synonyms":["OR9A4","Olfactory receptor OR7-1"]}
 {"id":"UNIPROT:Q8NGU4","label":"Putative olfactory receptor 2I1","obsolete":false,"synonyms":["OR2I1","OR2I1P","OR2I2P","OR2I3P","OR2I4P","Putative olfactory receptor 2I2","Putative olfactory receptor 2I3","Putative olfactory receptor 2I4"]}
 {"id":"UNIPROT:Q8NGV0","label":"Olfactory receptor 2Y1","obsolete":false,"synonyms":["OR2Y1","Olfactory receptor OR5-2"]}
 {"id":"UNIPROT:Q8NGV5","label":"Olfactory receptor 13D1","obsolete":false,"synonyms":["OR13D1","Olfactory receptor OR9-15"]}
@@ -6682,11 +6722,15 @@
 {"id":"UNIPROT:Q8NH06","label":"Olfactory receptor 1P1","obsolete":false,"synonyms":["OR1P1","OR1P1P","Olfactory receptor 17-208","Olfactory receptor OR17-9"]}
 {"id":"UNIPROT:Q8NH07","label":"Olfactory receptor 11H2","obsolete":false,"synonyms":["OR11H2","C14orf15","OR11H2P","Olfactory receptor OR14-1"]}
 {"id":"UNIPROT:Q8NH08","label":"Olfactory receptor 10AC1","obsolete":false,"synonyms":["OR10AC1","OR10AC1P","Olfactory receptor OR7-5"]}
+{"id":"UNIPROT:Q8NH09","label":"Olfactory receptor 8S1","obsolete":false,"synonyms":["OR8S1"]}
+{"id":"UNIPROT:Q8NH10","label":"Olfactory receptor 8U1","obsolete":false,"synonyms":["OR8U1"]}
 {"id":"UNIPROT:Q8NH16","label":"Olfactory receptor 2L2","obsolete":false,"synonyms":["OR2L2","OR2L12","OR2L4P","HTPCRH07","Olfactory receptor 2L12","Olfactory receptor 2L4"]}
 {"id":"UNIPROT:Q8NH18","label":"Olfactory receptor 5J2","obsolete":false,"synonyms":["OR5J2","Olfactory receptor OR11-266"]}
 {"id":"UNIPROT:Q8NH19","label":"Olfactory receptor 10AG1","obsolete":false,"synonyms":["OR10AG1","Olfactory receptor OR11-160"]}
 {"id":"UNIPROT:Q8NH40","label":"Olfactory receptor 6S1","obsolete":false,"synonyms":["OR6S1","Olfactory receptor OR14-37"]}
 {"id":"UNIPROT:Q8NH48","label":"Olfactory receptor 5B3","obsolete":false,"synonyms":["OR5B3","OR5B13","Olfactory receptor 5B13","Olfactory receptor OR11-239"]}
+{"id":"UNIPROT:Q8NH50","label":"Olfactory receptor 8K5","obsolete":false,"synonyms":["OR8K5","Olfactory receptor OR11-174"]}
+{"id":"UNIPROT:Q8NH51","label":"Olfactory receptor 8K3","obsolete":false,"synonyms":["OR8K3","Olfactory receptor OR11-181"]}
 {"id":"UNIPROT:Q8NH53","label":"Olfactory receptor 52N1","obsolete":false,"synonyms":["OR52N1","Olfactory receptor OR11-61"]}
 {"id":"UNIPROT:Q8NH54","label":"Olfactory receptor 56A3","obsolete":false,"synonyms":["OR56A3","OR56A3P","OR56A6","Olfactory receptor 56A6"]}
 {"id":"UNIPROT:Q8NH55","label":"Olfactory receptor 52E5","obsolete":false,"synonyms":["OR52E5"]}
@@ -6705,6 +6749,7 @@
 {"id":"UNIPROT:Q8NH80","label":"Olfactory receptor 10D3","obsolete":false,"synonyms":["OR10D3","OR10D3P","HTPCRX09","Olfactory receptor OR11-293"]}
 {"id":"UNIPROT:Q8NH81","label":"Olfactory receptor 10G6","obsolete":false,"synonyms":["OR10G6","OR10G6P","Olfactory receptor OR11-280"]}
 {"id":"UNIPROT:Q8NH85","label":"Olfactory receptor 8U3","obsolete":false,"synonyms":["OR8U3","OR5R1","OR5R1P","Olfactory receptor 5R1","Olfactory receptor OR11-185"]}
+{"id":"UNIPROT:Q8NH87","label":"Olfactory receptor 9G1","obsolete":false,"synonyms":["OR9G1","OR9G5","Olfactory receptor 9G5","Olfactory receptor OR11-114"]}
 {"id":"UNIPROT:Q8NH89","label":"Olfactory receptor 5AK3","obsolete":false,"synonyms":["OR5AK3P","OR5AK3"]}
 {"id":"UNIPROT:Q8NH90","label":"Olfactory receptor 5AK2","obsolete":false,"synonyms":["OR5AK2"]}
 {"id":"UNIPROT:Q8NH92","label":"Olfactory receptor 1S1","obsolete":false,"synonyms":["OR1S1","Olfactory receptor OR11-232"]}
@@ -7086,6 +7131,7 @@
 {"id":"UNIPROT:Q8WZ73","label":"E3 ubiquitin-protein ligase rififylin","obsolete":false,"synonyms":["RFFL","RNF189","RNF34L","Caspase regulator CARP2","Caspases-8 and -10-associated RING finger protein 2","FYVE-RING finger protein Sakura","RING finger and FYVE-like domain-containing protein 1","RING finger protein 189","RING finger protein 34-like","RING-type E3 ubiquitin transferase rififylin"]}
 {"id":"UNIPROT:Q8WZ74","label":"Cortactin-binding protein 2","obsolete":false,"synonyms":["CTTNBP2","C7orf8","CORTBP2","KIAA1758"]}
 {"id":"UNIPROT:Q8WZ75","label":"Roundabout homolog 4","obsolete":false,"synonyms":["ROBO4","Magic roundabout"]}
+{"id":"UNIPROT:Q8WZ84","label":"Olfactory receptor 8D1","obsolete":false,"synonyms":["OR8D1","OR8D3","OST004","Olfactory receptor 8D3","Olfactory receptor OR11-301","Olfactory receptor-like protein JCG9"]}
 {"id":"UNIPROT:Q8WZ92","label":"Olfactory receptor 5P2","obsolete":false,"synonyms":["OR5P2","Olfactory receptor-like protein JCG3"]}
 {"id":"UNIPROT:Q8WZ94","label":"Olfactory receptor 5P3","obsolete":false,"synonyms":["OR5P3","Olfactory receptor OR11-94","Olfactory receptor-like protein JCG1"]}
 {"id":"UNIPROT:Q8WZA1","label":"Protein O-linked-mannose beta-1,2-N-acetylglucosaminyltransferase 1","obsolete":false,"synonyms":["POMGNT1","MGAT1.2","UDP-GlcNAc:alpha-D-mannoside beta-1,2-N-acetylglucosaminyltransferase I.2"]}
@@ -7727,7 +7773,10 @@
 {"id":"UNIPROT:Q96R48","label":"Olfactory receptor 2A5","obsolete":false,"synonyms":["OR2A5","OR2A26","OR2A8","Olfactory receptor 2A26","Olfactory receptor 2A8","Olfactory receptor 7-138/7-141"]}
 {"id":"UNIPROT:Q96R54","label":"Olfactory receptor 14A2","obsolete":false,"synonyms":["OR14A2","OR5AX1","OR5AX1P","Olfactory receptor 5AX1","Olfactory receptor OR1-31"]}
 {"id":"UNIPROT:Q96R84","label":"Putative olfactory receptor 1F2","obsolete":false,"synonyms":["OR1F2P","OR1F2","OLFmf2"]}
+{"id":"UNIPROT:Q96RA2","label":"Olfactory receptor 7D2","obsolete":false,"synonyms":["OR7D2","HTPCRH03","Olfactory receptor 19-4","Olfactory receptor OR19-10"]}
 {"id":"UNIPROT:Q96RB7","label":"Olfactory receptor 5M11","obsolete":false,"synonyms":["OR5M11"]}
+{"id":"UNIPROT:Q96RC9","label":"Olfactory receptor 8B4","obsolete":false,"synonyms":["OR8B4","OR8B4P","Olfactory receptor OR11-315"]}
+{"id":"UNIPROT:Q96RD0","label":"Olfactory receptor 8B2","obsolete":false,"synonyms":["OR8B2","Olfactory receptor OR11-309"]}
 {"id":"UNIPROT:Q96RD1","label":"Olfactory receptor 6C1","obsolete":false,"synonyms":["OR6C1","OST267"]}
 {"id":"UNIPROT:Q96RD2","label":"Olfactory receptor 52B2","obsolete":false,"synonyms":["OR52B2","Olfactory receptor OR11-70"]}
 {"id":"UNIPROT:Q96RD3","label":"Olfactory receptor 52E6","obsolete":false,"synonyms":["OR52E6","Olfactory receptor OR11-58"]}
@@ -8330,6 +8379,7 @@
 {"id":"UNIPROT:Q9GZL7","label":"Ribosome biogenesis protein WDR12","obsolete":false,"synonyms":["WDR12","WD repeat-containing protein 12"]}
 {"id":"UNIPROT:Q9GZM3","label":"DNA-directed RNA polymerase II subunit RPB11-b1","obsolete":false,"synonyms":["POLR2J2","DNA-directed RNA polymerase II subunit J2"]}
 {"id":"UNIPROT:Q9GZM5","label":"Protein YIPF3","obsolete":false,"synonyms":["YIPF3","C6orf109","KLIP1","Killer lineage protein 1","Natural killer cell-specific antigen KLIP1","YIP1 family member 3"]}
+{"id":"UNIPROT:Q9GZM6","label":"Olfactory receptor 8D2","obsolete":false,"synonyms":["OR8D2","Olfactory receptor OR11-303","Olfactory receptor-like protein JCG2"]}
 {"id":"UNIPROT:Q9GZM7","label":"Tubulointerstitial nephritis antigen-like","obsolete":false,"synonyms":["TINAGL1","GIS5","LCN7","OLRG2","TINAGL","Glucocorticoid-inducible protein 5","Oxidized LDL-responsive gene 2 protein","Tubulointerstitial nephritis antigen-related protein"]}
 {"id":"UNIPROT:Q9GZM8","label":"Nuclear distribution protein nudE-like 1","obsolete":false,"synonyms":["NDEL1","EOPA","MITAP1","NUDEL","Mitosin-associated protein 1"]}
 {"id":"UNIPROT:Q9GZN1","label":"Actin-related protein 6","obsolete":false,"synonyms":["ACTR6","hARPX"]}

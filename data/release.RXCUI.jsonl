@@ -1,6 +1,7 @@
 {"id":"RXCUI:10106","label":"streptokinase","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:1047802","label":"(−)-hyoscyamine hydrobromide","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:10565","label":"thyroglobulin","obsolete":false,"synonyms":[]}
+{"id":"RXCUI:105694","label":"epoetin alfa","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:10734","label":"tranylcypromine","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:1092437","label":"belimumab","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:1094833","label":"ipilimumab","obsolete":false,"synonyms":[]}
@@ -15,14 +16,18 @@
 {"id":"RXCUI:120608","label":"peginterferon alfa-2a","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:121191","label":"rituximab","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:1232150","label":"aflibercept","obsolete":false,"synonyms":[]}
+{"id":"RXCUI:1242127","label":"glucarpidase","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:1248798","label":"peginesatide","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:1294532","label":"levocabastine hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:1294580","label":"gemtuzumab ozogamicin","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:1298831","label":"tiotropium bromide monohydrate","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:1298944","label":"pertuzumab","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:1311089","label":"defibrotide","obsolete":false,"synonyms":[]}
+{"id":"RXCUI:1364449","label":"crofelemer","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:1371306","label":"food yellow 3 free acid","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:1388","label":"lindane","obsolete":false,"synonyms":[]}
+{"id":"RXCUI:139994","label":"oprelvekin","obsolete":false,"synonyms":[]}
+{"id":"RXCUI:140480","label":"icodextrin","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:140502","label":"ancestim","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:141704","label":"everolimus","obsolete":false,"synonyms":["40-O-(2-hydroxyethyl)-rapamycin","42-O-(2-hydroxyethyl)rapamycin","RAD001","SDZ-RAD"]}
 {"id":"RXCUI:1424174","label":"radium ra-223 dichloride","obsolete":false,"synonyms":[]}
@@ -45,6 +50,7 @@
 {"id":"RXCUI:1546455","label":"hypericin","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:1551291","label":"dulaglutide","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:1597292","label":"solvent red 4","obsolete":false,"synonyms":[]}
+{"id":"RXCUI:1597876","label":"nivolumab","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:1599831","label":"conestat alfa","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:1606274","label":"dinutuximab","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:1659152","label":"alirocumab","obsolete":false,"synonyms":[]}
@@ -54,12 +60,14 @@
 {"id":"RXCUI:1716203","label":"patiromer","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:1720259","label":"asfotase alfa","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:1720597","label":"mepolizumab","obsolete":false,"synonyms":[]}
+{"id":"RXCUI:1721947","label":"daratumumab","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:1726104","label":"elotuzumab","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:1726975","label":"sebelipase alfa","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:1729084","label":"simoctocog alfa","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:1737557","label":"turoctocog alfa","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:1745099","label":"ixekizumab","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:1796118","label":"fluciclovine-F18","obsolete":false,"synonyms":[]}
+{"id":"RXCUI:1810569","label":"eteplirsen","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:1874282","label":"yellow OB","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:1876366","label":"ocrelizumab","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:18927","label":"benztropine mesylate","obsolete":false,"synonyms":[]}
@@ -75,6 +83,7 @@
 {"id":"RXCUI:203173","label":"chlordiazepoxide hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:2045371","label":"cannabidiol","obsolete":false,"synonyms":["(1R,6R)-2-[3-methyl-6-(1-methylethenyl)-2-cyclohexen-1-yl]-5-pentyl-1,3-benzenediol"]}
 {"id":"RXCUI:2053436","label":"tildrakizumab","obsolete":false,"synonyms":[]}
+{"id":"RXCUI:2054068","label":"mogamulizumab","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:2054968","label":"stiripentol","obsolete":false,"synonyms":["1-(1,3-Benzodioxol-5-yl)-4,4-dimethyl-1-penten-3-ol","Stiripentol","4,4-Dimethyl-1-((3,4-methylenedioxy)phenyl)-1-penten-3-ol","BCX 2600","BRN 1313047","Diacomit ®","Estiripentol","Stiripentolum"]}
 {"id":"RXCUI:2055641","label":"lanadelumab","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:21241","label":"clobazam","obsolete":false,"synonyms":["Clobazam","Frisium","1-phenyl-5-methyl-8-chloro-1,2,4,5-tetrahydro-2,4-dioxo-3H-1,5-benzodiazepine","7-Chloro-1-methyl-5-phenyl-1,5-dihydro-benzo[b][1,4]diazepine-2,4-dione","Clobazamum","H-4723","HR-376","LM-2717","Onfi","Urbanol"]}
@@ -93,8 +102,12 @@
 {"id":"RXCUI:2557217","label":"aducanumab","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:25789","label":"glimepiride","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:259280","label":"tenecteplase","obsolete":false,"synonyms":[]}
+{"id":"RXCUI:262323","label":"ibritumomab","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:263010","label":"tositumomab","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:263034","label":"panitumumab","obsolete":false,"synonyms":[]}
+{"id":"RXCUI:26744","label":"hepatitis B immune globulin","obsolete":false,"synonyms":[]}
+{"id":"RXCUI:274403","label":"mecasermin","obsolete":false,"synonyms":[]}
+{"id":"RXCUI:27604","label":"inositol niacinate","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:278739","label":"pegvisomant","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:283821","label":"rasburicase","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:283838","label":"darbepoetin alfa","obsolete":false,"synonyms":[]}
@@ -120,6 +133,7 @@
 {"id":"RXCUI:376","label":"corticotropin","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:388084","label":"lutropin alfa","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:392509","label":"laronidase","obsolete":false,"synonyms":[]}
+{"id":"RXCUI:400008","label":"insulin glulisine","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:40028","label":"anistreplase","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:402538","label":"ethoxazene hydrochloride","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:42405","label":"muromonab","obsolete":false,"synonyms":[]}
@@ -139,12 +153,15 @@
 {"id":"RXCUI:578033","label":"galsulfase","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:5833","label":"myo-inositol","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:5880","label":"interferon Alfa-2b, Recombinant","obsolete":false,"synonyms":[]}
+{"id":"RXCUI:5882","label":"interferon gamma-1b","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:591781","label":"eculizumab","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:595060","label":"ranibizumab","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:59744","label":"interferon alfacon-1","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:59768","label":"pegademase bovine","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:599","label":"alseroxylon","obsolete":false,"synonyms":[]}
+{"id":"RXCUI:5992","label":"iron dextran","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:612865","label":"tocilizumab","obsolete":false,"synonyms":[]}
+{"id":"RXCUI:612937","label":"interferon alfa-n3","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:614391","label":"abatacept","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:625","label":"ambroxol","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:629565","label":"alglucosidase alfa","obsolete":false,"synonyms":[]}
@@ -154,10 +171,12 @@
 {"id":"RXCUI:69634","label":"sargramostim","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:69646","label":"tinzaparin","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:6979","label":"minocycline hydrochloride","obsolete":false,"synonyms":[]}
+{"id":"RXCUI:70167","label":"lenograstim","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:709271","label":"certolizumab pegol","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:712566","label":"ofatumumab","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:72257","label":"interferon beta-1b","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:7226","label":"nadolol","obsolete":false,"synonyms":["Nadolol","Corgard®","corzide","SQ-11725"]}
+{"id":"RXCUI:729596","label":"Methoxy polyethylene glycol-epoetin beta","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:753346","label":"sinecatechins","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:75917","label":"interferon beta-1a","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:76895","label":"reteplase","obsolete":false,"synonyms":[]}
@@ -175,6 +194,7 @@
 {"id":"RXCUI:87866","label":"ardeparin sodium","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:8787","label":"propranolol","obsolete":false,"synonyms":["[2-hydroxy-3-(naphthalen-1-yloxy)propyl](propan-2-yl)amine","1-((1-Methylethyl)amino)-3-(1-naphthalenyloxy)-2-propanol","1-(isopropylamino)-3-(1-naphthyloxy)propan-2-ol","b-Propranolol","Bedranol","beta-Propranolol","Dociton","Euprovasin","Hemangeol","Inderal","Propanalol","Propanix","Propanolol","Propranololum","β-Propranolol","propranolol hydrochloride"]}
 {"id":"RXCUI:8825","label":"protamine sulfate","obsolete":false,"synonyms":[]}
+{"id":"RXCUI:898492","label":"collagenase clostridium histolyticum","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:901805","label":"velaglucerase alfa","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:9603","label":"scopolamine hydrobromide trihydrate","obsolete":false,"synonyms":[]}
 {"id":"RXCUI:974779","label":"obinutuzumab","obsolete":false,"synonyms":[]}
