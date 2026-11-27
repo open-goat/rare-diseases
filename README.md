@@ -56,9 +56,10 @@ The work is shown as "unverified contributor", never under a name. The desk keep
 the GitHub handle given, but a typed handle is not proof of who typed it, so no handle is shown
 publicly until it can be proved. Answers are never shown raw.
 
-The leaderboard rows carry an accuracy field that is empty today: accuracy is measured only on
-units with known answers, and those are not served while every unit is a LINK unit. That field is
-taken out of the public rows before passage units open; a contributor's accuracy stays private.
+The leaderboard rows carry an accuracy field that is empty today: a contributor's accuracy is
+measured only on units with known answers, and those are not served while every unit is a LINK
+unit. The status file shows one overall share of LINK answers that passed their check, for all
+contributors together. The row field is taken out of the public rows before passage units open.
 
 ## How answers are checked
 
