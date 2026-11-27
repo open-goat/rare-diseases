@@ -1178,56 +1178,130 @@
 {"id":"ORPHA:180173","label":"deficient breast volume or number","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:180176","label":"virginal breast hypertrophy","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:180182","label":"accessory breast","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:180193","label":"syndromic breast hypoplasia/aplasia","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:180199","label":"rare non-malformative gynecologic or obstetric disease","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:1802","label":"Ghosal hematodiaphyseal dysplasia","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:180202","label":"rare non-malformative breast disease","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:180205","label":"rare non-malformative uterovaginal or vulvovaginal disease","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:180208","label":"anomaly of puberty or/and menstrual cycle","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:180220","label":"rare uterine adnexal tumor","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:180226","label":"embryonal carcinoma","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:180234","label":"mixed germ cell cancer","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:180237","label":"fallopian tube benign neoplasm","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:180242","label":"fallopian tube cancer","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:180247","label":"vaginal carcinoma","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:180250","label":"rare breast tumor","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:180253","label":"breast benign neoplasm","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:180257","label":"breast cancer","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:180267","label":"giant adenofibroma of the breast","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:180275","label":"mammary Paget's disease","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:180284","label":"benign ductal tumor of breast","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:1803","label":"Thoracomelic dysplasia","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:180303","label":"rare non-malformative uterine adnexal disease","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:180312","label":"rare vulvovaginal tumor","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:1804","label":"dyssegmental dysplasia-glaucoma syndrome","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:180766","label":"Malformative syndrome with dentinogenesis imperfecta","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:180772","label":"rare disease with autism","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:180776","label":"non-syndromic diaphragmatic or thoracic malformation","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:180779","label":"syndromic diaphragmatic or thoracic malformation","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:1808","label":"hidrotic ectodermal dysplasia, Christianson-Fourie type","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:180821","label":"rare gastroesophageal tumor","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:1809","label":"hidrotic ectodermal dysplasia, Halal type","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:1811","label":"Odontomicronychial dysplasia","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:1812","label":"ectodermal dysplasia-intellectual disability-central nervous system malformation syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:181368","label":"insulin resistance","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:181376","label":"type 2 diabetes","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:181381","label":"other rare diabetes mellitus","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:181384","label":"rare hypothalamic or pituitary disease","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:181390","label":"hypogonadotropic hypogonadism associated with other endocrinopathies","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:181402","label":"syndrome with hypoparathyroidism","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:181405","label":"hypoparathyroidism","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:181408","label":"hyperparathyroidism","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:181415","label":"Conn's syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:181419","label":"hypoaldosteronism","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:181422","label":"hyperlipidemia","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:181425","label":"major hypertriglyceridemia","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:181437","label":"syndromic dyslipidemia","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:1816","label":"Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:1818","label":"ectodermal dysplasia, trichoodontoonychial type","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:1819","label":"epimetaphyseal skeletal dysplasia","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:182","label":"chromoblastomycosis","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:182043","label":"congenital hemolytic anemia","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:182047","label":"Acquired hemolytic anemia","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:182054","label":"rare thrombotic disease of hematologic origin","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:182058","label":"primary orthostatic hypotension","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:182061","label":"cerebellar malformation","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:182064","label":"rare neuroinflammatory disease","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:182070","label":"neurodegeneration","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:182073","label":"syndromic neurometabolic disease with non-X-linked intellectual disability","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:182076","label":"syndromic neurometabolic disease with X-linked intellectual disability","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:182079","label":"ARX-related epileptic encephalopathy","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:182083","label":"channelopathy with epilepsy","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:182086","label":"acquired peripheral neuropathy","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:182095","label":"interstitial lung disease","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:182101","label":"idiopathic eosinophilic pneumonia","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:182104","label":"secondary interstitial lung disease in childhood and adulthood associated with a connective tissue disease","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:182108","label":"deformity of chest and rib","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:182111","label":"respiratory system abnormality","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:182114","label":"rare urogenital tumor","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:182117","label":"non-syndromic urogenital tract malformation of female","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:182121","label":"non-syndromic urogenital tract malformation of male","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:182124","label":"non-syndromic urogenital tract malformation of male and female","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:182130","label":"endocrine gland cancer","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:182214","label":"eye inflammation","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:182222","label":"systemic disease","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:182228","label":"autoimmune connective tissue disorder","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:182231","label":"rare rheumatologic disease","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:1824","label":"Lowry-wood syndrome","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:1825","label":"epiphyseal dysplasia-hearing loss-dysmorphism syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:1826","label":"frontometaphyseal dysplasia","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:1827","label":"acromelic frontonasal dysostosis","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:1830","label":"Schimke immuno-osseous dysplasia","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:1831","label":"Axenfeld-Rieger anomaly with partially absent eye muscles, distinctive face, hydrocephaly, and skeletal abnormalities","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:1834","label":"axial mesodermal dysplasia spectrum","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:183422","label":"polymalformative genetic syndrome with increased risk of developing cancer","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:183426","label":"genetic epidermal disorder","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:183435","label":"inherited ichthyosis","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:183478","label":"genetic skin vascular disorder","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:183484","label":"rare genetic subcutaneous tissue disorder","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:183487","label":"inherited skin tumor","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:183490","label":"genetic photodermatosis","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:183500","label":"nervous system heredodegenerative disease","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:183503","label":"genetic central nervous system and retinal vascular disease","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:183509","label":"rare genetic headache disorder","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:183512","label":"rare genetic epilepsy","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:183518","label":"hereditary ataxia","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:183521","label":"genetic movement disorder","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:183524","label":"rare genetic bone disease","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:183527","label":"inherited syndrome with bone tumors as a major feature","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:183530","label":"rare genetic developmental defect during embryogenesis","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:183583","label":"rare head and neck malformation","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:183592","label":"inherited renal tubular disease","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:183595","label":"inherited renal tumor","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:183598","label":"rare genetic palpebral, lacrimal system and conjunctival disease","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:183601","label":"rare genetic refraction anomaly","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:183619","label":"hereditary eye tumor","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:183625","label":"rare genetic diabetes mellitus","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:183628","label":"rare genetic hypothalamic or pituitary disease","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:183631","label":"rare genetic thyroid disease","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:183634","label":"rare genetic parathyroid disease and phosphocalcic metabolism disorder","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:183637","label":"rare genetic adrenal disease","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:183651","label":"congenital anemia","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:183654","label":"rare genetic coagulation disorder","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:183669","label":"agammaglobulinemia","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:183678","label":"Hermansky-Pudlak syndrome 2","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:183681","label":"functional neutrophil defect","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:1837","label":"ulna metaphyseal dysplasia syndrome","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:183710","label":"genetic susceptibility to infections due to particular pathogens","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:183713","label":"pyogenic bacterial infections due to MyD88 deficiency","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:183731","label":"rare genetic gynecological and obstetrical diseases","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:183734","label":"inherited gynecological tumor","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:183757","label":"genetic intellectual disability","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:183763","label":"genetic syndromic intellectual disability","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:183770","label":"rare genetic immune disease","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:1838","label":"metaphyseal dysplasia without hypotrichosis","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:1842","label":"bone dysplasia, lethal Holmgren type","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:1844","label":"bone dysplasia, Azouz type","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:1848","label":"Potter's syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:1849","label":"infundibulopelvic stenosis-multicystic kidney syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:185","label":"scimitar syndrome","obsolete":false,"synonyms":[]}
@@ -1243,11 +1317,14 @@
 {"id":"ORPHA:1871","label":"X-linked cone-rod dystrophy 2","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:1875","label":"congenital muscular dystrophy-infantile cataract-hypogonadism syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:1876","label":"oculogastrointestinal muscular dystrophy","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:1877","label":"muscular dystrophy-white matter spongiosis syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:1878","label":"autosomal recessive limb-girdle muscular dystrophy type 2H","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:1879","label":"melorheostosis with osteopoikilosis","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:188","label":"capillary leak syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:1880","label":"Ebstein anomaly","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:1882","label":"ANOTHER syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:1883","label":"ectodermal dysplasia-sensorineural deafness syndrome","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:1884","label":"ectopia lentis-chorioretinal dystrophy-myopia syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:1888","label":"ectrodactyly and ectodermal dysplasia without cleft lip/palate","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:1889","label":"ectrodactyly-cleft palate syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:189","label":"Clouston syndrome","obsolete":false,"synonyms":[]}
@@ -1263,24 +1340,33 @@
 {"id":"ORPHA:19","label":"2-hydroxyglutaric aciduria","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:1901","label":"Ehlers-Danlos syndrome, dermatosparaxis type","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:1902","label":"ehrlichiosis","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:1908","label":"aminopterin/methotrexate embryofetopathy","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:1909","label":"indomethacin embryofetopathy","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:191","label":"Cockayne syndrome type 2","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:1910","label":"congenital hypothyroidism","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:1912","label":"Fetal hydantoin syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:1913","label":"Fetal trimethadione syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:1914","label":"Warfarin Embryopathy","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:1916","label":"DES daughter","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:1918","label":"fetal minoxidil syndrome","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:1919","label":"phenobarbital embryopathy","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:192","label":"Coffin-Lowry syndrome","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:1920","label":"toluene embryopathy","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:1923","label":"methimazole embryofetopathy","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:1926","label":"diabetic embryopathy","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:1927","label":"Hand and foot deformity with flat facies","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:1928","label":"Congenital lobar emphysema","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:1929","label":"Rasmussen's encephalitis","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:193","label":"Cohen syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:1930","label":"Herpes simplex virus meningoencephalitis","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:1931","label":"frontal encephalocele","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:1933","label":"mitochondrial DNA depletion syndrome 5","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:1934","label":"early infantile epileptic encephalopathy 55","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:1937","label":"Eng-Strom syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:194","label":"coloboma","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:1940","label":"shoulder and thorax deformity-congenital heart disease syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:1941","label":"juvenile absence epilepsy","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:1943","label":"infant epilepsy with migrant focal crisis","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:1948","label":"epilepsy-microcephaly-skeletal dysplasia syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:1949","label":"benign familial neonatal epilepsy","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:195","label":"cat eye syndrome","obsolete":false,"synonyms":[]}
@@ -1304,37 +1390,51 @@
 {"id":"ORPHA:1980","label":"basal ganglia calcification","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:1983","label":"posterior fusion of lumbosacral vertebrae-blepharoptosis syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:1986","label":"Gollop-Wolfgang complex","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:1987","label":"femoral agenesis/hypoplasia","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:1988","label":"Femoral-facial syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:199","label":"Cornelia de Lange syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:199244","label":"Nelson syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:199247","label":"corticosteroid-binding globulin deficiency","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:199257","label":"superficial fibromatosis","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:199260","label":"aponeurotic fibroma","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:199267","label":"infantile digital fibromatosis","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:199279","label":"familial angiolipomatosis","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:199285","label":"hereditary hypercarotenemia and vitamin A deficiency","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:199293","label":"congenital microgastria","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:199296","label":"adrenocorticotropic hormone deficiency","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:199299","label":"late-onset isolated ACTH deficiency","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:1993","label":"Pai syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:199302","label":"cleft lip","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:199306","label":"cleft lip and cleft palate","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:199310","label":"46, XX/XY","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:199318","label":"chromosome 15q13.3 microdeletion syndrome","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:199326","label":"isolated autosomal dominant hypomagnesemia, Glaudemans type","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:199329","label":"congenital myopathy, Paradas type","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:199332","label":"endocrine-cerebro-osteodysplasia syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:199337","label":"pancreatic insufficiency-anemia-hyperostosis syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:199340","label":"myofibrillar myopathy 6","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:199343","label":"EAST syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:199351","label":"autosomal recessive Parkinson disease 14","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:199354","label":"Cerebral autosomal recessive arteriopathy with subcortical infarcts and leukoencephalopathy","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:1995","label":"cleft lip-retinopathy syndrome","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:199630","label":"isolated cerebellar vermis hypoplasia","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:199633","label":"cerebral malformation","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:199639","label":"syndrome with corpus callosum agenesis /dysgenesis as a major feature","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:199647","label":"encephalocele","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:1997","label":"Blepharo-cheilo-odontic syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:20","label":"3-hydroxy-3-methylglutaryl-CoA lyase deficiency","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:200","label":"agenesis of the corpus callosum","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:200037","label":"paroxysmal dystonia","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2001","label":"cleft lip/palate-intestinal malrotation-cardiopathy syndrome","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:2003","label":"cleft lip/palate-deafness-sacral lipoma syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:200418","label":"complement factor I deficiency","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:2006","label":"median cleft lip/mandibule","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2007","label":"alar cartilages hypoplasia-coloboma-telecanthus syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2008","label":"acrocardiofacial syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:201","label":"Cowden syndrome 1","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2010","label":"cleft palate-stapes fixation-oligodontia syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2014","label":"isolated cleft palate","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:2015","label":"cleft palate-short stature-vertebral anomalies syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2016","label":"cleft palate-lateral synechia syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2017","label":"Sternal cleft","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2019","label":"Femur fibula ulna syndrome","obsolete":false,"synonyms":[]}
@@ -1345,14 +1445,20 @@
 {"id":"ORPHA:2024","label":"gingival fibromatosis","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2025","label":"gingival fibromatosis-facial dysmorphism syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2027","label":"Gingival fibromatosis-progressive deafness syndrome","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:202940","label":"anomaly of puberty or/and menstrual cycle of genetic origin","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:202948","label":"syndromic microphthalmia","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2030","label":"fibrosarcoma","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2031","label":"hepatic fibrosis-renal cysts-intellectual disability syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2035","label":"filarial elephantiasis","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:2037","label":"congenital aortopulmonary window","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2038","label":"pulmonary arteriovenous malformations","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:2039","label":"congenital systemic arteriovenous fistula","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:204","label":"sporadic Creutzfeldt-Jakob disease","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:2040","label":"congenital bronchobiliary fistula","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2041","label":"coronary arterial fistula","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:2042","label":"Tracheo-esophageal fistula-hypospadias syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2044","label":"Floating-Harbor syndrome","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:2045","label":"FLOTCH syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2047","label":"Flynn–Aird syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2048","label":"Foix–Chavany–Marie syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2050","label":"Cole-Carpenter syndrome","obsolete":false,"synonyms":[]}
@@ -1368,57 +1474,149 @@
 {"id":"ORPHA:206436","label":"infantile Krabbe disease","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:206443","label":"late-infantile/juvenile Krabbe disease","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:206448","label":"adult Krabbe disease","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:206470","label":"serous or mucinous cystadenoma of childhood","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:206473","label":"borderline epithelial tumor of ovary","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:206489","label":"vaginal germ cell malignant tumor","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:206492","label":"vaginal rhabdomyosarcoma","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2065","label":"Galloway-Mowat syndrome","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:206538","label":"malignant non-dysgerminomatous germ cell tumor of ovary","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:206546","label":"symptomatic form of muscular dystrophy of Duchenne and Becker in female carriers","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:206549","label":"autosomal recessive limb-girdle muscular dystrophy type 2L","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:206554","label":"autosomal recessive limb-girdle muscular dystrophy type 2M","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:206559","label":"autosomal recessive limb-girdle muscular dystrophy type 2N","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:206564","label":"autosomal recessive limb-girdle muscular dystrophy type 2O","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:206569","label":"immune-mediated necrotizing myopathy","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:206572","label":"overlap myositis","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:206575","label":"rippling muscle disease with myasthenia gravis","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:206580","label":"autosomal recessive lower motor neuron disease with childhood onset","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:206583","label":"adult polyglucosan body disease","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:206594","label":"subacute inflammatory demyelinating polyneuropathy","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:206599","label":"isolated asymptomatic elevation of creatine phosphokinase","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2066","label":"GABA aminotransferase deficiency","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:206613","label":"infectious disease with peripheral neuropathy","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:206638","label":"acquired skeletal muscle disease","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:206644","label":"progressive muscular dystrophy","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:206647","label":"myotonic dystrophy","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:206650","label":"autosomal dominant distal myopathy","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:206653","label":"autosomal recessive distal myopathy","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:206656","label":"non-dystrophic myopathy","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:206659","label":"non-dystrophic myopathy with collagen 6 anomaly","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:206662","label":"inclusion myopathy","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2067","label":"GAPO syndrome","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:206704","label":"bulbospinal muscular atrophy of childhood","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:206707","label":"bulbospinal muscular atrophy of adult","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:206710","label":"generalized bulbospinal muscular atrophy","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2069","label":"Gastrocutaneous syndrome","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:206959","label":"muscular glycogenosis","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:206976","label":"periodic paralysis","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:206985","label":"drug and/or toxic myopathy","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:206988","label":"infectious myositis","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:206991","label":"viral myositis","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:206994","label":"bacterial myositis","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:206997","label":"parasitic myositis","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2070","label":"eosinophilic gastritis","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:207000","label":"fungal myositis","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:207012","label":"spinal muscular atrophy associated with central nervous system anomaly","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:207018","label":"rare hereditary metabolic disease with peripheral neuropathy","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:207021","label":"rare hereditary systemic disease with peripheral neuropathy","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:207025","label":"rare hereditary neurologic disease with peripheral neuropathy","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:207028","label":"cerebellar ataxia with peripheral neuropathy","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:207038","label":"acute and subacute inflammatory demyelinating polyneuropathy","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:207046","label":"malignant lymphoma with peripheral neuropathy","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:207049","label":"qualitative or quantitative protein defects in neuromuscular diseases","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:207060","label":"qualitative or quantitative defects of alpha-sarcoglycan","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:207063","label":"qualitative or quantitative defects of beta-sarcoglycan","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:207067","label":"qualitative or quantitative defects of gamma-sarcoglycan","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:207070","label":"qualitative or quantitative defects of delta-sarcoglycan","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:207073","label":"dysferlinopathy","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:207078","label":"caveolinopathy","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:207085","label":"qualitative or quantitative defects of dystrophin","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:207090","label":"qualitative or quantitative defects of collagen 6","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:207094","label":"qualitative or quantitative defects of merosin","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:207098","label":"qualitative or quantitative defects of integrin alpha-7","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:207101","label":"qualitative or quantitative defects of perlecan","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:207104","label":"qualitative or quantitative defects of calpain","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:207107","label":"qualitative or quantitative defects of TRIM32","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:207110","label":"qualitative or quantitative defects of myotubularin","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:207113","label":"qualitative or quantitative defects of protein involved in O-glycosylation of alpha-dystroglycan","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:207119","label":"qualitative or quantitative defects of FKRP","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:207122","label":"qualitative or quantitative defects of fukutin","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2074","label":"Gemignani syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2075","label":"genito-palato-cardiac syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2078","label":"gerodermia osteodysplastica","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:2081","label":"cerebral gigantism-jaw cysts syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2083","label":"prominent glabella-microcephaly-hypogenitalism syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:208444","label":"complex cortical dysplasia with other brain malformations 7","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2085","label":"glaucoma-sleep apnea syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:208508","label":"autosomal dominant cerebellar ataxia type II","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:208513","label":"spinocerebellar ataxia type 29","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:208524","label":"Pemphigus herpetiformis","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:208593","label":"genetic hypoparathyroidism","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:208596","label":"genetic hyperparathyroidism","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2088","label":"Glycogen storage disease type XI","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:208974","label":"chronic acquired demyelinating polyneuropathy","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:208978","label":"chronic polyradiculoneuropathy","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:208981","label":"polyradiculoneuropathy associated with IgG/IgA/IgM monoclonal gammopathy without known antibodies","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:208984","label":"acquired sensory ganglionopathy","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:208989","label":"non-paraneoplastic sensory ganglionopathy","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:208999","label":"paraneoplastic sensory ganglionopathy","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:209","label":"cutis laxa","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2090","label":"GMS syndrome","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:209004","label":"axonal polyneuropathy associated with IgG/IgM/IgA monoclonal gammopathy","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:209007","label":"systemic inflammatory disease associated with an acquired peripheral neuropathy","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:209010","label":"peripheral neuropathy associated with monoclonal gammopathy","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:209013","label":"acquired amyloid peripheral neuropathy","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:209016","label":"hematological disease associated with an acquired peripheral neuropathy","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:209019","label":"solid tumor associated with an acquired peripheral neuropathy","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:209024","label":"qualitative or quantitative defects of protein O-mannose beta1,2N-acetylglucosaminyltransferase","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:209027","label":"qualitative or quantitative defects of protein glycosyltransferase-like","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:209030","label":"qualitative or quantitative defects of protein O-mannosyltransferase 1","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:209033","label":"qualitative or quantitative defects of protein O-mannosyltransferase 2","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:209038","label":"qualitative or quantitative defects of myofibrillar proteins","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:209041","label":"qualitative or quantitative defects of desmin","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:209044","label":"qualitative or quantitative defects of alphaB-cristallin","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:209047","label":"qualitative or quantitative defects of filamin c","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:209050","label":"qualitative or quantitative defects of protein ZASP","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:209053","label":"qualitative or quantitative defects of titin","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:209056","label":"qualitative or quantitative defects of telethonin","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:209059","label":"qualitative or quantitative defects of alpha-actin","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2091","label":"multinodular goiter-cystic kidney-polydactyly syndrome","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:209182","label":"qualitative or quantitative defects of nebulin","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:209185","label":"qualitative or quantitative defects of beta-myosin heavy chain (MYH7)","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:209188","label":"qualitative or quantitative defects of emerin","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:209193","label":"qualitative or quantitative defects of selenoprotein N1","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:209196","label":"qualitative or quantitative defects of plectin","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:209199","label":"qualitative or quantitative defects of protein SERCA1","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2092","label":"focal dermal hypoplasia","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:209203","label":"qualitative or quantitative defects of glucosamine (UDP-N-acetyl)-2-epimerase/N-acetylmannosamine kinase -","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:209224","label":"qualitative or quantitative defects of myotilin","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:209335","label":"adult-onset proximal spinal muscular atrophy, autosomal dominant","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:209341","label":"autosomal dominant childhood-onset proximal spinal muscular atrophy without contractures","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:209370","label":"severe neonatal-onset encephalopathy with microcephaly","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2095","label":"Gorlin-Chaudhry-Moss syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2097","label":"Grant syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:209867","label":"autosomal dominant rhegmatogenous retinal detachment","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:209902","label":"hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:209905","label":"brain-lung-thyroid syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:209908","label":"developmental verbal dyspraxia","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:209916","label":"extraskeletal myxoid chondrosarcoma","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:209919","label":"Familial cirrhosis","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:209943","label":"IRVAN syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:209951","label":"hereditary spastic paraplegia 18","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:209956","label":"idiopathic uveal effusion syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:209964","label":"solitary rectal ulcer syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:209967","label":"episodic ataxia type 6","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:209970","label":"episodic ataxia type 7","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:209973","label":"benign familial nocturnal alternating hemiplegia of childhood","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:209978","label":"alternating hemiplegia","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:209989","label":"non-papillary transitional cell carcinoma of the bladder","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:210","label":"cyclosporiasis","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2101","label":"Grubben-de Cock-Borghgraef syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:210110","label":"autosomal recessive osteopetrosis 6","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:210115","label":"Deficiency of the interleukin-1–receptor antagonist","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:210128","label":"Urocanic aciduria","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:210133","label":"leukonychia totalis-acanthosis-nigricans-like lesions-abnormal hair syndrome","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:210136","label":"pulmonary fibrosis-hepatic hyperplasia-bone marrow hypoplasia syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:210141","label":"spastic quadriplegia","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:210144","label":"lethal polymalformative syndrome, Boissel type","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:210159","label":"hepatocellular carcinoma","obsolete":false,"synonyms":[]}
@@ -1426,24 +1624,33 @@
 {"id":"ORPHA:2102","label":"GTP cyclohydrolase I deficiency","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:210272","label":"Mal de debarquement","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2103","label":"Guillain–Barré syndrome","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:2104","label":"dysmorphism-pectus carinatum-joint laxity syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:210548","label":"macrocephaly-autism syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:210566","label":"myoclonic dystonia 15","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:210571","label":"dystonia 16","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:210576","label":"congenital temporomandibular joint ankylosis","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:210581","label":"temporomandibular joint pathology","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:210584","label":"spindle cell hemangioma","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:210589","label":"infantile hemangioma of rare localization","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2107","label":"Hall-Riggs syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2108","label":"Hallermann-Streiff syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2110","label":"hallux varus-preaxial polysyndactyly syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:211017","label":"spinocerebellar ataxia type 30","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:211037","label":"autosomal dominant proximal spinal muscular atrophy","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:211047","label":"specific learning disability","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:211062","label":"episodic ataxia","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:211067","label":"episodic ataxia type 5","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:211237","label":"vascular neoplasm","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:211240","label":"genetic vascular anomaly","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:211243","label":"simple vascular malformation","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:211255","label":"lymphatic system malformation","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:211277","label":"complex vascular malformation with associated anomalies","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2114","label":"hip dysplasia, Beukes type","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2115","label":"Harrod syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2116","label":"Hartnup disease","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2117","label":"Hartsfield-Bixler-Demyer syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:212","label":"cystathioninuria","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:2122","label":"kaposiform hemangioendothelioma","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2123","label":"Diffuse neonatal hemangiomatosis","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2124","label":"cavernous hemangiomas of face-supraumbilical midline raphe syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2128","label":"Hemihypertrophy","obsolete":false,"synonyms":[]}
@@ -1458,32 +1665,66 @@
 {"id":"ORPHA:213504","label":"ovary adenocarcinoma","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:213512","label":"ovarian carcinosarcoma","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:213517","label":"ovarian cancer","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:213524","label":"hereditary site-specific ovarian cancer syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:213531","label":"breast metaplastic carcinoma","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:213557","label":"salivary gland type cancer of the breast","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:213564","label":"uterine cancer","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:213574","label":"rare variants of adenocarcinoma of the corpus uteri","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:213589","label":"uterine corpus mixed epithelial and mesenchymal tumor","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:213600","label":"adenosarcoma of the corpus uteri","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:213605","label":"uterine corpus carcinofibroma","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:213610","label":"carcinosarcoma of the corpus uteri","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:213615","label":"uterine corpus rhabdomyosarcoma","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:213625","label":"uterus leiomyosarcoma","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:213630","label":"primitive neuroectodermal tumor of the corpus uteri","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:213711","label":"endometrial stromal sarcoma","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:213716","label":"squamous cell carcinoma of the corpus uteri","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:213721","label":"undifferentiated carcinoma of the corpus uteri","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:213726","label":"papillary carcinoma of the corpus uteri","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:213731","label":"high-grade neuroendocrine carcinoma of the corpus uteri","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:213736","label":"low-grade neuroendocrine tumor of the corpus uteri","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:213741","label":"adenoid cystic carcinoma of the corpus uteri","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:213746","label":"transitional cell carcinoma of the corpus uteri","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:213751","label":"malignant germ cell tumor of corpus uteri","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:213761","label":"cervix uterine cancer","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:213767","label":"cervical squamous cell carcinoma","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:213772","label":"cervical adenocarcinoma","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:213777","label":"high-grade neuroendocrine carcinoma of the cervix uteri","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:213782","label":"malignant mixed epithelial and mesenchymal tumor of cervix uteri","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:213787","label":"cervical carcinosarcoma","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:213792","label":"cervical adenosarcoma","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:213797","label":"sarcoma of cervix uteri","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2138","label":"ovotesticular disorder of sex development","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:213802","label":"rhabdomyosarcoma of the cervix uteri","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:213807","label":"leiomyosarcoma of the cervix uteri","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:213812","label":"primitive neuroectodermal tumor of the cervix uteri","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:213817","label":"papillary carcinoma of the cervix uteri","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:213823","label":"adenoid cystic carcinoma of the cervix uteri","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:213828","label":"adenoid basal carcinoma of the cervix uteri","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:213837","label":"malignant germ cell tumor of cervix uteri","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:2139","label":"Hern","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:214","label":"cystinuria","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2140","label":"congenital diaphragmatic hernia","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2141","label":"diaphragmatic defect-limb deficiency-skull defect syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2143","label":"Donnai-Barrow syndrome","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:2145","label":"craniosynostosis, Herrmann-Opitz type","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2149","label":"nodular neuronal heterotopia","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:2150","label":"Hirschsprung disease-type D brachydactyly syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2152","label":"Mowat-Wilson syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2153","label":"Hirschsprung disease-nail hypoplasia-dysmorphism syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2155","label":"Hirschsprung disease-deafness-polydactyly syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2156","label":"Hirsutism-skeletal dysplasia-intellectual disability syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2158","label":"histidinuria due to a renal tubular defect","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:216","label":"neuronal ceroid lipofuscinosis","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:216445","label":"prelingual non-syndromic genetic deafness","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:216452","label":"postlingual non-syndromic genetic deafness","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:2165","label":"holoprosencephaly-caudal dysgenesis syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2166","label":"Young–Madders syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:216675","label":"transposition of great vessels","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:216694","label":"levo-transposition of the great arteries","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2167","label":"Holzgreve-Wagner-Rehder Syndrome","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:216718","label":"isolated congenitally uncorrected transposition of the great arteries","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:216729","label":"congenitally uncorrected transposition of the great arteries with cardiac malformation","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:216796","label":"osteogenesis imperfecta type 1","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2168","label":"homocarnosinosis","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:216804","label":"osteogenesis imperfecta type 8","obsolete":false,"synonyms":[]}
@@ -1499,6 +1740,7 @@
 {"id":"ORPHA:216981","label":"Niemann-Pick disease type C, juvenile neurologic onset","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:216986","label":"Niemann-Pick disease type C, adult neurologic onset","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2170","label":"methylcobalamin deficiency type cblG","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:217008","label":"Bockenheimer syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:217012","label":"spinocerebellar ataxia type 31","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:217017","label":"Zechi-Ceide Syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:217026","label":"microcephaly-facio-cardio-skeletal syndrome, Hadziselimovic type","obsolete":false,"synonyms":[]}
@@ -1506,10 +1748,14 @@
 {"id":"ORPHA:217052","label":"cataract 4 multiple types","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:217055","label":"Charcot-Marie-Tooth disease recessive intermediate A","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:217059","label":"acropachy","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:217064","label":"5-fluorouracil poisoning","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:217067","label":"pouchitis","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:217071","label":"renal cell carcinoma","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:217074","label":"pancreatic cancer","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:217085","label":"mucopolysaccharidosis type 2, severe form","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:217093","label":"mucopolysaccharidosis type 2, attenuated form","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2172","label":"microcephaly-glomerulonephritis-marfanoid habitus syndrome","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:217253","label":"limbic encephalitis with NMDA receptor antibodies","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:217266","label":"BNAR syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:217335","label":"RIN2 syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:217346","label":"chromosome 19q13.11 deletion syndrome","obsolete":false,"synonyms":[]}
@@ -1518,22 +1764,44 @@
 {"id":"ORPHA:217382","label":"cerebral folate receptor alpha deficiency","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:217385","label":"chromosome 17p13.3 duplication syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:217396","label":"progressive demyelinating neuropathy with bilateral striatal necrosis","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:217399","label":"congenital insensitivity to pain with hyperhidrosis","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2174","label":"Hunter-Macdonald syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:217407","label":"hereditary hypotrichosis with recurrent skin vesicles","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:217454","label":"hereditary thrombophilia","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:217467","label":"hereditary thrombophilia due to congenital histidine-rich (poly-L) glycoprotein deficiency","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:217557","label":"pulmonary interstitial glycogenosis","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:217560","label":"Neuroendocrine hyperplasia","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:217572","label":"glycogen storage disease with hypertrophic cardiomyopathy","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:217581","label":"lysosomal disease with hypertrophic cardiomyopathy","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:217587","label":"mitochondrial disease with hypertrophic cardiomyopathy","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:217591","label":"fatty acid oxidation and ketogenesis disorder with hypertrophic cardiomyopathy","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:217595","label":"syndrome associated with hypertrophic cardiomyopathy","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:217598","label":"non-familial hypertrophic cardiomyopathy","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:217601","label":"hypertrophic cardiomyopathy due to intensive athletic training","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:217610","label":"neuromuscular disease with dilated cardiomyopathy","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:217613","label":"mitochondrial disease with dilated cardiomyopathy","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:217616","label":"fatty acid oxidation and ketogenesis disorder with dilated cardiomyopathy","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:217619","label":"syndrome associated with dilated cardiomyopathy","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:217622","label":"dilated cardiomyopathy 1J","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:217629","label":"non-familial dilated cardiomyopathy","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:217632","label":"restrictive cardiomyopathy","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:217635","label":"familial restrictive cardiomyopathy","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:217638","label":"lysosomal disease with restrictive cardiomyopathy","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:217656","label":"arrhythmogenic right ventricular cardiomyopathy","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:217678","label":"unclassified cardiomyopathy","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2177","label":"hydranencephaly","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:217720","label":"non-familial restrictive cardiomyopathy","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2180","label":"hydrocephalus-costovertebral dysplasia-sprengel anomaly syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2181","label":"hydrocephaly-tall stature-joint laxity syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2182","label":"hydrocephalus with stenosis of the aqueduct of sylvius","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:2183","label":"hydrocephalus-obesity-hypogonadism syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:218436","label":"heart arrhythmia","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:218439","label":"non-genetic cardiac rhythm disease","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2185","label":"congenital hydrocephalus","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2186","label":"Daentl Towsend Siegel syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:219","label":"autosomal recessive limb-girdle muscular dystrophy type 2F","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2190","label":"CAKUT2","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:2194","label":"Anti-HLA hyperimmunization","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2195","label":"dicarboxylic aminoaciduria","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2196","label":"renal hypomagnesemia 5 with ocular involvement","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:22","label":"succinic semialdehyde dehydrogenase deficiency","obsolete":false,"synonyms":[]}
@@ -1542,65 +1810,104 @@
 {"id":"ORPHA:220295","label":"xeroderma pigmentosum-Cockayne syndrome complex","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:220386","label":"Semilobar holoprosencephaly","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:220393","label":"diffuse scleroderma","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:2204","label":"dysplastic cortical hyperostosis","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:220402","label":"limited scleroderma","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:220407","label":"limited systemic sclerosis","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:220443","label":"bleeding diathesis due to thromboxane synthesis deficiency","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:220448","label":"macrothrombocytopenia with mitral valve insufficiency","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:220460","label":"Attenuated familial adenomatous polyposis","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:220465","label":"Laron syndrome with immunodeficiency","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:220489","label":"hereditary haemochromatosis","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:220493","label":"Joubert syndrome with ocular defect","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:220497","label":"Joubert syndrome with renal defect","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:2207","label":"familial primary hyperparathyroidism","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:221008","label":"Rothmund-Thomson syndrome type 1","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:221016","label":"Rothmund-Thomson syndrome type 2","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:221039","label":"Hereditary sclerosing poikiloderma","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:221043","label":"hereditary sclerosing poikiloderma with tendon and pulmonary involvement","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:221046","label":"poikiloderma with neutropenia","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:221054","label":"Acrocephalopolydactyly","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:221061","label":"cerebral cavernous malformation 2","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:221078","label":"combined hyperactive dysfunction syndrome of the cranial nerves","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:221083","label":"clonic hemifacial spasm","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:221091","label":"trigeminal neuralgia","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:221098","label":"glossopharyngeal neuralgia","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:221106","label":"facial myokymia","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:221114","label":"acquired peripheral movement disorder","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:221117","label":"Gerstmann syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:221120","label":"Pseudoaminopterin syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:221126","label":"Fowler syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:221139","label":"combined immunodeficiency with faciooculoskeletal anomalies","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:221142","label":"confetti-like macular atrophy","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2213","label":"hypertelorism, microtia, facial clefting syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2215","label":"multiple pterygium-malignant hyperthermia syndrome","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:2216","label":"maternal hyperthermia induced birth defects","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2218","label":"cervical hypertrichosis-peripheral neuropathy syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:222","label":"erosive pustular dermatitis of the scalp","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2220","label":"hypertrichosis cubiti-short stature syndrome","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:2221","label":"acquired hypertrichosis lanuginosa","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2222","label":"hypertrichosis lanuginosa congenita","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:222628","label":"hereditary poikiloderma","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2229","label":"Malouf syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:223","label":"diabetes insipidus","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:2230","label":"hypogonadotropic hypogonadism-frontoparietal alopecia syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2232","label":"primary hypergonadotropic hypogonadism-partial alopecia syndrome","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:2233","label":"hypogonadism-mitral valve prolapse-intellectual disability syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2234","label":"male hypergonadotropic hypogonadism-intellectual disability-skeletal anomalies syndrome","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:2235","label":"hypogonadotropic hypogonadism-retinitis pigmentosa syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2237","label":"hypoparathyroidism-deafness-renal disease syndrome","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:223713","label":"mitochondrial oxidative phosphorylation disorder","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:223735","label":"lymphoma","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2238","label":"hypoparathyroidism","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2239","label":"X-linked recessive hypoparathyroidism","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:224","label":"neonatal diabetes mellitus","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:2246","label":"cerebellar hypoplasia-tapetoretinal degeneration syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2248","label":"hypoplastic left heart syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2249","label":"ulna hypoplasia-intellectual disability syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:225","label":"Diabetes mellitus and deafness","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2251","label":"thumb deformity-alopecia-pigmentation anomaly syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:225123","label":"hemochromatosis type 3","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:225147","label":"sporadic infantile bilateral striatal necrosis","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:225154","label":"familial infantile bilateral striatal necrosis","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2254","label":"pontocerebellar hypoplasia type 1A","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2255","label":"pancreatic hypoplasia-diabetes-congenital heart disease syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2256","label":"Fibulo-ulnar hypoplasia-renal anomalies syndrome","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:225681","label":"lysosomal disease with epilepsy","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:225686","label":"peroxisomal disease with epilepsy","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:225689","label":"amino acid or protein metabolism disease with epilepsy","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:225692","label":"metal transport or utilization disorder with epilepsy","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:225696","label":"energy metabolism disorder with epilepsy","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:225700","label":"mitochondrial disease with epilepsy","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:225703","label":"mitochondrial disease with peripheral neuropathy","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:225707","label":"metabolic neurotransmission anomaly with epilepsy","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:225710","label":"sterol metabolism disorder with epilepsy","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:225713","label":"other metabolic disease with epilepsy","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:226","label":"BH4-deficient hyperphenylalaninemia C","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2260","label":"oligomeganephronia","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2261","label":"hypospadias-intellectual disability, Goldblatt type syndrome","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:226292","label":"permanent congenital hypothyroidism","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:226295","label":"primary congenital hypothyroidism","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:226298","label":"central congenital hypothyroidism","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:226307","label":"hypothyroidism due to deficient transcription factors involved in pituitary development or function","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:226310","label":"peripheral hypothyroidism","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:226313","label":"congenital hypothyroidism due to maternal intake of antithyroid drugs","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:2266","label":"hypotrichosis-intellectual disability, Lopes type","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2267","label":"ichthyosis-cheek-eyebrow syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2268","label":"immunodeficiency-centromeric instability-facial anomalies syndrome 1","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2269","label":"ichthyosis-alopecia-eclabion-ectropion-intellectual disability syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:227","label":"diphallia","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2270","label":"ichthyosis congenita with biliary atresia","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:2271","label":"congenital ichthyosis-microcephalus-tetraplegia syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2272","label":"ichthyosis-oral and digital anomalies syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2274","label":"ichthyosis-hepatosplenomegaly-cerebellar degeneration syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:227510","label":"multiple system atrophy, cerebellar type","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:227786","label":"familial flecked retinopathy","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:227796","label":"fundus albipunctatus","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2278","label":"ichthyosis-intellectual disability-dwarfism-renal impairment syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:227972","label":"toxic oil syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:227976","label":"optic atrophy 7","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:227982","label":"Autoimmune polyendocrine syndrome type 3","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:227990","label":"autoimmune polyendocrinopathy type 4","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:228000","label":"idiopathic CD4 lymphocytopenia","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:228003","label":"coronin-1A deficiency","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:228012","label":"autosomal dominant nonsyndromic deafness 22","obsolete":false,"synonyms":[]}
@@ -1613,9 +1920,24 @@
 {"id":"ORPHA:228174","label":"Charcot-Marie-Tooth disease axonal type 2N","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:228184","label":"atriodigital dysplasia","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:228190","label":"patent ductus arteriosus-bicuspid aortic valve-hand anomalies syndrome","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:2282","label":"dysmorphism-short stature-deafness-disorder of sex development syndrome","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:228218","label":"acquired dermis elastic tissue disorder","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:228221","label":"acquired dermis elastic tissue disorder with decreased elastic tissue","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:228224","label":"acquired dermis elastic tissue disorder with increased elastic tissue","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:228227","label":"late-onset focal dermal elastosis","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:228240","label":"elastoderma","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:228243","label":"elastofibroma dorsi","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:228247","label":"acquired pseudoxanthoma elasticum","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:228254","label":"elastoma","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:228264","label":"eruptive collagenoma","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:228272","label":"Anetoderma","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:228277","label":"familial anetoderma","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:228285","label":"acquired cutis laxa","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:228290","label":"white fibrous papulosis of the neck","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:228293","label":"pseudoxanthoma elasticum-like papillary dermal elastolysis","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:228299","label":"Mid-dermal elastolysis","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:228315","label":"idiopathic hypersomnia with long sleep time","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:228318","label":"idiopathic hypersomnia without long sleep time","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:228329","label":"neuronal ceroid lipofuscinosis 1","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:228337","label":"neuronal ceroid lipofuscinosis 10","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:228340","label":"neuronal ceroid lipofuscinosis 4A","obsolete":false,"synonyms":[]}
@@ -1627,8 +1949,13 @@
 {"id":"ORPHA:228363","label":"neuronal ceroid lipofuscinosis 6","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:228366","label":"neuronal ceroid lipofuscinosis 7","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:228371","label":"foodborne botulism","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:228374","label":"severe early-onset axonal neuropathy due to NEFL deficiency","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:228387","label":"spondylo-megaepiphyseal-metaphyseal dysplasia","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:228390","label":"frontonasal dysplasia with alopecia and genital anomaly","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:228396","label":"ptosis-upper ocular movement limitation-absence of lacrimal punctum syndrome","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:228399","label":"8q12 microduplication syndrome","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:228410","label":"Polyvalvular heart disease syndrome","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:228415","label":"5q35 microduplication syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:228426","label":"syndromic multisystem autoimmune disease due to ICTH deficiency","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:228429","label":"congenital generalized lipodystrophy type 4","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2285","label":"Basilar invagination","obsolete":false,"synonyms":[]}
@@ -1645,8 +1972,11 @@
 {"id":"ORPHA:2306","label":"isotretinoin-like syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2307","label":"IVIC Syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2308","label":"Jacobsen syndrome","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:230800","label":"toxin-mediated infectious botulism","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:230839","label":"Ehlers-Danlos syndrome due to tenascin-X deficiency","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:230845","label":"Ehlers-Danlos syndrome, vascular-like type","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:230851","label":"Ehlers-Danlos syndrome, cardiac valvular type","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:230857","label":"Ehlers-Danlos/osteogenesis imperfecta syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:231","label":"dracunculiasis","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2310","label":"absence deformity of leg-cataract syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:231013","label":"congenital trigeminal anesthesia","obsolete":false,"synonyms":[]}
@@ -1654,25 +1984,54 @@
 {"id":"ORPHA:231040","label":"Generalized lentiginosis","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2311","label":"spondylocostal dysostosis","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:231108","label":"rhabdoid tumor predisposition syndrome","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:231117","label":"Beckwith-Wiedemann syndrome due to imprinting defect of 11p15","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:231127","label":"Beckwith-Wiedemann syndrome due to 11p15 microdeletion","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:231130","label":"Beckwith-Wiedemann syndrome due to 11p15 translocation/inversion","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:231137","label":"silver-Russell syndrome due to 7p11.2p13 microduplication","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:231140","label":"silver-Russell syndrome due to an imprinting defect of 11p15","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:231144","label":"silver-Russell syndrome due to 11p15 microduplication","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:231147","label":"silver-Russell syndrome due to maternal uniparental disomy of chromosome 11","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:231154","label":"combined immunodeficiency due to partial RAG1 deficiency","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2312","label":"Lucey–Driscoll syndrome","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:231230","label":"beta-thalassemia associated with another hemoglobin anomaly","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:231242","label":"hemoglobin C-beta-thalassemia syndrome","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:231249","label":"hemoglobin E-beta-thalassemia syndrome","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:231386","label":"beta-thalassemia with other manifestations","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:231393","label":"beta-thalassemia-X-linked thrombocytopenia syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:231401","label":"alpha-thalassemia-myelodysplastic syndrome","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:231413","label":"variant of Guillain-Barre syndrome","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:231416","label":"regional variant of Guillain-Barre syndrome","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:231419","label":"functional variant of Guillain-Barre syndrome","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:231426","label":"pharyngeal-cervical-brachial variant of Guillain-Barre syndrome","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:231445","label":"paraparetic variant of Guillain-Barre syndrome","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:231450","label":"acute pure sensory neuropathy","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:231457","label":"acute pandysautonomia","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:231466","label":"acute sensory ataxic neuropathy","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2315","label":"Johanson-Blizzard syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:231531","label":"Hermansky-Pudlak syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:231537","label":"Hermansky-Pudlak syndrome 8","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:231556","label":"late-onset localized junctional epidermolysis bullosa-intellectual disability syndrome","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:231573","label":"congenital erosive and vesicular dermatosis","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:231580","label":"primary unilateral adrenal hyperplasia","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2316","label":"Johnson–McMillin syndrome","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:231632","label":"ectopic aldosterone-producing tumor","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:231637","label":"rare surgically correctable form of primary aldosteronism","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:231641","label":"rare non surgically correctable form of primary aldosteronism","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:231662","label":"isolated growth hormone deficiency type IA","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:231671","label":"isolated growth hormone deficiency type IB","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:231679","label":"isolated growth hormone deficiency type II","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:231692","label":"isolated growth hormone deficiency type III","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:231736","label":"microcornea-posterior megalolenticonus-persistent fetal vasculature-coloboma syndrome","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:231742","label":"epibulbar lipodermoid-preauricular appendage-polythelia syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2319","label":"Juberg-Hayward syndrome","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:232035","label":"infectious embryofetopathy","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2321","label":"anterior chamber cleavage disorder, cerebellar hypoplasia, hypothyroidism, and tracheal stenosis","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2322","label":"Kabuki syndrome","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:232288","label":"alpha-thalassemia-related diseases","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2323","label":"hypoparathyroidism-retardation-dysmorphism syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2324","label":"osteopenia-intellectual disability-sparse hair syndrome","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:2325","label":"epidermolysis bullosa simplex with anodontia/hypodontia","obsolete":false,"synonyms":[]}
+{"id":"ORPHA:2326","label":"Kallmann syndrome-heart disease syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2328","label":"Kapur–Toriello syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2329","label":"Karsch-Neugebauer syndrome","obsolete":false,"synonyms":[]}
 {"id":"ORPHA:2331","label":"Kawasaki disease","obsolete":false,"synonyms":[]}
