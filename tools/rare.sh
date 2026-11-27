@@ -21,10 +21,12 @@
 # `--cause raredx` anywhere on the line is accepted and changes nothing (the one cause here); any other cause is refused.
 set -euo pipefail
 DESK="https://pequalnp.com/desk"
+# The desk's public status file, read by next for one field only: pins, the id tables the desk checks LINK answers against.
+PINS="https://data.pequalnp.com/data/desk/raredx/status.json"
 # PNP_DESK exists only for tools/test_rare.sh, and only a loopback address is taken: an exported variable must never
 # send the agent's login to another host or take its statements from there.
 if [ -n "${PNP_DESK:-}" ]; then
-  if [[ "$PNP_DESK" =~ ^http://127\.0\.0\.1:[0-9]{1,5}$ ]]; then DESK="$PNP_DESK"
+  if [[ "$PNP_DESK" =~ ^http://127\.0\.0\.1:[0-9]{1,5}$ ]]; then DESK="$PNP_DESK"; PINS="$PNP_DESK/data/desk/raredx/status.json"
   else echo "PNP_DESK is set but is not a loopback test address (http://127.0.0.1:<port>); refusing" >&2; exit 1; fi
 fi
 UPSTREAM=open-goat/rare-diseases
@@ -85,6 +87,7 @@ IDS = {"CHEMBL": r"CHEMBL[0-9]{1,9}", "DRUGCENTRAL": r"[0-9]{1,6}", "UNII": r"[A
        "GO": r"[0-9]{7}", "MONDO": r"[0-9]{7}", "ORPHA": r"[0-9]{1,7}", "HP": r"[0-9]{7}"}
 EXPECT = {"disease": ["MONDO", "ORPHA"], "drug": ["CHEMBL", "UNII", "RXCUI"], "target": ["UNIPROT"], "pathway": [], "phenotype": []}
 ANSWER_BYTES, DEPTH = 32768, 8
+TABLE_BYTES = 64 * 1024 * 1024
 MENTIONS_MAX, MENTION_IDS = 512, 64  # the desk's RX_MENTIONS and RX_MENTION_IDS
 # The kind each id prefix names (the fleet's kindOfId): an id counts only under a mention of its own kind.
 KIND_OF = {"CHEMBL": "drug", "UNII": "drug", "RXCUI": "drug", "DRUGCENTRAL": "drug", "UNIPROT": "target", "HGNC": "target", "ENSEMBL": "target",
@@ -150,6 +153,33 @@ def shaped(s, v, p, cx, d):
         if "enum" not in s and "pattern" not in s: no(p + " is free text: the desk takes none")
         return v
     no(p + " is of a type the desk does not take")
+# THE PINNED ID TABLES, read as data: one JSON object a line, only its "id" string taken; a line that is not one is skipped.
+def table_ids(pre):
+    f = os.path.join(ROOT, "data", "release.%s.jsonl" % pre); ids = set()
+    if not re.fullmatch(r"[A-Z]{2,12}", pre) or not os.path.isfile(f): return ids
+    with open(f, "rb") as h:
+        for l in h.read(TABLE_BYTES).split(b"\n"):
+            try: x = json.loads(l)
+            except ValueError: continue
+            if isinstance(x, dict) and isinstance(x.get("id"), str): ids.add(x["id"])
+    return ids
+# THE DESK'S PINS against the clone's (data/pins.json releases[].{ontology, version, sha256}; the desk's status.json
+# pins[].{ontology, version, sha256}, saved by next as .pnp/raredx/.pins.json). A version names its source artifacts
+# ("assay-<a>+<b>+..."): a side whose artifacts are a strict subset of the other's is the older one.
+def artifacts(v): return set(v.split("-", 1)[1].split("+")) if isinstance(v, str) and "-" in v else None
+def pins_side():
+    try:
+        mine = {r["ontology"]: r for r in json.load(open(os.path.join(ROOT, "data", "pins.json"), encoding="utf-8"))["releases"]}
+        desk = {r["ontology"]: r for r in json.load(open(os.path.join(state, ".pins.json"), encoding="utf-8"))["pins"]}
+    except Exception: return set(), set(), set()
+    ahead, behind, other = set(), set(), set()
+    for o, d in desk.items():
+        if not isinstance(o, str) or not re.fullmatch(r"[A-Z]{2,12}", o) or not isinstance(d, dict) or o not in mine: continue
+        m = mine[o]
+        if d.get("sha256") == m.get("sha256"): continue
+        a, b = artifacts(m.get("version")), artifacts(d.get("version"))
+        (ahead if a and b and b < a else behind if a and b and a < b else other).add(o)
+    return ahead, behind, other
 def isnum(x): return isinstance(x, (int, float)) and not isinstance(x, bool) and x == x and x not in (float("inf"), float("-inf"))
 def check(kind, v, b, g=None):
     try: shaped(SCHEMAS[kind], v, "$", {"bytes": b}, 0)
@@ -159,6 +189,13 @@ def check(kind, v, b, g=None):
     # REVIEW verdict names a claim result a or b makes; a chain cites this unit's evidence (or agreed evidence the desk knows).
     if kind == "link" and v["id"].split(":")[0] not in EXPECT.get(g.get("expect"), []):
         return ("a %s takes an id of %s" % (g.get("expect"), ", ".join(EXPECT[g.get("expect")]))) if EXPECT.get(g.get("expect")) else ("a %s takes no answer today: no %s ontology is pinned" % (g.get("expect"), g.get("expect")))
+    # A LINK id must be a row of the clone's pinned table for its prefix (data/release.<PREFIX>.jsonl, the tables the desk
+    # checks against). When the desk's table for that prefix is older than the clone's, the desk may not have the row yet:
+    # that cannot be proved from here, so it is said, never refused.
+    if kind == "link":
+        pre = v["id"].split(":")[0]
+        if v["id"] not in table_ids(pre): return "%s is not in data/release.%s.jsonl" % (v["id"], pre)
+        if pre in pins_side()[0]: print("note: the desk's %s table is older than your clone's: %s may still be refused" % (pre, v["id"]), file=sys.stderr)
     # An EXTRACT unit that lists its passage's mentions (the desk's own rule at submit): every id a claim names (already one
     # its field admits, by the schema above) is an id of a listed mention of the id's own kind, and that mention lies inside
     # one of the claim's spans.
@@ -304,6 +341,7 @@ def shape_why(d):
             if why: return "result %s: %s" % (x, why)
     return None
 op, state = sys.argv[1], sys.argv[2]
+ROOT = os.path.dirname(os.path.dirname(state))
 if op == "next":
     try: d = json.loads(open(os.path.join(state, ".last.json"), "rb").read().decode("utf-8"))
     except Exception: stop("the desk's answer is not JSON; nothing was written")
@@ -325,6 +363,11 @@ if op == "next":
     g.pop("text", None); json.dump(d, open(os.path.join(state, uid + ".json"), "w", encoding="utf-8"), indent=1)
     if d.get("note"): print("NOTE      ", line(d["note"], 400))
     show(*load(state, uid))
+    if g["kind"] == "link":
+        ahead, behind, other = pins_side()
+        if behind: print("TABLES     your clone's id tables are older than the desk's (%s): git pull" % ", ".join(sorted(behind)))
+        if other: print("TABLES     your clone's id tables differ from the desk's (%s): git pull" % ", ".join(sorted(other)))
+        if ahead: print("TABLES     the desk's id tables are older than your clone's (%s): an id found only in your clone may still be refused" % ", ".join(sorted(ahead)))
 elif op == "show":
     show(*load(state, sys.argv[3]))
 elif op == "span":
@@ -382,6 +425,7 @@ print(l if re.fullmatch(r"[A-Za-z0-9-]{1,64}", l) else "")' "$RXS/$1.json"; }
         q="$q&${1#--}=$2"; shift;;
       *) echo "unknown: $1" >&2; exit 1;; esac; shift; done
     curl -sS -m 30 "$RX/next?$q" > "$STATE/raredx/.last.json" || { echo "the desk could not be reached; try again in a minute" >&2; exit 1; }
+    curl -sS -f -m 15 "$PINS" > "$RXS/.pins.json" 2>/dev/null || rm -f "$RXS/.pins.json"
     py next
     ;;
   show) held "${2:-}"; py show "$2" ;;

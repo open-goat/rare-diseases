@@ -20,9 +20,10 @@ fail() { echo "FAIL: $1"; [ -f "${t:-/nonexistent}/out" ] && { echo "--- stdout"
 # 1. THE SCRIPT, READ AS TEXT
 code="$(grep -vE '^\s*#' "$script")"
 hosts="$(tr -d '\\' < "$script" | grep -oE 'https?://[A-Za-z0-9.-]+' | sort -u | tr '\n' ' ')"
-[ "$hosts" = "http://127.0.0.1 https://github.com https://pequalnp.com " ] || fail "the script names a host it should not: $hosts"
-[ "$(printf '%s\n' "$code" | grep -c 'curl ')" = 2 ] || fail "the number of curl calls changed"
-printf '%s\n' "$code" | grep 'curl ' | grep -vqE '"\$(RX|url)|\$RX/' && fail "a curl call does not go to the desk"
+[ "$hosts" = "http://127.0.0.1 https://data.pequalnp.com https://github.com https://pequalnp.com " ] || fail "the script names a host it should not: $hosts"
+[ "$(printf '%s\n' "$code" | grep -c 'curl ')" = 3 ] || fail "the number of curl calls changed"
+printf '%s\n' "$code" | grep 'curl ' | grep -vqE '"\$(RX|url|PINS)|\$RX/' && fail "a curl call does not go to the desk"
+grep -qxF 'PINS="https://data.pequalnp.com/data/desk/raredx/status.json"' "$script" || fail "the desk's pins are read from another address"
 printf '%s\n' "$code" | grep -E '^\s*post\(\) ' >/dev/null || fail "post() is gone"
 printf '%s\n' "$code" | grep -E 'post (answer|beat|release) ' | grep -vqE '"\$RX/(answer|beat|release)\?' && fail "a post goes somewhere other than the desk"
 [ "$(printf '%s\n' "$code" | grep -oE '\$\(gh [^)]*' | sort -u)" = '$(gh api user --jq .login' ] || fail "gh is asked for more than the handle"
@@ -60,7 +61,14 @@ node "$here/test_desk_stub.mjs" "$t/desk" >"$t/stub.log" 2>&1 & srv=$!
 for _ in $(seq 50); do [ -s "$t/desk/port" ] && break; sleep 0.1; done
 port="$(cat "$t/desk/port")"; D="http://127.0.0.1:$port"
 routes() { cat > "$t/desk/routes.json"; }
-fresh() { rm -rf "$t/repo"; mkdir -p "$t/repo/tools"; git -C "$t/repo" init -q; cp "$script" "$t/repo/tools/rare.sh"; : > "$t/desk/log"; }
+# A clone's pinned id tables, synthetic: one MONDO table of two rows, its pins.json naming it by sha256 and version.
+TV='assay-aaaaaaaaaaaa+bbbbbbbbbbbb'
+tables() { mkdir -p "$t/repo/data"; printf '%s\n' '{"id":"MONDO:0010526","label":"a synthetic disease","obsolete":false,"synonyms":[]}' '{"id":"MONDO:0000001","label":"another","obsolete":false,"synonyms":[]}' > "$t/repo/data/release.MONDO.jsonl"
+  python3 -I -c 'import hashlib,json,sys; f=sys.argv[1]; print(json.dumps({"note": "synthetic", "releases": [{"ontology": "MONDO", "version": sys.argv[2], "file": "release.MONDO.jsonl", "sha256": hashlib.sha256(open(f, "rb").read()).hexdigest(), "rows": 2}]}))' "$t/repo/data/release.MONDO.jsonl" "$TV" > "$t/repo/data/pins.json"; }
+fresh() { rm -rf "$t/repo"; mkdir -p "$t/repo/tools"; git -C "$t/repo" init -q; cp "$script" "$t/repo/tools/rare.sh"; tables; : > "$t/desk/log"; }
+# The desk's status file with its pins (data.pequalnp.com/data/desk/raredx/status.json): $1 the version, $2 a sha256 (or "same")
+with_pins() { python3 -I -c 'import hashlib,json,sys; r=json.load(sys.stdin); v,h,f=sys.argv[1:4]; h=hashlib.sha256(open(f, "rb").read()).hexdigest() if h=="same" else h
+r["GET /data/desk/raredx/status.json"]={"status": 200, "body": {"silo": "raredx", "pins": [{"ontology": "MONDO", "version": v, "sha256": h}]}}; print(json.dumps(r))' "$1" "$2" "$t/repo/data/release.MONDO.jsonl"; }
 run() { set +e; (cd "$t/repo" && PATH="$t/bin:$PATH" PNP_DESK="$D" /bin/bash tools/rare.sh "$@") >"$t/out" 2>"$t/err"; rc=$?; set -e; }
 
 FIXED="Unproven research leads, for researchers. Not medical advice. Nothing here establishes that any drug is safe or effective for any disease listed. Do not use this to start, stop or change anyone's treatment; talk to a doctor."
@@ -106,6 +114,32 @@ printf '{"id": "MONDO:0010526"}\n' > "$t/a.json"; run answer "$U1" "$t/a.json"; 
 grep -q '^POST /raredx/answer?lease=lease-1$' "$t/desk/log" || fail "the answer went to the wrong door: $(cat "$t/desk/log")"
 cmp -s "$t/desk/body.$(ls "$t/desk" | grep -c '^body\.')" "$t/a.json" || fail "the body sent is not the answer file byte for byte"
 [ ! -e "$t/repo/.pnp/raredx/$U1.json" ] || fail "the unit is still held here after its answer"
+
+# THE PINNED ID TABLES: a LINK id that is not a row of the clone's data/release.<PREFIX>.jsonl is refused at check, with
+# nothing sent; next compares the clone's pins with the desk's (status.json pins) and says which side is older
+fresh; unit_link "$S1" | with_pins "$TV" same | routes
+run next; [ "$rc" = 0 ] && ! grep -q '^TABLES' "$t/out" || fail "pins equal to the desk's printed a TABLES line"
+grep -q '^GET /data/desk/raredx/status.json$' "$t/desk/log" || fail "next did not read the desk's pins: $(cat "$t/desk/log")"
+: > "$t/desk/log"
+printf '{"id": "MONDO:0099999"}' > "$t/a.json"; run answer "$U1" "$t/a.json"
+[ "$rc" = 1 ] && grep -q '^REFUSED: MONDO:0099999 is not in data/release.MONDO.jsonl. Nothing was sent' "$t/err" || fail "an id that is not in the clone's table was not refused"
+printf '{"id": "ORPHA:558"}' > "$t/a.json"; run check "$U1" "$t/a.json"
+[ "$rc" = 1 ] && grep -q '^REFUSED: ORPHA:558 is not in data/release.ORPHA.jsonl' "$t/err" || fail "an id of a table the clone does not have was not refused"
+[ ! -s "$t/desk/log" ] || fail "an id outside the table reached the desk"
+printf '{"id": "MONDO:0000001"}' > "$t/a.json"; run check "$U1" "$t/a.json"; [ "$rc" = 0 ] && [ ! -s "$t/err" ] || fail "an id of the table did not check quietly"
+printf 'not json\n{"id": "MONDO:0099999", "label": "\u001b[31m"}\n' >> "$t/repo/data/release.MONDO.jsonl"
+printf '{"id": "MONDO:0099999"}' > "$t/a.json"; run check "$U1" "$t/a.json"; [ "$rc" = 0 ] || fail "a row after a line that is not JSON was not read"
+# the desk's tables are newer than the clone's (its version holds an artifact the clone lacks): git pull
+fresh; unit_link "$S1" | with_pins "$TV+cccccccccccc" "$(printf '0%.0s' $(seq 64))" | routes
+run next; [ "$rc" = 0 ] && grep -qx "TABLES     your clone's id tables are older than the desk's (MONDO): git pull" "$t/out" || fail "a clone behind the desk was not told to pull"
+# the clone's tables are newer than the desk's: a note, and check warns but takes an id the desk may not have yet
+fresh; unit_link "$S1" | with_pins "assay-aaaaaaaaaaaa" "$(printf '1%.0s' $(seq 64))" | routes
+run next; [ "$rc" = 0 ] && grep -qx "TABLES     the desk's id tables are older than your clone's (MONDO): an id found only in your clone may still be refused" "$t/out" || fail "a clone ahead of the desk was not noted"
+printf '{"id": "MONDO:0000001"}' > "$t/a.json"; run check "$U1" "$t/a.json"
+[ "$rc" = 0 ] && grep -q "^note: the desk's MONDO table is older than your clone's: MONDO:0000001 may still be refused" "$t/err" || fail "check on a table ahead of the desk did not warn, or refused"
+# the desk's status cannot be read: next goes on, with no TABLES line
+fresh; unit_link "$S1" | routes
+run next; [ "$rc" = 0 ] && ! grep -q '^TABLES' "$t/out" || fail "an unreadable desk status stopped next or printed TABLES"
 
 # an EXTRACT unit
 python3 -I -c 'import json,sys; p,s,u,n,f=sys.argv[1:6]
