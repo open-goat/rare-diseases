@@ -94,6 +94,7 @@
 {"id":"MONDO:0001823","label":"sick sinus syndrome","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0001945","label":"postencephalitic Parkinson disease","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0001956","label":"capillary leak syndrome","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0001982","label":"Niemann-Pick disease","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0001999","label":"primary pulmonary hypertension","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0002016","label":"benign familial neonatal epilepsy","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0002041","label":"fungal infectious disease","obsolete":false,"synonyms":[]}
@@ -1635,6 +1636,7 @@
 {"id":"MONDO:0009747","label":"mitochondrial DNA depletion syndrome 6","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0009748","label":"hereditary sensory and autonomic neuropathy with spastic paraplegia","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0009756","label":"Niemann-Pick disease type A","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0009757","label":"Niemann-Pick disease, type C1","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0009759","label":"mosaic variegated aneuploidy syndrome 1","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0009760","label":"Norman–Roberts syndrome","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0009762","label":"nystagmus, congenital, autosomal recessive","obsolete":false,"synonyms":[]}
@@ -2537,6 +2539,7 @@
 {"id":"MONDO:0011870","label":"annular epidermolytic ichthyosis","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0011871","label":"Niemann-Pick disease type B","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0011872","label":"Griscelli syndrome type 2","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0011873","label":"Niemann-Pick disease, type C2","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0011874","label":"Neonatal ichthyosis–sclerosing cholangitis syndrome","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0011876","label":"juvenile absence epilepsy","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0011877","label":"autosomal dominant osteopetrosis 1","obsolete":false,"synonyms":[]}
@@ -8318,6 +8321,7 @@
 {"id":"MONDO:0100352","label":"episodic kinesigenic dyskinesia 1","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0100428","label":"Fazio-Londe disease","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0100429","label":"intrahepatic cholestasis","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0100464","label":"acid sphingomyelinase deficiency","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0100573","label":"combined generalized and focal epilepsy","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0100610","label":"Asperger syndrome","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0700090","label":"familial temporal lobe epilepsy 1","obsolete":false,"synonyms":[]}
@@ -8326,3 +8330,10 @@
 {"id":"MONDO:0979354","label":"sickle cell disease due to hemoglobin S and a non-S/non-C hemoglobin variant","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0981004","label":"sickle cell S-Lepore disease","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0981005","label":"sickle cell S-O Arab disease","obsolete":false,"synonyms":[]}
+{"id":"MONDO:1010873","label":"Niemann-Pick disease, type C, dog","obsolete":false,"synonyms":[]}
+{"id":"MONDO:1010874","label":"Niemann-Pick disease, NPC1-related, domestic cat","obsolete":false,"synonyms":[]}
+{"id":"MONDO:1010875","label":"Niemann-Pick disease, NPC1-related, cattle","obsolete":false,"synonyms":[]}
+{"id":"MONDO:1010896","label":"sphingomyelin lipidosis, raccoon","obsolete":false,"synonyms":[]}
+{"id":"MONDO:1010897","label":"Niemann-Pick disease, SMPD1-related, domestic cat","obsolete":false,"synonyms":[]}
+{"id":"MONDO:1010898","label":"sphingomyelinase deficiency, cattle","obsolete":false,"synonyms":[]}
+{"id":"MONDO:1010902","label":"Niemann-Pick disease, NPC2-related, domestic cat","obsolete":false,"synonyms":[]}
