@@ -429,7 +429,11 @@ PY
 }
 rx() {
   local RX="$DESK/raredx" RXS="$STATE/raredx"; mkdir -p "$RXS"
-  py() { python3 -I -c "$(rx_py)" "$1" "$RXS" "${@:2}"; }
+  # The program runs from a file, never from the command line: Windows caps a whole command line near 32K characters,
+  # and the program is longer. It is rewritten from this script on every run (under .pnp/, like everything else), and
+  # -I keeps its folder off the import path, so nothing beside it is ever loaded.
+  local PROG="$RXS/.rx.py"; rx_py > "$PROG.$$" && mv -f "$PROG.$$" "$PROG"
+  py() { python3 -I "$PROG" "$1" "$RXS" "${@:2}"; }
   held() { [[ "${1:-}" =~ ^U-[0-9a-f]{16}$ ]] && [ -f "$RXS/$1.json" ] || { echo "no such unit here: ${1:-<none>} (run: tools/rare.sh next)" >&2; exit 1; }; }
   lease() { python3 -I -c 'import json,re,sys; l=str((json.load(open(sys.argv[1], encoding="utf-8")).get("lease") or {}).get("id", ""))
 print(l if re.fullmatch(r"[A-Za-z0-9-]{1,64}", l) else "")' "$RXS/$1.json"; }

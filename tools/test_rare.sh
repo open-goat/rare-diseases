@@ -94,6 +94,16 @@ print(json.dumps({"GET /raredx/next": {"status": 200, "body": {"gap": {"id": u, 
 # the cause: --cause raredx changes nothing, any other cause is refused before the desk; help names rare.sh only
 fresh; : > "$t/desk/log"; runstub next
 [ "$rc" = 1 ] && grep -q '^python3 does not run here' "$t/err" && [ ! -s "$t/desk/log" ] && [ ! -e "$t/repo/.pnp" ] || fail "a python3 that does not run was not caught first, with nothing sent or written"
+# No python3 call carries the program on its command line (Windows caps a whole command line near 32K characters, and
+# quoting grows it): a shim on PATH records each call's argument bytes; the largest must stay far under that cap.
+REALPY="$(command -v python3)"; mkdir -p "$t/shim"
+printf '#!/bin/bash\nn=0; for a in "$@"; do n=$((n + ${#a} + 1)); done; echo $n >> "%s"\nexec "%s" "$@"\n' "$t/argv.log" "$REALPY" > "$t/shim/python3"; chmod +x "$t/shim/python3"
+runshim() { set +e; (cd "$t/repo" && PATH="$t/shim:$t/bin:$PATH" PNP_DESK="$D" /bin/bash tools/rare.sh "$@") >"$t/out" 2>"$t/err"; rc=$?; set -e; }
+fresh; unit_link "$S1" | routes; : > "$t/argv.log"; runshim next
+max="$(sort -n "$t/argv.log" | tail -1)"; [ "$rc" = 0 ] && [ -n "$max" ] && [ "$max" -lt 8192 ] || fail "a python3 call carries $max bytes of arguments (rc $rc): the program rides the command line"
+# the program file is run isolated: a json.py planted beside it is never imported
+printf 'raise SystemExit("planted json.py was imported")\n' > "$t/repo/.pnp/raredx/json.py"; runshim next
+[ "$rc" = 0 ] && ! grep -q planted "$t/err" || fail "a json.py beside the program file was imported"
 fresh; unit_link "$S1" | routes
 run; [ "$rc" = 0 ] && grep -q '^rare.sh: one command' "$t/out" && grep -q 'tools/rare.sh next' "$t/out" && grep -qF "$FIXED" <(tr '\n' ' ' < "$t/out" | tr -s ' ') && ! grep -q 'pnp.sh' "$t/out" || fail "help"
 for c in pnp nope; do run --cause "$c" next; [ "$rc" = 1 ] && grep -q 'unknown cause' "$t/err" || fail "cause $c was not refused"; done
