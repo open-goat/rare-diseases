@@ -430,9 +430,13 @@ PY
 rx() {
   local RX="$DESK/raredx" RXS="$STATE/raredx"; mkdir -p "$RXS"
   # The program runs from a file, never from the command line: Windows caps a whole command line near 32K characters,
-  # and the program is longer. It is rewritten from this script on every run (under .pnp/, like everything else), and
-  # -I keeps its folder off the import path, so nothing beside it is ever loaded.
-  local PROG="$RXS/.rx.py"; rx_py > "$PROG.$$" && mv -f "$PROG.$$" "$PROG"
+  # and the program is longer. -I keeps the file's folder off the import path, so nothing beside it is ever loaded.
+  # Each run writes its own complete copy (a unique name, so overlapping runs never share one), stops before python on
+  # any create or write failure, and removes it on exit.
+  local PROG
+  PROG="$(mktemp "$RXS/.rx.XXXXXXXX")" || { echo "the program file could not be written under .pnp/raredx; nothing was sent" >&2; exit 1; }
+  trap "rm -f $(printf %q "$PROG")" EXIT   # the path is fixed into the trap now: PROG is local and gone at exit
+  if ! rx_py > "$PROG"; then rm -f "$PROG"; echo "the program file could not be written under .pnp/raredx; nothing was sent" >&2; exit 1; fi
   py() { python3 -I "$PROG" "$1" "$RXS" "${@:2}"; }
   held() { [[ "${1:-}" =~ ^U-[0-9a-f]{16}$ ]] && [ -f "$RXS/$1.json" ] || { echo "no such unit here: ${1:-<none>} (run: tools/rare.sh next)" >&2; exit 1; }; }
   lease() { python3 -I -c 'import json,re,sys; l=str((json.load(open(sys.argv[1], encoding="utf-8")).get("lease") or {}).get("id", ""))

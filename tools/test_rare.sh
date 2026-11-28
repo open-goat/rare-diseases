@@ -101,9 +101,22 @@ printf '#!/bin/bash\nn=0; for a in "$@"; do n=$((n + ${#a} + 1)); done; echo $n 
 runshim() { set +e; (cd "$t/repo" && PATH="$t/shim:$t/bin:$PATH" PNP_DESK="$D" /bin/bash tools/rare.sh "$@") >"$t/out" 2>"$t/err"; rc=$?; set -e; }
 fresh; unit_link "$S1" | routes; : > "$t/argv.log"; runshim next
 max="$(sort -n "$t/argv.log" | tail -1)"; [ "$rc" = 0 ] && [ -n "$max" ] && [ "$max" -lt 8192 ] || fail "a python3 call carries $max bytes of arguments (rc $rc): the program rides the command line"
+[ -z "$(ls -A "$t/repo/.pnp/raredx" | grep '^\.rx\.' || true)" ] || fail "a normal run left its program file under .pnp/raredx"
 # the program file is run isolated: a json.py planted beside it is never imported
 printf 'raise SystemExit("planted json.py was imported")\n' > "$t/repo/.pnp/raredx/json.py"; runshim next
 [ "$rc" = 0 ] && ! grep -q planted "$t/err" || fail "a json.py beside the program file was imported"
+# a failed program write stops before python is dispatched, even when an older program file is present
+rm -f "$t/repo/.pnp/raredx/json.py"; runshim next; [ "$rc" = 0 ] || fail "next failed before the failed-write case"
+mkdir -p "$t/nocat"; printf '#!/bin/sh\nexit 1\n' > "$t/nocat/cat"; chmod +x "$t/nocat/cat"
+: > "$t/argv.log"; set +e; (cd "$t/repo" && PATH="$t/nocat:$t/shim:$t/bin:$PATH" PNP_DESK="$D" /bin/bash tools/rare.sh next) >"$t/out" 2>"$t/err"; rc=$?; set -e
+calls="$(wc -l < "$t/argv.log" | tr -d ' ')"
+[ "$rc" = 1 ] && grep -q '^the program file could not be written' "$t/err" && [ "$calls" -le 1 ] || fail "a failed program write did not stop before python (rc $rc, $calls python calls)"
+[ -z "$(ls -A "$t/repo/.pnp/raredx" | grep '^\.rx\.' || true)" ] || fail "a program file was left behind under .pnp/raredx"
+# a failed program-file CREATE (mktemp) stops before python too (there is no rename step)
+mkdir -p "$t/nomk"; printf '#!/bin/sh\nexit 1\n' > "$t/nomk/mktemp"; chmod +x "$t/nomk/mktemp"
+: > "$t/argv.log"; set +e; (cd "$t/repo" && PATH="$t/nomk:$t/shim:$t/bin:$PATH" PNP_DESK="$D" /bin/bash tools/rare.sh next) >"$t/out" 2>"$t/err"; rc=$?; set -e
+calls="$(wc -l < "$t/argv.log" | tr -d ' ')"
+[ "$rc" = 1 ] && grep -q '^the program file could not be written' "$t/err" && [ "$calls" -le 1 ] || fail "a failed program-file create did not stop before python (rc $rc, $calls python calls)"
 fresh; unit_link "$S1" | routes
 run; [ "$rc" = 0 ] && grep -q '^rare.sh: one command' "$t/out" && grep -q 'tools/rare.sh next' "$t/out" && grep -qF "$FIXED" <(tr '\n' ' ' < "$t/out" | tr -s ' ') && ! grep -q 'pnp.sh' "$t/out" || fail "help"
 for c in pnp nope; do run --cause "$c" next; [ "$rc" = 1 ] && grep -q 'unknown cause' "$t/err" || fail "cause $c was not refused"; done
