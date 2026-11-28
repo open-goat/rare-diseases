@@ -16,6 +16,7 @@
 {"id":"MONDO:0000224","label":"carbohydrate metabolism disease","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0000229","label":"Indian tick typhus","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0000330","label":"endemic typhus","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0000332","label":"sennetsu fever","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0000334","label":"multinodular goiter","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0000355","label":"Ullrich congenital muscular dystrophy","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0000358","label":"cleft lip and cleft palate","obsolete":false,"synonyms":[]}
@@ -250,6 +251,7 @@
 {"id":"MONDO:0005100","label":"systemic scleroderma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0005101","label":"ulcerative colitis","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0005103","label":"atypical lipomatous tumor","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0005109","label":"HIV infectious disease","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0005111","label":"Epstein–Barr virus infection","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0005112","label":"malignant pleural mesothelioma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0005116","label":"Whipple disease","obsolete":false,"synonyms":[]}
@@ -258,6 +260,7 @@
 {"id":"MONDO:0005134","label":"experimental autoimmune encephalomyelitis","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0005149","label":"pulmonary hypertension","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0005151","label":"endocrine system disease","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0005161","label":"human papilloma virus infection","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0005164","label":"fibrosarcoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0005180","label":"Parkinson's disease","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0005181","label":"chronic progressive external ophthalmoplegia","obsolete":false,"synonyms":[]}
@@ -309,6 +312,7 @@
 {"id":"MONDO:0005571","label":"polycythemia","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0005574","label":"tauopathy","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0005575","label":"colorectal cancer","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0005583","label":"non-human animal disease","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0005595","label":"laryngeal squamous cell carcinoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0005598","label":"dopaminergic neuroblastoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0005601","label":"ovarian mucinous adenocarcinoma","obsolete":false,"synonyms":[]}
@@ -335,6 +339,7 @@
 {"id":"MONDO:0005784","label":"hemorrhagic fever with renal syndrome","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0005789","label":"hepatitis D","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0005797","label":"HIV wasting syndrome","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0005801","label":"human T-lymphotropic virus 1 infectious disease","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0005802","label":"hymenolepiasis","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0005813","label":"interdigitating dendritic cell sarcoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0005817","label":"Klüver–Bucy syndrome","obsolete":false,"synonyms":[]}
@@ -7296,6 +7301,7 @@
 {"id":"MONDO:0019468","label":"T-cell prolymphocytic leukemia","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0019469","label":"T-cell large granular lymphocyte leukemia","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0019470","label":"natural killer cell leukemia","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0019471","label":"adult T-cell leukemia/lymphoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0019472","label":"extranodal NK/T-cell lymphoma, nasal type","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0019473","label":"Enteropathy-associated T-cell lymphoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0019475","label":"T-cell lymphoma, subcutaneous panniculitis-like","obsolete":false,"synonyms":[]}
@@ -8255,6 +8261,7 @@
 {"id":"MONDO:0021165","label":"mammary Paget's disease","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0021171","label":"Timothy syndrome type 1","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0021181","label":"inherited blood coagulation disease","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0021184","label":"deltaretrovirus infections","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0021187","label":"hyperlipidemia","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0021192","label":"odontogenic tumor","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0021198","label":"rare genetic disease","obsolete":false,"synonyms":[]}
@@ -8411,7 +8418,12 @@
 {"id":"MONDO:0024570","label":"hyperparathyroidism 4","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0024573","label":"familial hypertrophic cardiomyopathy","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0024609","label":"vulva squamous cell carcinoma","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0024618","label":"poliovirus infection","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0024969","label":"parasitic disease, non-human animal","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0025013","label":"non-human primate disease","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0025152","label":"non-human ape disease","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0025169","label":"acquired Creutzfeldt-Jakob disease","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0025487","label":"murine acquired immunodeficiency syndrome","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0025511","label":"inherited neuroendocrine tumor","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0026777","label":"VEXAS syndrome","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0027451","label":"autosomal recessive cutis laxa type IID","obsolete":false,"synonyms":[]}
@@ -8473,12 +8485,15 @@
 {"id":"MONDO:0033493","label":"gingival fibromatosis 5","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0034145","label":"oculoskeletodental syndrome","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0035112","label":"acute myeloid leukemia with BCR-ABL1","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0035562","label":"acquired human prion disease","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0035742","label":"factor V short isoforms-related bleeding disorder","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0035743","label":"factor V amsterdam bleeding disorder","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0035759","label":"factor V atlanta bleeding disorder","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0035838","label":"idiopathic multicentric Castleman disease","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0036189","label":"oculogastrointestinal neurodevelopmental syndrome","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0036193","label":"Parkinsonism with polyneuropathy","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0036212","label":"cataracts, spastic paraparesis, and speech delay","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0042974","label":"parainfluenza virus type 3 infectious disease","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0042982","label":"GATA2 deficiency with susceptibility to MDS/AML","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0044306","label":"Neurodevelopmental disorder with epilepsy, cataracts, feeding difficulties, and delayed brain myelination","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0044336","label":"colorectal signet ring cell carcinoma","obsolete":false,"synonyms":[]}
@@ -8514,6 +8529,7 @@
 {"id":"MONDO:0100400","label":"acute myeloid leukemia, t(3;12)(q23;p12.3)","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0100404","label":"acute myeloid leukemia, MLL gene rearrangement","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0100415","label":"acute myeloid leukemia, FLT3 internal tandem duplication","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0100416","label":"acute myeloid leukemia, FLT3 tyrosine kinase domain point mutation","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0100420","label":"acute myeloid leukemia, KIT gene mutation","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0100422","label":"acute myeloid leukemia, RUNX1 gene mutation","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0100424","label":"acute myeloid leukemia, NRAS gene mutation","obsolete":false,"synonyms":[]}
@@ -8525,6 +8541,8 @@
 {"id":"MONDO:0100630","label":"acquired sleep-related hypermotor epilepsy","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0700041","label":"neuroblastoma, susceptibility to, 2","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0700090","label":"familial temporal lobe epilepsy 1","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0700096","label":"human disease","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0700100","label":"leukemia, non-human animal","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0700144","label":"canine leukemia","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0700151","label":"canine glioma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0700161","label":"canine gastrointestinal stromal tumor, KIT-related, dog","obsolete":false,"synonyms":[]}
@@ -8535,6 +8553,7 @@
 {"id":"MONDO:0800446","label":"bleeding diathesis due to thromboxane A2 receptor variants","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0800447","label":"bleeding disorder, platelet-type, 13, susceptibility to","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0800467","label":"dyskeratosis congenita and related telomere biology disorder","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0850289","label":"human betaherpesvirus 5 infectious disease","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0859244","label":"phosphoribosylaminoimidazole carboxylase deficiency","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0859267","label":"tumor predisposition syndrome 2","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0859591","label":"childhood low-grade glioma","obsolete":false,"synonyms":[]}
@@ -8542,15 +8561,19 @@
 {"id":"MONDO:0956997","label":"oligodendroglioma, IDH-mutant and 1p/19q-codeleted, grade 3","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0957196","label":"diffuse midline glioma, H3 K27M-mutant","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0957197","label":"diffuse glioma, H3 G34 mutant","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0957421","label":"borna virus encephalitis","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0957580","label":"bleeding disorder, platelet-type, 25","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0958229","label":"bleeding disorder, vascular-type","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0971133","label":"isolated segmental infantile hemangioma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0979354","label":"sickle cell disease due to hemoglobin S and a non-S/non-C hemoglobin variant","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0981004","label":"sickle cell S-Lepore disease","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0981005","label":"sickle cell S-O Arab disease","obsolete":false,"synonyms":[]}
+{"id":"MONDO:1010029","label":"aleutian mink disease, human","obsolete":false,"synonyms":[]}
 {"id":"MONDO:1010131","label":"encapsulating peritoneal sclerosis","obsolete":false,"synonyms":[]}
 {"id":"MONDO:1010180","label":"cardiogenetic rhythm disorder","obsolete":false,"synonyms":[]}
 {"id":"MONDO:1010181","label":"SCN5A-related cardiac rhythm disorder","obsolete":false,"synonyms":[]}
+{"id":"MONDO:1010213","label":"chronic monocytic leukemia, non-human animal","obsolete":false,"synonyms":[]}
+{"id":"MONDO:1010222","label":"chronic myelomonocytic leukemia, non-human animal","obsolete":false,"synonyms":[]}
 {"id":"MONDO:1010667","label":"bleeding disorder P2RY12-related, dog","obsolete":false,"synonyms":[]}
 {"id":"MONDO:1010873","label":"Niemann-Pick disease, type C, dog","obsolete":false,"synonyms":[]}
 {"id":"MONDO:1010874","label":"Niemann-Pick disease, NPC1-related, domestic cat","obsolete":false,"synonyms":[]}
@@ -8567,6 +8590,8 @@
 {"id":"MONDO:1011462","label":"Alzheimer disease, domestic cat","obsolete":false,"synonyms":[]}
 {"id":"MONDO:1011463","label":"Alzheimer disease, sheep","obsolete":false,"synonyms":[]}
 {"id":"MONDO:1011685","label":"bleeding disorder, non-human animal","obsolete":false,"synonyms":[]}
+{"id":"MONDO:1011810","label":"megakaryoblastic leukemia, non-human animal","obsolete":false,"synonyms":[]}
+{"id":"MONDO:1011819","label":"chronic myelogenous leukemia, non-human animal","obsolete":false,"synonyms":[]}
 {"id":"MONDO:1012027","label":"bleeding disorder, dog","obsolete":false,"synonyms":[]}
 {"id":"MONDO:1012028","label":"bleeding disorder, domestic cat","obsolete":false,"synonyms":[]}
 {"id":"MONDO:1012029","label":"bleeding disorder, pig","obsolete":false,"synonyms":[]}
@@ -8581,12 +8606,44 @@
 {"id":"MONDO:1012949","label":"Alzheimer disease, APP-related, dog","obsolete":false,"synonyms":[]}
 {"id":"MONDO:1012950","label":"Alzheimer disease, PSEN1-related, white-tufted-ear marmoset","obsolete":false,"synonyms":[]}
 {"id":"MONDO:1012951","label":"Alzheimer disease, PSEN1-related, crab-eating macaque","obsolete":false,"synonyms":[]}
+{"id":"MONDO:1012953","label":"neurodegenerative disease, non-human animal","obsolete":false,"synonyms":[]}
+{"id":"MONDO:1012972","label":"hereditary neurological disease, non-human animal","obsolete":false,"synonyms":[]}
+{"id":"MONDO:1012984","label":"Parkinson disease, non-human animal","obsolete":false,"synonyms":[]}
+{"id":"MONDO:1012985","label":"autoimmune disease, non-human animal","obsolete":false,"synonyms":[]}
+{"id":"MONDO:1013000","label":"liver abscess (disease), non-human animal","obsolete":false,"synonyms":[]}
+{"id":"MONDO:1013029","label":"cold agglutinin disease, non-human animal","obsolete":false,"synonyms":[]}
+{"id":"MONDO:1013063","label":"gastroesophageal reflux disease, non-human animal","obsolete":false,"synonyms":[]}
+{"id":"MONDO:1013080","label":"inflammatory bowel disease, non-human animal","obsolete":false,"synonyms":[]}
+{"id":"MONDO:1013088","label":"acute lymphoblastic leukemia, non-human animal","obsolete":false,"synonyms":[]}
+{"id":"MONDO:1013091","label":"Lyme disease, non-human animal","obsolete":false,"synonyms":[]}
+{"id":"MONDO:1013104","label":"mycobacterial infectious disease, non-human animal","obsolete":false,"synonyms":[]}
+{"id":"MONDO:1013222","label":"thrombotic disease, non-human animal","obsolete":false,"synonyms":[]}
+{"id":"MONDO:1013240","label":"vulvar disease, non-human animal","obsolete":false,"synonyms":[]}
+{"id":"MONDO:1013261","label":"chronic kidney disease, non-human animal","obsolete":false,"synonyms":[]}
+{"id":"MONDO:1013321","label":"cystic kidney disease, non-human animal","obsolete":false,"synonyms":[]}
+{"id":"MONDO:1013327","label":"acute myeloid leukemia, non-human animal","obsolete":false,"synonyms":[]}
 {"id":"MONDO:1013329","label":"plasma cell myeloma, non-human animal","obsolete":false,"synonyms":[]}
+{"id":"MONDO:1013358","label":"acute erythroid leukemia, non-human animal","obsolete":false,"synonyms":[]}
+{"id":"MONDO:1013359","label":"acute basophilic leukemia, non-human animal","obsolete":false,"synonyms":[]}
+{"id":"MONDO:1013360","label":"chronic eosinophilic leukemia, non-human animal","obsolete":false,"synonyms":[]}
+{"id":"MONDO:1013488","label":"adenoviridae infectious disease, non-human animal","obsolete":false,"synonyms":[]}
+{"id":"MONDO:1013489","label":"Arenaviridae infectious disease, non-human animal","obsolete":false,"synonyms":[]}
+{"id":"MONDO:1013492","label":"Bacteroides infectious disease, non-human animal","obsolete":false,"synonyms":[]}
+{"id":"MONDO:1013543","label":"Crohn disease, non-human animal","obsolete":false,"synonyms":[]}
+{"id":"MONDO:1013667","label":"pica disease, non-human animal","obsolete":false,"synonyms":[]}
+{"id":"MONDO:1013746","label":"myositis disease, non-human animal","obsolete":false,"synonyms":[]}
+{"id":"MONDO:1013765","label":"photosensitivity disease, non-human animal","obsolete":false,"synonyms":[]}
 {"id":"MONDO:1014231","label":"colonic gastrointestinal stromal tumor, non-human animal","obsolete":false,"synonyms":[]}
 {"id":"MONDO:1014232","label":"rectal gastrointestinal stromal tumor, non-human animal","obsolete":false,"synonyms":[]}
 {"id":"MONDO:1014233","label":"small intestinal gastrointestinal stromal tumor, non-human animal","obsolete":false,"synonyms":[]}
 {"id":"MONDO:1014234","label":"gastric gastrointestinal stromal tumor, non-human animal","obsolete":false,"synonyms":[]}
+{"id":"MONDO:1014674","label":"chronic lymphoid leukemia, non-human animal","obsolete":false,"synonyms":[]}
 {"id":"MONDO:1014675","label":"chronic myeloid leukemia, non-human animal","obsolete":false,"synonyms":[]}
+{"id":"MONDO:1014715","label":"acute leukemia, non-human animal","obsolete":false,"synonyms":[]}
+{"id":"MONDO:1014716","label":"acute monocytic leukemia, non-human animal","obsolete":false,"synonyms":[]}
+{"id":"MONDO:1014717","label":"acute myelomonocytic leukemia, non-human animal","obsolete":false,"synonyms":[]}
+{"id":"MONDO:1014718","label":"chronic leukemia, non-human animal","obsolete":false,"synonyms":[]}
+{"id":"MONDO:1014736","label":"granulocytic leukemia, non-human animal","obsolete":false,"synonyms":[]}
 {"id":"MONDO:1060111","label":"SAMD9L-related spectrum and myeloid neoplasm risk","obsolete":false,"synonyms":[]}
 {"id":"MONDO:1060234","label":"P2RY12-related platelet disorder, autosomal dominant","obsolete":false,"synonyms":[]}
 {"id":"MONDO:8000010","label":"antiphospholipid syndrome","obsolete":false,"synonyms":[]}
