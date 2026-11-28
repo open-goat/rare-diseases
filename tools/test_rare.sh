@@ -224,6 +224,8 @@ printf '{"claims": []}' > "$t/a.json"; run check "$U2" "$t/a.json"; [ "$rc" = 0 
 run beat "$U2"; [ "$rc" = 0 ] && grep -q '^lease until 2026-11-26T12:40:00Z' "$t/out" || fail "beat"
 grep -q '^POST /raredx/beat?lease=lease-2$' "$t/desk/log" || fail "beat went to the wrong door"
 run release "$U2" submitted; [ "$rc" = 1 ] || fail "release as submitted was not refused locally"
+# RD dogfood 10 (28 Nov): a release takes one fixed reason, never free text: out_of_time | other | test | bad_mentions | bad_passage
+for bad in "bad passage" "free text" TEST missing_lemma ""; do run release "$U2" "$bad"; [ "$rc" = 1 ] && grep -q 'out_of_time | other | test | bad_mentions | bad_passage' "$t/err" || fail "release reason '$bad' was not refused locally"; done
 run release "$U2" out_of_time; [ "$rc" = 0 ] && grep -q "released $U2 (out_of_time)" "$t/out" || fail "release"
 grep -q '^POST /raredx/release?lease=lease-2&reason=out_of_time$' "$t/desk/log" || fail "release went to the wrong door: $(cat "$t/desk/log")"
 
@@ -264,7 +266,8 @@ xclaim CHEMBL:CHEMBL941 HGNC:6342 "$SP_DRUG, $SP_KIT" > "$t/a.json"; run check "
 xclaim CHEMBL:CHEMBL941 HGNC:999 "$SP_BOTH" > "$t/a.json"; run answer "$U4" "$t/a.json"; [ "$rc" = 1 ] && grep -q 'REFUSED: claims\[0\].object HGNC:999 is not one of this passage.s listed ids. Nothing was sent' "$t/err" || fail "an id that no mention lists was not refused"
 xclaim CHEMBL:CHEMBL941 HGNC:6342 "$SP_DRUG" > "$t/a.json"; run answer "$U4" "$t/a.json"; [ "$rc" = 1 ] && grep -q 'REFUSED: claims\[0\].object HGNC:6342 is listed, but not inside any span this claim cites. Nothing was sent' "$t/err" || fail "a claim whose spans miss a mention was not refused"
 [ ! -s "$t/desk/log" ] || fail "a claim outside the mentions reached the desk"
-run release "$U4" other; [ "$rc" = 0 ] || fail "release of the mentions unit"
+run release "$U4" bad_mentions; [ "$rc" = 0 ] || fail "release of the mentions unit"
+grep -q '^POST /raredx/release?lease=[^&]*&reason=bad_mentions$' "$t/desk/log" || fail "release bad_mentions went to the wrong door: $(cat "$t/desk/log")"
 # mentions that are not well formed refuse the unit, with nothing written
 for bad in '[m("KIT", "target", ["HGNC:6342"]) | {"end": 9999}]' '[m("KIT", "gene", ["HGNC:6342"])]' '[m("KIT", "target", ["HGNC:abc"])]' '[m("KIT", "target", [])]' '{"x": 1}'; do
   unit_mentions "$bad" | routes; rm -rf "$t/repo/.pnp/raredx"

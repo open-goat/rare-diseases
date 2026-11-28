@@ -10,7 +10,7 @@
 #rx   tools/rare.sh check <unit> <file>    check an answer file here; sends nothing
 #rx   tools/rare.sh answer <unit> <file>   check it, then send it to the desk (this is the submission)
 #rx   tools/rare.sh beat <unit>            keep the lease alive: every 5 minutes; stop at a 410
-#rx   tools/rare.sh release <unit> <reason>  give a unit back: out_of_time | other
+#rx   tools/rare.sh release <unit> <reason>  give a unit back: out_of_time | other | test | bad_mentions | bad_passage
 #rx
 #rx Unproven research leads, for researchers. Not medical advice. Nothing here establishes that any drug is safe or
 #rx effective for any disease listed. Do not use this to start, stop or change anyone's treatment; talk to a doctor.
@@ -479,7 +479,7 @@ print(l if re.fullmatch(r"[A-Za-z0-9-]{1,64}", l) else "")' "$RXS/$1.json"; }
     ;;
   release)
     held "${2:-}"; l="$(lease "$2")"; [ -n "$l" ] || { echo "no lease for $2 here" >&2; exit 1; }
-    case "${3:-}" in out_of_time|other) ;; *) echo "release needs a reason: out_of_time | other (a finished unit is sent with answer)" >&2; exit 1;; esac
+    case "${3:-}" in out_of_time|other|test|bad_mentions|bad_passage) ;; *) echo "release needs a reason: out_of_time | other | test | bad_mentions | bad_passage (a finished unit is sent with answer)" >&2; exit 1;; esac
     post release "$2" "$RX/release?lease=$l&reason=$3"
     ;;
   *) sed -n 's/^#rx \{0,1\}//p' "$0" ;;
