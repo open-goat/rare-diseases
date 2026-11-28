@@ -154,7 +154,8 @@ def shaped(s, v, p, cx, d):
         return v
     no(p + " is of a type the desk does not take")
 # THE PINNED ID TABLES, read as data: one JSON object a line, only its "id" string taken. Returns (ids, why): why is None
-# only when the whole table was read and every non-blank line was an id row; otherwise the ids prove no absence.
+# only when the whole table was read, every non-blank line was a row whose id is an id of that prefix, and the bytes
+# match the table's pin in data/pins.json (sha256); otherwise the ids prove no absence and the id is deferred to the desk.
 def table_ids(pre):
     f = os.path.join(ROOT, "data", "release.%s.jsonl" % pre); ids = set()
     if not re.fullmatch(r"[A-Z]{2,12}", pre) or not os.path.isfile(f): return ids, "is missing"
@@ -167,8 +168,13 @@ def table_ids(pre):
         if not l.strip(): continue
         try: x = json.loads(l)
         except ValueError: return set(), "has a line that is not an id row"
-        if not (isinstance(x, dict) and isinstance(x.get("id"), str)): return set(), "has a line that is not an id row"
+        if not isinstance(x, dict): return set(), "has a line that is not an id row"
+        if not (isinstance(x.get("id"), str) and pre in IDS and re.fullmatch(pre + ":" + IDS[pre], x["id"])): return set(), "has a row whose id is not a %s id" % pre
         ids.add(x["id"])
+    try: pin = [r for r in json.load(open(os.path.join(ROOT, "data", "pins.json"), encoding="utf-8"))["releases"] if isinstance(r, dict) and r.get("ontology") == pre]
+    except Exception: return set(), "has no readable pin (data/pins.json)"
+    if len(pin) != 1 or pin[0].get("file") != "release.%s.jsonl" % pre or not isinstance(pin[0].get("sha256"), str): return set(), "has no pin in data/pins.json"
+    if hashlib.sha256(data).hexdigest() != pin[0]["sha256"]: return set(), "does not match its pin in data/pins.json (git pull)"
     return ids, None
 # THE DESK'S PINS against the clone's (data/pins.json releases[].{ontology, version, sha256}; the desk's status.json
 # pins[].{ontology, version, sha256}, saved by next as .pnp/raredx/.pins.json). A version names its source artifacts

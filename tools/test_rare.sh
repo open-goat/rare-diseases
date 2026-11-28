@@ -142,6 +142,19 @@ python3 -I -c 'import sys; f=open(sys.argv[1], "ab"); f.write(b" " * (64 * 1024 
 run check "$U1" "$t/a.json"
 [ "$rc" = 0 ] && grep -q '^note: data/release.MONDO.jsonl is larger than 64 MB and was not read: MONDO:0099999 was not checked here; the desk checks it' "$t/err" && ! grep -q 'is not in' "$t/err" || fail "an oversize table was read as complete"
 rm -f "$t/mondo.keep"
+# the table must match its pin before any absence is declared (redteam-1: the last whole row dropped, pins.json intact)
+repin() { python3 -I -c 'import hashlib,json,sys; f,p=sys.argv[1:3]; d=json.load(open(p)); d["releases"][0]["sha256"]=hashlib.sha256(open(f, "rb").read()).hexdigest(); json.dump(d, open(p, "w"))' "$t/repo/data/release.MONDO.jsonl" "$t/repo/data/pins.json"; }
+tables; head -n 1 "$t/repo/data/release.MONDO.jsonl" > "$t/m" && mv "$t/m" "$t/repo/data/release.MONDO.jsonl"
+printf '{"id": "MONDO:0000001"}' > "$t/a.json"; run check "$U1" "$t/a.json"
+[ "$rc" = 0 ] && grep -q '^note: data/release.MONDO.jsonl does not match its pin in data/pins.json (git pull): MONDO:0000001 was not checked here; the desk checks it' "$t/err" && ! grep -q 'is not in' "$t/err" || fail "a table that lost its last row was read as complete"
+# an empty or malformed id is no row: the table is not read as complete
+for bad in '{"id": ""}' '{"id": "ORPHA:558"}' '{"id": "MONDO:12"}'; do tables; printf '%s\n' "$bad" >> "$t/repo/data/release.MONDO.jsonl"; repin
+  printf '{"id": "MONDO:0099999"}' > "$t/a.json"; run check "$U1" "$t/a.json"
+  [ "$rc" = 0 ] && grep -q '^note: data/release.MONDO.jsonl has a row whose id is not a MONDO id: MONDO:0099999 was not checked here; the desk checks it' "$t/err" && ! grep -q 'is not in' "$t/err" || fail "a table with the row $bad was read as complete"; done
+# a table with no pin proves nothing either
+tables; printf '{"note": "synthetic", "releases": []}' > "$t/repo/data/pins.json"
+run check "$U1" "$t/a.json"
+[ "$rc" = 0 ] && grep -q '^note: data/release.MONDO.jsonl has no pin in data/pins.json: MONDO:0099999 was not checked here; the desk checks it' "$t/err" && ! grep -q 'is not in' "$t/err" || fail "an unpinned table was read as complete"
 # the desk's tables are newer than the clone's (its version holds an artifact the clone lacks): git pull
 fresh; unit_link "$S1" | with_pins "$TV+cccccccccccc" "$(printf '0%.0s' $(seq 64))" | routes
 run next; [ "$rc" = 0 ] && grep -qx "TABLES     your clone's id tables are older than the desk's (MONDO): git pull" "$t/out" || fail "a clone behind the desk was not told to pull"
