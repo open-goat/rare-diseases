@@ -5025,6 +5025,7 @@
 {"id":"UNIPROT:Q2WGN9","label":"GRB2-associated-binding protein 4","obsolete":false,"synonyms":["GAB4","GRB2-associated binder 2-like","GRB2-associated binder 4","GRB2-associated-binding protein 2-like","Growth factor receptor bound protein 2-associated protein 4"]}
 {"id":"UNIPROT:Q2Y0W8","label":"Electroneutral sodium bicarbonate exchanger 1","obsolete":false,"synonyms":["SLC4A8","KIAA0739","NBC","NBC3","NDCBE1","Electroneutral Na(+)-driven Cl-HCO3 exchanger","Solute carrier family 4 member 8","k-NBC3"]}
 {"id":"UNIPROT:Q30154","label":"HLA class II histocompatibility antigen, DR beta 5 chain","obsolete":false,"synonyms":["HLA-DRB5","DR beta-5","DR2-beta-2","Dw2","MHC class II antigen DRB5"]}
+{"id":"UNIPROT:Q309B1","label":"Tripartite motif-containing protein 16-like protein","obsolete":false,"synonyms":["TRIM16L","TRIM70","Tripartite motif-containing protein 70"]}
 {"id":"UNIPROT:Q32M45","label":"Anoctamin-4","obsolete":false,"synonyms":["ANO4","TMEM16D","Transmembrane protein 16D"]}
 {"id":"UNIPROT:Q32M78","label":"Zinc finger protein 699","obsolete":false,"synonyms":["ZNF699","Hangover homolog"]}
 {"id":"UNIPROT:Q32M88","label":"Protein-glucosylgalactosylhydroxylysine glucosidase","obsolete":false,"synonyms":["PGGHG","ATHL1","Acid trehalase-like protein 1"]}
@@ -8453,6 +8454,7 @@
 {"id":"UNIPROT:Q96EY9","label":"tRNA-specific adenosine-34 deaminase regulatory subunit ADAT3","obsolete":false,"synonyms":["ADAT3","TAD3"]}
 {"id":"UNIPROT:Q96F07","label":"Cytoplasmic FMR1-interacting protein 2","obsolete":false,"synonyms":["CYFIP2","KIAA1168","PIR121","p53-inducible protein 121"]}
 {"id":"UNIPROT:Q96F24","label":"Nuclear receptor-binding factor 2","obsolete":false,"synonyms":["NRBF2","COPR","Comodulator of PPAR and RXR"]}
+{"id":"UNIPROT:Q96F44","label":"E3 ubiquitin-protein ligase TRIM11","obsolete":false,"synonyms":["TRIM11","RNF92","Protein BIA1","RING finger protein 92","Tripartite motif-containing protein 11"]}
 {"id":"UNIPROT:Q96F45","label":"Zinc finger protein 503","obsolete":false,"synonyms":["ZNF503","NOLZ1"]}
 {"id":"UNIPROT:Q96F63","label":"Coiled-coil domain-containing protein 97","obsolete":false,"synonyms":["CCDC97"]}
 {"id":"UNIPROT:Q96F86","label":"Enhancer of mRNA-decapping protein 3","obsolete":false,"synonyms":["EDC3","LSM16","YJDC","YJEFN2","LSM16 homolog","YjeF N-terminal domain-containing protein 2","YjeF domain-containing protein 1"]}
@@ -9464,6 +9466,7 @@
 {"id":"UNIPROT:Q9C004","label":"Protein sprouty homolog 4","obsolete":false,"synonyms":["SPRY4"]}
 {"id":"UNIPROT:Q9C019","label":"E3 ubiquitin-protein ligase TRIM15","obsolete":false,"synonyms":["TRIM15","RNF93","ZNF178","ZNFB7","RING finger protein 93","Zinc finger protein 178","Zinc finger protein B7"]}
 {"id":"UNIPROT:Q9C026","label":"E3 ubiquitin-protein ligase TRIM9","obsolete":false,"synonyms":["TRIM9","KIAA0282","RNF91","RING finger protein 91","RING-type E3 ubiquitin transferase TRIM9","Tripartite motif-containing protein 9"]}
+{"id":"UNIPROT:Q9C029","label":"E3 ubiquitin-protein ligase TRIM7","obsolete":false,"synonyms":["TRIM7","GNIP","RNF90","Glycogenin-interacting protein","RING finger protein 90","Tripartite motif-containing protein 7"]}
 {"id":"UNIPROT:Q9C030","label":"Tripartite motif-containing protein 6","obsolete":false,"synonyms":["TRIM6","RNF89","RING finger protein 89","RING-type E3 ubiquitin transferase TRIM6"]}
 {"id":"UNIPROT:Q9C035","label":"Tripartite motif-containing protein 5","obsolete":false,"synonyms":["TRIM5","RNF88","RING finger protein 88","RING-type E3 ubiquitin transferase TRIM5"]}
 {"id":"UNIPROT:Q9C037","label":"E3 ubiquitin-protein ligase TRIM4","obsolete":false,"synonyms":["TRIM4","RNF87","RING finger protein 87","RING-type E3 ubiquitin transferase TRIM4","Tripartite motif-containing protein 4"]}
