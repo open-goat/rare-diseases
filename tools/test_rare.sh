@@ -168,7 +168,7 @@ L = open(sys.argv[1], encoding="utf-8").read().split("\n")
 want = ["FIELDS     organism: organism is the organism the reported finding is about; a background statement takes the organism of the paper's own subjects",
         "           study: study is the design of the study that reports the claim; a background statement in a paper takes the paper's own design",
         "           n_subjects: the number of subjects in the study that reports the claim, only when the passage states it; leave it out otherwise",
-        "           optional fields: an optional field that readers do not agree on is left out of the recorded claim; the claim is still recorded"]
+        "           optional fields: an optional field alone does not prevent an otherwise valid close; one that readers do not agree on is left out of the recorded claim, and the claim still needs the required agreement and a cited span from an answer that agrees with it"]
 i = L.index(want[0]); assert L[i:i + 4] == want, L[i:i + 4]
 PY
 claim() { printf '{"claims": [{"subject": "CHEMBL:CHEMBL941", "relation": "inhibits", "object": "HGNC:6342", "effect": "positive", "organism": "mouse", "study": "in_vitro", "potency": {"value": 0.1, "unit": "uM"}, "spans": [{"start": 0, "end": %s, "quote": "%s"}]%s}]}' "$1" "$2" "${3:-}"; }

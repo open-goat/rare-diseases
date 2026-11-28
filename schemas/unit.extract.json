@@ -18,7 +18,7 @@
         "maxItems": 12,
         "items": {
           "type": "object",
-          "description": "optional fields: an optional field that readers do not agree on is left out of the recorded claim; the claim is still recorded",
+          "description": "optional fields: an optional field alone does not prevent an otherwise valid close; one that readers do not agree on is left out of the recorded claim, and the claim still needs the required agreement and a cited span from an answer that agrees with it",
           "required": [
             "subject",
             "relation",
