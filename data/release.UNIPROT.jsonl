@@ -2440,6 +2440,7 @@
 {"id":"UNIPROT:P07384","label":"Calpain-1 catalytic subunit","obsolete":false,"synonyms":["CAPN1","CANPL1","Calcium-activated neutral proteinase 1","Calpain mu-type","Calpain-1 large subunit","Cell proliferation-inducing gene 30 protein","Micromolar-calpain"]}
 {"id":"UNIPROT:P07437","label":"Tubulin beta chain","obsolete":false,"synonyms":["TUBB","TUBB5","Tubulin beta-5 chain"]}
 {"id":"UNIPROT:P07438","label":"Metallothionein-1B","obsolete":false,"synonyms":["MT1B","MT1Q","Metallothionein-IB"]}
+{"id":"UNIPROT:P07476","label":"Involucrin","obsolete":false,"synonyms":["IVL"]}
 {"id":"UNIPROT:P07477","label":"Serine protease 1","obsolete":false,"synonyms":["PRSS1","TRP1","TRY1","TRYP1","Anionic trypsin I","Anionic trypsin-I","Beta-trypsin","Cationic trypsinogen","Pretrypsinogen I","Trypsin I","Trypsin-1"]}
 {"id":"UNIPROT:P07492","label":"Gastrin-releasing peptide","obsolete":false,"synonyms":["GRP"]}
 {"id":"UNIPROT:P07498","label":"Kappa-casein","obsolete":false,"synonyms":["CSN3","CASK","CSN10","CSNK"]}
@@ -11713,6 +11714,7 @@
 {"id":"UNIPROT:Q96SQ7","label":"Transcription factor ATOH8","obsolete":false,"synonyms":["ATOH8","ATH6","BHLHA21","Class A basic helix-loop-helix protein 21","Helix-loop-helix protein hATH-6","Protein atonal homolog 8"]}
 {"id":"UNIPROT:Q96SQ9","label":"Cytochrome P450 2S1","obsolete":false,"synonyms":["CYP2S1","CYPIIS1","Hydroperoxy icosatetraenoate dehydratase","Thromboxane-A synthase"]}
 {"id":"UNIPROT:Q96SR6","label":"Zinc finger protein 382","obsolete":false,"synonyms":["ZNF382","KRAB/zinc finger suppressor protein 1","Multiple zinc finger and krueppel-associated box protein KS1"]}
+{"id":"UNIPROT:Q96ST2","label":"Protein IWS1 homolog","obsolete":false,"synonyms":["IWS1","IWS1L","IWS1-like protein"]}
 {"id":"UNIPROT:Q96ST8","label":"Centrosomal protein of 89 kDa","obsolete":false,"synonyms":["CEP89","CCDC123","Centrosomal protein 123","Coiled-coil domain-containing protein 123"]}
 {"id":"UNIPROT:Q96SW2","label":"Protein cereblon","obsolete":false,"synonyms":["CRBN"]}
 {"id":"UNIPROT:Q96SY0","label":"Integrator complex subunit 14","obsolete":false,"synonyms":["INTS14","C15orf44","VWA9","von Willebrand factor A domain-containing protein 9"]}
@@ -13645,6 +13647,7 @@
 {"id":"UNIPROT:Q9NX62","label":"Golgi-resident adenosine 3',5'-bisphosphate 3'-phosphatase","obsolete":false,"synonyms":["BPNT2","IMPA3","IMPAD1","3'(2'), 5'-bisphosphate nucleotidase 2","Inositol monophosphatase domain-containing protein 1","Myo-inositol monophosphatase A3","Phosphoadenosine phosphate 3'-nucleotidase"]}
 {"id":"UNIPROT:Q9NX63","label":"MICOS complex subunit MIC19","obsolete":false,"synonyms":["CHCHD3","MIC19","MINOS3","Coiled-coil-helix-coiled-coil-helix domain-containing protein 3"]}
 {"id":"UNIPROT:Q9NX65","label":"Zinc finger and SCAN domain-containing protein 32","obsolete":false,"synonyms":["ZSCAN32","ZNF434","Human cervical cancer suppressor gene 5 protein","Zinc finger protein 434"]}
+{"id":"UNIPROT:Q9NX70","label":"Mediator of RNA polymerase II transcription subunit 29","obsolete":false,"synonyms":["MED29","IXL","Intersex-like protein","Mediator complex subunit 29"]}
 {"id":"UNIPROT:Q9NX74","label":"tRNA-dihydrouridine(20) synthase [NAD(P)+]-like","obsolete":false,"synonyms":["DUS2","DUS2L","Dihydrouridine synthase 2","Up-regulated in lung cancer protein 8","tRNA-dihydrouridine synthase 2-like"]}
 {"id":"UNIPROT:Q9NX76","label":"CKLF-like MARVEL transmembrane domain-containing protein 6","obsolete":false,"synonyms":["CMTM6","CKLFSF6","Chemokine-like factor superfamily member 6"]}
 {"id":"UNIPROT:Q9NX77","label":"Endogenous retrovirus group K member 13-1 Env polyprotein","obsolete":false,"synonyms":["ERVK13-1","Envelope polyprotein","HERV-K_16p13.3 provirus ancestral Env polyprotein"]}
