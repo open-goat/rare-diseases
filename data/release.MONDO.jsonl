@@ -23,6 +23,7 @@
 {"id":"MONDO:0000359","label":"spondylocostal dysostosis","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0000365","label":"primary congenital glaucoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0000376","label":"respiratory system cancer","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0000402","label":"small cell carcinoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0000421","label":"serine deficiency","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0000425","label":"X-linked disease","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0000432","label":"Waldenström macroglobulinemia","obsolete":false,"synonyms":[]}
@@ -98,6 +99,7 @@
 {"id":"MONDO:0001482","label":"testicular leukemia","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0001531","label":"blood coagulation disease","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0001549","label":"hemolytic-uremic syndrome","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0001555","label":"neonatal thyrotoxicosis","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0001558","label":"Potter's syndrome","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0001569","label":"vestibular schwannoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0001703","label":"color blindness","obsolete":false,"synonyms":[]}
@@ -132,6 +134,7 @@
 {"id":"MONDO:0002305","label":"thrombophilia","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0002350","label":"familial nephrotic syndrome","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0002356","label":"pancreas disease","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0002370","label":"ovarian Brenner tumor","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0002407","label":"capillary hemangioma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0002412","label":"glycogen storage disease","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0002413","label":"glycogen storage disease I","obsolete":false,"synonyms":[]}
@@ -179,16 +182,20 @@
 {"id":"MONDO:0003062","label":"intestinal benign neoplasm","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0003098","label":"mediastinal neural neoplasm","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0003111","label":"gastric neuroendocrine neoplasm","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0003118","label":"testicular Brenner tumor","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0003130","label":"mesoblastic nephroma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0003144","label":"medulloepithelioma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0003148","label":"SM-AHNMD","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0003153","label":"adult brainstem glioma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0003157","label":"Gorham's disease","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0003170","label":"gliofibroma","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0003175","label":"salivary gland adenoid cystic carcinoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0003181","label":"lung adenoid cystic carcinoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0003198","label":"small intestine adenocarcinoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0003233","label":"essential tremor","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0003266","label":"ependymal tumor","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0003268","label":"mixed glioma","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0003332","label":"malignant struma ovarii","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0003360","label":"small intestine leiomyosarcoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0003382","label":"eyelid disease","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0003425","label":"ophthalmoplegia","obsolete":false,"synonyms":[]}
@@ -199,6 +206,7 @@
 {"id":"MONDO:0003544","label":"spinal cord cancer","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0003556","label":"endometrial adenosquamous carcinoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0003572","label":"lymphoepithelioma-like carcinoma","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0003575","label":"comedocarcinoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0003582","label":"hereditary breast ovarian cancer","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0003608","label":"optic atrophy","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0003630","label":"pancreatic serous cystadenocarcinoma","obsolete":false,"synonyms":[]}
@@ -219,27 +227,33 @@
 {"id":"MONDO:0003960","label":"pulmonary large cell neuroendocrine carcinoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0004024","label":"spinal cord neuroblastoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0004035","label":"glomangiomatosis","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0004058","label":"pancreatic cholera","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0004064","label":"iris melanoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0004069","label":"mitochondrial disease","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0004087","label":"basaloid large cell lung carcinoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0004100","label":"lung mixed small cell and squamous cell carcinoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0004114","label":"urinary bladder small cell neuroendocrine carcinoma","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0004126","label":"thyroiditis","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0004127","label":"lung occult adenocarcinoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0004128","label":"lung occult large cell carcinoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0004132","label":"anal canal squamous cell carcinoma","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0004135","label":"subacute lymphocytic thyroiditis","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0004142","label":"lung combined large cell neuroendocrine carcinoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0004156","label":"pancreatic colloid cystadenocarcinoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0004187","label":"pseudosarcomatous fibromatosis","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0004198","label":"testicular yolk sac tumor, solid pattern","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0004225","label":"monoclonal gammopathy of uncertain significance","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0004237","label":"large cell carcinoma with rhabdoid phenotype","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0004241","label":"Osgood-Schlatter's disease","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0004285","label":"pancreatic intraductal papillary-colloid carcinoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0004295","label":"asbestos-related lung carcinoma","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0004318","label":"pulmonary type ovarian small cell carcinoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0004380","label":"dendritic cell sarcoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0004414","label":"tamoxifen-related endometrial lesion","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0004484","label":"gallbladder melanoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0004499","label":"lung hilum carcinoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0004500","label":"lung superior sulcus carcinoma","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0004548","label":"adult type testicular granulosa cell tumor","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0004550","label":"malignant cornea melanoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0004553","label":"extrinsic allergic alveolitis","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0004561","label":"retinal melanoma","obsolete":false,"synonyms":[]}
@@ -345,6 +359,7 @@
 {"id":"MONDO:0005340","label":"alopecia areata","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0005357","label":"Creutzfeldt-Jakob disease","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0005361","label":"eosinophilic esophagitis","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0005369","label":"carcinoid tumor","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0005382","label":"Paget's disease of bone","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0005385","label":"vascular disease","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0005388","label":"primary biliary cholangitis","obsolete":false,"synonyms":[]}
@@ -352,6 +367,7 @@
 {"id":"MONDO:0005420","label":"hypothyroidism","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0005440","label":"embryonal carcinoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0005445","label":"visceral leishmaniasis","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0005454","label":"lung neuroendocrine neoplasm","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0005459","label":"African trypanosomiasis","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0005462","label":"medulloblastoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0005497","label":"bone development disease","obsolete":false,"synonyms":[]}
@@ -377,6 +393,7 @@
 {"id":"MONDO:0005601","label":"ovarian mucinous adenocarcinoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0005615","label":"plasmacytoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0005616","label":"pulmonary mucoepidermoid carcinoma","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0005623","label":"autoimmune thyroid disease","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0005629","label":"Acanthamoeba keratitis","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0005631","label":"actinomycosis","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0005632","label":"acute chest syndrome","obsolete":false,"synonyms":[]}
@@ -449,6 +466,7 @@
 {"id":"MONDO:0006170","label":"conjunctival disease","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0006181","label":"digestive system carcinoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0006183","label":"diffuse peritoneal leiomyomatosis","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0006197","label":"endometrial small cell carcinoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0006210","label":"fibrolamellar hepatocellular carcinoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0006230","label":"gastric squamous cell carcinoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0006237","label":"myeloid sarcoma","obsolete":false,"synonyms":[]}
@@ -457,6 +475,7 @@
 {"id":"MONDO:0006275","label":"lung giant cell carcinoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0006277","label":"lung lymphangioleiomyomatosis","obsolete":false,"synonyms":["lung lymphangiomyomatosis"]}
 {"id":"MONDO:0006279","label":"lung sarcomatoid carcinoma","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0006280","label":"lung sclerosing hemangioma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0006281","label":"lung signet ring cell carcinoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0006283","label":"lymphoepithelioma-like lung carcinoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0006329","label":"esthesioneuroblastoma","obsolete":false,"synonyms":[]}
@@ -466,11 +485,14 @@
 {"id":"MONDO:0006363","label":"cystic mesothelioma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0006372","label":"Pituicytoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0006373","label":"pituitary adenoma","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0006382","label":"poorly differentiated thyroid gland carcinoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0006383","label":"primary cutaneous diffuse large B-cell lymphoma, leg type","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0006385","label":"primary intraosseous squamous cell carcinoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0006390","label":"prostate small cell carcinoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0006412","label":"Rosai–Dorfman disease","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0006447","label":"testicular germ cell tumor non-seminomatous","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0006450","label":"therapy-related myeloid neoplasm","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0006455","label":"thymic undifferentiated carcinoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0006468","label":"anaplastic thyroid cancer","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0006507","label":"hereditary haemochromatosis","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0006605","label":"scalp dermatosis","obsolete":false,"synonyms":[]}
@@ -480,6 +502,8 @@
 {"id":"MONDO:0006687","label":"burning mouth syndrome","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0006689","label":"carcinoid syndrome","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0006719","label":"cystic lymphangioma","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0006738","label":"eccrine acrospiroma","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0006739","label":"Ehrlich tumor carcinoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0006745","label":"endometrial stromal sarcoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0006786","label":"hepatic vein thrombosis","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0006802","label":"syndrome of Inappropriate antidiuretic hormone secretion","obsolete":false,"synonyms":[]}
@@ -498,6 +522,8 @@
 {"id":"MONDO:0006950","label":"retinal vasculitis","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0006952","label":"retinopathy of prematurity","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0006976","label":"somatostatinoma","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0006980","label":"struma ovarii","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0006982","label":"subacute thyroiditis","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0006999","label":"dental disease","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0007001","label":"tricuspid valve prolapse","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0007029","label":"branchiootorenal syndrome","obsolete":false,"synonyms":[]}
@@ -1999,6 +2025,7 @@
 {"id":"MONDO:0010129","label":"thymic-renal-anal-lung dysplasia","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0010130","label":"dihydropyrimidine dehydrogenase deficiency","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0010134","label":"Pendred syndrome","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0010138","label":"thyrotoxicosis","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0010140","label":"isolated thyrotropin-releasing hormone deficiency","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0010143","label":"restrictive dermopathy","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0010144","label":"tibial hemimelia","obsolete":false,"synonyms":[]}
@@ -5074,6 +5101,7 @@
 {"id":"MONDO:0016520","label":"isolated Klippel-Feil syndrome","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0016521","label":"Kocher–Debré–Semelaigne syndrome","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0016523","label":"bronchogenic cyst","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0016525","label":"familial hyperaldosteronism","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0016527","label":"glycogen storage disease due to lactate dehydrogenase deficiency","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0016528","label":"Limb body wall complex","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0016529","label":"double urethra","obsolete":false,"synonyms":[]}
@@ -5163,6 +5191,7 @@
 {"id":"MONDO:0016723","label":"Pineocytoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0016724","label":"papillary tumors of the pineal region","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0016729","label":"neuronal and mixed glio-neuronal tumor","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0016731","label":"desmoplastic infantile astrocytoma/ganglioglioma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0016734","label":"anaplastic ganglioglioma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0016735","label":"papillary glioneuronal tumor","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0016736","label":"rosette-forming glioneuronal tumour of the fourth ventricle","obsolete":false,"synonyms":[]}
@@ -6944,6 +6973,7 @@
 {"id":"MONDO:0018846","label":"aphallia","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0018847","label":"Omphalomesenteric duct cyst","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0018848","label":"retroperitoneal fibrosis","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0018850","label":"proliferating trichilemmal cyst","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0018851","label":"familial keratoacanthoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0018852","label":"achromatopsia","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0018853","label":"transgrediens et progrediens palmoplantar keratoderma","obsolete":false,"synonyms":[]}
@@ -7314,6 +7344,7 @@
 {"id":"MONDO:0019388","label":"PELVIS syndrome","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0019389","label":"X-linked recessive intellectual disability-macrocephaly-ciliary dysfunction syndrome","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0019390","label":"Susac's syndrome","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0019391","label":"Fanconi anemia","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0019393","label":"idiopathic malabsorption due to bile acid synthesis defects","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0019394","label":"Senior-Boichis syndrome","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0019395","label":"Hinman syndrome","obsolete":false,"synonyms":[]}
@@ -7402,6 +7433,7 @@
 {"id":"MONDO:0019494","label":"pediatric cardiac tumors","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0019497","label":"nonsyndromic deafness","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0019498","label":"tungiasis","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0019500","label":"extragonadal teratoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0019503","label":"anterior segment mesenchymal dysgenesis","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0019505","label":"hypomyelination-hypogonadotropic hypogonadism-hypodontia syndrome","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0019506","label":"obesity-colitis-hypothyroidism-cardiac hypertrophy-developmental delay syndrome","obsolete":false,"synonyms":[]}
@@ -8446,6 +8478,8 @@
 {"id":"MONDO:0023472","label":"impossible syndrome","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0023541","label":"Kasznica-Carlson-Coppedge syndrome","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0023619","label":"lentigo maligna melanoma","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0023726","label":"mediastinal yolk sac tumor","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0024235","label":"Brenner tumor","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0024237","label":"nervous system heredodegenerative disease","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0024252","label":"global developmental delay-neuro-ophthalmological abnormalities-seizures-intellectual disability syndrome","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0024253","label":"intellectual disability, autosomal recessive 53","obsolete":false,"synonyms":[]}
@@ -8458,6 +8492,7 @@
 {"id":"MONDO:0024304","label":"ichthyosis vulgaris","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0024309","label":"hereditary sensory and autonomic neuropathy type 2A","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0024315","label":"parasitic infectious diseases","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0024323","label":"glomangiomyoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0024331","label":"colorectal carcinoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0024336","label":"vulva adenocarcinoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0024340","label":"retinoblastoma","obsolete":false,"synonyms":[]}
@@ -8508,6 +8543,7 @@
 {"id":"MONDO:0024609","label":"vulva squamous cell carcinoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0024618","label":"poliovirus infection","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0024644","label":"myocardial ischemia","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0024674","label":"Pancoast syndrome","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0024969","label":"parasitic disease, non-human animal","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0025013","label":"non-human primate disease","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0025152","label":"non-human ape disease","obsolete":false,"synonyms":[]}
@@ -8583,16 +8619,19 @@
 {"id":"MONDO:0036189","label":"oculogastrointestinal neurodevelopmental syndrome","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0036193","label":"Parkinsonism with polyneuropathy","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0036212","label":"cataracts, spastic paraparesis, and speech delay","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0037255","label":"ovarian serous tumor","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0042494","label":"childhood malignant melanoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0042974","label":"parainfluenza virus type 3 infectious disease","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0042982","label":"GATA2 deficiency with susceptibility to MDS/AML","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0043218","label":"neurovascular disorder","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0044014","label":"postpartum thyroiditis","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0044306","label":"Neurodevelopmental disorder with epilepsy, cataracts, feeding difficulties, and delayed brain myelination","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0044336","label":"colorectal signet ring cell carcinoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0044645","label":"familial monosomy 7 syndrome","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0044724","label":"3-methylglutaconic aciduria type IX","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0044738","label":"Gabriele-de Vries syndrome","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0044744","label":"prekallikrein deficiency","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0044786","label":"solid pseudopapillary neoplasm of the pancreas","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0044789","label":"digital papillary eccrine carcinoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0044881","label":"hematopoietic and lymphoid cell neoplasm","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0044903","label":"myelofibrosis","obsolete":false,"synonyms":[]}
@@ -8645,6 +8684,7 @@
 {"id":"MONDO:0700161","label":"canine gastrointestinal stromal tumor, KIT-related, dog","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0700180","label":"feline bronchioloalveolar lung carcinoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0700199","label":"sheep lung adenocarcinoma","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0700215","label":"NTRK fusion positive cancer","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0700216","label":"RET fusion positive cancer","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0700219","label":"neoplastic meningitis","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0700267","label":"BARD1-related cancer predisposition","obsolete":false,"synonyms":[]}
@@ -8738,6 +8778,7 @@
 {"id":"MONDO:1013489","label":"Arenaviridae infectious disease, non-human animal","obsolete":false,"synonyms":[]}
 {"id":"MONDO:1013492","label":"Bacteroides infectious disease, non-human animal","obsolete":false,"synonyms":[]}
 {"id":"MONDO:1013543","label":"Crohn disease, non-human animal","obsolete":false,"synonyms":[]}
+{"id":"MONDO:1013621","label":"thyrotoxicosis, non-human animal","obsolete":false,"synonyms":[]}
 {"id":"MONDO:1013667","label":"pica disease, non-human animal","obsolete":false,"synonyms":[]}
 {"id":"MONDO:1013746","label":"myositis disease, non-human animal","obsolete":false,"synonyms":[]}
 {"id":"MONDO:1013765","label":"photosensitivity disease, non-human animal","obsolete":false,"synonyms":[]}
