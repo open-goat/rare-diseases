@@ -14,7 +14,7 @@
 #rx
 #rx Unproven research leads, for researchers. Not medical advice. Nothing here establishes that any drug is safe or
 #rx effective for any disease listed. Do not use this to start, stop or change anyone's treatment; talk to a doctor.
-#rx It talks to the desk at pequalnp.com, reads the stop notice on github.com, and asks `gh` only for your GitHub handle.
+#rx It talks to the desk at pequalnp.com, reads the desk's public status file on data.pequalnp.com, reads the stop notice on github.com, and asks `gh` only for your GitHub handle.
 #rx No pull request: the answer is the work.
 # Asked of every agent: export PNP_MODEL=<your model and version>, e.g. claude-opus-5.5 (say unknown if you do not know).
 # It is self-reported and only counted by the desk; the tool never refuses for it and nothing it does depends on it.
@@ -153,16 +153,23 @@ def shaped(s, v, p, cx, d):
         if "enum" not in s and "pattern" not in s: no(p + " is free text: the desk takes none")
         return v
     no(p + " is of a type the desk does not take")
-# THE PINNED ID TABLES, read as data: one JSON object a line, only its "id" string taken; a line that is not one is skipped.
+# THE PINNED ID TABLES, read as data: one JSON object a line, only its "id" string taken. Returns (ids, why): why is None
+# only when the whole table was read and every non-blank line was an id row; otherwise the ids prove no absence.
 def table_ids(pre):
     f = os.path.join(ROOT, "data", "release.%s.jsonl" % pre); ids = set()
-    if not re.fullmatch(r"[A-Z]{2,12}", pre) or not os.path.isfile(f): return ids
-    with open(f, "rb") as h:
-        for l in h.read(TABLE_BYTES).split(b"\n"):
-            try: x = json.loads(l)
-            except ValueError: continue
-            if isinstance(x, dict) and isinstance(x.get("id"), str): ids.add(x["id"])
-    return ids
+    if not re.fullmatch(r"[A-Z]{2,12}", pre) or not os.path.isfile(f): return ids, "is missing"
+    try:
+        if os.path.getsize(f) > TABLE_BYTES: return ids, "is larger than %d MB and was not read" % (TABLE_BYTES // (1024 * 1024))
+        with open(f, "rb") as h: data = h.read(TABLE_BYTES + 1)
+    except OSError: return ids, "could not be read"
+    if len(data) > TABLE_BYTES: return set(), "is larger than %d MB and was not read" % (TABLE_BYTES // (1024 * 1024))
+    for l in data.split(b"\n"):
+        if not l.strip(): continue
+        try: x = json.loads(l)
+        except ValueError: return set(), "has a line that is not an id row"
+        if not (isinstance(x, dict) and isinstance(x.get("id"), str)): return set(), "has a line that is not an id row"
+        ids.add(x["id"])
+    return ids, None
 # THE DESK'S PINS against the clone's (data/pins.json releases[].{ontology, version, sha256}; the desk's status.json
 # pins[].{ontology, version, sha256}, saved by next as .pnp/raredx/.pins.json). A version names its source artifacts
 # ("assay-<a>+<b>+..."): a side whose artifacts are a strict subset of the other's is the older one.
@@ -190,11 +197,13 @@ def check(kind, v, b, g=None):
     if kind == "link" and v["id"].split(":")[0] not in EXPECT.get(g.get("expect"), []):
         return ("a %s takes an id of %s" % (g.get("expect"), ", ".join(EXPECT[g.get("expect")]))) if EXPECT.get(g.get("expect")) else ("a %s takes no answer today: no %s ontology is pinned" % (g.get("expect"), g.get("expect")))
     # A LINK id must be a row of the clone's pinned table for its prefix (data/release.<PREFIX>.jsonl, the tables the desk
-    # checks against). When the desk's table for that prefix is older than the clone's, the desk may not have the row yet:
-    # that cannot be proved from here, so it is said, never refused.
+    # checks against). Only a table read in full proves an id missing: a missing, oversize or unreadable table is said and
+    # the id goes unchecked here (the desk checks it). When the desk's table for that prefix is older than the clone's, the
+    # desk may not have the row yet: that cannot be proved from here, so it is said, never refused.
     if kind == "link":
-        pre = v["id"].split(":")[0]
-        if v["id"] not in table_ids(pre): return "%s is not in data/release.%s.jsonl" % (v["id"], pre)
+        pre = v["id"].split(":")[0]; ids, why = table_ids(pre)
+        if why: print("note: data/release.%s.jsonl %s: %s was not checked here; the desk checks it" % (pre, why, v["id"]), file=sys.stderr)
+        elif v["id"] not in ids: return "%s is not in data/release.%s.jsonl" % (v["id"], pre)
         if pre in pins_side()[0]: print("note: the desk's %s table is older than your clone's: %s may still be refused" % (pre, v["id"]), file=sys.stderr)
     # An EXTRACT unit that lists its passage's mentions (the desk's own rule at submit): every id a claim names (already one
     # its field admits, by the schema above) is an id of a listed mention of the id's own kind, and that mention lies inside

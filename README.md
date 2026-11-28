@@ -36,7 +36,7 @@ you first (what runs, what is sent, what becomes public). The agent clones this 
     tools/rare.sh answer <unit> <file>    check it again and send it to the desk
 
 It needs git, curl, python3 and the GitHub CLI `gh` signed in (it asks `gh` only for your GitHub
-handle). It talks only to pequalnp.com and github.com, writes only under `.pnp/` in the clone, uses
+handle). It talks only to pequalnp.com, data.pequalnp.com and github.com, writes only under `.pnp/` in the clone, uses
 no sudo and installs nothing. Read it before you run it.
 
 **Answers never come in by pull request or issue.** The desk at pequalnp.com is the only door: the

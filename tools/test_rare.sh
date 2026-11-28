@@ -24,6 +24,11 @@ hosts="$(tr -d '\\' < "$script" | grep -oE 'https?://[A-Za-z0-9.-]+' | sort -u |
 [ "$(printf '%s\n' "$code" | grep -c 'curl ')" = 3 ] || fail "the number of curl calls changed"
 printf '%s\n' "$code" | grep 'curl ' | grep -vqE '"\$(RX|url|PINS)|\$RX/' && fail "a curl call does not go to the desk"
 grep -qxF 'PINS="https://data.pequalnp.com/data/desk/raredx/status.json"' "$script" || fail "the desk's pins are read from another address"
+# every host the script names is named where the owner is asked to consent: the join text and the README
+consent() { tr '\n' ' ' < "$1" | grep -oE "$2 .{0,160}github\.com" | head -1; }
+for h in $hosts; do [ "$h" = http://127.0.0.1 ] && continue; d="${h#https://}"; d="${d//./\\.}"
+  for f in "rare-diseases-join.txt:only talks to" "README.md:talks only to"; do
+    c="$(consent "$repo/${f%%:*}" "${f#*:}")"; printf '%s\n' "$c" | grep -qE "(^|[ ,])$d([ ,]|$)" || fail "${f%%:*} asks consent without naming ${h#https://}: [$c]"; done; done
 printf '%s\n' "$code" | grep -E '^\s*post\(\) ' >/dev/null || fail "post() is gone"
 printf '%s\n' "$code" | grep -E 'post (answer|beat|release) ' | grep -vqE '"\$RX/(answer|beat|release)\?' && fail "a post goes somewhere other than the desk"
 [ "$(printf '%s\n' "$code" | grep -oE '\$\(gh [^)]*' | sort -u)" = '$(gh api user --jq .login' ] || fail "gh is asked for more than the handle"
@@ -123,12 +128,20 @@ grep -q '^GET /data/desk/raredx/status.json$' "$t/desk/log" || fail "next did no
 : > "$t/desk/log"
 printf '{"id": "MONDO:0099999"}' > "$t/a.json"; run answer "$U1" "$t/a.json"
 [ "$rc" = 1 ] && grep -q '^REFUSED: MONDO:0099999 is not in data/release.MONDO.jsonl. Nothing was sent' "$t/err" || fail "an id that is not in the clone's table was not refused"
+# a table that was not read in full proves no absence: missing, oversize or with a line that is not an id row, the id
+# is not checked here (said), never called missing
 printf '{"id": "ORPHA:558"}' > "$t/a.json"; run check "$U1" "$t/a.json"
-[ "$rc" = 1 ] && grep -q '^REFUSED: ORPHA:558 is not in data/release.ORPHA.jsonl' "$t/err" || fail "an id of a table the clone does not have was not refused"
+[ "$rc" = 0 ] && grep -q '^note: data/release.ORPHA.jsonl is missing: ORPHA:558 was not checked here; the desk checks it' "$t/err" && ! grep -q 'is not in' "$t/err" || fail "a table the clone does not have was read as proof the id is missing"
 [ ! -s "$t/desk/log" ] || fail "an id outside the table reached the desk"
 printf '{"id": "MONDO:0000001"}' > "$t/a.json"; run check "$U1" "$t/a.json"; [ "$rc" = 0 ] && [ ! -s "$t/err" ] || fail "an id of the table did not check quietly"
-printf 'not json\n{"id": "MONDO:0099999", "label": "\u001b[31m"}\n' >> "$t/repo/data/release.MONDO.jsonl"
-printf '{"id": "MONDO:0099999"}' > "$t/a.json"; run check "$U1" "$t/a.json"; [ "$rc" = 0 ] || fail "a row after a line that is not JSON was not read"
+cp "$t/repo/data/release.MONDO.jsonl" "$t/mondo.keep"
+printf 'not json\n' >> "$t/repo/data/release.MONDO.jsonl"
+printf '{"id": "MONDO:0099999"}' > "$t/a.json"; run check "$U1" "$t/a.json"
+[ "$rc" = 0 ] && grep -q '^note: data/release.MONDO.jsonl has a line that is not an id row: MONDO:0099999 was not checked here; the desk checks it' "$t/err" && ! grep -q 'is not in' "$t/err" || fail "a table with a line that is not an id row was read as complete"
+python3 -I -c 'import sys; f=open(sys.argv[1], "ab"); f.write(b" " * (64 * 1024 * 1024 + 1))' "$t/mondo.keep"; cp "$t/mondo.keep" "$t/repo/data/release.MONDO.jsonl"
+run check "$U1" "$t/a.json"
+[ "$rc" = 0 ] && grep -q '^note: data/release.MONDO.jsonl is larger than 64 MB and was not read: MONDO:0099999 was not checked here; the desk checks it' "$t/err" && ! grep -q 'is not in' "$t/err" || fail "an oversize table was read as complete"
+rm -f "$t/mondo.keep"
 # the desk's tables are newer than the clone's (its version holds an artifact the clone lacks): git pull
 fresh; unit_link "$S1" | with_pins "$TV+cccccccccccc" "$(printf '0%.0s' $(seq 64))" | routes
 run next; [ "$rc" = 0 ] && grep -qx "TABLES     your clone's id tables are older than the desk's (MONDO): git pull" "$t/out" || fail "a clone behind the desk was not told to pull"
