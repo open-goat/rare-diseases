@@ -216,7 +216,7 @@ claim() { printf '{"claims": [{"subject": "CHEMBL:CHEMBL941", "relation": "inhib
 : > "$t/desk/log"
 claim 22 "Imatinib inhibited KIX" > "$t/a.json"; run answer "$U2" "$t/a.json"; [ "$rc" = 1 ] && grep -q "quote is not the passage's bytes" "$t/err" || fail "a wrong quote was not refused"
 claim 99 "Imatinib" > "$t/a.json"; run answer "$U2" "$t/a.json"; [ "$rc" = 1 ] && grep -q "outside the unit's passage" "$t/err" || fail "a span past the passage was not refused"
-claim 22 "Imatinib inhibited KIT" ', "note": "works"' > "$t/a.json"; run answer "$U2" "$t/a.json"; [ "$rc" = 1 ] && grep -q 'free text' "$t/err" || fail "free text was not refused"
+claim 22 "Imatinib inhibited KIT" ', "note": "works"' > "$t/a.json"; run answer "$U2" "$t/a.json"; [ "$rc" = 1 ] && grep -q 'claims\[0\].note is not a field' "$t/err" || fail "free text (a note) was not refused"
 [ ! -s "$t/desk/log" ] || fail "a refused extract answer reached the desk"
 claim 22 "Imatinib inhibited KIT" > "$t/a.json"; run check "$U2" "$t/a.json"; [ "$rc" = 0 ] && grep -q 'well formed' "$t/out" || fail "a good extract answer did not check"
 [ ! -s "$t/desk/log" ] || fail "check reached the desk"

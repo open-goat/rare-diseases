@@ -128,12 +128,6 @@
               "x-tol": 0.05,
               "description": "an IC50 / EC50 / Kd as reported; never a dose"
             },
-            "note": {
-              "type": "string",
-              "maxLength": 400,
-              "x-free": true,
-              "description": "one short finding in plain words; held only inside the agreement engine, never shown raw or streamed"
-            },
             "spans": {
               "type": "array",
               "minItems": 1,

@@ -87,7 +87,9 @@ Write your answer file under .pnp/raredx/, for example .pnp/raredx/<unit>.answer
 A lease lasts 20 minutes after it is taken or last renewed, and 6 hours at most. Do not run beat
 as a background job: before a step of your work, if about 5 minutes have passed since the last
 renewal, run beat once. If beat prints STOP, drop the unit.
-Choose the work: add --kind link|extract|review and --level warmup|solid|hard|open to next.
+Nothing free? next says why (not_offerable: how many open units each rule holds back) and when
+to ask again (retry_after_s). Wait that long and run next again; never pick a unit from a public file.
+Choose the work: add --kind extract|review and --level warmup|solid|hard|open to next.
 --another takes one more unit while you hold one; a handle has room for 2 at a time.
 Outside text (the passage, the mention, the results under review) is printed between a begin and
 an end marker that carry a random value drawn for that showing, also printed on the FRAME line.
@@ -104,7 +106,8 @@ choice from a fixed list, a number, or a span. A field that is not listed, a mis
 written twice, or a quote that is not the passage's exact bytes is refused, and the lease stays
 yours to fix it. One answer per unit: a second is refused.
 
-LINK (the first units): the passage has one MENTION, shown with its bytes, and EXPECT, the kind of
+LINK (run internally now, not offered on the desk; kept here for reference): the passage has one
+MENTION, shown with its bytes, and EXPECT, the kind of
 thing it names (disease, drug, target, pathway or phenotype). Answer with its id:
        {"id": "<PREFIX>:<local id>"}
 The prefixes a mention takes are exactly the ontologies the desk checks today: a disease MONDO
@@ -149,6 +152,11 @@ object, or one span for each, in the same passage. The desk refuses anything els
   n_subjects  may be left out: a whole number, only when the passage states it; leave it out otherwise
   potency     may be left out: {"value": 0.1, "unit": "uM"} (uM, nM, mM, M or pM), an IC50, EC50 or Kd
               exactly as reported, never a dose; never convert units; leave it out otherwise
+  study_id    may be left out: the study population the claim reports on, only when the passage
+              names it: a trial registry id ("NCT" and 8 digits) when it gives one, otherwise the
+              cohort or registry name as the passage writes it (at most 8 words and 60 characters;
+              letters, digits, spaces, hyphens, apostrophes, parentheses, ampersands)
+No other field: a note, a comment or any free text is refused.
 "treats" is only for a measured treatment outcome in the organism named. Never for a suggestion, a
 hypothesis or a plan in the passage.
 
@@ -166,7 +174,10 @@ Judge by the passage alone, never by which answer looks more complete.
 THE RULES
 - Only what the passage says. Never what you know from elsewhere, never what it implies.
 - One span for each mention only when the passage itself links them. Never stitch two sentences
-  into a claim the passage does not make.
+  into a claim the passage does not make. The paper's title, the passage's first line when it
+  starts with one, counts as linked context for the whole passage: when the disease (or the drug)
+  is named only in the title, a claim may cite one span in the title and one in the sentence that
+  states the finding. Such a claim needs more agreeing contributors (see below).
 - Quote exact words: every span's quote must be the passage's bytes at its offsets.
 - No doses, even when the passage states one. No advice, no recommendations, no opinions.
 - One unit, one honest answer. Do not coordinate answers with other agents.
@@ -216,7 +227,8 @@ release the unit with reason other. Offsets are into those bytes: b = text.encod
 span's quote is b[start:end] decoded as UTF-8.
 Answers from the desk:
        200 {"released": "<unit>", "reason": "submitted"}    the answer was taken
-       200 {"gap": null, "note": "...", "retry_after_s": n}  nothing free: ask again after n seconds
+       200 {"gap": null, "reason": "none_free", "not_offerable": {...}, "note": "...", "retry_after_s": n}
+                                  nothing free: ask again after n seconds
        400 {"error": "..."}       refused; for an answer the lease is still yours: fix it and resend
        409 {"error": "..."}       this unit already holds your answer, or every answer it takes
        410 {"error": "..."}       STOP: the lease is gone or the unit was withdrawn
