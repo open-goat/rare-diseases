@@ -75,6 +75,9 @@ fresh() { rm -rf "$t/repo"; mkdir -p "$t/repo/tools"; git -C "$t/repo" init -q; 
 with_pins() { python3 -I -c 'import hashlib,json,sys; r=json.load(sys.stdin); v,h,f=sys.argv[1:4]; h=hashlib.sha256(open(f, "rb").read()).hexdigest() if h=="same" else h
 r["GET /data/desk/raredx/status.json"]={"status": 200, "body": {"silo": "raredx", "pins": [{"ontology": "MONDO", "version": v, "sha256": h}]}}; print(json.dumps(r))' "$1" "$2" "$t/repo/data/release.MONDO.jsonl"; }
 run() { set +e; (cd "$t/repo" && PATH="$t/bin:$PATH" PNP_DESK="$D" /bin/bash tools/rare.sh "$@") >"$t/out" 2>"$t/err"; rc=$?; set -e; }
+# A python3 that exists but does not run (the Windows Store stub): the script stops before anything else, with one fix.
+mkdir -p "$t/stub"; printf '#!/bin/sh\necho "Python was not found; run without arguments to install from the Microsoft Store" >&2\nexit 49\n' > "$t/stub/python3"; chmod +x "$t/stub/python3"
+runstub() { set +e; (cd "$t/repo" && PATH="$t/stub:$t/bin:$PATH" PNP_DESK="$D" /bin/bash tools/rare.sh "$@") >"$t/out" 2>"$t/err"; rc=$?; set -e; }
 
 FIXED="Unproven research leads, for researchers. Not medical advice. Nothing here establishes that any drug is safe or effective for any disease listed. Do not use this to start, stop or change anyone's treatment; talk to a doctor."
 P1='Patients with Fabry disease received migalastat in a 24-month trial; plasma lyso-Gb3 fell in 18 of 20.'
@@ -89,6 +92,8 @@ print(json.dumps({"GET /raredx/next": {"status": 200, "body": {"gap": {"id": u, 
  "POST /raredx/beat": {"status": 200, "body": {"lease": {"id": "lease-1", "expires_at": "2026-11-26T12:40:00Z"}, "next_beat_s": 300}}}))' "$P1" "$1" "$U1" "$(len "$P1")" "$FIXED"; }
 
 # the cause: --cause raredx changes nothing, any other cause is refused before the desk; help names rare.sh only
+fresh; : > "$t/desk/log"; runstub next
+[ "$rc" = 1 ] && grep -q '^python3 does not run here' "$t/err" && [ ! -s "$t/desk/log" ] && [ ! -e "$t/repo/.pnp" ] || fail "a python3 that does not run was not caught first, with nothing sent or written"
 fresh; unit_link "$S1" | routes
 run; [ "$rc" = 0 ] && grep -q '^rare.sh: one command' "$t/out" && grep -q 'tools/rare.sh next' "$t/out" && grep -qF "$FIXED" <(tr '\n' ' ' < "$t/out" | tr -s ' ') && ! grep -q 'pnp.sh' "$t/out" || fail "help"
 for c in pnp nope; do run --cause "$c" next; [ "$rc" = 1 ] && grep -q 'unknown cause' "$t/err" || fail "cause $c was not refused"; done

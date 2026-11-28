@@ -29,6 +29,10 @@ if [ -n "${PNP_DESK:-}" ]; then
   if [[ "$PNP_DESK" =~ ^http://127\.0\.0\.1:[0-9]{1,5}$ ]]; then DESK="$PNP_DESK"; PINS="$PNP_DESK/data/desk/raredx/status.json"
   else echo "PNP_DESK is set but is not a loopback test address (http://127.0.0.1:<port>); refusing" >&2; exit 1; fi
 fi
+# PYTHON3 MUST RUN, checked before anything else is read, sent or written: on Windows the Microsoft Store "python3" stub
+# exists on PATH but does not run, and every later step would fail on it.
+python3 -I -c 'import hashlib, json, re, secrets, sys, unicodedata' >/dev/null 2>&1 || {
+  echo "python3 does not run here (on Windows the Microsoft Store stub is on PATH but is not Python). Install Python 3 from python.org or your package manager, check that 'python3 -c 1' works, then run this again. Nothing was sent or written." >&2; exit 1; }
 UPSTREAM=open-goat/rare-diseases
 ROOT="$(git rev-parse --show-toplevel)"
 # Every python3 here runs isolated (-I): a json.py or re.py in the folder this is run from is never loaded.
