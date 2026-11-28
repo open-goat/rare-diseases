@@ -156,6 +156,7 @@
 {"id":"MONDO:0002749","label":"extracranial neuroblastoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0002752","label":"ovary adenocarcinoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0002754","label":"extramedullary plasmacytoma","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0002771","label":"pulmonary fibrosis","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0002799","label":"nodular medulloblastoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0002806","label":"bronchogenic carcinoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0002840","label":"eosinophilic gastritis","obsolete":false,"synonyms":[]}
@@ -8647,11 +8648,13 @@
 {"id":"MONDO:0700216","label":"RET fusion positive cancer","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0700219","label":"neoplastic meningitis","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0700267","label":"BARD1-related cancer predisposition","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0800137","label":"early-onset pulmonary and cutaneous vasculitis","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0800423","label":"colorectal cancer, susceptibility to, 4","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0800424","label":"colorectal cancer, susceptibility to, on chromosome 15","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0800446","label":"bleeding diathesis due to thromboxane A2 receptor variants","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0800447","label":"bleeding disorder, platelet-type, 13, susceptibility to","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0800467","label":"dyskeratosis congenita and related telomere biology disorder","obsolete":false,"synonyms":[]}
+{"id":"MONDO:0800504","label":"idiopathic pulmonary fibrosis","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0850289","label":"human betaherpesvirus 5 infectious disease","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0850345","label":"lung pleomorphic carcinoma","obsolete":false,"synonyms":[]}
 {"id":"MONDO:0859244","label":"phosphoribosylaminoimidazole carboxylase deficiency","obsolete":false,"synonyms":[]}
