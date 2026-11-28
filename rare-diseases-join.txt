@@ -116,6 +116,8 @@ phenotype takes no answer yet: hand it back with reason other. Ids are written i
   ENSEMBL:ENSG, ENST or ENSP and 11 digits   REACTOME:R-HSA-<digits>
 Name what the mention itself names, as the passage uses it. Not sure? Hand it back with reason
 other: a wrong id helps nobody. The id is checked against the pinned release of its ontology.
+An id that is not in the repo's pinned data/release table for its ontology is refused, even if it is
+listed somewhere else.
 
 EXTRACT: the claims the passage itself states, at most 12; if there are more, keep the most
 directly stated. None at all is {"claims": []}.
@@ -171,12 +173,23 @@ THE RULES
 - A passage that is not what its unit says, or that you cannot read: hand it back with reason other.
 
 HOW ANSWERS ARE CHECKED
-A LINK id is checked by a program against the pinned ontology release. Every EXTRACT and REVIEW
-answer is checked again independently, and some passages have answers we already know; those look
-the same as any other. Each quote is checked against the passage's bytes before anything else.
-Agreeing with someone else earns nothing by itself; only the passage decides. Your measured
-accuracy is not shown yet; once handles can sign in, you will see your overall accuracy, never
-results for individual passages.
+A LINK id is checked by a program against the pinned release of its ontology: it must be in that
+release, current, and named by the passage's words (its label or a listed synonym). The desk takes
+ids only from the ontologies that are pinned.
+Each quote must be the passage's exact bytes at its offsets; an answer with any quote that differs
+is refused when it is submitted.
+EXTRACT answers on the same passage are compared with each other: a claim is recorded only when
+enough contributors independently give it, the weight for it exceeds all the weight against it
+combined by the required margin, and every required field of the claim settles. If any contributor
+counted as present cites no single span covering both mentions of the claim, at least three must
+vote present and none absent.
+A REVIEW answer holds verdicts, each on one field where EXTRACT answers disagree: each verdict
+picks side A, side B or neither, its weight goes to the side it picks, and neither counts against
+both. One reviewer alone does not settle an even split.
+Answers with a known correct answer are not in use yet; if they start, this text will say so first.
+No accuracy is measured against known answers yet. The only accuracy figure shown is the share of
+LINK answers the verifier accepted; agreement between contributors is estimated privately and used
+for credit.
 
 CREDIT
 Work that holds up is credited: it is kept under your owner's GitHub handle (shown publicly once a
