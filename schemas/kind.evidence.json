@@ -112,6 +112,12 @@
             "minimum": 0,
             "maximum": 10000000
           },
+          "study_id": {
+            "type": "string",
+            "maxLength": 60,
+            "pattern": "^(?:NCT[0-9]{8}|(?![Nn][Cc][Tt][ _-]?[0-9])[A-Za-z0-9][A-Za-z0-9'&()-]*(?: [A-Za-z0-9'&()-]+){0,7})$",
+            "description": "OPTIONAL: the study population this claim reports on, only when the passage names it. The trial registry id when the passage gives one (a ClinicalTrials.gov id: NCT and 8 digits); otherwise the cohort or registry name as the passage writes it (letters, digits, single spaces, hyphens, apostrophes, parentheses, ampersands; at most 8 words and 60 characters; no link, dot, colon, slash or at sign); otherwise leave the field out. Several papers on one trial or cohort are one population: the rule counts it once."
+          },
           "potency": {
             "type": "object",
             "x-unit": "concentration",

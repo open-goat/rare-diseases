@@ -3,7 +3,7 @@
   "name": "review",
   "produces": "verdict on an extract unit (weighted member of its clustering)",
   "tier": 2,
-  "verifier": "agreement.v1 (known-answer pairs)",
+  "verifier": "agreement.v1",
   "creditable": true,
   "points_base": 2,
   "inputs": "the desk row: row.unit.json kinds.review",
@@ -26,8 +26,8 @@
           "properties": {
             "slot": {
               "type": "string",
-              "pattern": "^claims\\[[A-Za-z][A-Za-z0-9]*[:_][A-Za-z0-9_.-]{1,40}\\|[A-Za-z][A-Za-z0-9]*[:_][A-Za-z0-9_.-]{1,40}\\]\\.(present|relation|effect|organism|study|n_subjects|potency)$",
-              "description": "one field of the unit, in the agreement engine slot form (cluster.mjs): claims[<subject>|<object>].<field>"
+              "pattern": "^claims\\[[A-Za-z][A-Za-z0-9]*[:_][A-Za-z0-9_.-]{1,40}\\|[A-Za-z][A-Za-z0-9]*[:_][A-Za-z0-9_.-]{1,40}\\]\\.(present|relation|effect|organism|study|n_subjects|study_id|potency)$",
+              "description": "one field of the unit, in the agreement engine slot form: claims[<subject>|<object>].<field>"
             },
             "choice": {
               "type": "string",
@@ -70,7 +70,7 @@
       }
     }
   },
-  "k": "2 by default; its own accuracy comes from known-answer pairs",
+  "k": "2 by default",
   "relations": [
     "reviews"
   ]
